@@ -14,4 +14,6 @@
 
 This is the repository of [Elias's Cave](https://meniny.cn/).
 
-This repository was re-created at 2017-05-04.
+(also [https://meniny.github.io/Cave/](https://meniny.github.io/Cave/))
+
+This repository was re-created at `2019-04-13`.
