@@ -1,0 +1,12 @@
+<footer id="footer" class="site__footer">
+  <ul class="nav-list">
+    {% for item in site.data.navigation %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <p class="copyright">© 2007–{{ site.time | date: '%Y' }} {{ site.author }}. <a href="https://twitter.com/_Meniny" rel="me" target="_blank">
+    <img class="plain_item" src="{{ site.url }}/assets/images/icons/twitter{{ page.icon_color_suf }}.png" width="15px" height="15px" alt="">
+    <!--<svg class="icon" width="15px" height="15px"><use xlink:href="{{ site.url }}/assets/icons/twitter.svg"></use></svg>-->&nbsp;Twitter</a> / <a href="https://github.com/Meniny" rel="me" target="_blank">
+    <img class="plain_item" src="{{ site.url }}/assets/images/icons/github{{ page.icon_color_suf }}.png" width="15px" height="15px" alt=""><!--<svg class="icon" width="15px" height="15px"><use xlink:href="{{ site.url }}/assets/icons/github.svg"></use></svg>-->&nbsp;GitHub</a></p>
+</footer>
+<script async="" src="{{ site.url }}/assets/javascripts/main.js"></script>

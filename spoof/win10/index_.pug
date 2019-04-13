@@ -1,0 +1,127 @@
+// Currently the Start menu open and close is functional
+// As is the "expand" burger menu option.
+// Tiles area is scrollable.
+// Peek works when Start menu or Edge are open
+// Working on improving Edge app:
+// Edge Addressbar now works - although won't load sites with x-frame-options "deny". Also codepen needs to be loaded on http not https or else mixed mode will occur if trying to load a non-https site in the Edge app
+// Edge refresh button now works
+// Working on making edge icon hover show live preview of browser nicely
+
+// Want to add in other taskbar functions - working volume etc. And also a restart / start / shutdown animation when I can find the time.
+
+// #Start menu scroll bar not as nice in Firefox / IE - use chrome where possible
+//
+.desktop
+.taskbar
+	.programs
+		.icon.win(data-target='.startmenu, .icon.win')
+			i.fa.fa-windows
+		.icon.cortana(title="Ask me anything" data-target="#cortana")
+			i.fa.fa-circle-o
+		.icon.application.minimized.edge(data-target=".id-edge")
+			.app-preview.preview-edge
+				.content
+			i.fa.fa-edge
+		.icon.application.skype(data-target="#skype")
+			i.fa.fa-skype
+	.tray
+		.ico.more-icons
+			.all-icons
+				i.fa.fa-bluetooth(title="Bluetooth Devices")
+				i.fa.fa-cloud(title="OneDrive up to date")
+				i.fa.fa-envelope(title="You have new unread e-mail messages")
+				i.fa.fa-flag(title="Windows Defender requires attention")
+				i.fa.fa-keyboard-o(title="Keyboard En-NZ")
+				i.fa.fa-shield(title="Your computer is protected")
+				i.fa.fa-wifi(title="Internet Access")
+				i.fa.fa-dropbox(title="Dropbox Synced")
+			.fa.fa-chevron-up(title="Show hidden icons")
+		.ico(title="Speakers: 80%")
+			i.fa.fa-volume-up
+		.ico(title="50% remaining")
+			i.fa.fa-battery-half
+		.ico.time
+			.clock 3:54 PM
+			.date 11/28/2016
+		.ico(title="No new notifications")
+			i.fa.fa-commenting-o
+		.peek
+	.startmenu
+		.container-fluid
+			.row
+				.col.icons
+					.icon.top.bars(title="Expand")
+						i.fa.fa-bars
+						span.start start
+					.bottom
+						.icon.profile(title="Amanda Ashley")
+							a(href="http://creativecollective.studio/" target="_blank")
+								img.img-responsive(src='http://rodneyrainbow.co.nz/media/UserAvatars/9a594d7d957f920777cfb383177a82f4ea065504.png?width=60&height=60&mode=crop')
+							span Andrew Ashley
+						.icon.file-explorer(title="File Explorer")
+							i.fa.fa-folder
+							span File Explorer
+						.icon.settings(title="Settings")
+							i.fa.fa-cog
+							span Settings
+						.icon.power(title="Power")
+							i.fa.fa-power-off
+							span Power
+							
+				.col-xs-4.col-xs-offset-2.programs
+					p.title Recently added
+					.item
+						i.fa.fa-skype
+						span Skype
+					.item
+						i.fa.fa-file-excel-o
+						span Excel
+					p.title Most used
+					.item
+						i.fa.fa-chrome
+						span Google Chrome
+					.item
+						i.fa.fa-firefox
+						span Mozilla Firefox
+						
+				.col-xs-6.tiles
+					p.title Life at a glance
+						.tile.wide
+							i.fa.fa-calendar
+							span Calendar
+						.tile.medium
+							i.fa.fa-file-pdf-o
+							span Adobe Acrobat
+						.tile.medium.photos
+							span Photos
+								i.fa.fa-picture-o
+						.tile.medium.twitter
+							span Twitter
+								i.fa.fa-twitter
+						.tile.medium
+							i.fa.fa-envelope
+							span Mail
+						.tile.wide.news
+							span News
+								i.fa.fa-newspaper-o
+						.tile.medium
+							i.fa.fa-calculator
+							span Calculator
+						.tile.medium
+							i.fa.fa-camera
+							span Camera
+							
+.id-edge.app.minimized
+	.toolbar.draggable
+		.tab
+			i.fa.fa-list-alt 
+			span Start
+			i.fa.fa-times
+	.addressbar.draggable
+		i.fa.fa-arrow-left
+		i.fa.fa-arrow-right
+		i.fa.fa-refresh
+		span.divider
+		input.edge-url(value="creativecollective.studio/")
+	iframe.edge-browser(src="http://creativecollective.studio/" frameborder="0" width="100%" height="100%")
+		

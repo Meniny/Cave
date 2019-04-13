@@ -1,0 +1,203 @@
+---
+title: "CSS 3: Transition"
+category: "CSS"
+copy: true
+quote: true
+tags: [CSS]
+img: "css.jpg"
+---
+<p>CSS3的过渡属性，给web应用带来了简单优雅的动画，但是比起初次相见，他(transition)有许多细则。</p>
+<p>在这片文章中，我将会专研CSS3的过渡(transition)中更加复杂的部分，从链式和事件到硬件加速和动画函数。</p>
+<p>让浏览器控制动画序列，通过改变帧率，减少绘画和减少GPU的工作，能够优化性能和效率。</p>
+<h2>浏览器支持</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_transitions">CSS transitions</a>在每一版的firefox、afari和Chrome中支持。IE10以上支持。如果CSS动画在一个特定浏览器不支持，那么属性就会立即被应用，优雅地降级。</p>
+<p>Webkit内核的浏览器(Safari 和 Chrome)，依然需要<code>-webkit</code>前缀，用于动画和渐变，但是这些很快就会被<a href="https://bugs.webkit.org/show_bug.cgi?id=93136">移除</a>。</p>
+<h2>应用 transition</h2>
+<p>一个最简单使用transition的方法就是和CSS伪元素一起用，比如<code>:hover</code>。注意我们在指定属性名字，transition的时长，以及默计时函数，<code>linear</code> [<a href="https://jsfiddle.net/maccman/Vvscq/">demo</a>]。</p>
+<pre><code>.element {
+  height: 100px;
+  transition: height 2s linear;
+}
+
+.element:hover {
+  height: 200px;
+} </code></pre>
+<p>当<code>:hover</code>伪元素被激活的时候，这高度会动态地在两秒内从<code>100px</code>过度到<code>200px</code>。</p>
+<p><code>duration</code>是唯一在transition缩写中需要的项目。浏览器默认的定时方法是<code>ease</code>，以及一个<code>all</code>的属性，除非他们已经提供了。</p>
+<p>当谈论到激活transition，我们不希望被限制于使用伪元素 —— 很显然这不灵活。解决这个的方法就是勇程序添加和删除class.</p>
+<pre><code>/* CSS */
+.element {
+  opacity: 0.0;
+  transform: scale(0.95) translate3d(0,100%,0);
+  transition: transform 400ms ease, opacity 400ms ease;
+}
+
+.element.active {
+  opacity: 1.0;
+  transform: scale(1.0) translate3d(0,0,0);
+}
+
+.element.inactive {
+  opacity: 0.0;
+  transform: scale(1) translate3d(0,0,0);
+}
+
+// JS with jQuery
+var active = function(){
+  $('.element').removeClass('inactive').addClass('active');
+};
+
+var inactive = function(){
+  $('.element').removeClass('active').addClass('inactive');
+}; </code></pre>
+<p>以上的列子，我们用了2个不同的过渡(transition)，当激活的时候，元素向上滑动，当无效化之后，淡出。所有的javascript所做的事就是切换<code>active</code> 和 <code>inactive</code>这两个class。</p>
+<h2>过渡渐变</h2>
+<p>不是所有的CSS属性都能过渡，最基本的规则是你只能过渡绝对值。比如，你不能让<code>height</code>从 <code>0px</code>过渡到<code>auto</code>，浏览器不能计算中间过度值，因此属性变化是瞬间的。Oli Studholme提供了便利的 <a href="https://oli.jp/2010/css-animatable-properties/">一份完全过度属性的列表</a>。</p>
+<p>另一个主要的属性是不能过渡渐变的背景(虽然纯色是支持的)。这个限制没有什么技术因素，只是因为要等浏览器支持，还需要一段时间。</p>
+<p>同时，有一些很好的解决方法。第一个方法包括添加透明度到渐变，然后过渡到背景色。比如[<a href="https://jsfiddle.net/maccman/az2Xz/">demo</a>]:</p>
+<pre><code>.panel {
+  background-color: #000;
+  background-image: linear-gradient(rgba(255, 255, 0, 0.4), #FAFAFA);
+  transition: background-color 400ms ease;
+}
+
+.panel:hover {
+  background-color: #DDD;
+} </code></pre>
+<p>如果渐变是持续的，你可以过渡<code>background-position</code>，就像<a href="https://sapphion.com/2011/10/css3-gradient-transition-with-background-position/">这里写的</a>，否则，你的最后手段是创建两个元素，一个放在另一个之上，然后过渡你的透明度[<a href="https://jsfiddle.net/maccman/qaQyB/">demo</a>]。</p>
+<pre><code>.element {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: linear-gradient(#C7D3DC,#5B798E);
+}
+
+.element .inner {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: linear-gradient(#DDD, #FAFAFA);
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.element:hover .inner {
+  opacity: 1;
+} </code></pre>
+<p>后者方法的需要注意的是，这需要额外的标记，并且在内部的div能够捕捉到指针事件。伪元素，类似<code>:before</code>和<code>:after</code>可以是过度理想的使用案例，但是不幸的是，只有火狐支持伪元素过渡。 Eliott Sprehn正在尝试webkit的支持，这很快<a href="https://bugs.webkit.org/show_bug.cgi?id=92591">就会到</a>。</p>
+<h2>硬件加速</h2>
+<p>过渡某个属性，比如<code>left</code>和<code>margin</code>会导致浏览器每帧都会重新<em>计算样式</em>。这消耗相当昂贵，并且可能会导致不必要的重绘，特别是如果你在屏幕上有很多元素。这在低性能设备上显得特别明显，比如手机。</p>
+<p>这个解决方案是使用CSS过渡来减少渲染给GPU带来的压力。简单来说，这在过渡的时候，将元素变成了一张图片，避免任何样式重新计算，这极大程度上增加了性能。一个简单强迫浏览器用硬件渲染一个元素的方法是，设置转型的Z轴，这个你可以用<code>translate3d</code>:</p>
+<pre><code>``transform: translate3d(0,0,0);``</code></pre>
+<p>不过这不是根治性能的方法，并且会带来许多本身的问题。只有当需要的时候，你才应该用硬件加速，并且完全不需要在每个元素上都使用它。</p>
+<p>比如，硬件加速会导致微妙的字体问题，比如一个字体出现的时候失去了加粗效果。这是因为一个bug，当元素开启硬件加速的时候，不支持子像素抗锯齿。你可以看到在两个渲染模式下的一个清晰的差别。</p>
+<p><img src="https://p0.qhimg.com/t01a9a6f74b46cf8bef.png" alt="antialiasing.png"></p>
+<p>短期修复，<a href="https://news.ycombinator.com/item?id=4954482">尽管</a><a href="https://www.usabilitypost.com/2010/08/26/font-smoothing/">具有争议</a>，但是能够完全阻止子像素抗锯齿。然而，注意要理解<a href="https://lists.w3.org/Archives/Public/www-style/2012Oct/0014.html">这么做的注意点</a>。</p>
+<pre><code> ``font-smoothing: antialiased;``</code></pre>
+<p>此外，不同的浏览器用不同的硬件加速的库，这可能会造成跨浏览器问题。比如，当Chrome和Safari都是WebKit内核的，Chrome使用Skia来做图形渲染，然而同时Safari用的CoreGraphics。这两个库之间的差别是细微的，但是确是存在。</p>
+<p>你可以用Chrome的开发者工具概览页面，显示所有的重绘。外加你可以在开发者工具选项中选择显示<em>三角形</em>，甚至可以通过 about:flags 打开复合渲染层边界，来看哪个层是作用在GPU上的。关键是批量在DOM刷新下，减少绘画，并且从GPU上减少最多的的压力。</p>
+<p><img src="https://p0.qhimg.com/t01013b5576fb2a7725.png" alt="Painting"></p>
+<p>如果你在浏览器之间因为硬件加速而有了显示问题，比如闪烁或者颤动，确保你没有用<code>transform3d()</code>的CSS属性在元素上。作为最后手段，尝试着让浏览器特定的转换。</p>
+<p>值得注意的是<code>translate3d</code>骇客的相关性变得越来越少。事实上，最近Chrome的搭建自动地使用GPU来给透明度和2d过度。ios6 Safari已经禁止了这个诡计，并且要求 <a href="https://indiegamr.com/ios6-html-hardware-acceleration-changes-and-how-to-fix-them/">更多的解决方法</a>。</p>
+<h2>剪裁</h2>
+<p>为了充分利用GPU渲染，你需要避免使用CSS样式变换而不是像<code>width</code>这种重新计算样式的属性。若果你确实需要给元素的宽度做动画？解决方案就是剪裁。</p>
+<p>在以下的例子中个，你可以看到一个搜索框和2个过度状态。第二个扩展状态被一个剪裁的元素给隐藏了。</p>
+<p><img src="https://p0.qhimg.com/t012483f281ca84e85e.png" alt="Clipping"></p>
+<p>过渡这个扩展的宽度，我们所需要做的就是转变X轴到左边。这边的关键是我们用<code>translate3d</code>而不是改变元素的宽度 [<a href="https://jsfiddle.net/maccman/tqNaM/">demo</a>]。</p>
+<pre><code>.clipped {
+  overflow: hidden;
+  position: relative;
+}
+
+.clipped .clip {
+  right: 0px;
+  width: 45px;
+  height: 45px;
+  background: url(/images/clip.png) no-repeat
+}
+
+input:focus {
+  -webkit-transform: translate3d(-50px, 0, 0);
+} </code></pre>
+<p>确保我们不会在每一帧重新计算元素的宽度，过渡会变得顺滑和高性能。</p>
+<h2>时间函数</h2>
+<p>到目前为止，我们用了一些浏览器预定义时间函数<code>linear</code>, <code>ease</code>, <code>ease-in</code>, <code>ease-out</code>和<code>ease-in-out</code>。对于更多复杂的时间函数来说，我们要写我们自己的时间函数，通过定义贝塞尔曲线的4个关键点。</p>
+<pre><code>``transition: -webkit-transform 1s cubic-bezier(.17,.67,.69,1.33);`` </code></pre>
+<p>不同于猜测值，我们往往使用一大堆<a href="https://easings.net/">预定义曲线</a>，或者玩转<a href="https://cubic-bezier.com">图形</a>。</p>
+<p><img src="https://p0.qhimg.com/t01375f19ffcd8e5f79.png" alt="Cubic-bezier"></p>
+<p>注意，你只能拖拽范围内的数值，产生一个弹跳的过度，比如：</p>
+<pre><code>``transition: all 600ms cubic‑bezier(0.175, 0.885, 0.32, 1.275);``</code></pre>
+<h2>规划过渡</h2>
+<p>在CSS中写过渡非常好，但是有时候你需要更多控制，特别是谈到链式过渡的时候。幸运的是我们不仅能从javascript中调用过渡，也能定义他们。</p>
+<p>CSS过渡有一个魔法般的<code>all</code>属性，这确保了任何属性改变都是过渡的。让我们看看如何实践他们[<a href="https://jsfiddle.net/maccman/5QdSf/">demo</a>]。</p>
+<pre><code>var defaults = {
+  duration: 400,
+  easing: ''
+};
+
+$.fn.transition = function (properties, options) {
+  options = $.extend({}, defaults, options);
+  properties['webkitTransition'] = 'all ' + options.duration + 'ms ' + options.easing;
+  $(this).css(properties);
+}; </code></pre>
+<p>现在我们有课jQuery函数<code>$.fn.transition</code>,我们可以用它来编程调用过渡。</p>
+<pre><code>``$('.element').transition({background: 'red'});`` </code></pre>
+<h2>过渡回调</h2>
+<p>接下来的步奏是链式过渡，是过渡结束后回调。你可以在Webkit中获得这个状态，通过监听<code>webkitTransitionEnd</code>这个事件。对于其他的浏览器，你需要<a href="https://gist.github.com/4414792">慢慢找</a>到正确的事件名称。</p>
+<pre><code> var callback = function () {
+    // ...
+  }
+
+  $(this).one('webkitTransitionEnd', callback)
+  $(this).css(properties); </code></pre>
+<p>记住有时候事件没有绑定，经常是在那些属性不改变或者一个绘画没有被触发的情况下。为了确保我们一直有一个回调，让我们设置一个超时，这会手动帮我们触发时间。</p>
+<pre><code>$.fn.emulateTransitionEnd = function(duration) {
+  var called = false, $el = this;
+  $(this).one('webkitTransitionEnd', function() { called = true; });
+  var callback = function() { if (!called) $($el).trigger('webkitTransitionEnd'); };
+  setTimeout(callback, duration);
+}; </code></pre>
+<p>我们在设置元素css之前，请求 <code>$.fn.emulateTransitionEnd()</code>，以确保我们过渡之后会有CSS回调。[<a href="https://jsfiddle.net/maccman/YUuQU/">demo</a>]。</p>
+<pre><code>$(this).one('webkitTransitionEnd', callback);
+$(this).emulateTransitionEnd(options.duration + 50);
+$(this).css(properties); </code></pre>
+<h2>链式过渡</h2>
+<p>因此，现在我们能够通过写程引用过渡，当他们结束之后获得回调，我们能够开始排序过渡。我们能够写自己的序列来做这件事，但是我们用了jQuery，我们最好渗透库的现存方法。</p>
+<p>jQuery提供了2个关键函数和他的队列和API联系，<code>$.fn.queue(callback)</code>和 <code>$.fn.dequeue()</code>。前者加了一个回调到队列中，然后后者执行下一个队列中的项目。</p>
+<p>换句话说，我们需要设置我们的CSS过渡在<code>$.fn.queue</code>回调之中，然后确保当过渡完成的时候，我们调用了<code>$.fn.dequeue</code>[<a href="https://jsfiddle.net/maccman/ZB3Gb/">demo</a>]。</p>
+<pre><code>var $el = $(this);
+$el.queue(function(){
+  $el.one('webkitTransitionEnd', function(){
+    $el.dequeue();
+  });
+  $el.css(properties);
+}); </code></pre>
+<p>这个例子相对简单，但是他让我们创建了复杂的链式动画，并且甚至使用jQuery的delay()函数：比如：</p>
+<pre><code>$('.element').transition({left: '20px'})
+             .delay(200)
+             .transition({background: 'red'}); </code></pre>
+<h2>重新绘制</h2>
+<p>在过渡的时候，你会需要两组CSS属性。最初的属性是动画应该从哪里开始，和最后的属性，过渡应该在哪里结束。</p>
+<pre><code>$('.element').css({left: '10px'})
+             .transition({left: '20px'}); </code></pre>
+<p>然而，你会发现如果你应用了两组属性，一个立马在另一个之后运行了，然后浏览器尝试优化属性改变，无视你的初始属性和阻止过渡。在场景之后，浏览器绘制之前，批处理属性变动，经常会加速渲染，经常会有不良反应。</p>
+<p>解决方法是在两组属性之间强迫重绘。一个简单的方法是获取Dom元素的<code>offsetHeight</code>属性，就像这样[<a href="https://jsfiddle.net/maccman/3uuWf/">demo</a>]:</p>
+<pre><code>$.fn.redraw = function(){
+  $(this).each(function(){
+    var redraw = this.offsetHeight;
+  });
+}; </code></pre>
+<p>This will work in most browsers, but I’ve had occasions in Android where this hasn’t been enough. The alternative is to either use timeouts, or by toggling a class name.<br> 这在素有的浏览器中有有效，但是我有次很巧合地在Android中，这依然不行。可供替代的方法有timeout或者切换class名。
+</p>
+<pre><code>$('.element').css({left: '10px'})
+             .redraw()
+             .transition({left: '20px'}); </code></pre>
+<h2>未来</h2>
+<p>过渡(Transition)正在活跃地应用，以及<a href="https://dvcs.w3.org/hg/FXTF/raw-file/tip/web-anim/index.html">下一个标准</a>看上去很有前景。这个建议包括了一个新的javascript的API,这个api专注于过渡现存的限制，并给与开发者更多的灵活性。</p>
+<p>实际上，你可以在github上找到<a href="https://github.com/web-animations/web-animations-js">新API的铺垫</a>。这包括了举例一个<code>Animation</code>构造函数，传递到一个元素，让它做动画，做动画的属性，还有其他的属性，诸如延迟。</p>
+<pre><code>var anim = new Animation(elem, { left: '100px' }, 3);
+anim.play(); </code></pre>
+<p>有了这个新的API，你可以同步动画，提供私人定制的时间函数，并且或者完整的回调。这真是一件激动人心的事啊！</p>
+<h2>过渡</h2>
+<p>到目前为止，你希望对CSS过渡有更深层次的了解，并且结合简单的API能够提供复杂丰富的效果。</p>
+<p>大多数javascript例子都直接来自于<a href="https://github.com/maccman/gfx">GFX</a>，一个jQueryCSS过渡库。同样在<a href="https://github.com/maccman/gfx/blob/master/src/gfx.coffee">core library</a>，我包含了一些的<a href="https://github.com/maccman/gfx/blob/master/src/gfx.effects.coffee">额外的特效</a>，比如滑动进/出，外加进/出和3D翻转。</p>

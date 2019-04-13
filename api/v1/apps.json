@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /apps.json
+---
+{
+  "apps": [
+      {% for app in site.data.apps_android %}
+      {
+        "platform": "Android",
+        "name": "{{ app.name}}",
+        "lan": "{{ app.lan }}",
+        "url": "{{ app.url }}",
+        "available": "{% if app.store %}1{% else %}0{% endif %}",
+        "img": "{{ site.url }}/assets/images/apps/App-{{ app.img }}.jpg"
+      },
+      {% endfor %}
+      {% for app in site.data.apps_osx %}
+      {
+        "platform": "macOS",
+        "name": "{{ app.name}}",
+        "lan": "{{ app.lan }}",
+        "url": "{{ app.url }}",
+        "available": "{% if app.url contains site.url %}1{% else %}{% if app.store %}1{% else %}0{% endif %}{% endif %}",
+        "img": "{{ site.url }}/assets/images/apps/App-{{ app.img }}.jpg"
+      },
+      {% endfor %}
+      {% for app in site.data.apps_ios %}
+      {
+        "platform": "iOS",
+        "name": "{{ app.name}}",
+        "lan": "{{ app.lan }}",
+        "url": "{{ app.url }}",
+        "available": "{% if app.store %}1{% else %}0{% endif %}",
+        "img": "{{ site.url }}/assets/images/apps/App-{{ app.img }}.jpg"
+      },
+      {% endfor %}
+      {% for app in site.data.apps_win %}
+      {
+        "platform": "Windows",
+        "name": "{{ app.name}}",
+        "lan": "{{ app.lan }}",
+        "url": "{{ app.url }}",
+        "available": "{% if app.store %}1{% else %}0{% endif %}",
+        "img": "{{ site.url }}/assets/images/apps/App-{{ app.img }}.jpg"
+      }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /api/v2/portfolio_ios.json
+---
+{
+  "type": "iOS",
+  "data" : [{% for app in site.data.apps_ios %}
+    {
+      "detail": "iOS | {{ app.lan }}",
+      "title": "{{ app.name }}",
+      "url": "{{ app.url }}",
+      "description": "{{ app.url }}",
+      "available": {% if app.store %}true{% else %}false{% endif %},
+      "image": "{{ site.url }}/assets/images/apps/App-{{ app.img }}.jpg"
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

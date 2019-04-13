@@ -1,0 +1,165 @@
+---
+layout: null
+permalink: /api/v2/vita_sc.json
+---
+{
+  "enabled": {{ site.api.vita }},
+  "name": "李申翊",
+  "language": "SC",
+  "gender": "男",
+  "mail": "admin@meniny.cn",
+  "blog": "{{ site.url }}",
+  "github": "https://github.com/Meniny",
+  "cell": "+86 131-1111-2831",
+  "store": "https://itunes.apple.com/developer/shenyi-li/id1026495349",
+  "wechat": "Meniny",
+  "QQ": "8382453",
+  "twitter": "https://twitter.com/_Meniny",
+  "brief": "一名来自中国的软件开发者、博主和旅行爱好者\n现居北京\n正在修行，探求创意之源",
+  "purchases": [{% for iap in site.data.iap %}
+    {
+      "id": "{{ iap.id }}",
+      "price": {{ iap.price }},
+      "enable": {{ iap.enable }},
+      "brief": "{{ iap.brief }}"
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ],
+  "edu": [
+    {
+      "name": "中北大学",
+      "type": "本科",
+      "major": "计算机科学与技术"
+    }
+  ],
+  "exp": [
+    {
+      "name": "悦阳互动科技文化有限公司",
+      "range": "2016/02 - 至今",
+      "titles": [
+        "高级 iOS 研发工程师",
+        "组长"
+      ],
+      "brief": "通过自己的知识与技能提供快速专业的服务"
+    },
+    {
+      "name": "云霄之翼信息科技有限公司",
+      "range": "2015/02 - 2016/01",
+      "titles": [
+        "高级 iOS 研发工程师",
+        "组长"
+      ],
+      "brief": "来自 PayPal 的技术团队"
+    },
+    {
+      "name": "杰恩互动科技文化有限公司",
+      "range": "2014/06 - 2015/02",
+      "titles": [
+        "创始人",
+        "iOS 研发工程师",
+        "Java 研发工程师"
+      ],
+      "brief": "从 2014 年起以于杰恩互动进行着管理和研发的工作, 深深的热爱和怀念着在这里的每一秒"
+    },
+    {
+      "name": "自由职业",
+      "titles": [
+        "自由职业者"
+      ],
+      "brief": "作为一名开发者, 我在移动客户端、前端以及后端研发方面均有一定经验, 也十分热衷于学习和了解更多新鲜事物"
+    }
+  ],
+  "skills": [
+    {
+      "name": "C/C++ ",
+      "proficiency": 7
+    },
+    {
+      "name": "Objective-C",
+      "proficiency": 9
+    },
+    {
+      "name": "Swift",
+      "proficiency": 9
+    },
+    {
+      "name": "Cocoa",
+      "proficiency": 5
+    },
+    {
+      "name": "Cocoa Touch",
+      "proficiency": 7
+    },
+    {
+      "name": "iBeacon",
+      "proficiency": 5
+    },
+    {
+      "name": "Python",
+      "proficiency": 4
+    },
+    {
+      "name": "Jekyll/Liquid",
+      "proficiency": 6
+    },
+    {
+      "name": "J2EE",
+      "proficiency": 3
+    },
+    {
+      "name": "Android",
+      "proficiency": 2
+    },
+    {
+      "name": "MFC",
+      "proficiency": 2
+    }
+  ],
+  "languages": [
+    {
+      "name": "中文",
+      "proficiency": 10
+    },
+    {
+      "name": "English",
+      "proficiency": 7
+    },
+    {
+      "name": "日本語",
+      "proficiency": 3
+    },
+    {
+      "name": "Deutsch",
+      "proficiency": 2
+    }
+  ],
+  "portfolio": {
+    "url": "{{ site.url }}/portfolio",
+    "data": [
+        {
+          "type": "macOS",
+          "json": "portfolio_mac.json",
+          "count": {{ site.data.apps_osx.size }}
+        },
+        {
+          "type": "iOS",
+          "json": "portfolio_ios.json",
+          "count": {{ site.data.apps_ios.size }}
+        },
+        {
+          "type": "Windows",
+          "json": "portfolio_win.json",
+          "count": {{ site.data.apps_win.size }}
+        },
+        {
+          "type": "Android",
+          "json": "portfolio_android.json",
+          "count": {{ site.data.apps_android.size }}
+        },
+        {
+          "type": "Github",
+          "json": "portfolio_repos.json",
+          "count": {{ site.data.repos.size }}
+        }
+    ]
+  }
+}

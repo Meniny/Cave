@@ -1,0 +1,891 @@
+# Github
+
+- name: "Boom"
+  url: "https://github.com/Meniny/Boom"
+  desc: "🎢 UITableView and UICollectionView manager with efficient, declarative and type-safe approach."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "EASegments"
+  url: "https://github.com/Meniny/EASegments"
+  desc: "🚡 A segments control for iOS."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "EasyAttributedString"
+  url: "https://github.com/Meniny/EasyAttributedString"
+  desc: "✏️ Make AttributedString much more easier."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Beam"
+  url: "https://github.com/Meniny/Beam"
+  desc: "🚃 EventBus implementation written in Swift."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Cria"
+  url: "https://github.com/Meniny/Cria"
+  desc: "Eelegant HTTP requests framework for Swift with ❤️ and Alamofire + Promise. ☁️"
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Pow"
+  url: "https://github.com/Meniny/Pow"
+  desc: "A banner / pop-up displayer for iOS in Swift."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "PapaLayout"
+  url: "https://github.com/Meniny/PapaLayout"
+  desc: "Pure Swift AutoLayout library offers a neat way to manage constraints in code."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Mint"
+  url: "https://github.com/Meniny/Mint"
+  desc: "🌿 Human readable HTTP request in Swift."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Substring"
+  url: "https://github.com/Meniny/Substring"
+  desc: "Substring without boilerplate, verbose and complex code."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Zipper"
+  url: "https://github.com/Meniny/Zipper"
+  desc: "🗳 A library to create, read and modify ZIP archive files, written in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "WKWebViewController"
+  url: "https://github.com/Meniny/WKWebViewController"
+  desc: "📡 An UIViewController with WKWebView inside."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "DynamicKit"
+  url: "https://github.com/Meniny/DynamicKit"
+  desc: "Dynamic Programming Kit"
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "EAKit"
+  url: "https://github.com/Meniny/EAKit"
+  desc: "🐥 A huge collection of swift extensions."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "CocoaPods Repository Template"
+  url: "https://github.com/Meniny/CocoaPods-Repository-Template"
+  desc: "💟 A CocoaPods Repository Template"
+  lan: "Ruby"
+  plat: "Github"
+
+- name: "DaVinci"
+  url: "https://github.com/Meniny/DaVinci"
+  desc: "🖌 More modern CoreGraphics wrapper for iOS/macOS"
+  lan: "Swift"
+  plat: "Github"
+
+- name: "ObjectAssociation"
+  url: "https://github.com/Meniny/ObjectAssociation"
+  desc: "🚼 An object association helper for Swift extensions."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "SuperAlertController"
+  url: "https://github.com/Meniny/SuperAlertController"
+  desc: "⁉️ An UIAlertController extension"
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "HTTPDefines"
+  url: "https://github.com/Meniny/HTTPDefines"
+  desc: "🌐 A bundle of defines in HTTP"
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Leaf"
+  url: "https://github.com/Meniny/Leaf"
+  desc: "🍃 A versatile HTTP(s) networking framework written in Swift."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Bash"
+  url: "https://github.com/Meniny/Bash"
+  desc: "💻 Run Bash commands from Swift scripts and command line tools."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "SwiftyCLI"
+  url: "https://github.com/Meniny/SwiftyCLI"
+  desc: "💻 A tool helps you to build command line application with Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Meniny.github.io"
+  url: "https://github.com/Meniny/Meniny.github.io"
+  desc: "😱 Elias's Cave on Github"
+  lan: "HTML"
+  plat: "Github"
+
+- name: "AndroidDialog"
+  url: "https://github.com/Meniny/AndroidDialog"
+  desc: "🗿 An Android Dialog framework for iOS."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "re"
+  url: "https://github.com/Meniny/re"
+  desc: "🔫 Pythonic RegEx library."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Inspection"
+  url: "https://github.com/Meniny/Inspection"
+  desc: "📱 Debug accessory tool for iOS."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Ghost"
+  url: "https://github.com/Meniny/Ghost"
+  desc: "👻 A versatile HTTP(s) networking framework written in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "UNIXFileSystem"
+  url: "https://github.com/Meniny/UNIXFileSystem"
+  desc: "📂An UNIX file system framework for iOS/macOS/tvOS/watchOS platforms."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "JustLayout"
+  url: "https://github.com/Meniny/JustLayout"
+  desc: "🤥 Sugar for Auto Layout. Generate pure native NSLayoutConstraint."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Oath"
+  url: "https://github.com/Meniny/Oath"
+  desc: "Promise / Future concept for Swift developing."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "MiniToast"
+  url: "https://github.com/Meniny/MiniToast"
+  desc: "An Android toast view implementation for iOS."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Sqlable"
+  url: "https://github.com/Meniny/Sqlable"
+  desc: "Swift ORM framework."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "ParamountDialogs"
+  url: "https://github.com/Meniny/ParamountDialogs"
+  desc: "📲 A delightful dialog view for iOS in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "PresentationSettings"
+  url: "https://github.com/Meniny/PresentationSettings"
+  desc: "⚙️ Configuration for UIViewController presentation."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Eventer"
+  url: "https://github.com/Meniny/Eventer"
+  desc: "Event bus for iOS."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "TableFlow"
+  url: "https://github.com/Meniny/TableFlow"
+  desc: "📱 UITableView manager framework for iOS."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Parade"
+  url: "https://github.com/Meniny/Parade"
+  desc: "🚸 OperationQueue Manager"
+  lan: "Swift"
+  plat: "Github"
+
+- name: "UIClosure"
+  url: "https://github.com/Meniny/UIClosure"
+  desc: "📱 A collection of time-saving closures for iOS UI elements written in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "UIRefresher"
+  url: "https://github.com/Meniny/UIRefresher"
+  desc: "📱 Pull to refresh & pull to load more view for iOS."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "ColaExpression"
+  url: "https://github.com/Meniny/ColaExpression"
+  desc: "💻 A regular expression framework written in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "AppStore"
+  url: "https://github.com/Meniny/AppStore"
+  desc: "📱 An AppStore application new version checking framework."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "UIActiveableLabel"
+  url: "https://github.com/Meniny/UIActiveableLabel"
+  desc: "🏷 An active-able UILabel for iOS in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Gesture"
+  url: "https://github.com/Meniny/Gesture"
+  desc: "✋ Better Gesture Handler written in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Jsonify"
+  url: "https://github.com/Meniny/Jsonify"
+  desc: "♨️ A delightful JSON parsing framework."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Fire"
+  url: "https://github.com/Meniny/Fire"
+  desc: "🔥 A delightful HTTP/HTTPS networking framework for iOS/macOS/watchOS/tvOS platforms written in Swift."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Every"
+  url: "https://github.com/Meniny/Every"
+  desc: "⏱ Elegant Timer in Swift."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "InfoPlist"
+  url: "https://github.com/Meniny/InfoPlist"
+  desc: "📃 Info.plist assistant."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Quick Response Code"
+  url: "https://github.com/Meniny/QuickResponseCode"
+  desc: "📲 A tiny Quick Response Code (QRCode) library for iOS written in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "libtimer"
+  url: "https://github.com/Meniny/libtimer"
+  desc: "⏱ GCDTimer in swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Sort Algorithm"
+  url: "https://github.com/Meniny/SortAlgorithm"
+  desc: "🛂 Swift array sort algorithm implementation."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Deft Equatable"
+  url: "https://github.com/Meniny/DeftEquatable"
+  desc: "😉 Never implement Equatable manually again."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Tokenizer"
+  url: "https://github.com/Meniny/Tokenizer"
+  desc: "🧜 A tiny human language tokenizer framework in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "EnumCollection"
+  url: "https://github.com/Meniny/EnumCollection"
+  desc: "🏅 An Extension for Swift Enum Type."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "Bio Authenticator"
+  url: "https://github.com/Meniny/BioAuthenticator"
+  desc: "A biometrics authentication framework for iOS."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "EasyGCD"
+  url: "https://github.com/Meniny/EasyGCD"
+  desc: "💯 A tiny library to make using GCD easier."
+  lan: "Swift"
+  plat: "Github"
+  main: true
+
+- name: "System Sounds"
+  url: "https://github.com/Meniny/SystemSounds"
+  desc: "🎙 An iOS System Sounds Player."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Essence"
+  url: "https://github.com/Meniny/Essence"
+  desc: "📱 The Essence of your iOS device."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Settings"
+  url: "https://github.com/Meniny/Settings"
+  desc: "📱 A tiny library for iOS Settings app."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Oops"
+  url: "https://github.com/Meniny/Oops"
+  desc: "⚠️ A SCLAlertView Like Dialog View for iOS in Swift"
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Localization"
+  url: "https://github.com/Meniny/Localization"
+  desc: "📱 A Localization Manager written in Swift."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "MXCrashHandler"
+  url: "https://github.com/Meniny/MXCrashHandler-in-Objective-C"
+  desc: "An easy-to-use class to handle crash on iOS."
+  lan: "Objective-C"
+  plat: "Github"
+
+- name: "Network Activity Indicator Manager"
+  url: "https://github.com/Meniny/NetworkActivityIndicatorManager"
+  desc: "🎛 A Network Activity Indicator Manager for iOS."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "Battery"
+  url: "https://github.com/Meniny/Battery"
+  desc: "🔋 An iOS battery monitor library"
+  lan: "Swift"
+  plat: "Github"
+
+- name: "HighlightJS.swift"
+  url: "https://github.com/Meniny/HighlightJS.swift"
+  desc: "✨ A code syntax highlight library using Highlight.js"
+  lan: "Swift"
+  plat: "Github"
+
+- name: "CocoaAnimator"
+  url: "https://github.com/Meniny/CocoaAnimator"
+  desc: "💂 UIView.animationWithDuration equivalent for Cocoa"
+  lan: "Swift"
+  plat: "Github"
+
+- name: "atom railscasts theme"
+  url: "https://github.com/Meniny/atom-railscasts-theme"
+  desc: "A Railscasts style syntax theme for Atom."
+  lan: "CoffeeScript"
+  plat: "Github"
+
+- name: "OhCrap"
+  url: "https://github.com/Meniny/OhCrap"
+  desc: "🚫 An apple crash handler."
+  lan: "Swift"
+  plat: "Github"
+
+- name: "MXNetworking"
+  url: "https://github.com/Meniny/MXNetworking-in-Objective-C"
+  desc: "🌐 A delightful networking framework for iOS platform."
+  lan: "Objective-C"
+  plat: "Github"
+
+- name: "elias comments"
+  url: "https://github.com/Meniny/elias-comments"
+  desc: "An Atom package for inserting comments with keyboard shortcut."
+  lan: "JavaScript"
+  plat: "Github"
+
+- name: "MXSpeaker"
+  url: "https://github.com/Meniny/MXSpeaker-in-Objective-C"
+  desc: "A text speaker class category for iOS in Objective-C."
+  lan: "Objective-C"
+  plat: "Github"
+
+- name: "MXLinkLabel"
+  url: "https://github.com/Meniny/MXLinkLabel-in-Objective-C"
+  desc: "An easy-to-use view to display markup text."
+  lan: "Objective-C"
+  plat: "Github"
+
+# iOS
+
+- name: "Circular"
+  url: "https://itunes.apple.com/cn/app/%E5%BF%AB%E7%82%B9%E9%98%85%E8%AF%BB-00%E5%90%8E%E9%83%BD%E5%9C%A8%E7%8E%A9%E7%9A%84%E5%AF%B9%E8%AF%9D%E5%B0%8F%E8%AF%B4app/id1228112060?mt=8"
+  desc: "Commercial"
+  lan: "Swift"
+  plat: "iOS"
+  main: true
+
+- name: "Joyup Online"
+  url: "https://itunes.apple.com/cn/app/joyup-online/id1267409244?mt=8"
+  desc: "Commercial"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "Sanlo Collection"
+  url: "https://itunes.apple.com/cn/app/sheng-le-dian-cang/id1129094266?mt=8"
+  desc: "Commercial"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "WeiZi"
+  url: "https://itunes.apple.com/cn/app/wei­zi­da­xue­sheng­xiao­yuan/id1114708162?mt=8"
+  desc: "Commercial"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "ClougWings"
+  url: "https://itunes.apple.com/cn/app/yun­xiao­zhi­yi­gong­wu­ji/id1028297662?mt=8"
+  desc: "Commercial"
+  lan: "Objective-C, Swift"
+  plat: "iOS"
+  main: true
+
+- name: "PinkStyle"
+  url: "https://itunes.apple.com/cn/app/fen­hongstyle/id1026504531?mt=8"
+  desc: "Commercial"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "GHunter"
+  url: "https://itunes.apple.com/cn/app/shang­jin­lie­ren­suo­shi/id920408997?mt=8"
+  desc: "Commercial"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "Yilung Real Estate"
+  url: "https://itunes.apple.com/cn/app/yi­long­di­chan­fu­wu­duan/id1048267689?mt=8"
+  desc: "Commercial"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Jayne Interaction"
+  url: "https://itunes.apple.com/cn/app/jie­en­hu­dong/id920476397?mt=8"
+  desc: "Commercial"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "0o0"
+  url: "https://itunes.apple.com/us/app/0o0-免费图床应用/id1229342738?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "ePub"
+  url: "https://itunes.apple.com/us/app/epub/id1225857916?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "Markify"
+  url: "https://itunes.apple.com/us/app/markify/id1222320161"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "GeekCat"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Bee Dictionary"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Elias Abel"
+  url: "https://itunes.apple.com/us/app/elias-abel/id1098278826?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "Heroes for HotS"
+  url: "https://itunes.apple.com/us/app/heroes-for-hots/id1232012320?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "Gifer"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Mini Dictionary"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "ACG Art"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Paste"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "ScreenCall"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "DevKeyboard"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "Urban"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "iStack"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "JavaScript Anywhere"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "PHP Manual"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Manual"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Glue"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+  main: true
+
+- name: "Markbox"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "Asciidoc"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "RichText Pro"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "BeaconUtils"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "FeedFox"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Uion of Utils"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Tertrus"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+  main: true
+
+- name: "Moon House"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Flying Rabbit"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+  main: true
+
+- name: "QRUtils"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "2048"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+  main: true
+
+- name: "LeafCam"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+  main: true
+
+- name: "Spyhole"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "The Reaper"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "iOS"
+
+- name: "The Magic Button"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Status"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "RegEx Tool"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+- name: "Bitface Free"
+  url: "https://itunes.apple.com/us/developer/shenyi-li/id1026495349"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "iOS"
+
+# macOS
+
+- name: "Elias Abel"
+  url: "https://meniny.cn/clients"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "macOS"
+  main: true
+
+- name: "iChat Shortcut"
+  url: "https://itunes.apple.com/us/app/ichatshortcut/id1237224164?l=zh&ls=1&mt=12"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+  main: true
+
+- name: "CloudPic"
+  url: "https://itunes.apple.com/us/app/cloudpic/id1222746940?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "macOS"
+  main: true
+
+- name: "Listening"
+  url: "https://itunes.apple.com/us/app/listening/id1222841154?l=zh&ls=1&mt=12"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+  main: true
+
+- name: "Recently"
+  url: "https://itunes.apple.com/us/app/recently-recent-items-in-menu-bar/id1225573788?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+  main: true
+
+- name: "AssetStudio"
+  url: "https://itunes.apple.com/us/app/assetstudio/id1226964977?l=zh&ls=1&mt=12"
+  desc: "Personal"
+  lan: "Swift"
+  plat: "macOS"
+  main: true
+
+- name: "Linish"
+  url: "https://itunes.apple.com/us/app/linish/id1227441860?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+  main: true
+
+- name: "VTG"
+  url: "#"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+
+- name: "PHP Manual"
+  url: "#"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+
+- name: "Snip"
+  url: "https://itunes.apple.com/us/app/snip-screen-capture-tool/id1178539865?l=zh&ls=1&mt=12"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+  main: true
+
+- name: "Pick Pick"
+  url: "https://itunes.apple.com/us/app/pick-pick/id1179694481?l=zh&ls=1&mt=12"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+  main: true
+
+- name: "Color Parser"
+  url: "https://itunes.apple.com/us/app/color-parser/id1179637018?l=zh&ls=1&mt=8"
+  desc: "Personal"
+  lan: "Objective-C"
+  plat: "macOS"
+  main: true
+
+# Android
+
+- name: "Elias Abel"
+  url: "https://meniny.cn/clients"
+  desc: "Personal"
+  lan: "Java"
+  plat: "Android"
+
+- name: "ClougWings"
+  url: "#"
+  desc: "Commercial"
+  lan: "Java"
+  plat: "Android"
+  main: true
+
+# Windows
+
+- name: "Elias Abel"
+  url: "https://meniny.cn/clients"
+  desc: "Personal"
+  lan: "C++"
+  plat: "Windows"
+
+- name: "Remote Controller"
+  url: "https://meniny.cn/assets/apps/MeninyDesktop.zip"
+  desc: "Personal"
+  lan: "C++"
+  plat: "Windows"
+  main: true
+
+- name: "Meniny Toolbox"
+  url: "https://meniny.cn/assets/apps/MeninyToolBox.zip"
+  desc: "Personal"
+  lan: "C++"
+  plat: "Windows"
+  main: true
+
+- name: "QQ Sender"
+  url: "https://meniny.cn/assets/apps/MessageSender.zip"
+  desc: "Personal"
+  lan: "C++"
+  plat: "Windows"
+  main: true
+
+- name: "TitleChanger"
+  url: "https://meniny.cn/assets/apps/TitleChanger.zip"
+  desc: "Personal"
+  lan: "C++"
+  plat: "Windows"
+  main: true
+
+# Atom
+
+- name: "Railscasts Theme"
+  url: "https://github.com/Meniny/atom-railscasts-theme"
+  desc: "A Railscasts style syntax theme for Atom."
+  lan: "Coffee"
+  plat: "Atom Plugin"
+  main: true
+
+- name: "Elias Comments"
+  url: "https://github.com/Meniny/elias-comments"
+  desc: "An Atom package for inserting comments with keyboard shortcut."
+  lan: "Coffee"
+  plat: "Atom Plugin"
+  main: true

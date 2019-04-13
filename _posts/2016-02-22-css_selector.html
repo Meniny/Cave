@@ -1,0 +1,956 @@
+---
+title: "CSS 选择器"
+category: "CSS"
+copy: true
+tags: [CSS]
+img: "css.jpg"
+---
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<span style="color: #000000;"><strong>CSS 选择器是一种模式，用于选择需要添加样式的元素。</strong>平时使用最多也是最简单的就是 #id、.class 和标签选择器，在 CSS 中还有很多更加强大更加灵活的选择方式，尤其是在 CSS3 中，增加了很多新的选择器，使得选择元素更加便捷，所以必须理解这些选择器，只有先理解了，多用几次，自然而然就记住了。</span></span></p>
+<h1><span style="font-size: 18px;"><strong><span style="font-family: 'Microsoft YaHei';">1、* <span style="color: #008b00;">【CSS2】</span></span></strong></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　通配符，选择页面所有元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">*</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    margin</span>:<span style="color: #0000ff;">0</span>;
+<span style="color: #008080;">3</span> <span style="color: #ff0000;">    padding</span>:<span style="color: #0000ff;">0</span>;
+<span style="color: #008080;">4</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面代码的作用是把页面上所有元素的内外边距设置为 0，这是最基本的清除默认&nbsp;CSS 样式的方法。在平时练习时使用这个没问题，但在实际的项目中不建议使用，可以使用世界级专家&nbsp;Eric Meyer 的&nbsp;<span style="color: #0000ff;"><strong><a href="https://cssreset.com/" target="_blank"><span style="color: #0000ff;">CSS Reset</span></a></strong></span>&nbsp;方案来重置浏览器默认样式，也可以使用 <a href="https://necolas.github.io/normalize.css/" target="_blank"><span style="color: #0000ff;"><strong><span>Normalize.css</span></strong></span></a>，&nbsp;CSS reset 和&nbsp;Normalize&nbsp;存着着根本理念上的差异，前者是将所有浏览器自带的样式重置掉，以确保各浏览器渲染的一致性，而后者则是尽量保留浏览器的默认样式，是一个可定制的 CSS 文件，使浏览器渲染所有元素更加一致，符合现代标准，Bootstrap 就使用了该方案。也可以百度参考各大网站 CSS 代码初始化样式。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　* 也可以用来选择某元素的所有子元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">#box *</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">blue</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，会选则 ID 为 box 下的所有元素。</span></p>
+<h1><span style="font-size: 18px;"><span style="font-family: 'Microsoft YaHei';">2、#ID <span style="color: #008b00;"><strong>【CSS1</strong></span></span><span style="color: #008b00;"><strong><span style="font-family: 'Microsoft YaHei';">】</span></strong></span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　ID 选择器，选择具有指定 id 属性的元素。<br></span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">#content</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    width</span>:<span style="color: #0000ff;">960px</span>;
+<span style="color: #008080;">3</span> <span style="color: #ff0000;">    margin</span>:<span style="color: #0000ff;">0 auto</span>;
+<span style="color: #008080;">4</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　ID 就像身份证一样，具有唯一性，所以 ID 选择器是 CSS 中效率最高的选择器。</span></p>
+<h1><strong><span style="font-size: 18px; font-family: 'Microsoft YaHei';">3、.Class <span style="color: #008b00;">【CSS1】</span></span></strong></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　类选择器，选择具有指定类的所有元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">.main</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　class 选择器和&nbsp;id 选择器不同的是，一个页面可以有多个 class，并且 class 可以在不同的标签中使用，如果样式相同的话。当你想对多个元素设置样式时就可以使用 class，而只是对某个特定的元素设置样式那就使用&nbsp;id。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<span style="color: #0000ff;"><strong>(1)、什么时候使用 ID，什么时候使用 Class</strong></span></span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　ID 和 Class 最主要的区别就在于 ID 不能重复，只能使用一次，一个 ID 只能用于一个标签。而 Class 可以重复使用，同一个 Class 可以定义在多个标签上，且一个标签可以定义多个 Class。简单理解，就是 ID 只能调用一次，而 Class 可以调用无数次。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　在同一个页面中只出现一次的块可以使用 ID 定义，比如网站的布局：头部、主体、侧边栏和页脚等。ID 主要用于特殊的元素，针对性强。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　而 Class 是一个集体声明，当相同样式应用于很多元素时，则使用 Class 定义。在一个网站中，需要调用的公用类比较多，所以使用 Class 可以写一些公用类，在使用时调用就可以了。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>总结：</strong>只有一个独立样式的元素用 ID，而多个元素拥有相同样式时用 Class。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　另外，document 的方法中 getElementById() 这个方法只能调用指定 ID 属性的元素，因此当页面中用到 JS 或者要动态调用对象时，就要用到&nbsp;ID。当然也可以通过标签名、name 属性获取元素，还可以通过元素的 className 来获取元素，所以还是要根据实际的需求来决定使用哪个。如果一个元素使用 JS 进行交互，在命名时，可以在名称前边加上一个 J，这样能增强代码的可读性，在页面量大的情况下，便于调用，但不能使用加了&nbsp;J 的名称来定义 CSS 样式。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">4、X <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　标签选择器，选择指定标签名称的所有元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">a</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    text-decoration</span>:<span style="color: #0000ff;">none</span>;
+<span style="color: #008080;">3</span> } </pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　如果你想让页面上所有指定标签的样式改变，可以直接使用标签选择器。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">5、X, Y <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　分组选择器，在样式表中具有相同样式的元素，就可以使用分组选择器，把所有元素组合在一起，元素之间用逗号分隔，这样只需要定义一组 CSS 声明。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">h1, h2, h3, h4, h5, h6 ,p</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择页面上所有 h1 - h6 元素以及段落。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">6、X Y <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　后代选择器，选择指定元素内部的所有子元素，包括子元素、孙元素、曾孙元素等等。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">li a</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    text-decoration</span>:<span style="color: #0000ff;">none</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　如果你想选择更加具体的元素，就可以使用后代选择器。比如：并不需要去掉页面中所有链接的下划线，而只是去掉所有列表链接的下划线，这时就可以使用后代选择器。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">7、X &gt; Y <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　子元素选择器，选择指定父元素的所有直接子元素，不包括孙元素、曾孙元素等等。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">div &gt; ul</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    border</span>:<span style="color: #0000ff;">1px solid black</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　如果不希望选择任意的后代元素，而只是选择某个元素的子元素，那么就使用子元素选择器。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<span style="color: #0000ff;"><strong>X Y 和 X &gt; Y 的区别：</strong></span>前者作用于指定元素的所有后代元素，而后者只作用于指定元素的第一代后代，即直接子元素。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">8、X + Y <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　相邻兄弟选择器，选择相同父元素下，紧跟着指定元素之后的兄弟元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">ul + p</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有相同父元素下紧跟着 ul 元素之后的第一个&nbsp;p 元素。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">9、X ~ Y <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　普通兄弟选择器，选择相同父元素下，指定元素后的所有兄弟元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">ul ~ p</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有相同父元素下 ul 元素之后的每一个 p 元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<span style="color: #0000ff;"><strong>与相邻兄弟选择器不同，普通兄弟选择器，兄弟元素不必紧跟在指定元素的后面，并且选择指定元素后面所有的兄弟元素。</strong></span></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">10、X[attr] <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　属性选择器，选择所有指定属性的元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">a[target]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有带有&nbsp;target 属性的 a 元素。那些没有此属性的锚点将不会应用此样式。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">11、X[attr=value] <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　属性和值选择器，选择所有指定属性和值的元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">a[target=_blank]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　上面的代码，选择所有属性为&nbsp;target="_blank" 的 a 元素。只应用于在新标签页打开的链接，其他锚点将不受影响。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">12、X[attr~=value] <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　这个选择器用于选择属性值包含一个指定单词的元素。~ 符号可以选择指定属性值是空格分隔多值的元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> img<span style="color: #800000;">[title~=flower]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    border</span>:<span style="color: #0000ff;">2px solid blue</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有带有 title 属性值包含&nbsp;flower 单词的 img 元素。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">13、X[attr|=value] <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　这个选择器用于选择属性以指定值开始的元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>该值必须是整个单词，无论是单独的像 lang="en"，或者像连字符 (-) 连接的如 lang ="en-us" 都可以。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">[class|=test]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">yellow</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有 class 属性以 test 开头的元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<span style="color: #0000ff;"><strong>在 CSS2 中定义的 ~=、|= 和在 CSS3 中定义的 *=、^=、$= 之间的区别：</strong></span></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　~= 和&nbsp;*= 都可以选择属性值包含指定值的元素，前者必须是一个独立的单词，比如&nbsp;test-a 和 test a 可以被选中，而 testa 不能被选中。而后者这三个都可以选中，只要是值的子串就可以了。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　其他选择器和上面的原理相同，即&nbsp;|= 和&nbsp;~= 特性相同，^=、$= 和&nbsp;*= 特性相同。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;"><strong>14、X[attr*=value] <span style="color: #008b00;">【CSS3】</span></strong></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　这个选择器匹配元素属性值包含指定值的元素。该选择器类似于与上面的选择器，但是比上面的选择器更强大更灵活。* 符号可以选择指定属性值包含子字符串的元素，也就说，只要属性值中带有指定的值，无需是一个单词，无需空格分开，就可以匹配。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">div[class*="test"]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有 class 属性的值包含子字符串 "test" 的 div 元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>DEMO：</strong></span><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">注意观察下面代码，各元素&nbsp;title 属性的定义以及所使用的选择器，在页面截图中对比这两个选择器的区别：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;<span style="color: #000000;">属性包含</span></span>选择器的区别<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">*</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    margin</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">0</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #ff0000;">    padding</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">0</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #800000;">img</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #ff0000;">    width</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">90px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">13</span> <span style="background-color: #f5f5f5; color: #ff0000;">    height</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">90px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">14</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">15</span>
+<span style="color: #008080;">16</span> <span style="background-color: #f5f5f5; color: #800000;">img[title~=boy]</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">17</span> <span style="background-color: #f5f5f5; color: #ff0000;">    border</span><span style="background-color: #f5f5f5; color: #000000;">:<span style="color: #0000ff;">5</span></span><span style="background-color: #f5f5f5; color: #0000ff;">px solid blue</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">18</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">19</span>
+<span style="color: #008080;">20</span> <span style="background-color: #f5f5f5; color: #800000;">img[title*=girl]</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">21</span> <span style="background-color: #f5f5f5; color: #ff0000;">    border</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">5px solid red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">22</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">23</span>
+<span style="color: #008080;">24</span> <span style="background-color: #f5f5f5; color: #800000;">img[title~=boy]</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">25</span> <span style="background-color: #f5f5f5; color: #ff0000;">    width</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">60px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">26</span> <span style="background-color: #f5f5f5; color: #ff0000;">    height</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">60px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">27</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">28</span>
+<span style="color: #008080;">29</span> <span style="background-color: #f5f5f5; color: #800000;">img[title*=girl]</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">30</span> <span style="background-color: #f5f5f5; color: #ff0000;">    width</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">120px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">31</span> <span style="background-color: #f5f5f5; color: #ff0000;">    height</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">120px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">32</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">33</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">34</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">35</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">36</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">img </span><span style="color: #ff0000;">src</span><span style="color: #0000ff;">="images/1.jpg"</span><span style="color: #ff0000;"> title</span><span style="color: #0000ff;">="xxgirl-a"</span><span style="color: #ff0000;"> alt</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">37</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">img </span><span style="color: #ff0000;">src</span><span style="color: #0000ff;">="images/2.jpg"</span><span style="color: #ff0000;"> title</span><span style="color: #0000ff;">="boy a"</span><span style="color: #ff0000;"> alt</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">38</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">img </span><span style="color: #ff0000;">src</span><span style="color: #0000ff;">="images/3.jpg"</span><span style="color: #ff0000;"> title</span><span style="color: #0000ff;">="xxgirloo-b"</span><span style="color: #ff0000;"> alt</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">39</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">img </span><span style="color: #ff0000;">src</span><span style="color: #0000ff;">="images/4.jpg"</span><span style="color: #ff0000;"> title</span><span style="color: #0000ff;">="boy-b"</span><span style="color: #ff0000;"> alt</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">40</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">41</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160309201039554-697401042.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　X[attr*=value] 选择器那是相当强大的，在某些时候将显得尤为重要，比如页面中有很多不同的链接地址时，想要更改某一域名相同的链接的样式时，使用这个选择器那简直是没谁了。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">a[href*="ximo"]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> <span style="color: #ff0000;">    font-size</span>:<span style="color: #0000ff;">20</span><span style="color: #0000ff;">px</span>;
+<span style="color: #008080;">4</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，就指定了所有&nbsp;href 属性值中包含 ximo 的链接的样式，那不管它是 http 的 ximo 还是 https 的 ximo，也不管它是 ximo.com 还是 ximo.cn，更不管它是 ximo.com/index.php?postid=1234567 还是 ximo.com/#zh/a%b%C%2B，只要该属性值中包含 ximo，统统吃掉，是统统都改变样式。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　强大固然好，但往往太强大的东西，就有可能超出控制，所以使用这个选择器还得小心行事，避免造成不必要的结果。比如这样的：https://www.domo.com/ximo 也会匹配。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">15、X[attr^=value] <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　这个选择器用于匹配元素属性值带有指定的值开始的元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">a[href^="https"]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有 href 属性的值以 "https" 开头的 a 元素。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">16、X[attr$=value] <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　这个选择器匹配元素属性值带有指定的值结尾的元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">img[src$=".png"]</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    border</span>:<span style="color: #0000ff;">2px solid red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有 src 属性的值以 ".png" 结尾的 img 元素。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">17、:link 和&nbsp;:visited <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　伪类选择器。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:link 选择所有未访问的链接。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:visited 选择所有访问过的链接。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">a:link</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }
+<span style="color: #008080;">4</span> <span style="color: #800000;">a:visited</span>{
+<span style="color: #008080;">5</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">purple</span>;
+<span style="color: #008080;">6</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，所有未访问的链接显示为红色，所有访问过的链接显示为紫色。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">18、:active <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　伪类选择器。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　用于选择活动的链接，当鼠标点击一个链接时，他就会成为活动链接，该选择器主要用于向活动链接添加特殊样式。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">a:active</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">yellow</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，当点击页面每个链接时，显示黄色背景色。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">19、:target <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　伪类选择器。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　用于选择当前活动的目标元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">#news:target</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">yellow</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　上面代码，选择当前活动的 ID 为&nbsp;#news 的元素，#news&nbsp;即包含该锚名称的点击的 URL。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　URL 带有&nbsp;＃ 锚的名称，指向文档中一个具体的元素，即链接到某个元素的 URL，这个被链接的元素就是目标元素 (target element) 。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　下面的例子，突出显示活动的 HTML 锚：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:target<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">:target</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    border</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">2px solid red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background-color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">#CFCFCF</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">11</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">12</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">h1</span><span style="color: #0000ff;">&gt;</span>我是大标题<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">h1</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;&lt;</span><span style="color: #800000;">a </span><span style="color: #ff0000;">href</span><span style="color: #0000ff;">="#news1"</span><span style="color: #0000ff;">&gt;</span>跳转至内容 1<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">a</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">17</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;&lt;</span><span style="color: #800000;">a </span><span style="color: #ff0000;">href</span><span style="color: #0000ff;">="#news2"</span><span style="color: #0000ff;">&gt;</span>跳转至内容 2<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">a</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">18</span>
+<span style="color: #008080;">19</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>点击上面的链接，:target 选择器会突出显示当前活动的 HTML 锚。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">20</span>
+<span style="color: #008080;">21</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">="news1"</span><span style="color: #0000ff;">&gt;&lt;</span><span style="color: #800000;">b</span><span style="color: #0000ff;">&gt;</span>内容 1 ...<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">b</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">22</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">="news2"</span><span style="color: #0000ff;">&gt;&lt;</span><span style="color: #800000;">b</span><span style="color: #0000ff;">&gt;</span>内容 2 ...<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">b</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">23</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">24</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong>IE9+ 以及所有浏览器都支持该选择器，IE8 以及更早版本的浏览器不支持。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　在 Chrome 中显示如下：</span></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160311014843538-318808249.jpg" alt=""></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">20、:hover <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　伪类选择器。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:hover 用于当鼠标移入链接时添加的特殊样式。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　:hover 选择器可用于所有元素，不仅是链接，主要用于定义鼠标滑过效果。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">div:hover</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">pink</span>;
+<span style="color: #008080;">3</span> }
+<span style="color: #008080;">4</span> <span style="color: #800000;">a:hover</span>{
+<span style="color: #008080;">5</span> <span style="color: #ff0000;">    border-bottom</span>:<span style="color: #0000ff;"> 1px solid red</span>;
+<span style="color: #008080;">6</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，当鼠标移入所有 div 元素时显示粉色背景色，当鼠标移入所有链接时显示 1 像素的底边框。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">21、:before 和&nbsp;:after <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　伪元素选择器，</span><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">在网上有很多创造性用法，主要用于在指定元素周围生成一些内容。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:before 和&nbsp;:after 这俩小伙伴，用于在指定元素之前和之后插入内容，使用 content 属性来指定要插入的内容，<a href="https://www.cnblogs.com/Mtime/p/5184685.html" target="_blank">具体应用可以点这里。</a></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(1)、:before</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　配合 CSS 的&nbsp;content 属性在指定元素之前插入内容。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:before</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    content</span>:<span style="color: #0000ff;">"看这里 - "</span>;
+<span style="color: #008080;">3</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">4</span> <span style="color: #ff0000;">    font-weight</span>:<span style="color: #0000ff;">bold</span>;
+<span style="color: #008080;">5</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　上面的代码，在所有段落之前插入 “看这里 - ”并显示为红色的粗体字。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<span style="color: #ff0000;"><strong>(2)、:after</strong></span></span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　配合&nbsp;&nbsp;CSS 的&nbsp;content 属性在指定元素之后插入内容。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<span style="color: #ff0000;"><strong>该伪元素有一个比较神奇的创造性用法，那就是&nbsp;clearfix:after，即清除浮动。</strong></span></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 CSS 中，浮动会使元素向左或向右移动，直到他的外边缘碰到包含框或另一个浮动框的边框为止，其周围的元素也会重新排列。浮动元素之后的元素将围绕它，由于浮动框不在文档的普通流中，所以文档的普通流中的块框表现得就像浮动框不存在一样。简单理解就是，<span style="color: #ff0000;"><strong>浮动元素脱离了文档流，包围图片和文本的 div 不占据空间。</strong></span>如下：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>浮动问题<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">*</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    margin</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">0</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #ff0000;">    padding</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">0</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #800000;">#box</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #ff0000;">    border</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">2px solid red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">13</span> <span style="background-color: #f5f5f5; color: #ff0000;">    width</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">800px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">14</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">15</span> <span style="background-color: #f5f5f5; color: #800000;">.float</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">16</span> <span style="background-color: #f5f5f5; color: #ff0000;">    width</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">200px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">17</span> <span style="background-color: #f5f5f5; color: #ff0000;">    height</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">200px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">18</span> <span style="background-color: #f5f5f5; color: #ff0000;">    float</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">left</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">19</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">#9C9C9C</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">20</span> <span style="background-color: #f5f5f5; color: #ff0000;">    margin-right</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">10px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">21</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">22</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">23</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">24</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">25</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">="box"</span><span style="color: #ff0000;"> class</span><span style="color: #0000ff;">="clearfix"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">26</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">=""</span><span style="color: #ff0000;"> class</span><span style="color: #0000ff;">="float"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">27</span>     <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">28</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">=""</span><span style="color: #ff0000;"> class</span><span style="color: #0000ff;">="float"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">29</span>     <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">30</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>浮动元素脱离了文档流，包围图片和文本的 div 不占据空间。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">31</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">img </span><span style="color: #ff0000;">src</span><span style="color: #0000ff;">="images/1.jpg"</span><span style="color: #ff0000;"> width</span><span style="color: #0000ff;">="90px"</span><span style="color: #ff0000;"> height</span><span style="color: #0000ff;">="90px"</span><span style="color: #ff0000;"> alt</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">32</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">33</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">img </span><span style="color: #ff0000;">src</span><span style="color: #0000ff;">="images/4.jpg"</span><span style="color: #ff0000;"> alt</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">34</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">35</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310150457132-141554153.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　如上图所示，容器内部使用了浮动，浮动的父层不会跟着浮动框的高度增加而增加，浮动元素脱离了文档流，包围图片和文本的 div 不占据空间。<span style="color: #ff0000;"><strong>在 IE、Firefox 等符合 W3C 的标准浏览器中，如果有一个 DIV 作为外部容器，内部的 DIV 如果设置了 float 样式，则外部的容器 DIV 因为内部没有 clear，导致不能被撑开。</strong></span>如下所示：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310150647038-1712918042.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<span style="color: #0000ff;"><strong>要解决浮动问题，可以给父容器设置&nbsp;overflow:hidden; 属性，父容器的高度可被自动撑开。现在让我们来了解一下更高级的用法，即使用&nbsp;:after 伪元素来清除浮动。上面的例子中，给父容器设置了一个 class 类&nbsp;clearfix，现在给他应用如下样式：</strong></span></span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">.clearfix:after</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    content</span>:<span style="color: #0000ff;">" "</span>;
+<span style="color: #008080;">3</span> <span style="color: #ff0000;">    display</span>:<span style="color: #0000ff;">block</span>;
+<span style="color: #008080;">4</span> <span style="color: #ff0000;">    height</span>:<span style="color: #0000ff;">0</span>;
+<span style="color: #008080;">5</span> <span style="color: #ff0000;">    clear</span>:<span style="color: #0000ff;">both</span>;
+<span style="color: #008080;">6</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310152215710-62264410.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　可以看到父容器高度被撑开了，这就是&nbsp;<span style="color: #0000ff;"><strong>clearfix:after 清除浮动的</strong></span>应用，他的<span style="color: #0000ff;"><strong>原理</strong></span>是：创建一个内容为空高度为0的块来为目标元素清除浮动。在标准浏览器下，.clearfix:after 会在应用到 clearfix 的元素后面插入一个 clear:both 的块级元素，从而达到清除浮动的作用。这样在需要清除浮动时，只要声明一个 .clearfix，然后在需要清浮动的元素中添加 clearfix 类名就好了。</span></p>
+<h1><span style="font-size: 18px;"><span style="font-family: 'Microsoft YaHei';">22、</span><span style="font-family: 'Microsoft YaHei';">:focus <span style="color: #008b00;">【CSS2】</span></span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　这个选择器用于选择具有焦点的元素，该选择器接受键盘事件或其他用户输入的元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">input:focus</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">yellow</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，当输入域获得焦点时显示为黄色背景。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">23、:first-child <span style="color: #008b00;">【CSS2】</span>和&nbsp;:last-child <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(1)、:first-child</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:first-child&nbsp;选择器匹配父元素中第一个子元素。如果不是指定的子元素，则匹配失败。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　p:first-child 等同于 p:nth-child(1)。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:first-child</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面代码，选择所有相同父元素中第一个 p 元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(2)、:last-child</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:last-child 选择器匹配父元素中最后一个子元素。如果不是指定的子元素，则匹配失败。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　p:last-child 等同于 p:nth-last-child(1)。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:last-child</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有相同父元素中最后一个 p 元素。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<span style="color: #0000ff;"><strong>一、他们有什么区别呢？</strong></span></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:first-child 和&nbsp;:first-of-type 这两个选择器都可以选择父元素中的第一个子元素，</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:last-child 和 :last-of-type 这两个选择器都可以选择父元素中最后一个子元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　用&nbsp;:first-child 和&nbsp;:first-of-type 做比较：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:first-child&nbsp;是在 CSS2 中定义的，:first-of-type&nbsp;是在 CSS3 中定义的。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　前者用于匹配相同父元素下第一个子元素，而后者是匹配指定类型的第一个子元素。如下：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">2</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是第一个子元素<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">3</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">h1</span><span style="color: #0000ff;">&gt;</span>我是第二个子元素<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">h1</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">span </span><span style="color: #ff0000;">class</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>第三个子元素<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">span</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">span </span><span style="color: #ff0000;">class</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>第四个子元素<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">span</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">6</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span></pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:first-child</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　　　p:first-child 匹配到 p 元素，因为 p 元素是 div 的第一个子元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　　　h1:first-child 匹配失败，因为 h1 是 div 的第二个子元素，而不是第一个。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　　　span:first-child 匹配失败，因为这两个 span 元素都不是 div 的第一个子元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:first-of-type</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　　　p:first-of-type 匹配到 p 元素，因为 p 是 div 中所有类型为 p 的子元素中的第一个。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　　　h1:first-of-type 匹配到 h1 元素，因为 h1 是 div 中所有类型为 h1 的子元素中的第一个。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　　　span:first-of-type &nbsp;匹配到第三个子元素 span，上面代码中 div 有两个类型为 span 的子元素，该选择器匹配它们中的第一个。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　</span><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><strong>总结：</strong> :first-child 匹配相同父元素的第一个子元素，即结构上的第一个子元素。</span><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">而 :first-of-type 匹配的是相同父元素下同类型子元素中的第一个，该选择器主要指定的是同类型，不再限制是第一个子元素，只要是指定类型的元素中第一个就行了。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:last-child 和 :last-of-type 都是在 CSS3 中定义的，他们的区别与上面总结的原理相同。</span></p>
+<h1><span style="font-size: 18px;"><strong><span style="font-family: 'Microsoft YaHei';">24、:first-of-type 和&nbsp;:last-of-type <span style="color: #008b00;">【CSS3】</span></span></strong></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(1)、:first-of-type</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:first-of-type 匹配相同父元素的第一个指定类型的子元素，简单理解就是选择指定元素的第一个兄弟元素。等同于 :nth-of-type(1)。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">li:first-of-type</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有列表 (无序列表和有序列表) 中第一个列表项。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(2)、:last-of-type</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:last-of-type 匹配相同父元素的最后一个指定类型的子元素，简单理解就是选择指定元素的最后一个兄弟元素。等同于 :nth-last-of-type(1)。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">li:last-of-type</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有列表中最后一个列表项。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>IE9+ 以及所有浏览器都支持这两个选择器，IE8 以及更早版本不支持。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">25、:nth-of-type(n) 和&nbsp;:nth-last-of-type(n) <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(1)、:nth-of-type(n)</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:nth-of-type(n) 匹配相同父元素的第 N 个指定类型的子元素，也可以理解为选择指定元素的第 N 个兄弟元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:nth-of-type(2)</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有同级 p 元素的第 2 个兄弟元素，即相同父元素下第 2 个 p 元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(2)、:nth-last-of-type(n)</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:nth-last-of-type(n) 匹配相同父元素的倒数第 N 个指定类型的子元素，也可以理解为选择指定元素的倒数第 N 个兄弟元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:nth-last-of-type(2)</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有同级 p 元素的倒数第 2 个兄弟元素，即相同父元素下的倒数第 2 个 p 元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>在 JS 中元素的下标是从 0 开始计算的，而在 CSS 选择器中是正常计算的，即从 1 开始。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　IE9+ 以及所有浏览器都支持这两个选择器，IE8 以及更早版本不支持。</span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px;">26、:nth-child(n) 和&nbsp;:nth-last-child(n) <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>(1)、:nth-child(n)</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:nth-child(n) 匹配父元素中的第 N 个子元素，不论元素的类型。如果第 N 个不是指定的子元素，则匹配失败。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">li:nth-child(2)</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }<span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><br></span></pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有列表的第 2 个列表项。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　</span><strong><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">(2)、:nth-last-child(n)</span></strong></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:nth-last-child(n) 匹配父元素中的倒数第 N 个子元素，不论元素的类型。如果倒数第 N 个不是指定的子元素，则匹配失败。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">li:nth-last-child(2)</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">   color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，选择所有列表的倒数第 2 个列表项。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　<strong>注意：</strong>IE9+ 以及所有浏览器都支持这两个选择器，IE8 以及更早版本不支持。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　<span style="color: #0000ff;"><strong>一、25 和 26 所列的</strong></span></span><span style="color: #0000ff;"><strong><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">这 4 个选择器都可以选择父元素中的子元素，那他们到底有嘛区别呢？</span></strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　:nth-of-type 和 :nth-child，其实区别也很简单，从字面量就可以看出，前者为什么要是 of-type，因为他们是以 "type" 来区分的。也就是说：X:nth-of-type(n) 是指父元素下第 N 个指定类型的子元素。而 X:nth-child(n) 是指父元素下第 N 个元素，且这个元素是指定的元素，若不是，则匹配失败。 看下面的例子：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:nth-of-type 和 :nth-child<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #008000;">/*</span><span style="background-color: #f5f5f5; color: #008000;"> 选择第 3 个类型为 p 的子元素，显示为蓝色背景 </span><span style="background-color: #f5f5f5; color: #008000;">*/</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #800000;">p:nth-of-type(3)</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">blue</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #008000;">/*</span><span style="background-color: #f5f5f5; color: #008000;"> 选择倒数第 3 个类型为 p 的子元素，显示为绿色背景 </span><span style="background-color: #f5f5f5; color: #008000;">*/</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #800000;">p:nth-last-of-type(3)</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">13</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">green</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">14</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">15</span>
+<span style="color: #008080;">16</span> <span style="background-color: #f5f5f5; color: #008000;">/*</span><span style="background-color: #f5f5f5; color: #008000;"> 选择第 3 个子元素 p，红色背景，失败 </span><span style="background-color: #f5f5f5; color: #008000;">*/</span>
+<span style="color: #008080;">17</span> <span style="background-color: #f5f5f5; color: #800000;">p:nth-child(3)</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">18</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">19</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">20</span>
+<span style="color: #008080;">21</span> <span style="background-color: #f5f5f5; color: #008000;">/*</span><span style="background-color: #f5f5f5; color: #008000;"> 选择倒数第 3 个子元素 p，黄色背景，失败 </span><span style="background-color: #f5f5f5; color: #008000;">*/</span>
+<span style="color: #008080;">22</span> <span style="background-color: #f5f5f5; color: #800000;">p:nth-last-child(3)</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">23</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">yellow</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">24</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">25</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">26</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">27</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">28</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">29</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是第一个段落<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">30</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是第二个段落<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">31</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">32</span>         <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 1<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">33</span>         <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 2<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">34</span>     <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">35</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是第三个段落<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">36</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是第四个段落<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">37</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">38</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">39</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 IE 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310182529819-1458323977.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　<span style="color: #0000ff;"><strong>二、这 4 个选择器也可以叫做奇偶选择器，参数 n&nbsp;可以是一个数字，一个关键字，或者一个公式。</strong></span></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　<strong>①、关键字</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　奇数 (odd) 和偶数 (even) 可以作为关键字使用，可用于匹配索引是奇数或偶数的子元素，第一个子元素的下标是 1。</span><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　下面的例子，为奇数和偶数的列表项指定两种不同的背景色：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>奇偶<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">li:nth-of-type(odd)</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #800000;">li:nth-of-type(even)</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">blue</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">17</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 1<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">18</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 2<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">19</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 3<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">20</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 4<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">21</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 5<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">22</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 6<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">23</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 7<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">24</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 8<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">25</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 9<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">26</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">27</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">28</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310190317304-466611060.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　<strong>②、公式</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　使用公式 (an+b)，a 代表一个循环的大小，N 是一个计数器 (从0开始) ，b 是偏移值。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　上面的例子，使用了关键字设置奇偶数，也可以使用公式来完成：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">li:nth-of-type(2n-1)</span>{ <span style="color: #008000;">/*</span><span style="color: #008000;"> 奇数行 </span><span style="color: #008000;">*/</span>
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }
+<span style="color: #008080;">4</span> <span style="color: #800000;">li:nth-of-type(2n)</span>{ <span style="color: #008000;">/*</span><span style="color: #008000;"> 偶数行 </span><span style="color: #008000;">*/</span>
+<span style="color: #008080;">5</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">blue</span>;
+<span style="color: #008080;">6</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　下面的代码，指定下标是 3 的倍数的所有列表项背景色：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">li:nth-of-type(3n)</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310191248507-1000636473.jpg" alt=""></span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px; line-height: 1.5;">27、:only-of-type 和&nbsp;:only-child <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　<strong>(1)、:only-of-type</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　:only-of-type 匹配属于同类型中唯一的同级元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　<strong>(2)、:only-child</strong></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　:only-child 匹配属于父元素中唯一子元素的元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　下面的例子，是他们的区别：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:only-of-type 和 :only-child<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">p:only-of-type</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">green</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #800000;">p:only-child</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #ff0000;">    color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">white</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">17</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是父元素下唯一的段落。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">19</span>
+<span style="color: #008080;">20</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">21</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是第一个段落，我还有个列表兄。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">22</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">23</span>         <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 1<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">24</span>         <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 2<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">25</span>     <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">26</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">27</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">28</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　在 IE 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310192936632-2147055817.jpg" alt=""></span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong>IE9+ 以及所有浏览器都支持该选择器，IE8 以及更早版本的浏览器不支持。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">28、:not(selector) <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　这个选择器还是很强大的，用于匹配非指定元素/选择器的每个元素，可以理解为取反的意思，即除了指定的元素以外所有元素。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　下面的例子，指定页面中除了 p 元素之外的所有元素设置为绿色背景，白色字体：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:not(selector)<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">p</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #800000;">*:not(p)</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">green</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #ff0000;">    color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">white</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">13</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">17</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">h1</span><span style="color: #0000ff;">&gt;</span>我是标题<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">h1</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>这是一个段落。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">19</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>这是另一个段落。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">20</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>这是 div 元素中的文本。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">21</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">22</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>我是 div 中的段落。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">23</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">div</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">24</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">25</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 1<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">26</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>列表 2<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">li</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">27</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">ul</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">28</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">29</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下，来感受一下他的强大吧：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310195522788-317046900.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　页面中除了 p 元素之外还有 body、html 元素，反正他都不会放过，那有人就说了，呢不是还有 title 元素么，这要是都改变了，那简直就超神了。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　:not(selector) 选择器不止是这么用，其实他在某些时候还是相当有用的，比如要把除了 ID 为 "main" 之外的所有 div 元素都选中，那么使用他就再合适不过了。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">div:not(#main)</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    border</span>:<span style="color: #0000ff;">1px solid black</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>IE9+ 以及所有浏览器都支持该选择器，IE8 以及更早版本的浏览器不支持。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">29、::selection <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　::selection 选择器匹配元素中被用户选择或处于高亮状态的部分。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　::selection只可以应用于少数的CSS属性：color、background、cursor 和 outline。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　下面的代码，当元素被用户选中后会显示为红色的字体：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">::selection</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }
+<span style="color: #008080;">4</span> <span style="color: #800000;">::-moz-selection</span>{
+<span style="color: #008080;">5</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">6</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong>IE9+ 以及所有浏览器都支持该选择器，但是 Firefox 需要通过其私有属性&nbsp;::-moz-selection 才能获得支持 。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">30、:empty <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　这个选择器用于匹配没有子元素的每个元素，包括文本节点。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　选择所有没有任何子级的元素，也就是说选择页面中所有指定的空元素。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　下面的例子，指定所有空的 p 元素的背景色：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:empty<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">p:empty</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    width</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">100px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #ff0000;">    height</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">20px</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">#ff0000</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">12</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>第一个段落。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">17</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>第三个段落。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">19</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>第五个段落。<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">20</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">21</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>IE9+ 以及所以浏览器都支持该选择器，IE8 以及更早版本的浏览器不支持。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160311022007616-2027338198.jpg" alt=""></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';"><strong><span>下面是其他 CSS 选择器：</span></strong></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">31、:root <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　:root 匹配文档的根元素，在 HTML 中，根元素始终是 html 元素。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">:root</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">#E8E8E8</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，将 HTML 文档的背景设置为浅灰色。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong>IE9+ 以及所以浏览器都支持该选择器，IE8 以及更早版本的浏览器不支持。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">32、:first-line <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　:first-line 用于选择指定选择器的首行。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　该选择器适用于块级元素中。可以使用以下属性：</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　font | color | background |&nbsp;line-height |&nbsp;clear |</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　word-spacing (字间距)  | letter-spacing (字母间距) |</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　vertical-align |&nbsp;text-decoration (文本修饰) &nbsp;| text-transform (指定大小写) </span><span style="font-size: 16px; font-family: 'Microsoft YaHei';">。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:first-line</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，指定页面中所有段落的第一行显示为红色的字体。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">33、:first-letter <span style="color: #008b00;">【CSS1】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　:first-letter 选择器用于选取指定选择器的首字母。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　该选择器仅适用于在块级元素中，可以使用以下属性：</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　font | color | background | margin | padding | border | line-height | float | clear |</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　vertical-align  (垂直对齐，只有在&nbsp;float 为 'none' 时) |&nbsp;</span><span style="font-size: 16px; font-family: 'Microsoft YaHei';">text-decoration | text-transform 。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:first-letter</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    font-size</span>:<span style="color: #0000ff;">32px</span>;
+<span style="color: #008080;">3</span> <span style="color: #ff0000;">    color</span>:<span style="color: #0000ff;">#9B30FF</span>;
+<span style="color: #008080;">4</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　上面的代码，</span><span style="font-size: 16px; font-family: 'Microsoft YaHei';">指定页面中所有段落的第一个字母显示为 32 像素的紫色字体。如果段落的首字符是中文，也会应用此样式。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">34、:lang(language) <span style="color: #008b00;">【CSS2】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　:lang 选择器用于选择带有以指定值开始的 lang 属性的元素。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　该值必须是整个单词，即可是单独的，比如 lang="en"，也可使用连字符 (-) 比如 lang="en-us"。</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">p:lang(en)</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">yellow</span>;
+<span style="color: #008080;">3</span> }
+<span style="color: #008080;">4</span>
+<span style="color: #008080;">5</span> <span style="color: #800000;"><span style="color: #0000ff;">&lt;</span>p <span style="color: #ff0000;">lang</span><span style="color: #0000ff;">="en"&gt;</span> <span style="color: #000000;">CSS :lang selector.</span> <span style="color: #0000ff;">&lt;/</span>p<span style="color: #0000ff;">&gt;</span></span></pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　上面的代码，选择带有以 "en" 开头的 lang 属性值的所有&nbsp;p 元素。</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 'Microsoft YaHei';"><span style="font-family: 'Microsoft YaHei';"><span style="font-size: 16px; line-height: 24px;">下面是 CSS3 中新增加的用于表单的选择器：</span></span></span></strong></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">35、:enabled <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　用于匹配每个启用的元素，主要用于表单元素。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　下面的例子，设置所有 type="text" 的已启用的 input 元素设置背景色：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:enabled<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">input[type="text"]:enabled</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">yellow</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">11</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">12</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">form </span><span style="color: #ff0000;">action</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span>     姓名: <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="text"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="小明"</span> <span style="color: #0000ff;">/&gt;&lt;</span><span style="color: #800000;">br</span><span style="color: #0000ff;">/&gt;</span>
+<span style="color: #008080;">15</span>     爱好: <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="text"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="捣蛋"</span> <span style="color: #0000ff;">/&gt;&lt;</span><span style="color: #800000;">br</span><span style="color: #0000ff;">/&gt;</span>
+<span style="color: #008080;">16</span>     籍贯: <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="text"</span><span style="color: #ff0000;"> disabled value</span><span style="color: #0000ff;">="汉"</span> <span style="color: #0000ff;">/&gt;</span>
+<span style="color: #008080;">17</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">form</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">19</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310212408866-204719587.jpg" alt=""></span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong>IE9+ 以及所有浏览器都支持该选择器，IE8 以及更早版本的浏览器不支持。</span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">36、:disabled <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　用于匹配每个禁用的元素，主要用于表单元素。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　使用上面的例子，设置所有 type="text" 的已禁用的 input 元素设置背景色：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">input[type="text"]:disabled</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background</span>:<span style="color: #0000ff;">#9C9C9C</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310213256038-1755381989.jpg" alt=""></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">37、:checked <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　匹配每个选中的输入元素，仅适用于单选按钮或复选框。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　下面的例子，为所有被选中的 input 元素设置背景色：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:checked<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">input:checked</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">11</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">12</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">form </span><span style="color: #ff0000;">action</span><span style="color: #0000ff;">=""</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="radio"</span><span style="color: #ff0000;"> checked name</span><span style="color: #0000ff;">="like"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="love"</span> <span style="color: #0000ff;">/&gt;</span>喜欢<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">br</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="radio"</span><span style="color: #ff0000;"> name</span><span style="color: #0000ff;">="like"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="noLove"</span> <span style="color: #0000ff;">/&gt;</span>不喜欢<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">br</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="checkbox"</span><span style="color: #ff0000;"> checked value</span><span style="color: #0000ff;">="散步"</span> <span style="color: #0000ff;">/&gt;</span>散步<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">br</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">17</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="checkbox"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="跑步"</span> <span style="color: #0000ff;">/&gt;</span><span style="color: #000000;">跑步
+</span><span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">form</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">19</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">20</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>目前只有 IE9+ 和&nbsp;Opera 浏览器支持该选择器，Chrome 和 Firefox 不支持。而且在 IE9/IE10/IE11 中显示有差异。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 IE9 和 IE10 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310215006522-717929866.jpg" alt=""></span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 IE11 中取消了对复选框的支持，显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310215325663-976154755.jpg" alt=""></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">38、:out-of-range 和 &nbsp;:in-range <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　:out-of-range&nbsp;匹配元素的值在指定区间之外时显示的样式。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　:in-range 匹配元素的值在指定区间时显示的样式。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong>这俩选择器只作用于能指定区间值的元素，例如 input 元素中的 min 和 max 属性。如下：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:out-of-range 和 :in-range<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">input:out-of-range</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    border</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">5px solid red</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #800000;">input:in-range</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #ff0000;">    border</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">5px solid green</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #000000;">输入一个小于 5 或者 大于 10 的值：
+</span><span style="color: #008080;">17</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="number"</span><span style="color: #ff0000;"> min</span><span style="color: #0000ff;">="5"</span><span style="color: #ff0000;"> max</span><span style="color: #0000ff;">="10"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="12"</span> <span style="color: #0000ff;">/&gt;</span>
+<span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="number"</span><span style="color: #ff0000;"> min</span><span style="color: #0000ff;">="5"</span><span style="color: #ff0000;"> max</span><span style="color: #0000ff;">="10"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="8"</span> <span style="color: #0000ff;">/&gt;</span>
+<span style="color: #008080;">19</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span><span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>除了 IE 之外所有浏览器都支持该选择器。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310221558694-2142644394.jpg" alt=""></span></p>
+<h1><span style="font-family: 'Microsoft YaHei'; font-size: 18px; line-height: 1.5;">39、:read-write <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　用于匹配可读及可写的元素，即未设置&nbsp;readonly 属性的元素。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　目前，在大多浏览器中 :read-write 选择器只适应于设置了 input 和 textarea 元素。如下：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:read-write<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">input:read-write</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background-color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">yellow</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="background-color: #f5f5f5; color: #800000;">input:-moz-read-write</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;">11</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background-color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">yellow</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;">12</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>普通的 input 元素：<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input <span style="color: #ff0000;">type</span><span style="color: #0000ff;">="text" </span></span><span style="color: #ff0000;">value</span><span style="color: #0000ff;">="Hello"</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">17</span>
+<span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>只读的 input 元素：<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input <span style="color: #ff0000;">type</span><span style="color: #0000ff;">="text" </span></span><span style="color: #ff0000;">readonly value</span><span style="color: #0000ff;">="Hello"</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">19</span> <span style="color: #0000ff;">&lt;/<span style="color: #800000;">body</span>&gt;</span><span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>除了 IE 之外所有浏览器都支持该选择器，但是 Firefox 需要通过其私有属性 :-moz-read-write&nbsp;才能获得支持 。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 1.5;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310222837397-748954331.jpg" alt=""></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">40、:read-only <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　用于匹配设置了 readonly 属性的元素。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　表单元素可以设置 readonly 属性来定义元素只读。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　</span><span style="font-size: 16px; font-family: 'Microsoft YaHei';"><strong>注意：</strong>目前，在大多数浏览器中&nbsp;:read-only 选择器适用于 input 和 textarea 元素，但是它也适用于设置了 readonly 属性的元素。如下：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">input:read-only</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">3</span> }
+<span style="color: #008080;">4</span> <span style="color: #800000;">input:-moz-read-only</span>{
+<span style="color: #008080;">5</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">red</span>;
+<span style="color: #008080;">6</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>除了 IE 之外所有浏览器都支持该选择器，但是 Firefox 需要通过其私有属性&nbsp;:-moz-read-write&nbsp;才能获得支持 。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310223424538-272411764.jpg" alt=""></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">41、:optional <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　匹配可选的输入元素，在表单元素是可选项时设置指定的样式，即未设置&nbsp;&nbsp;required 属性的表单元素。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　required 属性是 HTML5 新增加的表单属性，用于规定必需在提交表单之前填写输入字段。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　表单元素中如果没有特别设置 required 属性即为可选的。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　<strong>　注意：</strong> :optional 选择器只适用于表单元素：input、select 和 textarea。如下：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:optional<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">input:optional</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background-color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">yellow</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">11</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">12</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>可选的 input 元素：<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="text"</span> <span style="color: #0000ff;">/&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>必填的 input 元素：<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="text"</span><span style="color: #ff0000;"> required </span><span style="color: #0000ff;">/&gt;&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>IE10+ 以及所有浏览器都支持该选择器，IE9 以及更早版本的浏览器不支持。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310233140522-2042993452.jpg" alt=""></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">42、:required <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　用于匹配设置了 required 属性的元素，在表单元素是必填项时设置指定样式。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　表单元素可以使用 required 属性来设置必填项。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong> :required 选择器只适用于表单元素：input、select 和 textarea。如下：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">input:required</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    background-color</span>:<span style="color: #0000ff;">green</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>IE10+ 以及所有浏览器都支持该选择器，IE9 以及更早版本的浏览器不支持。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 IE 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310234155288-1738192916.jpg" alt=""></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">43、:valid <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　匹配输入值为合法的元素，在表单元素的值需要根据指定条件验证时设置指定样式。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong> :valid 选择器只作用于能指定区间值的元素，例如 input 元素中的 min 和 max 属性，及正确的 email 字段，合法的数字字段等。如下：</span></p>
+<div><div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #008080;"> 1</span> <span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 2</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 3</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 4</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 5</span>     <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>:valid<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 6</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;"> 7</span> <span style="background-color: #f5f5f5; color: #800000;">input:valid</span><span style="background-color: #f5f5f5; color: #000000;">{</span>
+<span style="color: #008080;"> 8</span> <span style="background-color: #f5f5f5; color: #ff0000;">    background-color</span><span style="background-color: #f5f5f5; color: #000000;">:</span><span style="background-color: #f5f5f5; color: #0000ff;">green</span><span style="background-color: #f5f5f5; color: #000000;">;</span>
+<span style="color: #008080;"> 9</span> <span style="background-color: #f5f5f5; color: #000000;">}</span>
+<span style="color: #008080;">10</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">style</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">11</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">12</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">13</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>合法邮箱：<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">14</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="email"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="demo@xx.com"</span> <span style="color: #0000ff;">/&gt;</span>
+<span style="color: #008080;">15</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>非法邮箱：<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">16</span> <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">input </span><span style="color: #ff0000;">type</span><span style="color: #0000ff;">="email"</span><span style="color: #ff0000;"> value</span><span style="color: #0000ff;">="demo.com"</span> <span style="color: #0000ff;">/&gt;</span>
+<span style="color: #008080;">17</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #008080;">18</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div><span><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="//common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></span></div></div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>IE10+ 以及所有浏览器都支持该选择器，IE9 以及更早版本的浏览器不支持。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 Chrome 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310235215054-229005173.jpg" alt=""></span></p>
+<h1><span style="font-size: 18px; font-family: 'Microsoft YaHei';">44、:invalid <span style="color: #008b00;">【CSS3】</span></span></h1>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　匹配输入值为非法的元素，在表单元素中的值是非法时设置指定样式。</span></p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">　　<strong>注意：</strong> :invalid&nbsp;选择器只作用于能指定区间值的元素，例如 input 元素中的 min 和 max 属性，及正确的 email 字段，合法的数字字段等。如下：</span></p>
+<div>
+<pre><span style="color: #008080;">1</span> <span style="color: #800000;">input:invalid</span>{
+<span style="color: #008080;">2</span> <span style="color: #ff0000;">    border</span>:<span style="color: #0000ff;">2px solid red</span>;
+<span style="color: #008080;">3</span> }</pre>
+</div>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　<strong>注意：</strong>IE10+ 以及所有浏览器都支持该选择器，IE9 以及更早版本的浏览器不支持。</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;">　　在 IE 中显示如下：</span></p>
+<p><span style="font-family: 'Microsoft YaHei'; font-size: 16px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://images2015.cnblogs.com/blog/836302/201603/836302-20160310235838147-648872577.jpg" alt=""></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 16px; font-family: 'Microsoft YaHei';">目前，在 CSS 中，一共定义了&nbsp;52 个选择器。</span></p>

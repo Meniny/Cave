@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: #1fa2ed;
+  color: #fff;
+}
+
+.start-screen {
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loading {
+  display: flex;
+  margin: 24px 0;
+}
+
+.loading__element {
+  font: normal 100 4rem/1 Roboto;
+  letter-spacing: .5em;
+}
+
+[class*="el"] {
+  -webkit-animation: bouncing 2s infinite ease;
+          animation: bouncing 2s infinite ease;
+}
+
+.el1 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.el2 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.el3 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.el4 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.el5 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.el6 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.el7 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.el8 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.el9 {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+@-webkit-keyframes bouncing {
+  0%, 100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0, 0, 1);
+            transform: scale3d(0, 0, 1);
+  }
+}
+
+@keyframes bouncing {
+  0%, 100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0, 0, 1);
+            transform: scale3d(0, 0, 1);
+  }
+}

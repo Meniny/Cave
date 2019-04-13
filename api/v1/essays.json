@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /essays.json
+---
+{
+  {% assign essays = (site.essays | reverse) %}
+  "essays": [{% for es in essays %}
+        {
+            "content": "{{ es.title }}",
+            "date": "{{ es.date | date: '%b %d, %Y' }}",
+            "img": "{{ site.url | append: site.default_image }}",
+            "excerpt": "{{ es.excerpt | strip_html | replace: '"','' | replace: "'",'' | strip_newlines | slice: 0, 100 }}",
+            "url": "{{ site.url }}{{ es.url }}"
+        }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

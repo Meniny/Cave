@@ -1,0 +1,47 @@
+---
+layout: blank
+body_classes: "wrap"
+---
+{% include skip.html %}
+<link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/postings.css">
+<!--[if lte IE 9]><div class="notice--danger center"><h4>Your browser is quite old!</h4><p>Why not <a href="https://whatbrowser.org/">upgrade to a more modern one</a> to better enjoy this site?</p></div><![endif]-->
+{% include site_logo.html %}
+<div id="main" class="page" role="main">
+  <article class="page__wrap">
+    <header class="page__header">
+      <h1 class="page__title">{{ page.title }}</h1>
+      <p class="page__excerpt">{{ page.description }}</p>
+      <!-- <h2 class="nav-list__title" id="table-of-contents">Table of Contents</h2>
+      <ul class="nav-list">
+        <li><a href="{{ site.url }}/posts/">Blog Postings</a></li>
+        <li><a href="{{ site.url }}/portfolio/">Portfolio</a></li>
+        <li><a href="{{ site.url }}/about/">About</a></li>
+      </ul> -->
+      <div class="page__meta">
+        <span class="taxonomy"><strong><a href="{{ site.url }}/posts/categories/#{{ page.category | replace: ' ', '_' }}">{{ page.category }}</a></strong></span> {% for tag in page.tags %}<span class="taxonomy"><strong><a href="{{ site.url }}/posts/tags/#{{ tag | replace: ' ', '_' }}">#{{ tag }}</a></strong></span> {% endfor %}<span class="read-time">{{ page.date | date: "%b %d, %Y" }}</span>
+      </div><!-- <svg class="icon" width="20px" height="20px"><use xlink:href="https://mademistakes.com/assets/icons/stopwatch.png"></use></svg> -->
+    </header>
+    {% include page_cover.html %}
+    <div class="page__hero">
+      {% if page.img.size > 0 %}
+      {% assign hero = (site.url | append: '/assets/images/posts/' | append: page.img ) %}
+      <noscript>&lt;img src="{{ hero }}" class="image"&gt;</noscript><img data-sizes="auto" src="{{ hero }}" data-srcset="{{ hero }} 20w,
+                  {{ hero }} 320w,
+                  {{ hero }} 768w,
+                  {{ hero }} 1024w,
+                  {{ hero }} 1920w" class="image blur-up lazyautosizes lazyloaded" sizes="922px" srcset="{{ hero }} 20w,
+                  {{ hero }} 320w,
+                  {{ hero }} 768w,
+                  {{ hero }} 1024w,
+                  {{ hero }} 1920w">
+      {% endif %}
+    </div>
+    <section class="page__content">
+      <div>{{ content }}</div>
+      <center>
+        {% if page.next %}<button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}{{ page.next.url }}'">Newer</button>{% endif %}<button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}/posts/archive/'">All</button>{% if page.previous %}<button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}{{ page.previous.url }}'">Older</button>{% endif %}
+    </center>
+      {% include comment.html %}
+    </section>
+  </article>
+</div>

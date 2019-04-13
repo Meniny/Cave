@@ -1,0 +1,5327 @@
+:image_path: https://meniny.cn/assets/images
+:experimental:
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 6
+:toc-title: 索引
+:nofooter:
+:author: 李二狗
+:author_en: Elias Abel
+:mail: admin@meniny.cn
+:date: 2018-08-19
+= image:{image_path}/Nintendo_Switch_Logo.png[!,50] Nintendo Switch 遊戲發售列表
+{author} <{mail}>
+{date}
+
+[subs="attributes"]
+++++
+<center><img alt="Switch" src="{image_path}/Nintendo_Switch_Portable.png" height="200px"></center>
+++++
+
+== 說明
+
+本列表資料以實體版遊戲為主，數位版遊戲資訊因數量眾多僅部分刊登，完整資訊請群友上官網查詢。
+
+本表所刊載之遊戲發售日、語言，並非適用所有地區的版本，購買前建議先至官網確認。
+
+=== 補充
+
+* 日版發售列表
+  ** link:https://www.nintendo.co.jp/schedule/index.html[]
+* 美版發售列表
+  ** link:https://www.nintendo.com/games/coming-soon/#nintendo-switch[]
+* 各國遊戲售價資訊(英文版)
+  ** link:https://eshop.calyh.re/[]
+* 各國遊戲售價資訊(巴友版_吹著魔笛的浮士德 h9856)
+  ** link:http://eshoplist.gameqb.net/[]
+
+== 未定發售日期
+
+[%header,cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|遊戲名稱
+|發售日期
+|类型
+|語言
+|開發商
+|體驗版
+|備註
+
+// tr
+
+|傳奇釣魚 (Legendary Fishing)
+|未定
+|ETC
+|英
+|Ubisoft
+|
+|
+
+// tr
+
+|毀滅戰士DOOM：永恆
+|未定
+|STG
+|中英日
+|Bethesda
+|
+|
+
+// tr
+
+|信長之野望・大志 威力加強版
+|未定
+|SLG
+|日
+|コーエーテクモ
+|
+|
+
+// tr
+
+|熱情對戰麻雀 AXES 雀
+|未定
+|ETC
+|日
+|彩京
+|
+|
+
+// tr
+
+|巫師交響曲
+|未定
+|AVG
+|日
+|ARC SYSTEM WORKS
+|
+|
+
+// tr
+
+|假面騎士 KAMEN RIDER 巔峰亂鬥
+|未定
+|ACT
+|中日
+|萬代南夢宮
+|
+|
+
+// tr
+
+|世界樹的迷宮
+|未定
+|RPG
+|日
+|Atlus
+|
+|
+
+// tr
+
+|劍與勇士 2：末日大混戰 (Swords & Soldiers II Shawarmageddon)
+|未定
+|SLG
+|英
+|Ronimo Games
+|
+|
+
+// tr
+
+|不可思議之夢蝶 (Incredible Mandy)
+|未定
+|AAVG
+|英
+|Dotoyou Games
+|
+|
+
+// tr
+
+|Dead or School
+|未定
+|ARPG
+|日
+|Studio Nanafushi
+|
+|
+
+// tr
+
+|白貓 New Project
+|未定
+|ARPG
+|日
+|Colopl
+|
+|
+
+// tr
+
+|宵闇夢想家 (Yoiyami Dreamer)
+|未定
+|ACT
+|日
+|Tripy Room
+|
+|
+
+// tr
+
+|戰甲神兵Warframe
+|未定
+|ACT
+|中英日
+|DIGITAL EXTREMES
+|
+|
+
+// tr
+
+|獨立遊戲大亂鬥 (Indie Pogo)
+|未定
+|ETC
+|英
+|Lowe Bros. Studios
+|
+|
+
+// tr
+
+|AI：Sominum Files
+|未定
+|AVG
+|中英日
+|SPIKE CHUNSOFT
+|
+|
+
+// tr
+
+|戰鬥公主瑪德琳 (Battle Princess Madelyn)
+|未定
+|ACT
+|英
+|Casual Bit Games
+|
+|
+
+// tr
+
+|喵咪寶貝
+|未定
+|ETC
+|日
+|萬代南夢宮
+|
+|
+
+// tr
+
+|地獄救援 (Pinstripe)
+|未定
+|AVG
+|英
+|Thomas Brush
+|
+|
+
+// tr
+
+|守護者冒險 (Defender's Quest)
+|未定
+|RPG
+|中英日
+|Level Up Labs
+|
+|
+
+// tr
+
+|機械學報告 ELITE
+|未定
+|AVG
+|日
+|5pb
+|
+|
+
+// tr
+
+|Temtem
+|未定
+|SLG
+|英
+|Crema
+|
+|
+
+// tr
+
+|銀河戰士 Prime 4
+|未定
+|AVG
+|日英
+|任天堂
+|
+|
+
+// tr
+
+|超級運動會 R (Hyper Sports R)
+|未定
+|SPT
+|日英
+|KONAMI
+|
+|
+
+// tr
+
+|My Friend Pedro
+|未定
+|ACT
+|英
+|Dead Toast
+|
+|
+
+// tr
+
+|怪物男孩與被詛咒的王國 (Monster Boy and the Cursed Kingdom)
+|未定
+|ACT
+|英
+|FDG Entertainment
+|
+|
+
+// tr
+
+|形影不離 (Indivisible)
+|未定
+|ACT
+|英
+|Lab Zero Games
+|
+|
+
+// tr
+
+|純白鋼鐵之 X THE OUT OF GUNVOLT
+|未定
+|A.AVG
+|日
+|INTI CREATES
+|
+|
+
+// tr
+
+|舞華蒼魔鏡
+|未定
+|STG
+|日
+|Souvenir Circ
+|
+|
+
+// tr
+
+|勇者戰機少女
+|未定
+|RPG
+|日
+|Compile Heart
+|
+|
+
+// tr
+
+|另一個伊甸 跨越時空的貓
+|未定
+|RPG
+|日
+|Wright Flyer Studios
+|
+|
+
+// tr
+
+|救火者 (Firewatch)
+|未定
+|AVG
+|英
+|Campo Santo
+|
+|
+
+// tr
+
+|奈莉：席林之塔 (NAIRI: TOWER OF SHIRIN)
+|未定
+|AVG
+|英
+|Home Bear Studio
+|
+|
+
+// tr
+
+|惡劣北境 (Bad North)
+|未定
+|SLG
+|英
+|RAW FURY
+|
+|
+
+// tr
+
+|眾神灰燼：救贖 (Ash of Gods: Redemption)
+|未定
+|SRPG
+|英
+|AurumDust
+|
+|
+
+// tr
+
+|父礙 (Remothered: Tormented Fathers)
+|未定
+|AVG
+|英
+|Stormind Games
+|
+|
+
+// tr
+
+|榛果監牢 (Hazelnut Bastille)
+|未定
+|RPG
+|日
+|Aloft Studios
+|
+|
+
+// tr
+
+|為了國王(For The King)
+|未定
+|SRPG
+|英
+|IronOak Games
+|
+|
+
+// tr
+
+|機獸新世紀
+|未定
+|SLG
+|日
+|TAKARA TOMY
+|
+|
+
+// tr
+
+|深海水族館 (Abyssrium)
+|未定
+|ETC
+|英日
+|Idle Idea Factory
+|
+|
+
+// tr
+
+|七騎士(Seven Knights )
+|未定
+|MMOLG
+|韓
+|NetMarble
+|
+|
+
+// tr
+
+|『Re：傳奇』
+|未定
+|RPG
+|英日
+|Magnus Games
+|
+|
+
+// tr
+
+|Rabi-Ribi
+|未定
+|ACT
+|中英日
+|CreSpirit
+|
+|
+
+// tr
+
+|西風狂詩曲-重製版
+|未定
+|SRPG
+|日英韓
+|SOFTMAX
+|
+|
+
+// tr
+
+|勇者鬥惡龍11：追尋逝去的時光
+|未定
+|RPG
+|日
+|史克威爾.艾尼克斯
+|
+|
+
+// tr
+
+|魔兵驚天錄3
+|未定
+|ACT
+|英
+|白金工作室
+|
+|
+
+// tr
+
+|東方天空競技場
+|未定
+|FTG
+|日
+|Cubetype
+|
+|
+
+// tr
+
+|阿泰諾之刃2
+|未定
+|A.RPG
+|日
+|Corecell Technology
+|
+|
+
+// tr
+
+|ANONYMOUS;CODE (匿名代碼)
+|未定
+|AVG
+|日
+|5pb.Games
+|
+|
+
+// tr
+
+|命運編年史 Destiny Chronicles
+|未定
+|ARPG
+|日英
+|Kickstarter
+|
+|
+
+// tr
+
+|Hollow
+|未定
+|AVG
+|英
+|Forever Entertainment SA
+|
+|
+
+// tr
+
+|アヴァベルオンライン-絆の塔- (AVABEL ONLINE)
+|未定
+|MMOLG
+|日
+|アソビモ株式会社
+|
+|
+
+// tr
+
+|星際異攻隊
+|未定
+|ACT
+|英
+|Telltale Games
+|
+|
+
+// tr
+
+|西伯利亞3
+|未定
+|A.AVG
+|中英德西俄韓葡捷
+|Microids
+|
+|
+
+// tr
+
+|德貝賽馬
+|未定
+|SLG
+|日
+|DRECOM
+|
+|
+
+// tr
+
+|牧場物語
+|未定
+|SLG
+|日
+|Marvelous Interactive
+|
+|
+
+// tr
+
+|天空的季節
+|未定
+|AVG
+|英
+|ANY ARTS
+|
+|
+
+// tr
+
+|State of Mind
+|未定
+|A.AVG
+|英
+|Daedalic Entertainment
+|
+|
+
+// tr
+
+|Zombie Vikings
+|未定
+|ACT
+|英
+|Zoink
+|
+|
+
+// tr
+
+|Riverside
+|未定
+|A.AVG
+|英
+|Zockrates Laboratories
+|
+|
+
+// tr
+
+|Moon Child
+|未定
+|RPG
+|英
+|Kefir Games Studio
+|
+|
+
+// tr
+
+|Audio Hero
+|未定
+|ETC
+|英
+|QubicGames
+|
+|
+
+// tr
+
+|2 Fast 4 Gnomz
+|未定
+|ETC
+|英
+|QubicGames
+|
+|
+
+// tr
+
+|真女神轉生 5
+|未定
+|RPG
+|日
+|ATLUS
+|
+|
+
+// tr
+
+|1001Spikes
+|未定
+|ETC
+|英
+|Nicalis
+|
+|
+
+// tr
+
+|Morphies Law
+|未定
+|STG
+|日英
+|Cosmoscope GmbH
+|
+|
+
+// tr
+
+|瘋狂正義 (Crazy Justice)
+|未定
+|STG
+|英
+|Black Riddles Studios
+|
+|
+
+// tr
+
+|聖女戰旗
+|未定
+|SRPG
+|中日英
+|杉果遊戲
+|
+|
+|===
+
+// tr
+
+== 2019 年發售
+
+[%header,cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|遊戲名稱
+|發售日期
+|类型
+|語言
+|開發商
+|體驗版
+|備註
+
+// tr
+
+|金屬之子 (Metallic Child)
+|2019預定
+|ACT
+|日英韓
+|Studio HG
+|
+|
+
+// tr
+
+|終點咖啡館 (Necrobarista)
+|2019預定
+|AVG
+|中英
+|Route 59
+|
+|
+
+// tr
+
+|崛起的艾特娜 (Rise Eterna )
+|2019預定
+|SLG
+|日英
+|Forever Entertainment
+|
+|
+
+// tr
+
+|戰場的賦格
+|2019預定
+|SLG
+|日英
+|CyberConnect 2
+|
+|
+
+// tr
+
+|數碼寶貝求生者
+|2019預定
+|SRPG
+|日英
+|萬代南夢宮
+|
+|
+
+// tr
+
+|骷髏少女 2 Encore
+|2019預定
+|FTG
+|英
+|Lab Zero Games
+|
+|
+
+// tr
+
+|卡利古拉The Caligula Effect: Overdose
+|2019預定
+|RPG
+|日英
+|FuRyu
+|
+|
+
+// tr
+
+|喵咪鬥惡龍 2
+|2019預定
+|ARPG
+|中日英
+|The GentleBros
+|
+|
+
+// tr
+
+|黑貓偵探：獸皮之下 (Blacksad：Under the Skin)
+|2019預定
+|AVG
+|英
+|Microids
+|
+|
+
+// tr
+
+|DAEMON X MACHINA (機械成魔)
+|2019預定
+|ACT
+|日英
+|MARVELOUS
+|
+|
+
+// tr
+
+|精靈寶可夢 最新作
+|2019預定
+|RPG
+|中日英
+|任天堂
+|
+|
+
+// tr
+
+|耀西YOSHI
+|2019預定
+|ACT
+|日英
+|任天堂
+|
+|
+
+// tr
+
+|聖火降魔錄FIRE EMBLEM 風花雪月
+|2019春季
+|SLG
+|中日英
+|任天堂
+|
+|
+
+// tr
+
+|Ninjala
+|2019春季
+|ACT
+|日英
+|GungHo
+|
+|
+
+// tr
+
+|太空戰鬥機 宇宙合集
+|2019.2.28
+|STG
+|日
+|TAITO
+|
+|
+|===
+
+// tr
+
+== 2018 年發售
+
+[%header,cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|遊戲名稱
+|發售日期
+|类型
+|語言
+|開發商
+|體驗版
+|備註
+
+// tr
+
+|暗黑破壞神 Ⅲ：永恆之戰版
+|2018預定
+|ARPG
+|中日英
+|Blizzard
+|
+|
+
+// tr
+
+|The MISSING－J.J.馬克菲爾德與追憶島－
+|2018預定
+|AAVG
+|英
+|Arc System Works
+|
+|
+
+// tr
+
+|極惡頭目 (Nefarious)
+|2018預定
+|ACT
+|英
+|StarBlade
+|
+|
+
+// tr
+
+|我的世界：劇情模式 第二季
+|2018預定
+|ETC
+|英
+|Mojang
+|
+|
+
+// tr
+
+|身為警察 2
+|2018預定
+|AVG
+|中英
+|THQ Nordic
+|
+|
+
+// tr
+
+|代達洛斯：黃金爵士樂的覺醒
+|2018預定
+|ACT
+|中日
+|Arc System Works
+|
+|
+
+// tr
+
+|企鵝君大戰
+|2018預定
+|ETC
+|英
+|Dispatch Games
+|
+|
+
+// tr
+
+|WILL：美好世界
+|2018預定
+|AVG
+|日英
+|Circle Entertainment
+|
+|
+
+// tr
+
+|我在波西亞的時間
+|2018預定
+|AVG
+|中英
+|Team17
+|
+|
+
+// tr
+
+|花園之間 (The Gardens Between)
+|2018預定
+|AVG
+|英
+|The Voxel Agents
+|
+|
+
+// tr
+
+|皇家英雄學院：英雄學園物語 (Valthirian Arc: Hero School Story)
+|2018預定
+|RPG
+|日英
+|PQube
+|
+|
+
+// tr
+
+|加油！超級足球 (Ganbare! Super Strikers)
+|2018預定
+|SLG
+|日英
+|Rese
+|
+|
+
+// tr
+
+|非常英雄 (Unruly Heroes)
+|2018預定
+|AAVG
+|中英
+|Magic Design Studios
+|
+|
+
+// tr
+
+|奈爾克與傳說之鍊金術士們 新大地之鍊金工房
+|2018預定
+|RPG
+|中日
+|コーエーテクモ
+|
+|
+
+// tr
+
+|Killer Queen Black
+|2018預定
+|ACT
+|英
+|liquidbit
+|
+|
+
+// tr
+
+|卡卡頌 Carcassonne
+|2018預定
+|ETC
+|英
+|Z-Man Games
+|
+|
+
+// tr
+
+|上古卷軸：傳奇
+|2018預定
+|ETC
+|英
+|Bethesda
+|
+|
+
+// tr
+
+|時空幻境 宵星傳奇HD 版
+|2018預定
+|RPG
+|中日英
+|萬代南夢宮
+|
+|
+
+// tr
+
+|超級躲避球節奏 (Super Dodgeball Beats)
+|2018預定
+|ETC
+|英
+|Finalboss Games
+|
+|
+
+// tr
+
+|音速小子 搭檔組隊大賽車 (Team Sonic Racing
+|2018預定
+|RAC
+|中日英
+|SEGA
+|
+|
+
+// tr
+
+|光明旅者 (Hyper Light Drifter)
+|2018預定
+|ARPG
+|英
+|Heart Machine
+|
+|
+
+// tr
+
+|峰子的夜市 (Mineko's Night Market)
+|2018預定
+|AVG
+|日
+|Meowza Games
+|
+|
+
+// tr
+
+|火星地平線 (Mars Horizon)
+|2018預定
+|SLG
+|英
+|Auroch Digital
+|
+|
+
+// tr
+
+|RemiLore ～少女與異世界與魔導書～
+|2018預定
+|ACT
+|日
+|Pixellore&REMIMORY
+|
+|
+
+// tr
+
+|聖騎士之戰 XX Accent Core Plus R
+|2018預定
+|FTG
+|日英
+|Arc Systems Works
+|
+|
+
+// tr
+
+|眾神之鬥 (Fight of Gods)
+|2018預定
+|FTG
+|中日
+|賈船
+|
+|
+
+// tr
+
+|青梅竹馬是人魚姬(僕の彼女は人魚姫)
+|2018預定
+|AVG
+|中日
+|賈船
+|
+|
+
+// tr
+
+|強敵巨炮 (Rival Megagun)
+|2018預定
+|STG
+|日
+|Spacewave Software
+|
+|
+
+// tr
+
+|YU-NO 在這世界盡頭詠唱愛的少女
+|2018預定
+|AVG
+|日
+|MAGES.
+|
+|
+
+// tr
+
+|戰紋 (Wargroove)
+|2018預定
+|SLG
+|英
+|Chucklefish
+|
+|
+
+// tr
+
+|妖怪手錶 4
+|2018預定
+|RPG
+|日
+|LEVEL5
+|
+|
+
+// tr
+
+|永恒之柱 2：死亡之火 (Pillars of Eternity II：Deadfire)
+|2018預定
+|RPG
+|中英
+|Obsidian
+|
+|
+
+// tr
+
+|Those Who Remain
+|2018預定
+|AVG
+|英
+|Camel 101
+|
+|
+
+// tr
+
+|波西亞時光
+|2018預定
+|RPG
+|中日英
+|Pathea Games
+|
+|
+
+// tr
+
+|百變恰吉(GetAmped Mobile)
+|2018預定
+|ACT
+|日
+|CyberStep
+|
+|
+
+// tr
+
+|黎明英雄破壞者
+|2018預定
+|ACT
+|日
+|CyberStep
+|
+|
+
+// tr
+
+|鬼斬
+|2018預定
+|MMOLG
+|日
+|CyberStep
+|
+|
+
+// tr
+
+|救贖之路 (Sinner: Sacrifice for Redemption)
+|2018預定
+|ACT
+|中日英
+|Another Indie Studio
+|
+|
+
+// tr
+
+|龍血一族：死亡印記 (Dragon:marked for death)
+|2018預定
+|RPG
+|英
+|INTI CREATES
+|
+|
+
+// tr
+
+|Indivisible
+|2018預定
+|ARPG
+|英
+|505GAMES
+|
+|
+
+// tr
+
+|恐懼效應
+|2018預定
+|AVG
+|日
+|史克威爾.艾尼克斯
+|
+|
+
+// tr
+
+|熱血硬派國雄君・世界經典全輯
+|2018預定
+|ACT
+|日
+|Arc System Works
+|
+|
+
+// tr
+
+|特拉維斯再戰江湖：英雄不再
+|2018預定
+|ACT
+|日
+|Marvelous Interactive
+|
+|
+
+// tr
+
+|血咒之城
+|2018預定
+|ACT
+|日英
+|Koji Igarashi
+|
+|
+
+// tr
+
+|像素填色 (Piczle Colors)
+|2018預定
+|ETC
+|日英
+|Score Studios
+|
+|
+
+// tr
+
+|The Sacred Hero
+|2018預定
+|RPG
+|英
+|SiMPLiSTiC
+|
+|
+
+// tr
+
+|東京暗影－追憶－ (TOKYO DARK -Remembrance-)
+|2018冬季
+|AVG
+|日
+|史克威爾.艾尼克斯
+|
+|
+
+// tr
+
+|Mercenaries Saga 傭兵傳說 虛偽的不死鳥
+|2018秋季
+|SRPG
+|日
+|Rideon Japan
+|
+|
+
+// tr
+
+|方塊方舟
+|2018秋季
+|ETC
+|英
+|Studio Wildcard
+|
+|
+
+// tr
+
+|方舟：生存進化
+|2018秋季
+|ACT
+|英
+|Studio Wildcard
+|
+|
+
+// tr
+
+|WASTELAND 2
+|2018秋季
+|SLG
+|英
+|MachaOn
+|
+|
+
+// tr
+
+
+
+|傳說對決 Arena of Valor
+|2018秋季
+|ACT
+|中日英
+|騰訊
+|
+|Beta版免費配信
+
+// tr
+
+|大廈管理者：建築師版 (Project Highrise: Architect’s Edition)
+|2018秋季
+|SLG
+|英
+|Kalypso
+|
+|
+
+// tr
+
+|高速爭鋒 (Speed Brawl)
+|2018夏季
+|ACT
+|英
+|Kongregate
+|
+|
+
+// tr
+
+|食魂徒
+|2018夏季
+|STG
+|日英韓
+|DeerFarm
+|
+|
+
+// tr
+
+|NBA 街頭籃球 2 (NBA Playgrounds 2)
+|2018夏季
+|SPG
+|中英
+|Saber Interactive
+|
+|
+
+// tr
+
+|惡果之地 (Juicy Realm)
+|2018夏季
+|ACT
+|中日英
+|XD Network
+|
+|
+
+// tr
+
+|閃電十一人:阿瑞斯的天秤
+|2018夏季
+|SPT
+|日
+|LEVEL5
+|
+|
+
+// tr
+
+|勇者鬥惡龍 創世小玩家2
+|2018春季
+|ETC
+|日
+|史克威爾.艾尼克斯
+|
+|
+
+// tr
+
+|Pode
+|2018春季
+|AVG
+|英
+|Henchman＆Goon
+|
+|
+
+// tr
+
+|憎惡之西 (West of Loathing)
+|2018春季
+|AVG
+|英
+|Asymetric
+|
+|
+
+// tr
+
+|記憶之歌
+|2018春季
+|AVG
+|日英
+|PureWish
+|
+|
+
+// tr
+
+|Gris
+|2018.12月
+|AVG
+|日英
+|Nomada Studio
+|
+|
+
+// tr
+
+|桃色彈珠台-閃亂神樂 (PEACH BALL 閃乱カグラ)
+|2018.12.13
+|ETC
+|日
+|Marvelous
+|
+|
+
+// tr
+
+|任天堂明星大亂鬥 SPECIAL
+|2018.12.7
+|ACT
+|中日英
+|任天堂
+|
+|
+
+// tr
+
+|ROBOTICS;NOTES DaSH
+|2018.11.22
+|AVG
+|日
+|5pb.
+|
+|
+
+// tr
+
+|精靈寶可夢 Let's GO 皮卡丘 / 伊布
+|2018.11.16
+|RPG
+|中日英
+|任天堂
+|
+|
+
+// tr
+
+|RPG 製作大師 MV Trinity
+|2018.11.15
+|RPG
+|日英
+|角川
+|
+|
+
+// tr
+
+|英勇之心：偉大戰爭
+|2018.11.8
+|AVG
+|英
+|UBI Soft
+|
+|
+
+// tr
+
+|體感嘉年華
+|2018.11.6
+|ETC
+|中英
+|2K
+|
+|
+
+// tr
+
+|術士 2：弒神者 (Warlocks 2：God Slayers)
+|2018.10月
+|ARPG
+|英
+|Fat Dog Games
+|
+|
+
+// tr
+
+|逃脫者 2
+|2018.10.30
+|ETC
+|英
+|Team 17
+|
+|
+
+// tr
+
+|告別回憶-無垢少女
+|2018.10.25
+|AVG
+|中日
+|5pb
+|
+|
+
+// tr
+
+|野良與皇女與流浪貓之心 HD
+|2018.10.25
+|AVG
+|日
+|HARUKAZE
+|
+|
+
+// tr
+
+|夜迴與深夜迴
+|2018.10.25
+|AVG
+|中日
+|日本一
+|
+|
+
+// tr
+
+|戰鬥陀螺最新作
+|2018.10.25
+|AVG
+|日
+|Furyu
+|
+|
+
+// tr
+
+|舞力全開 2019 (JUST DANCE 2019)
+|2018.10.23
+|ETC
+|日英
+|UBI Soft
+|
+|
+
+// tr
+
+|黑暗靈魂 復刻版
+|2018.10.18
+|ACT
+|中日英
+|萬代南夢宮
+|
+|
+
+// tr
+
+|樂高 DC 超級反派
+|2018.10.17
+|ACT
+|中英
+|Warner Bros.
+|
+|
+
+// tr
+
+|銀河聯軍：阿特拉斯之戰 (Starlink)
+|2018.10.16
+|AAVG
+|中英
+|UBI Soft
+|
+|
+
+// tr
+
+|班迪與墨水機器 (Bendy and the Ink Machine)
+|2018.10.12
+|AVG
+|英
+|TheMeatly Games
+|
+|
+
+// tr
+
+|光明之子
+|2018.10.11
+|RPG
+|英
+|UBI Soft
+|
+|
+
+// tr
+
+|超級瑪利歐派對
+|2018.10.5
+|ETC
+|中日英
+|任天堂
+|
+|
+
+// tr
+
+|使命 × 工作 (Work x Work)
+|2018.10.4
+|RPG
+|日
+|FURYU
+|
+|
+
+// tr
+
+|すみっコぐらし
+|2018.10.4
+|ETC
+|日
+|NIPPON COLUMBIA
+|
+|
+
+// tr
+
+|洛克人 11 命運的齒輪！！
+|2018.10.2
+|ACT
+|中日英
+|CAPCOM
+|
+|日版為2018.10.4
+
+// tr
+
+|南方四賤客：真實之杖
+|2018.9月
+|RPG
+|日英
+|Ubisoft
+|
+|
+
+// tr
+
+|V-Rally 4
+|2018.9月
+|RAC
+|英
+|Kylotonn Racing Games
+|
+|
+
+// tr
+
+|FIFA 19
+|2018.9.28
+|SPT
+|日英
+|EA
+|
+|
+
+// tr
+
+|NORN9 LOFN
+|2018.9.27
+|AVG
+|日
+|IDEA FACTORY
+|
+|
+
+// tr
+
+|MotoGP 18
+|2018.9.27
+|RAC
+|日英
+|Milestone
+|
+|
+
+// tr
+
+|美麗新世界 -Final Remix-
+|2018.9.27
+|ARPG
+|中日
+|史克威爾.艾尼克斯
+|無
+|中文版發售日未定
+
+// tr
+
+|七龍珠 FighterZ
+|2018.9.27
+|FTG
+|中日英
+|萬代南夢宮
+|有
+|2018.8.10~8.12Beta 測試
+
+// tr
+
+|無雙 OROCHI 蛇魔 3
+|2018.9.27
+|ACT
+|中日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|勇者戰機少女 世界啊，宇宙啊，刮目相看吧！！終極 RPG 宣言！！
+|2018.9.27
+|RPG
+|中日
+|Compile Heart
+|無
+|
+
+// tr
+
+|戰場女武神 4
+|2018.9.27
+|SRPG
+|中日英
+|SEGA
+|有
+|
+
+// tr
+
+|魯弗蘭的地下迷宮與魔女的旅團
+|2018.9.27
+|RPG
+|中日英
+|日本一
+|無
+|
+
+// tr
+
+|異度神劍 2：黃金之國 伊拉
+|2018.9.21
+|RPG
+|中日英
+|任天堂
+|無
+|為異度神劍2之前傳章節，無本傳遊戲片亦可獨立遊玩
+
+// tr
+
+|彩京精選 Vol.1
+|2018.9.21
+|STG
+|中英
+|彩京
+|無
+|
+
+// tr
+
+|『亞蘭德的鍊金術士』三部曲
+|2018.9.20
+|RPG
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|ニル・アドミラリの天秤 色ドリ撫子
+|2018.9.20
+|AVG
+|日
+|IDEA FACTORY
+|無
+|
+
+// tr
+
+|命運石之門Steins;Gate Elite
+|2018.9.20
+|AVG
+|日
+|5pb
+|無
+|
+
+// tr
+
+|Undertale
+|2018.9.15
+|RPG
+|日英
+|Toby Fox
+|無
+|
+
+// tr
+
+|任天堂實驗室 DRIVE KIT (3)
+|2018.9.14
+|ETC
+|日英
+|任天堂
+|無
+|
+
+// tr
+
+|NBA 2K19
+|2018.9.11
+|SPT
+|中英
+|2K
+|無
+|20周年紀念版於 2018.9.7上市
+
+// tr
+
+|SNK 女傑狂熱大亂鬥 (ヒロインズ Tag Team Frenzy)
+|2018.9.6
+|FTG
+|中日英
+|SNK
+|無
+|
+
+// tr
+
+|忍刃：胡蘿蔔激突 (Ninjin: Clash of Carrots)
+|2018.9.4
+|ACT
+|英
+|Modus Games
+|無
+|
+
+// tr
+
+|荒野遊俠 2 導演剪輯版 (Wastleland 2：Director's Cut)
+|2018.8月
+|SRPG
+|英
+|inXile
+|無
+|
+
+// tr
+
+|Penguin Wars
+|2018.8月
+|ETC
+|中英
+|City Connection
+|無
+|
+
+// tr
+
+|忍者信使 (The Messenger)
+|2018.8.30
+|ACT
+|英
+|Devolver Digital
+|無
+|
+
+// tr
+
+|自由星球 (Freedom Planet)
+|2018.8.30
+|ACT
+|日英
+|Marvelous Games
+|無
+|
+
+// tr
+
+|方塊創造者 X
+|2018.8.30
+|ETC
+|中韓
+|ARC SYSTEM WORKS
+|無
+|
+
+// tr
+
+|刃之異邦人 Blade Strangers
+|2018.8.30
+|FTG
+|中日
+|Pikii
+|無
+|
+
+// tr
+
+|世界終末症候群 ( WORLDEND SYNDROME )
+|2018.8.30
+|AVG
+|日
+|ARC SYSTEM WORKS
+|無
+|
+
+// tr
+
+|寶貝龍咖啡廳 -秘密之龍與驚奇島嶼-
+|2018.8.30
+|SLG
+|中日
+| Marvelous Inc.
+|無
+|
+
+// tr
+
+|Psyvariar Delta
+|2018.8.30
+|STG
+|中日英
+|City Connection
+|無
+|
+
+// tr
+
+|獵魔奇俠：過度殺戮版 (Victor Vran：Overkill Edition)
+|2018.8.28
+|ARPG
+|中英
+|Haemimont Games
+|無
+|
+
+// tr
+
+|螢幕判官 (Behind the Screen)
+|2018.8.23
+|AVG
+|中日英
+|賈船
+|無
+|
+
+// tr
+
+|爆破青蛙卡羅 (Kero Blaster)
+|2018.8.23
+|ACT
+|英日
+|天谷大輔
+|無
+|
+
+// tr
+
+|我的英雄學院 唯我正義
+|2018.8.23
+|ACT
+|中日
+|萬代南夢宮
+|無
+|中文版將於2018.10月推出
+
+// tr
+
+|陰屍路：最終章
+|2018.8.14
+|AVG
+|英
+|Telltale
+|無
+|
+
+// tr
+
+|Minit
+|2018.8.9
+|AVG
+|英
+|Kitty Calis
+|無
+|
+
+// tr
+
+|偵探神宮寺三郎 稜鏡之眼
+|2018.8.9
+|AVG
+|日
+|ARC SYSTEM WORKS
+|無
+|
+
+// tr
+
+|淑女雷頓 富豪王亞利雅德涅的陰謀DX
+|2018.8.9
+|AVG
+|日
+|LEVEL5
+|無
+|
+
+// tr
+
+|大神 絕景版
+|2018.8.9
+|AVG
+|日
+|CAPCOM
+|無
+|
+
+// tr
+
+|死亡細胞
+|2018.8.7
+|ACT
+|中英
+|Motion Twin
+|無
+|
+
+// tr
+
+|煮過頭 2 (Overcooked 2)
+|2018.8.7
+|ETC
+|中日英
+|Ghost Town Games
+|無
+|
+
+// tr
+
+|偶像破壞者 (Iconoclasts)
+|2018.8.2
+|ACT
+|日英
+|Dangen Entertainment
+|無
+|
+
+// tr
+
+|鹽與聖所 (Salt and Sanctuary)
+|2018.8.2
+|ACT
+|中英
+|Ska Studios
+|無
+|零售版於2018.10.30發售
+
+// tr
+
+|繪圖方塊 S2
+|2018.8.2
+|ETC
+|日
+|ジュピター
+|無
+|
+
+// tr
+
+|槍、血、義大利黑手黨 2 (GUNS,GORE&CANNOLI2)
+|2018.8.2
+|ACT
+|中日英
+|Crazy Monkey Studios
+|無
+|
+
+// tr
+
+|公主密碼 EX
+|2018.8.2
+|ARPG
+|日
+|Pikii
+|無
+|
+
+// tr
+
+|職業家庭棒球 EVOLUTION
+|2018.8.2
+|SPT
+|日
+|萬代南夢宮
+|無
+|
+
+// tr
+
+|SaGa 緋紅恩典 緋色的野望
+|2018.8.2
+|RPG
+|日
+|史克威爾.艾尼克斯
+|無
+|
+
+// tr
+
+|泰坦任務
+|2018.7.31
+|ARPG
+|中日英
+|THQ Nordic
+|無
+|
+
+// tr
+
+|歡樂假期
+|2018.7.27
+|ETC
+|日英
+|萬代南夢宮
+|無
+|
+
+// tr
+
+|像素連線 DX 之 500 多道謎題
+|2018.7.26
+|ETC
+|日英
+|Score Studios
+|無
+|
+
+// tr
+
+|東方蒼神緣起 V
+|2018.7.26
+|RPG
+|日
+|Mediascape
+|無
+|
+
+// tr
+
+|高高興興動物樂園
+|2018.7.26
+|ETC
+|中日英
+|columbia
+|有
+|
+
+// tr
+
+|魔界戰記 Disgaea 精煉版
+|2018.7.26
+|RPG
+|中日英
+|日本一
+|無
+|中文版為2018.8.9
+
+// tr
+
+|洛克人X1~X8
+|2018.7.26
+|ACT
+|中日英
+|CAPCOM
+|無
+|
+
+// tr
+
+|暮蟬鳴泣時 奉
+|2018.7.26
+|AVG
+|日
+|龍騎士07 Project
+|無
+|
+
+// tr
+
+|大圖書館的牧羊人-Library Party
+|2018.7.26
+|AVG
+|日
+|ARIA
+|無
+|
+
+// tr
+
+|旗幟傳說 3
+|2018.7.24
+|RPG
+|英
+|Stoic Studio
+|無
+|
+
+// tr
+
+|探險活寶：海盜的英雄寶典
+|2018.7.20
+|AVG
+|英
+|Climax Studios
+|無
+|
+
+// tr
+
+|Ghost 1.0
+|2018.7.19
+|ACT
+|英
+|Unepic
+|無
+|
+
+// tr
+
+|香腸運動俱樂部 (Sausage Sports Club)
+|2018.7.19
+|ETC
+|英
+|Chris Wade
+|無
+|
+
+// tr
+
+|太鼓達人
+|2018.7.19
+|ETC
+|中日英
+|萬代南夢宮
+|有
+|
+
+// tr
+
+|膽識與榮耀
+|2018.7.19
+|ACT
+|英
+|tinyBuild
+|無
+|
+
+// tr
+
+|封鎖惡夢 (Closed Nightmare)
+|2018.7.19
+|AVG
+|中日
+|日本一
+|無
+|
+
+// tr
+
+|麋鹿人 (Mooseman)
+|2018.7.18
+|AVG
+|英
+|Vladimir Beletsky
+|無
+|
+
+// tr
+
+|音速小子 狂熱 PLUS
+|2018.7.18
+|ACT
+|中日英
+|SEGA
+|無
+|
+
+// tr
+
+|命運之手 2
+|2018.7.17
+|ARPG
+|英
+|Defiant Development
+|無
+|
+
+// tr
+
+|全明星水果賽車
+|2018.7.13
+|RAC
+|中英
+|PQube Limited
+|無
+|
+
+// tr
+
+|前進！奇諾比奧隊長
+|2018.7.13
+|ACT
+|日英
+|任天堂
+|有
+|
+
+// tr
+
+|八方旅人計畫 Project OCTOPATH TRAVELER
+|2018.7.13
+|RPG
+|日英
+|史克威爾.艾尼克斯
+|有
+|
+
+// tr
+
+|送り犬
+|2018.7.12
+|AVG
+|日
+|メビウス
+|無
+|
+
+// tr
+
+|燃燒星 (Burnstar)
+|2018.7.12
+|ETC
+|英
+|Nerve Software LLC
+|無
+|
+
+// tr
+
+|光明之響 龍奏回音
+|2018.7.11
+|RPG
+|中日
+|SEGA
+|有
+|歐美ESHOP提供DEMO下載
+
+// tr
+
+|20XX
+|2018.7.10
+|ACT
+|中英
+|Batterystaple Games
+|無
+|
+
+// tr
+
+|樂高超人特攻隊
+|2018.7.6
+|ACT
+|中日英
+|Warner Bros.
+|無
+|
+
+// tr
+
+|曉之爆裂者
+|2018.7.5
+|ACT
+|中日
+|Cyberstep
+|無
+|免費下載
+
+// tr
+
+|口袋大戰pocket rumble
+|2018.7.5
+|FTG
+|英
+|CARDBOARD
+|無
+|
+
+// tr
+
+|熱情對戰麻雀 for Nintendo Switch
+|2018.7.5
+|ETC
+|日
+|Zerodiv
+|無
+|
+
+// tr
+
+|NEKOPARA
+|2018.7.4
+|AVG
+|中日英
+|NEKO WORKs
+|無
+|
+
+// tr
+
+|Runbow
+|2018.7.3
+|ACT
+|英
+|Headup Games
+|無
+|
+
+// tr
+
+|拉斯維加斯賭城派對
+|2018.6.29
+|ETC
+|英
+|Funbox Media
+|無
+|
+
+// tr
+
+|袋狼大進擊 瘋狂三部曲
+|2018.6.29
+|ACT
+|日英
+|Activision
+|無
+|
+
+// tr
+
+|德軍總部 2：新巨像
+|2018.6.29
+|STG
+|中日英
+|Bethesda
+|無
+|日版7/26推出
+
+// tr
+
+|虛構世界 (Figment)
+|2018.6.28
+|AVG
+|英
+|Bedtime Digital Games
+|無
+|
+
+// tr
+
+|LIMBO
+|2018.6.28
+|AVG
+|日英
+|Playdead
+|無
+|
+
+// tr
+
+|INSIDE
+|2018.6.28
+|AVG
+|日英
+|Playdead
+|無
+|
+
+// tr
+
+|炸彈雞 (Bomb Chicken)
+|2018.6.28
+|ETC
+|英
+|Nitrome Ltd.
+|無
+|
+
+// tr
+
+|死印
+|2018.6.28
+|AVG
+|日
+|EXPTeamMuramasa
+|無
+|
+
+// tr
+
+|伊蘇 8 -丹娜的隕涕日-
+|2018.6.28
+|RPG
+|日英
+|日本一
+|無
+|
+
+// tr
+
+|瑪利歐網球 王牌高手 (Mario Tennis Ace)
+|2018.6.22
+|SPT
+|中日英
+|任天堂
+|有
+|透過線上更新追加中文。體驗版僅於2018.6.1~3線上試玩
+
+// tr
+
+|我的世界：基岩版
+|2018.6.21
+|ETC
+|中日英
+|Mojang
+|無
+|已購買舊版本者可免費更新
+
+// tr
+
+|武裝飛鳥 2
+|2018.6.21
+|STG
+|日英
+|Zerodiv
+|無
+|
+
+// tr
+
+|Pode
+|2018.6.21
+|AVG
+|中英
+|Henchman＆Goon
+|無
+|
+
+// tr
+
+|失落之子(The Lost Child)
+|2018.6.19
+|RPG
+|日英
+|KADOKAWA GAMES
+|無
+|
+
+// tr
+
+|同步音律喵賽克
+|2018.6.19
+|ETC
+|中英
+|PM Studios
+|無
+|
+
+// tr
+
+|R.B.I. Baseball 18
+|2018.6.14
+|SPT
+|日英
+|MLBAM
+|無
+|
+
+// tr
+
+|Lanota
+|2018.6.14
+|ETC
+|中日英
+|Flyhigh Works
+|無
+|
+
+// tr
+
+|GOD WARS 日本神話大戦
+|2018.6.14
+|RPG
+|中日
+|角川
+|無
+|中文版於2018.9.27推出
+
+// tr
+
+|窟窿騎士
+|2018.6.13
+|ACT
+|中英
+|Team Cherry
+|無
+|
+
+// tr
+
+|要塞英雄 (Fortnite)
+|2018.6.13
+|STG
+|日英
+|Epic Games
+|無
+|基本遊玩免費
+
+// tr
+
+|聖騎士：英雄國度 PALADINS
+|2018.6.12
+|STG
+|中日英
+|HI-REZ
+|無
+|基本遊玩免費
+
+// tr
+
+|異塵餘生 庇護所
+|2018.6.11
+|ETC
+|英
+|Bethesda
+|無
+|
+
+// tr
+
+|超迴轉壽司強襲者 The Way of Sushido
+|2018.6.8
+|ETC
+|日英
+|任天堂
+|有
+|
+
+// tr
+
+|魔法女高中生
+|2018.6.7
+|RPG
+|日英
+|illuCalab
+|無
+|
+
+// tr
+
+|旗幟傳說 2
+|2018.6.7
+|RPG
+|英
+|Stoic Studio
+|無
+|
+
+// tr
+
+|拉斯維加斯賭城派對
+|2018.6.1
+|ETC
+|英
+|Funbox Media
+|無
+|
+
+// tr
+
+|桌上足球
+|2018.5.31
+|ETC
+|日
+|SAT-BOX
+|無
+|
+
+// tr
+
+|艾希 (Icey)
+|2018.5.31
+|ACT
+|日
+|FantaBlade Network
+|無
+|
+
+// tr
+
+|Moonlighter
+|2018.5月
+|RPG
+|中日英
+|Merge Games Ltd
+|無
+|
+
+// tr
+
+|落雨落葉
+|2018.5.31
+|AVG
+|中日英
+|賈船
+|無
+|
+
+// tr
+
+|Lost Sea
+|2018.5.31
+|AVG
+|中日英
+|eastasiasoft
+|無
+|
+
+// tr
+
+|謊言公主與盲目王子
+|2018.5.31
+|ACT
+|中日
+|日本一
+|無
+|中文版為2018.8.23
+
+// tr
+
+|蒼翼默示錄 Cross Tag Battle
+|2018.5.31
+|FTG
+|中日英
+|ARC SYSTEM WORKS
+|有
+|體驗版5/11~14時間限定
+
+// tr
+
+|寶可夢探險尋寶
+|2018.5.30
+|ARPG
+|中日英
+|任天堂
+|無
+|免費下載
+
+// tr
+
+|斑鳩 IKARUGA
+|2018.5.30
+|STG
+|日英
+|ピッキー
+|無
+|
+
+// tr
+
+|快打旋風 30 週年紀念合集
+|2018.5.30
+|FTG
+|中日英
+|CAPCOM
+|無
+|
+
+// tr
+
+|Yoku的小島之旅
+|2018.5.29
+|AVG
+|中日英
+|Team17
+|無
+|
+
+// tr
+
+|豐收之月：希望之光
+|2018.5.29
+|SLG
+|日英
+|Natsume
+|無
+|
+
+// tr
+
+|瓦爾哈拉的榮耀 Die for Valhalla!
+|2018.5.29
+|AAVG
+|英
+|Monster Couch
+|無
+|
+
+// tr
+
+|凱之傳奇 紀念版
+|2018.5.29
+|AVG
+|英
+|THQ Nordic
+|無
+|
+
+// tr
+
+|墮落軍團：光榮系譜 Fallen Legion
+|2018.5.29
+|ARPG
+|中日英
+|日本一
+|無
+|中文版2018.6.29
+
+// tr
+
+|企鵝君大戰
+|2018.5.25
+|ETC
+|英
+|Dispatch Games
+|無
+|
+
+// tr
+
+|在遠方：追雲者編年史
+|2018.5.25
+|RPG
+|中日英
+|Prideful Sloth
+|無
+|
+
+// tr
+
+|みんなで大富豪
+|2018.5.24
+|ETC
+|日
+|CELLNAVI
+|無
+|
+
+// tr
+
+|怪獸驅逐戰2 PixelJunk Monsters2
+|2018.5.24
+|AVG
+|中日英
+|スパイク・チュンソフト
+|有
+|
+
+// tr
+
+|白衣姓愛情依存症
+|2018.5.24
+|AVG
+|日
+|工画堂スタジオ
+|無
+|
+
+// tr
+
+|惡靈古堡7 雲端版
+|2018.5.24
+|AVG
+|中日英
+|CAPCOM
+|無
+|180天收費2000日圓
+
+// tr
+
+|血咒之城：月之詛咒 (Bloodstained: Curse of the Moon)
+|2018.5.24
+|ACT
+|日英
+|Koji Igarashi
+|無
+|
+
+// tr
+
+|Urban Trial PLAYGROUND
+|2018.5.24
+|SPT
+|中日英
+|Tate Multimedia
+|有
+|
+
+// tr
+
+|洛克人 傳奇合輯1&2
+|2018.5.24
+|ACT
+|中日英
+|CAPCOM
+|無
+|
+
+// tr
+
+|網球世界巡迴賽 傳奇版
+|2018.5.22
+|SPT
+|英
+|Bigben
+|無
+|
+
+// tr
+
+|小小夢魘 Complete Edition
+|2018.5.18
+|AVG
+|日英
+|萬代南夢宮
+|無
+|日版為2018.6.7
+
+// tr
+
+|銀星チェス
+|2018.5.17
+|ETC
+|日
+|シルバースタージャパン
+|無
+|
+
+// tr
+
+|旗幟傳說 (The Banner Saga)
+|2018.5.17
+|RPG
+|英
+|Stoic Studio
+|無
+|
+
+// tr
+
+|追逐戰：夜戰 (Battle Chasers: Nightwar)
+|2018.5.15
+|RPG
+|中日英
+|THQ Nordic
+|無
+|
+
+// tr
+
+|巫師傳說 (Wizard of Legend)
+|2018.5.15
+|ACT
+|中日英
+|Contingent99
+|無
+|
+
+// tr
+
+|Nihilumbra ニヒラブラ
+|2018.5.10
+|ACT
+|中日英
+|賈船
+|無
+|
+
+// tr
+
+|おきらく大富豪SP
+|2018.5.10
+|ETC
+|日
+|Arc System Works
+|無
+|
+
+// tr
+
+|蔚藍 (Celeste)
+|2018.5.10
+|ACT
+|中日英
+|Matt Makes Games
+|無
+|
+
+// tr
+
+|Garage
+|2018.5.10
+|AVG
+|日英
+|tinyBuild
+|無
+|
+
+// tr
+
+|自殺狂人 (Suicide Guy)
+|2018.5.10
+|AVG
+|英
+|Chubby Pixel
+|無
+|
+
+// tr
+
+|不朽鄉巴佬 (Immortal Redneck)
+|2018.5.10
+|STG
+|英
+|Crema
+|無
+|
+
+// tr
+
+|世界征服者X
+|2018.5.8
+|SLG
+|中英
+|CIRCLE Ent
+|無
+|
+
+// tr
+
+|桑塔：半精靈英雄 終極版
+|2018.5.5
+|A.AVG
+|日英
+|Wayforward
+|無
+|日文版為2018.5.31
+
+// tr
+
+|ROCK'NRACING GRAND PRIX
+|2018.5.3
+|RAC
+|日英
+|スターサイン
+|無
+|
+
+// tr
+
+|カドバトうぉーず！
+|2018.5.3
+|ETC
+|中日英
+|イッタロ
+|無
+|
+
+// tr
+
+|刑事J.B.ハロルドシリーズ第三弾
+|2018.5.3
+|AVG
+|日
+|メビウス
+|無
+|
+
+// tr
+
+|悠諾與飛天大象
+|2018.5.3
+|AVG
+|日英
+|Plug In Digital
+|無
+|
+
+// tr
+
+|大金剛：熱帶急凍
+|2018.5.3
+|ACT
+|日英
+|任天堂
+|無
+|
+
+// tr
+
+|Hello Kitty 愛競速
+|2018.4.30
+|RAC
+|英
+|Rising Star Games
+|無
+|
+
+// tr
+
+|建造者 Plus
+|2018.4.27
+|ETC
+|中英
+|System 3
+|無
+|
+
+// tr
+
+|公主是個守財奴
+|2018.4.26
+|RPG
+|日英
+|NIS America
+|無
+|
+
+// tr
+
+|KORG Gadget
+|2018.4.26
+|ETC
+|日
+|KONG
+|無
+|
+
+// tr
+
+|名為戰鬥的機器人 (A Robot Named Fight)
+|2018.4.26
+|ACT
+|英
+|Matt Bitner Games
+|無
+|
+
+// tr
+
+|火影忍者疾風傳 終極風暴 三部曲
+|2018.4.26
+|ACT
+|中日
+|萬代南夢宮
+|無
+|僅三代有中文
+
+// tr
+
+|SD鋼彈G世代 創世
+|2018.4.26
+|SLG
+|日
+|萬代南夢宮
+|無
+|
+
+// tr
+
+|南方四賤客：浣熊俠聯盟
+|2018.4.24
+|AVG
+|英
+|Ubisoft
+|無
+|
+
+// tr
+
+|任天堂實驗室 VARIETY KIT(1) & ROBOT KIT(2)
+|2018.4.20
+|ETC
+|日英
+|任天堂
+|無
+|
+
+// tr
+
+|傳送門騎士Portal Knights (ポータルナイツ)
+|2018.4.19
+|ETC
+|日英
+|505 Games
+|有
+|
+
+// tr
+
+|荒野之槍：重裝上陣
+|2018.4.19
+|STG
+|中英
+|Natsume
+|無
+|
+
+// tr
+
+|新世界地圖 1469
+|2018.4.19
+|AVG
+|日英
+|ARTDINK
+|無
+|
+
+// tr
+
+|庇護世代 (Shelter Generations)
+|2018.4.12
+|AVG
+|英
+|Circle Entertainment
+|無
+|
+
+// tr
+
+|天空之怒 DX (Skies of Fury DX)
+|2018.4.12
+|STG
+|英
+|Illustration Games
+|無
+|
+
+// tr
+
+|飢荒 (Don't Starve)
+|2018.4.12
+|AVG
+|英
+|Klei Entertainment
+|無
+|
+
+// tr
+
+|The Snack World~Gold
+|2018.4.12
+|RPG
+|日
+|LEVEL5
+|無
+|
+
+// tr
+
+|靈魂大師 (Masters of Anima)
+|2018.4.10
+|ACT
+|英
+|Passtech Games
+|無
+|
+
+// tr
+
+|夢幻之星online2 雲端版
+|2018.4.4
+|ACT
+|日
+|SEGA
+|無
+|基本遊玩免費
+
+// tr
+
+|Happy Birthdays (ハッピーバースデイズ)
+|2018.3.29
+|ETC
+|中日
+|ARC SYSTEM WORKS
+|無
+|
+
+// tr
+
+|真‧電愛
+|2018.3.29
+|ETC
+|日
+|ドラス
+|無
+|
+
+// tr
+
+|戰國之刃
+|2018.3.29
+|STG
+|日
+|Zerodiv
+|無
+|
+
+// tr
+
+|蒼之彼方的四重奏
+|2018.3.29
+|AVG
+|日
+|sprite
+|無
+|
+
+// tr
+
+|絕命精神病院2 Outlast2
+|2018.3.27
+|AVG
+|中英
+|Red Barrels
+|無
+|
+
+// tr
+
+|OPUS：靈魂之橋
+|2018.3.22
+|AVG
+|中日英
+|Flyhigh Works
+|無
+|
+
+// tr
+
+|薩爾達無雙 - 海拉魯群星集結 DX
+|2018.3.22
+|ACT
+|中日英
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|星光樂園
+|2018.3.22
+|ETC
+|日
+|Takara tomy Arts
+|無
+|
+
+// tr
+
+|大戰略PERFECT 4.0
+|2018.3.22
+|SLG
+|日
+|SystemSoft
+|無
+|
+
+// tr
+
+|六月的最後一天 (Last Day of June)
+|2018.3.16
+|AVG
+|英
+|505 Games
+|無
+|
+
+// tr
+
+|星之卡比 - 新星同盟
+|2018.3.16
+|ACT
+|中日英
+|任天堂
+|有
+|體驗版僅在歐洲ESHOP上架
+
+// tr
+
+|命運石之門 STEINS;GATE ELITE
+|2018.3.15
+|AVG
+|日
+|5pb.
+|無
+|
+
+// tr
+
+|進擊的巨人2
+|2018.3.15
+|ACT
+|中日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|少女射擊 2
+|2018.3.15
+|AVG
+|中日
+|Inti Creates
+|無
+|中文版為2018.6.7
+
+// tr
+
+|你的四騎姬教導譚
+|2018.3.8
+|ARPG
+|日
+|日本一
+|無
+|
+
+// tr
+
+|塗鴉冒險家：攤牌
+|2018.3.7
+|ETC
+|英
+|Warner Bros.
+|無
+|
+
+// tr
+
+|返校
+|2018.3.1
+|AVG
+|中日英
+|赤燭遊戲
+|無
+|
+
+// tr
+
+|勇者鬥惡龍創世小玩家 阿雷夫加爾德復興記
+|2018.3.1
+|ETC
+|日
+|史克威爾.艾尼克斯
+|有
+|
+
+// tr
+
+|絕命精神病院 Outlast
+|2018.2.27
+|AVG
+|日英
+|Red Barrels
+|無
+|
+
+// tr
+
+|劫薪日 2 (Payday 2)
+|2018.2.23
+|AVG
+|英
+|Starbreeze Studios
+|無
+|
+
+// tr
+
+|当地鉄道
+|2018.2.22
+|ETC
+|日
+|萬代南夢宮
+|無
+|
+
+// tr
+
+|層層恐懼 (Layers of Fear Legacy)
+|2018.2.21
+|AVG
+|中日英
+|Bloober Team
+|無
+|
+
+// tr
+
+|魔兵驚天錄1+2合輯
+|2018.2.17
+|ACT
+|日英
+|白金工作室
+|無
+|
+
+// tr
+
+|Fe
+|2018.2.16
+|AVG
+|日英
+|EA
+|無
+|
+
+// tr
+
+|Joe Dever's Lone Wolf
+|2018.2.16
+|ARPG
+|英
+|FORGE REPLY
+|無
+|
+
+// tr
+
+|THE 密室逃脫
+|2018.2.15
+|AVG
+|中日英
+|D3パブリッシャー
+|無
+|2018.6.21亞洲地區發行實體版
+
+// tr
+
+|貓頭鷹男孩
+|2018.2.13
+|AVG
+|中英
+|SOEDESCO
+|無
+|2018.5.29歐美地區發行實體版
+
+// tr
+
+|傳送騎士
+|2018.2.13
+|AVG
+|中英
+|Keen Games
+|無
+|
+
+// tr
+
+|盧卡諾伯爵
+|2018.2.9
+|AAVG
+|英
+|Merge Games
+|無
+|
+
+// tr
+
+|大盛りチャリ走DX トレーラー
+|2018.2.8
+|ACT
+|日
+|Spicysoft
+|無
+|
+
+// tr
+
+|がるメタる！
+|2018.2.8
+|ETC
+|日
+|DMM GAMES
+|無
+|
+
+// tr
+
+|飛盤對決
+|2018.2.8
+|SPT
+|英
+|High Horse
+|無
+|
+
+// tr
+
+|開鑿蒸氣世界 (SteamWorld Dig)
+|2018.2.1
+|ACT
+|中英日
+|Image & Form Games
+|無
+|
+
+// tr
+
+|林中之夜 (Night In The Woods)
+|2018.2.1
+|AVG
+|英
+|Finji
+|無
+|
+
+// tr
+
+|節奏地牢
+|2018.2.1
+|ETC
+|日英
+|Spike Chunsoft
+|無
+|
+
+// tr
+
+|Blade Strangers
+|2018.1.30
+|FTG
+|英
+|NICALIS
+|無
+|
+
+// tr
+
+|逆転吉原～菊屋編～
+|2018.1.25
+|AVG
+|中英日
+|D3 PUBLISHER
+|無
+|
+
+// tr
+
+|Shu (シュウ)
+|2018.1.23
+|ACT
+|日英
+|Coatsink Software
+|無
+|
+
+// tr
+
+|傭兵傳說 - 年代記
+|2018.1.18
+|SRPG
+|日
+|Rideon Japan
+|無
+|
+
+// tr
+
+|暗黑地牢
+|2018.1.18
+|AVG
+|中英
+|Red Hook Studios
+|無
+|
+
+// tr
+
+|World to the West
+|2018.1.18
+|ACT
+|中英日
+|Flyhigh Works
+|無
+|
+
+// tr
+
+|FURI
+|2018.1.11
+|ACT
+|英
+|Game Bakers
+|無
+|
+|===
+
+// tr
+
+== 2017 年發售
+
+[%header,cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|遊戲名稱
+|發售日期
+|类型
+|語言
+|開發商
+|體驗版
+|備註
+
+// tr
+
+|3D 迷你高爾夫
+|2017.12.29
+|SPT
+|英
+|Technik
+|x
+|
+
+// tr
+
+|賭博默示錄 ～絕望的橫渡鐵條～
+|2017.12.28
+|AVG
+|日
+|Solid Sphere
+|無
+|
+
+// tr
+
+|Heart＆Slash（紅心與斬擊）
+|2017.12.22
+|ACT
+|英
+|BadLand Games
+|無
+|
+
+// tr
+
+|Sexy Brutale
+|2017.12.21
+|AVG
+|中英日
+|日本一
+|無
+|
+
+// tr
+
+|沙漠的老鼠團！改
+|2017.12.21
+|ACT
+|中英日韓
+|Arc System Works
+|無
+|
+
+// tr
+
+|Guns, Gore &amp; Cannoli 槍、血塊和香炸奶酪卷
+|2017.12.21
+|ACT
+|中英日
+|Crazy Monkey
+|無
+|
+
+// tr
+
+|昏迷：重製版（The Coma: Recut）
+|2017.12.21
+|AVG
+|英韓
+|Devespresso Games
+|無
+|實體版2018.8.7發售
+
+// tr
+
+|TINY METAL
+|2017.12.21
+|SLG
+|中英日
+|AREA 34
+|無
+|
+
+// tr
+
+|東方計畫 不思議の幻想郷TOD -RELOADED-
+|2017.12.21
+|RPG
+|中日
+|SEGA
+|無
+|中文版為2018.6.28
+
+// tr
+
+|航海王：海賊無雙 3 豪華版
+|2017.12.21
+|ACT
+|中日
+|萬代南夢宮
+|無
+|中文版為2018.5.11
+
+// tr
+
+|鍊金術士系列最新作『莉蒂與絲爾的鍊金工房』
+|2017.12.21
+|RPG
+|中日
+|コーエーテクモ
+|無
+|中文版為2018.3.22
+
+// tr
+
+|Brawlout
+|2017.12.19
+|FTG
+|日英
+|Angry Mob Games
+|無
+|
+
+// tr
+
+|RXN-雷神-
+|2017.12.19
+|STG
+|中日英
+|カヤック
+|無
+|
+
+// tr
+
+|復活邪神 2
+|2017.12.15
+|RPG
+|日英
+|史克威爾.艾尼克斯
+|無
+|
+
+// tr
+
+|龍牙 Z 龍者蘿潔與槲寄生迷宮
+|2017.12.14
+|RPG
+|中日英
+|Toydea
+|無
+|
+
+// tr
+
+|Yooka-Laylee
+|2017.12.14
+|ACT
+|英
+|Playtonic Games
+|無
+|
+
+// tr
+
+|RIVE:アルティメットエディション
+|2017.12.14
+|ACT
+|中日英韓
+|Flyhigh Works
+|無
+|
+
+// tr
+
+|銀星將棋DX
+|2017.12.14
+|ETC
+|日
+|シルバースタージャパン
+|無
+|
+
+// tr
+
+|Farming Simulator
+|2017.12.14
+|SLG
+|日英
+|Giants Software
+|無
+|
+
+// tr
+
+|魅影破壞者ファントムブレイカー
+|2017.12.7
+|ACT
+|中日英
+|MAGES.
+|無
+|
+
+// tr
+
+|Human: Fall Flat
+|2017.12.7
+|AVG
+|英
+|Curve Digital
+|無
+|
+
+// tr
+
+|角落生物
+|2017.12.7
+|ETC
+|日
+|日本コロムビア株式會社
+|有
+|
+
+// tr
+
+|WWE 2K18
+|2017.12.6
+|SPT
+|英
+|2K Sports
+|無
+|
+
+// tr
+
+|九張羊皮紙
+|2017.12.5
+|RPG
+|中日英
+|Frozenbyte
+|有
+|
+
+// tr
+
+|卡拉OK JOYSOUND
+|2017.12.5
+|ETC
+|日
+|JOYSOUND
+|無
+|無料配信
+
+// tr
+
+|This Is the Police
+|2017.12.5
+|AVG
+|中英
+|Nordic Games
+|無
+|
+
+// tr
+
+|異度神劍2
+|2017.12.1
+|RPG
+|中日英
+|任天堂
+|無
+|
+
+// tr
+
+|Gear.Club Unlimited
+|2017.12.1
+|RAC
+|英
+|Microids
+|無
+|日後將透過更新增加中文
+
+// tr
+
+|Syberia2
+|2017.11.30
+|AVG
+|英
+|Microids
+|無
+|
+
+// tr
+
+|惡靈古堡：啟示錄1+2合輯
+|2017.11.30
+|AVG
+|中英日
+|CAPCOM
+|無
+|
+
+// tr
+
+|OPUS- 地球計畫
+|2017.11.30
+|AVG
+|中日
+|Flyhigh Works
+|無
+|
+
+// tr
+
+|信長之野望・大志
+|2017.11.30
+|SLG
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|忍舒壓 -SENRAN KAGURA-
+|2017.11.24
+|AVG
+|日
+|MARVELOUS
+|無
+|
+
+// tr
+
+|百戰天蟲 Worms W.M.D
+|2017.11.23
+|ACT
+|英
+|Team17 Digital Ltd
+|無
+|
+
+// tr
+
+|神奇男孩：龍之陷阱
+|2017.11.23
+|ARPG
+|中日英
+|Westone
+|無
+|目前僅亞版實體片有中文
+
+// tr
+
+|Uurnog Uurnlimited
+|2017.11.21
+|ETC
+|中日英
+|Raw Fury
+|無
+|
+
+// tr
+
+|上古捲軸5：天際
+|2017.11.18
+|A.RPG
+|中日英
+|Bethesda
+|無
+|
+
+// tr
+
+|蝙蝠俠
+|2017.11.17
+|ACT
+|英
+|Telltale Games
+|無
+|
+
+// tr
+
+|Teslagrad(テスラグラッド)
+|2017.11.16
+|ACT
+|中日英
+|Flyhigh Works
+|無
+|
+
+// tr
+
+|火箭聯盟
+|2017.11.14
+|SPT
+|英
+|Psyonix
+|無
+|
+
+// tr
+
+|RIME
+|2017.11.14
+|A.AVG
+|英日
+|Tequila works
+|無
+|
+
+// tr
+
+|黑色洛城
+|2017.11.14
+|AVG
+|英
+|Rock Star
+|無
+|
+
+// tr
+
+|樂高漫威超級英雄 2
+|2017.11.14
+|ACT
+|中英
+|Warner Bros.
+|無
+|
+
+// tr
+
+|DOOM
+|2017.11.10
+|STG
+|中英日
+|Bethesda
+|無
+|2018.2.20線上更新中文化、新增多人派對模式、體感瞄準
+
+// tr
+
+|你裁我剪！斯尼帕Plus&nbsp;&nbsp;&nbsp;いっしょにチョキッと スニッパーズ               Plus
+|2017.11.10
+|A.PZG
+|中日英
+|任天堂
+|無
+|
+
+// tr
+
+|Cat Quest
+|2017.11.10
+|AAVG
+|中日英
+|Pqube
+|無
+|
+
+// tr
+
+|真三國無雙7-帝王傳
+|2017.11.9
+|ACT
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|戰國無雙-真田丸
+|2017.11.9
+|ACT
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|無雙OROCHI2 - Ultimate
+|2017.11.9
+|ACT
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|音速小子：武力
+|2017.11.8
+|ACT
+|中英
+|SEGA
+|有
+|
+
+// tr
+
+|UNO
+|2017.11.7
+|ETC
+|英日
+|Ubisoft
+|無
+|
+
+// tr
+
+|口口口口
+|2017.11.2
+|ETC
+|中日
+|FLYHIGH
+|無
+|
+
+// tr
+
+|地產大亨 monopoly for switch
+|2017.10.31
+|ETC
+|英日
+|Ubisoft
+|無
+|
+
+// tr
+
+|Ittle Dew 2+
+|2017.10.31
+|A.AVG
+|英
+|LUDOSITY
+|無
+|
+
+// tr
+
+|Cartoon Network Battle Crashers
+|2017.10.31
+|ACT
+|英
+|Game Mill
+|無
+|
+
+// tr
+
+|超級瑪莉歐-奧德賽
+|2017.10.27
+|ACT
+|中日英
+|任天堂
+|無
+|
+
+// tr
+
+|Moon Hunters
+|2017.10.26
+|RPG
+|中英
+|Kitfox Games
+|無
+|
+
+// tr
+
+|舞力全開2018
+|2017.10.26
+|ETC
+|英
+|UBI
+|有
+|
+
+// tr
+
+|Ben 10
+|2017.10.24
+|ACT
+|英
+|U&amp;I
+|無
+|
+
+// tr
+
+|Poi: Explorer Edition
+|2017.10.23
+|ACT
+|英
+|ALLIANCE
+|無
+|
+
+// tr
+
+|Syberia
+|2017.10.20
+|AVG
+|英
+|Microids
+|無
+|
+
+// tr
+
+|失落領域Lost Sphear
+|2017.10.12
+|RPG
+|英日
+|史克威爾.艾尼克斯
+|有
+|
+
+// tr
+
+|Tiny Barbarian DX
+|2017.10.10
+|ACT
+|英
+|Nicalis, Inc.
+|無
+|
+
+// tr
+
+|88 Heroes - 98 Heroes Edition
+|2017.10.10
+|ACT
+|英
+|Rising Star Games
+|無
+|
+
+// tr
+
+|東方紅舞闘V
+|2017.10.10
+|ACT
+|日英
+|Cubetype
+|無
+|
+
+// tr
+
+|公理邊緣 Axiom Verge
+|2017.10.5
+|AVG
+|日英
+|Thomas Happ Games
+|無
+|
+
+// tr
+
+|LOVERS：みんなですすめ！宇宙の旅
+|2017.10.5
+|ETC
+|中英日韓
+|Asteroid Base
+|無
+|
+
+// tr
+
+|Earth Atlantis
+|2017.10.5
+|A.AVG
+|日英
+|Headup Games
+|無
+|
+
+// tr
+
+|星露谷物語
+|2017.10.5
+|RPG
+|中英
+|ConcernedApe
+|無
+|
+
+// tr
+
+|SUPERBEAT: XONiC
+|2017.10.3
+|ETC
+|英
+|PM STUDIOS
+|無
+|
+
+// tr
+
+|FIFA18
+|2017.9.29
+|SPT
+|日英
+|EA
+|無
+|
+
+// tr
+
+|高爾夫物語（Golf Story）
+|2017.9.28
+|RPG
+|中英
+|Sidebar Games
+|無
+|
+
+// tr
+
+|繪圖方塊 S
+|2017.9.28
+|ETC
+|日英
+|Jupiter
+|無
+|
+
+// tr
+
+|INVERSUS Deluxe
+|2017.9.28
+|ETC
+|中英日
+|Hypersect
+|無
+|
+
+// tr
+
+|聖火降魔錄無雙
+|2017.9.28
+|ACT
+|中日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|Champion Jockey Special
+|2017.9.24
+|ETC
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|旋風忍者大電影：電視遊戲
+|2017.9.22
+|ACT
+|日英
+|Warner Bros.
+|無
+|
+
+// tr
+
+|寶可拳DX
+|2017.9.22
+|FTG
+|日英
+|任天堂
+|有
+|
+
+// tr
+
+|開鑿蒸氣世界 2
+|2017.9.21
+|ACT
+|中日英
+|Image &amp; Form Games
+|無
+|
+
+// tr
+
+|DEEMO
+|2017.9.21
+|ETC
+|中日英
+|雷亞遊戲
+|無
+|
+
+// tr
+
+|勇者鬥惡龍10-Online
+|2017.9.21
+|MMOLG
+|日
+|史克威爾.艾尼克斯
+|無
+|
+
+// tr
+
+|NBA2K18
+|2017.9.15
+|SPT
+|中英
+|2K
+|無
+|實體版10/17
+
+// tr
+
+|Kingdom: New Lands
+|2017.9.14
+|AVG
+|中英日韓
+|Raw Fury
+|無
+|
+
+// tr
+
+|Winning Post 8 2017
+|2017.9.14
+|ETC
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|雷曼超人：傳奇 決定版
+|2017.9.12
+|ACT
+|日英
+|UBI
+|有
+|體驗版為歐版
+
+// tr
+
+|雙截龍4
+|2017.9.7
+|ACT
+|中英日韓
+|アークシステムワークス
+|無
+|
+
+// tr
+
+|七龍珠-異戰2
+|2017.9.7
+|F.ACT
+|英日
+|萬代南夢宮
+|無
+|
+
+// tr
+
+|樂高世界
+|2017.9.5
+|ACT
+|中英
+|TT Fusion
+|無
+|
+
+// tr
+
+|無夜國度2 新月的花嫁
+|2017.8.31
+|A.RPG
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|蒼藍雷霆 鋼佛特 強襲合輯
+|2017.8.31
+|ACT
+|日
+|Inti Creates
+|無
+|
+
+// tr
+
+|瑪利歐+瘋兔 王國之戰
+|2017.8.29
+|RPG
+|中英日
+|UBI
+|無
+|透過更新提供中文
+
+// tr
+
+|Redout
+|2017.8.29
+|RAC
+|英
+|34BigThings
+|無
+|
+
+// tr
+
+|魔物獵人XX
+|2017.8.25
+|ACT
+|日
+|卡普空
+|有
+|
+
+// tr
+
+|Piczle Lines DX
+|2017.8.24
+|ETC
+|中英日
+|Score Studios
+|無
+|
+
+// tr
+
+|航海王 無限世界：赤紅 豪華版
+|2017.8.24
+|ACT
+|中日英西法德義
+|萬代南夢宮
+|無
+|
+
+// tr
+
+|音速小子：狂熱
+|2017.8.15
+|ACT
+|日英
+|SEGA
+|無
+|
+
+// tr
+
+|Puzzle Adventure Blockle (パズルアドベンチャー ブロッくる )
+|2017.8.3
+|ETC
+|中英日
+|インテンス
+|無
+|
+
+// tr
+
+|狂怒循環 (人狼 ADV レイジングループ)
+|2017.8.3
+|AVG
+|日
+|KEMCO
+|無
+|
+
+// tr
+
+|煮過頭Overcooked
+|2017.7.27
+|ETC
+|日英
+|Team17
+|無
+|2018.2.13發售實體版
+
+// tr
+
+|漆彈大作戰2
+|2017.7.21
+|A.STG
+|日英
+|任天堂
+|有
+|體驗版為期間限定
+
+// tr
+
+|Fate/EXTELLA
+|2017.7.20
+|ACT
+|中英日韓
+|Marvelous
+|無
+|
+
+// tr
+
+|Levels+ : Addictive Puzzle Game(中毒パズル レベルス＋)
+|2017.7.13
+|ETC
+|中英日韓
+|flow
+|無
+|
+
+// tr
+
+|SUPER PING PONG TRICK SHOT
+|2017.7.13
+|ETC
+|中日
+|スターサイン
+|無
+|
+
+// tr
+
+|Shephy (シェフィ−Shephy−)
+|2017.7.6
+|ETC
+|中英日韓
+|アークシステムワークス
+|無
+|
+
+// tr
+
+|I and Me (ボクと僕の世界で)
+|2017.7.6
+|ETC
+|中英日
+|レイニーフロッグ
+|無
+|
+
+// tr
+
+|Implosion 聚爆
+|2017.7.6
+|ACT
+|中英日
+|雷亞遊戲
+|有
+|
+
+// tr
+
+|GoNNER
+|2017.6.29
+|ACT
+|中英日
+|Raw Fury
+|無
+|
+
+// tr
+
+|海之號角Oceanhorn
+|2017.6.22
+|AVG
+|中英
+|Cornfox &amp; Bros
+|無
+|
+
+// tr
+
+|洞窟物語
+|2017.6.20
+|ACT
+|日英
+|Nicalis,Inc
+|無
+|
+
+// tr
+
+|神臂鬥士ARMS
+|2017.6.16
+|F.SPT
+|中英日
+|任天堂
+|有
+|體驗版為期間限定，2017.11.30更新支援中文
+
+// tr
+
+|麥提鋼佛特 Burst
+|2017.6.15
+|ACT
+|日
+|Inti Creates
+|無
+|
+
+// tr
+
+|汽車總動員 3：全力取勝
+|2017.6.14
+|RAC
+|英
+|Warner Bros.
+|無
+|
+
+// tr
+
+|Plantera Deluxe（プランテラ ガーデンライフ DXエディション）
+|2017.6.8
+|ETC
+|中日英
+|レイニーフロッグ
+|無
+|
+
+// tr
+
+|聖劍傳說合輯
+|2017.6.1
+|A.RPG
+|日
+|史克威爾.艾尼克斯
+|無
+|
+
+// tr
+
+|終極快打旋風2：最後挑戰者
+|2017.5.26
+|FTG
+|中日
+|卡普空
+|無
+|
+
+// tr
+
+|バトルスポーツ めく〜る
+|2017.5.18
+|ETC
+|中日英
+|OVER FENCE
+|無
+|
+
+// tr
+
+|我的世界：SWITCH版
+|2017.5.12
+|AVG
+|中日英
+|Mojang &amp; Telltale Games
+|無
+|2018.6.21基岩版配信更新，可跨平台連線，新增中文語系
+
+// tr
+
+|NBA PLAYGRUONDS
+|2017.5.9
+|SPT
+|英
+|Saber Interactive
+|無
+|
+
+// tr
+
+|瑪莉歐賽車8豪華版
+|2017.4.28
+|A.RAC
+|中日英
+|任天堂
+|無
+|2017.12.13透過更新追加中文
+
+// tr
+
+|大家來同樂！地底探險
+|2017.4.20
+|A.ACT
+|日
+|史克威爾艾尼克斯
+|有
+|
+
+// tr
+
+|神巫女 - KAMIKO
+|2017.4.13
+|ACT
+|中英日
+|Flyhigh Works
+|無
+|
+
+// tr
+
+|樂高小城：臥底密探
+|2017.4.5
+|ACT
+|中英
+|TT Fusion
+|無
+|
+
+// tr
+
+|過氣英雄
+|2017.3.28
+|A.RPG
+|英
+|Frozenbyte
+|無
+|
+
+// tr
+
+|三國志13.威力加強版
+|2017.3.30
+|SLG
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|Snake Pass
+|2017.3.28
+|AVG
+|英
+|Sumo Digital
+|無
+|
+
+// tr
+
+|超惑星戰記 ZERO
+|2017.3.3
+|A.AVG
+|日
+|INTI CREATES
+|有
+|
+
+// tr
+
+|鐵鏟騎士：無價之寶
+|2017.3.3
+|ACT
+|英日
+|YACHT CLUB GAMES
+|無
+|
+
+// tr
+
+|VOEZ
+|2017.3.3
+|ETC
+|中英日韓
+|雷亞遊戲
+|有
+|掌機模式限定，2018.1.25將發行零售版並新增「控制器操作模式」
+
+// tr
+
+|Fast RMX
+|2017.3.3
+|RAC
+|英
+|Shin'en
+|無
+|
+
+// tr
+
+|新大開拓時代：打造新城鎮
+|2017.3.3
+|SLG
+|中日英韓
+|Arc System Works
+|無
+|
+
+// tr
+
+|你裁我剪！斯尼帕いっしょにチョキッと スニッパーズ
+|2017.3.3
+|A.PZG
+|中日英
+|任天堂
+|有
+|
+
+// tr
+
+|Sorudamu開花宣言
+|2017.3.3
+|ETC
+|中日英義法德西
+|CITY CONNECTION
+|無
+|
+
+// tr
+
+|The Binding of Isaac: Rebirth
+|2017.3.3
+|ETC
+|日英
+|Nicalis
+|無
+|歐、美版首發，日版預定2017.Q2
+
+// tr
+
+|Human Resource Machine
+|2017.3.3
+|ETC
+|英
+|Tomorrow Corporation
+|無
+|
+
+// tr
+
+|World of Goo
+|2017.3.3
+|ETC
+|英
+|Tomorrow Corporation
+|無
+|
+
+// tr
+
+|Little Inferno
+|2017.3.3
+|ETC
+|英
+|Tomorrow Corporation
+|無
+|
+
+// tr
+
+|寶貝龍冒險：想像者
+|2017.3.3
+|ACT
+|英
+|Vicarious Visions
+|無
+|
+
+// tr
+
+|舞力全開2017
+|2017.3.3
+|ETC
+|英
+|UBI
+|有
+|
+
+// tr
+
+|魔界戰記5
+|2017.3.3
+|S.RPG
+|中日
+|日本一
+|有
+|12/1發行中文版，已購買者將透過更新追加中文
+
+// tr
+
+|魔法氣泡x俄羅斯方塊S
+|2017.3.3
+|A.PZG
+|中日
+|SEGA
+|有
+|12/1更新追加中文
+
+// tr
+
+|祭品與雪的剎那
+|2017.3.3
+|RPG
+|英日
+|史克威爾.艾尼克斯
+|無
+|
+
+// tr
+
+|信長野望.創造.威力加強版
+|2017.3.3
+|SLG
+|日
+|コーエーテクモ
+|無
+|
+
+// tr
+
+|轟炸超人R
+|2017.3.3
+|ACT
+|中日英
+|KONAMI
+|無
+|
+
+// tr
+
+|1、2 SWITCH
+|2017.3.3
+|ETC
+|日英
+|任天堂
+|無
+|攜帶模式只能玩一種遊戲。
+
+// tr
+
+|勇者鬥惡龍 英雄集結 I‧II
+|2017.3.3
+|A.RPG
+|日
+|史克威爾.艾尼克斯
+|有
+|
+
+// tr
+
+|薩爾達傳說：荒野之息
+|2017.3.3
+|A.AVG
+|中日英西法義德俄
+|任天堂
+|無
+|2018.2.1將推出中文版，其他版本可透過線上更新中文
+|===

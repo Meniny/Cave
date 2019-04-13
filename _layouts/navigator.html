@@ -1,0 +1,104 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html class="">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/navigator/assets/favicon/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/navigator/assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/navigator/assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/navigator/assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/navigator/assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/navigator/assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/navigator/assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/navigator/assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/navigator/assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/navigator/assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}/navigator/assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/navigator/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/navigator/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/navigator/assets/favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{{ site.url }}/navigator/assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="keywords" content="个性导航,浏览器导航,李二狗">
+  <meta name="description" content="轻便、简洁、个性化的个人网址导航站。">
+
+  <!--<base href="//meniny.cn/" />-->
+  <link id="bs-css" href="{{ site.url }}/navigator/assets/css/bootstrap.paper.min.css" data-href="{{ site.url }}/navigator/assets/css/bootstrap.paper.min.css" rel="stylesheet" type="text/css">
+  <link id="ng-css" data-href="{{ site.url }}/navigator/assets/css/bootstrap.cyborg.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.url }}/navigator/assets/css/wodecss-v1708291.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="{{ site.url }}/navigator/assets/js/jquery.min.js"></script>
+  <script src="{{ site.url }}/navigator/assets/js/html.sortable.min.js"></script>
+  <script src="{{ site.url }}/navigator/assets/js/bootstrap.min.js"></script>
+  <script>var user_data = null;</script>
+</head>
+
+<body>
+  <!--搜索栏-->
+  <div class="framework">
+    <div class="top-section">
+      <div class="useful-links">
+        <div id="search" class="search">
+          <div class="logo-box">
+            <a class="header_wrap" href="javascript:void(0)">
+              <div id="header-box" class="header_img"></div>
+            </a>
+          </div>
+          <div class="search-wrapper">
+            <form id="search-form" action="https://www.baidu.com/baidu" target="_blank">
+              <input id="q-btn" type="submit" name="btnG" value="谷歌一下" class="button2">
+              <input name="q" type="hidden" id="q-word" />
+              <input type="text" id="b-word" name="word" size="40" class="input2">
+              <input type="submit" id="b-btn" value="百度几下" class="button button-hook">
+            </form>
+          </div>
+        </div>
+        <ul class="recommonds">
+          {% for item in page.links %}
+          <li data_old="1" class="sigleRecommond">
+            <span old_del="1" class="del-flag glyphicon glyphicon-remove"></span>
+            <a class="singleLink" href="{{ item.url }}" title="{{ item.title }}" target="_blank">
+              {% if item.image.size > 0 %}
+              <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/{{ item.image }}.png" style="box-shadow: {{ item.color }} 0 10px 10px -6px;">
+              {% else %}
+              <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/general.png" style="box-shadow: RGBA(0, 186, 241, 0.75) 0 10px 10px -6px;">
+              {% endif %}
+              <span class="text-links">{{ item.title }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+
+        <!-- 模板内容 -->
+        <!-- <div class="hide" id="tpl-box">
+          <li data_add="0" class="item sigleRecommond">
+            <span add_del="0" class="del-flag glyphicon glyphicon-remove"></span>
+            <a class="singleLink" href="" title="" target="_blank">
+              <span class="icon-box"></span>
+              <span class="text-links"></span>
+            </a>
+          </li>
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-box">
+    <a id="about" target="_blank" href="{{ site.url }}/about/">
+      2007-2018 © {{ page.title }}<!-- <a href="javascript:void(0)" id="nightMode" class='yejian'>夜间模式</a> -->
+    </a>
+  </div>
+  <script type="text/javascript" src="{{ site.url }}/navigator/assets/js/index.js"></script>
+
+</body>
+
+</html>

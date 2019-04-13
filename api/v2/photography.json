@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /api/v2/photography.json
+---
+{
+  "photography": [{% for a in site.photography %}
+    {
+      "name": "{{ a.title }}",
+      "cover": "{{ site.url }}{{ a.cover }}",
+      "data": [{% for p in a.images %}
+        {
+          "cover": "{{ site.url }}{{ a.cover_folder }}/{{ p }}",
+          "image": "{{ site.url }}{{ a.album_folder }}/{{ p }}"
+        }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+      ]
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

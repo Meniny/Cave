@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /readings.json
+---
+{
+  "readings": [
+    {% for book in site.readings %}
+    {
+      "url": "{{ book.link }}",
+      "title": "{{ book.title }}",
+      "author": "{{ book.author }}",
+      {% if book.cover %}
+        {% assign book_img = (site.url | append: '/assets/images/readings/' | append: book.cover) %}
+      {% else %}
+        {% assign book_img = (site.url | append: '/assets/images/avatar/default_s.jpg') %}
+      {% endif %}
+      "img": "{{ book_img }}"
+    },{% endfor %}
+  ]
+}

@@ -1,0 +1,47 @@
+---
+layout: list
+title: "Resume"
+description: "I'm looking for a <code>Senior iOS/macOS R&D Engineer</code> position in a fresh and dynamic company."
+resume:
+  - title: "个人简历 (Bubble)"
+    desc: "高级 iOS/macOS 研发工程师"
+    img: "https://meniny.cn/assets/images/flag_cn.png"
+    url: "https://meniny.cn/resume/bubble"
+  - title: "Resume (Pro)"
+    desc: "Senior iOS/macOS R&D Engineer"
+    img: "https://meniny.cn/assets/images/flag_en.png"
+    url: "https://meniny.cn/resume/pro/en/"
+  - title: "个人简历 (Pro)"
+    desc: "高级 iOS/macOS 研发工程师"
+    img: "https://meniny.cn/assets/images/flag_cn.png"
+    url: "https://meniny.cn/resume/pro/cn/"
+  - title: "Resume (Pelorous)"
+    desc: "Senior iOS/macOS R&D Engineer"
+    img: "https://meniny.cn/assets/images/flag_en.png"
+    url: "https://meniny.cn/resume/pelorous/en/"
+  - title: "个人简历 (Pelorous)"
+    desc: "高级 iOS/macOS 研发工程师"
+    img: "https://meniny.cn/assets/images/flag_cn.png"
+    url: "https://meniny.cn/resume/pelorous/cn/"
+---
+<div class="list">
+
+  {% for r in page.resume %}
+  <!-- item START -->
+  <article class="item">
+    <a href="{{ r.url }}">
+      <div class="item__content">
+        <h3 class="item__title">{{ r.title }}</h3>
+        <div class="item__meta"><span class="date published"></span></div>
+        <div class="item__excerpt">
+          <p>{{ r.desc }}</p>
+        </div>
+      </div>
+      <div class="item__image" style="background-image:url({{ r.img }}); height: 300px !important;"> <iframe src="{{ r.url }}" scrolling="no" frameborder="0" style="position: relative; overflow: hidden; height: 100%; width: 100%;"></iframe> </div>
+      <!-- <div class="item__image" style="background-image:url({{ r.img }})"><img src="{{ r.img }}" alt=""></div> -->
+    </a>
+  </article>
+  <!-- item END -->
+  {% endfor %}
+
+</div>

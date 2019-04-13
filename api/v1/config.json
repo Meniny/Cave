@@ -1,0 +1,49 @@
+---
+layout: null
+permalink: /clients_config.json
+ios_pages: ["Blog Postings","Applications","Documentations","Frameworks","Blogroll"]
+#,"Tweets","Essays","Photography","Reading","Vitae"]
+ios_app_version: "5.3"
+---
+{
+  "avatar": "{{ site.url }}/assets/images/avatar/avatar_t.jpg",
+  "mac_avatar_click": "{% if site.api.review %}{{ site.url }}/about/{% else %}{{ site.url }}/about/{% endif %}",
+  "avatar_click": "{% if site.api.review %}{{ site.url }}/about/{% else %}{{ site.url }}/about/{% endif %}",
+  "name": "{{ site.author }}",
+  "ios_pages": [{% for p in page.ios_pages %}"{{ p }}",{% endfor %}],
+  "mac_affiche_url": "{{ site.url }}/about/",
+  "mac_affiche_version": "2",
+  "mac_drop_width": "700",
+  "mac_drop_height": "450",
+  "ios_affiche_version": "1",
+  "ios_affiche_content": [
+    {
+      "version": "{{ page.ios_app_version }}",
+      "optional": true,
+      "image": "{{ site.url }}/assets/images/affiche/intro.png",
+      "title": "What's New in {{ page.ios_pages_version }}?",
+      "detail": "<p>New Color Theme<br/>Bug-fixes<br/>Minor Improvememts</p>"
+    },
+    {
+      "optional": false,
+      "image": "{{ site.url }}/assets/images/affiche/intro.png",
+      "title": "Greetings!",
+      "detail": "<p>I’m a software engineer lived in China. All written content in this app is provided under a <strong>Creative Commons ShareAlike</strong> license and all code is provided under a <strong>MIT</strong> license unless otherwise stated.</p>"
+    },
+    {
+      "optional": false,
+      "image": "{{ site.url }}/assets/images/affiche/job.png",
+      "title": "Job Inquiry",
+      "detail": "<p>I'm looking for an <strong>iOS/macOS Software Developer</strong> position in a fresh and dynamic company. I would like to gain the right experience and extend my skills while working in great teams and projects.</p>"
+    }
+  ],
+  "about_page": "{{ site.url }}/about/",
+  "home_page": "{{ site.url }}",
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36",
+
+  "desc_author": "Software developer on iOS, OS X, PC and Android platform. Crafty. Blogger. Traveller. Big fan of Apple. Love of color. Doggies are my fave.",
+
+  "desc_site": "I’m a software engineer lived in China. This is my very own blog which shares skills. All written content on this site is provided under a Creative Commons ShareAlike license and all code is provided under a MIT license unless otherwise stated. Please give source if you'd like to quote. Find out more about me and the things that excite me.",
+
+  "job_inquiry": "I'm looking for an iOS software developer position in a fresh and dynamic company. I would like to gain the right experience and extend my skills while working in great teams and big projects/applications learning advanced techniques, frameworks and libraries doing courses and working close to other skilled developers.",
+}

@@ -1,0 +1,85 @@
+---
+layout: null
+permalink: /hotsmap.json
+---
+{
+  "map": [{
+    "desc": "花村迎来了每年一度的赏樱时节，同时古老的势力也在暗处蠢蠢欲动。谁能护送最多的运载目标，释放出神龙之力？",
+    "enName": "Hanamura",
+    "map": "{{ site.url }}/assets/images/hots/maps/hanamura.jpg",
+    "imageUrl": "{{ site.url }}/assets/images/hots/hanamura.jpg",
+    "name": "花村",
+  },{
+    "desc": "弹头枢纽站曾是一座测试核武器的设施，现在已经沦为一片废墟。但这座设施仍在不停地生产核武器。参加到枢纽站的军备竞赛中来，抢夺核弹头，然后对敌人降下毁灭之雨！",
+    "enName": "Warhead Junction",
+    "map": "{{ site.url }}/assets/images/hots/maps/warhead-junction.jpg",
+    "imageUrl": "https://nos.netease.com/blzapp/cms/app/hos_map_imageUrl_20161101102400726.jpg",
+    "name": "弹头枢纽站",
+  }, {
+    "desc": "人类帝国在偏远、危机四伏的星球布莱克西斯上对虫群进行试验，意图将其变为武器消灭敌人。尽管人类帝国的主要灵能干扰器被摧毁了，但这里的信标却完好无损。占领信标后你就可以看到虫群是如何在战场上肆虐的。",
+    "enName": "Braxis Holdout",
+    "map": "{{ site.url }}/assets/images/hots/maps/braxis-holdout.jpg",
+    "imageUrl": "https://nos.netease.com/blzapp/cms/app/hos_map_imageUrl_20160920141330049.jpg",
+    "name": "布莱克西斯禁区",
+  }, {
+    "desc": "守墓人和乌鸦之神正在进行一场邪恶与……邪恶之间的经典较量。双方核心都有一层保护屏障，但英雄就没那么好运了。出去抢夺钟楼、占领祭坛、用邪恶的炮火摧毁敌人。",
+    "enName": "Towers of Doom",
+    "map": "{{ site.url }}/assets/images/hots/maps/towers-of-doom.jpg",
+    "imageUrl": "https://nos.netease.com/blzapp/cms/app/hos_map_imageUrl_20151216112624959.jpg",
+    "name": "末日塔",
+  }, {
+    "desc": "得圣坛者得龙骑士，得龙骑士者得天下。万军丛中破敌如闲庭信步。",
+    "enName": "Dragon Shire",
+    "map": "{{ site.url }}/assets/images/hots/maps/dragon-shire.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_jlz.jpg",
+    "name": "巨龙镇",
+  }, {
+    "desc": "夜晚降临之时，恐魔将会倾巢而出。消灭恐魔，采集它们的邪恶种子，然后让绿色的大哥带领你们走向胜利吧！",
+    "enName": "Garden of Terror",
+    "map": "{{ site.url }}/assets/images/hots/maps/garden-of-terror.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_kmy.jpg",
+    "name": "恐魔园",
+  }, {
+    "desc": "利用死灵法术采集亡灵精华并用它们召唤属于自己的恶灵魔像。",
+    "enName": "Haunted Mines",
+    "map": "{{ site.url }}/assets/images/hots/maps/haunted-mines.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_glk.jpg",
+    "name": "鬼灵矿",
+  }, {
+    "desc": "在这个恐怖的夜晚你绝对不想遭到诅咒。收集乌鸦之神的贡品，让对手替你们受难吧。",
+    "enName": "Cursed Hollow",
+    "map": "{{ site.url }}/assets/images/hots/maps/ursed-hollow.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_zzg.jpg",
+    "name": "诅咒谷",
+  }, {
+    "desc": "收集达布隆币并交给幽灵海盗黑心船长让他把炮火对准敌人。如果炮弹朝你飞来……别犹豫，赶快逃吧！",
+    "enName": "Blackheart Bay",
+    "map": "{{ site.url }}/assets/images/hots/maps/Blackheart-Bay.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_hxw1.jpg",
+    "name": "黑心湾",
+  }, {
+    "desc": "抢占神殿，利用神殿对对方建筑造成大量伤害，同时抵御神殿的守卫者。",
+    "enName": "sky-temple",
+    "map": "{{ site.url }}/assets/images/hots/maps/sky-temple.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_tkdy.jpg",
+    "name": "天空殿",
+  }, {
+    "desc": "收集并献上宝石，蛛后的织网者就会从墓穴顶端垂降下来，从各条路线向敌方发动攻击。",
+    "enName": "Tomb of Spider Queen",
+    "map": "{{ site.url }}/assets/images/hots/maps/tomb-of-spider-queen.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_zhm.jpg",
+    "name": "蛛后墓",
+  }, {
+    "desc": "高阶天堂和烈焰地狱的战争蔓延到了时空枢纽，天使、恶魔和英雄们在这里陷入了无休止的战斗中。",
+    "enName": "Battlefield of Eternity",
+    "map": "{{ site.url }}/assets/images/hots/maps/battlefield-of-eternity.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_yhzc1.jpg",
+    "name": "永恒战场",
+  }, {
+    "desc": "一支由疯狂、残暴怪物组成的毁灭性的黑暗力量正威胁着希望花园。夺取他们毁灭性的的力量，或在惩罚者的手中被消灭。",
+    "enName": "Infernal Shrines",
+    "map": "{{ site.url }}/assets/images/hots/maps/infernal-shrines.jpg",
+    "imageUrl": "https://heroes.nos.netease.com/2/cms/app/AppMap/PreView/map_lyst.jpg",
+    "name": "炼狱圣坛",
+  }]
+}

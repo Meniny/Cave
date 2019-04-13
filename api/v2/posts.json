@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /api/v2/posts.json
+---
+{
+  "posts": [{% for post in site.posts %}
+      {
+        {% if site.api.review %}
+        "image": "{{ site.url }}{{ site.default_image }}",
+        {% else %}
+        "image": "{{ site.url }}/assets/images/posts/square/{{ post.img }}",
+        {% endif %}
+        "title": "{{ post.title }}",
+        "detail": "{{ post.category }} | {{ post.date | date: '%b %d, %Y' }}",
+        "category": "{{ post.category }}",
+        "date": "{{ post.date | date: '%b %d, %Y' }}",
+        "url": "{{ site.url }}{{ post.url }}",
+        "template": "{{ site.url }}/template/{{ post.date | date: '%Y-%m-%d' }}-{{ post.url | replace: '/posts/', '' }}",
+        "quote": {% if post.quote %}true{% else %}false{% endif%},
+        {% assign exc = (post.excerpt | strip_html | replace: '"','' | replace: "'",'' | strip_newlines) %}
+        "description": "{{ exc }}"
+      }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

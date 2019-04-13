@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /api/v2/docs.json
+---
+{
+  "docs": [{% for doc in site.docs %}
+      {
+        {% if site.api.review %}{% assign doc_img = (site.url | append: '/assets/images/avatar/doc.jpg') %}
+        {% else %}{% if doc.img.size > 0 %}{% assign doc_img = (site.url | append: '/assets/images/posts/' | append: doc.img | append: '.jpg') %}
+        {% else %}{% assign doc_img = (site.url | append: '/assets/images/avatar/doc.jpg') %}{% endif %}{% endif %}
+        "image": "{{ doc_img }}",
+        "title": "{{ doc.title }}",
+        "detail": "{{ doc.category }}{% if doc.date.size > 0 %} | {{ doc.date | date: '%b %d, %Y' }}{% endif %}",
+        "url": "{{ site.url }}{{ doc.url }}",
+        "quote": {% if doc.quote %}true{% else %}false{% endif%},
+        {% assign exc = (doc.excerpt | strip_html | replace: '"','' | replace: "'",'' | strip_newlines) %}
+        "description": "{{ exc }}"
+      }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

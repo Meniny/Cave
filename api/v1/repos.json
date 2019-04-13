@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /repos.json
+---
+{
+  "repos": [
+      {% for repo in site.data.repos %}
+      {
+        "name": "{{ repo.name}}",
+        "type": "{{ repo.type }}",
+        "url": "{{ repo.url }}",
+        "lan": "{{ repo.lan }}",
+        "desc": "{% if repo.desc %}{{ repo.desc }}{% endif %}",
+        "img": "{% if repo.img.size > 0 %}{{ repo.img }}{% else %}{% if repo.type == 'github' %}{{ site.url | append: '/assets/images/avatar/github_200.jpg') }}{% else %}{{ site.url | append: '/assets/images/avatar/oschina_200.jpg') }}{% endif %}{% endif %}",
+      }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

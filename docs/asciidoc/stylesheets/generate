@@ -1,0 +1,5 @@
+styles=('asciidoctor' 'colony' 'foundation-lime' 'foundation-potion' 'foundation' 'github' 'golo' 'iconic' 'maker' 'readthedocs' 'riak' 'rocket-panda' 'rubygems')
+path='/Users/Meniny/Projects/Github/Meniny.github.io/asciidoc'
+for s in ${styles[@]}; do
+  asciidoctor -a stylesheet=$path/stylesheets/$s.css -o $path/stylesheets/previews/$s.html $path/sources/index.adoc;
+done

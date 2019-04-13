@@ -1,0 +1,24 @@
+---
+layout: list
+title: Photography
+description: "I'm passionate about photography and enjoy taking pictures all around the world. If you like what you see, feel free to contact me for shootings."
+---
+<div class="list">
+  {% for album in site.photography %}
+  <!-- item START -->
+  <article class="item">
+    <a href="{{ site.url }}{{ album.url }}">
+      <div class="item__content">
+        <h3 class="item__title">{{ album.title }}</h3>
+        <div class="item__meta"><span class="date published">{{ album.images.size }} photos in this album</span></div>
+        <div class="item__excerpt">
+          <p>{{ album.description }}</p>
+        </div>
+      </div>
+      {% assign album_img = (site.url | append: album.cover) %}
+      <div class="item__image" style="background-image:url({{ album_img }})"><img src="{{ album_img }}" alt=""></div>
+    </a>
+  </article>
+  <!-- item END -->
+  {% endfor %}
+</div>

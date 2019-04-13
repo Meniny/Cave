@@ -1,0 +1,32 @@
+---
+layout: list
+title: Tweets
+description: "Everything will be ok in the end. If it's not ok, it's not the end."
+---
+<div class="list">
+  {% assign sorted = (site.tweets | sort:'date') %}
+  {% assign tweets = (sorted | reverse) %}
+  {% for t in tweets %}
+  <!-- item START -->
+  <article class="item">
+    {% if t.imgs.size > 0 %}
+      {% for i in t.imgs limit: 1 %}
+      {% assign t_img = (site.url | append: '/assets/images/tweets/' | append: i) %}
+      {% endfor %}
+    {% else %}
+      {% assign t_img = (site.url | append: site.default_image) %}
+    {% endif %}
+    <a href="{{ site.url }}{{ t.url }}">
+      <div class="item__content">
+        <h3 class="item__title">{{ t.date | date: "%b %d, %Y" }}</h3>
+        <div class="item__meta"><span class="date published">{{ t.from }}</span></div>
+        <div class="item__excerpt">
+          <p>{{ t.title }}</p>
+        </div>
+      </div>
+      <div class="item__image" style="background-image:url({{ t_img }})"><img src="{{ t_img }}" alt=""></div>
+    </a>
+  </article>
+  <!-- item END -->
+  {% endfor %}
+</div>

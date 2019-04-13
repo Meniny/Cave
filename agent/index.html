@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ShowUserAgent</title>
+	<script charset="utf-8">
+		function showAgent() {
+			// alert(navigator.userAgent);
+			document.write("<div style=\"padding: 30px;\"><a href=\"javascript:showAgent();\">[Show User Agent]</a><br/><br/><br/>" + navigator.userAgent + "</div><br/>");
+		}
+	</script>
+</head>
+
+<body>
+	<div style="padding: 30px;">
+		<a href="javascript:showAgent();">[Show User Agent]</a>
+	</div>
+</body>
+
+</html>

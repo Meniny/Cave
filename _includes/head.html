@@ -1,0 +1,83 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} | Elias's Cave</title>
+  <meta name="author" content="{{ site.author }}">
+  <meta name="description" content="{{ page.description }}">
+  <link rel="canonical" href="{{ page.url }}">
+
+  {% assign touch_img = (site.url | append: '/assets/images/icons/Chair/apple-touch-icon.png') %}
+  {% assign og_img = (site.url | append: '/assets/images/icons/Chair/og.png') %}
+  {% assign favicon = (site.url | append: '/assets/images/icons/Chair/favicon.ico') %}
+  {% assign pinned_tab = (site.url | append: '/assets/images/icons/Chair/safari-pinned-tab.svg') %}
+
+  <meta name="apple-mobile-web-app-title" content="{{ page.title }}">
+  <meta name="application-name" content="{{ page.title }}">
+  <!-- <meta name="msapplication-config" content="{{ site.url }}/assets/images/browserconfig.xml"> -->
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  {% if page.thumb.size > 0 %}
+  <meta property="og:image" content="{{ page.thumb}}" />
+  <meta property="og:image:secure_url" content="{{ page.thumb }}" />
+  <meta property="og:image:type" content="image/jpeg" />
+  {% else %}
+  <meta property="og:image" content="{{ og_img }}">
+  <meta property="og:image:secure_url" content="{{ og_img }}" />
+  <meta property="og:image:type" content="image/png" />
+  {% endif %}
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <link rel="mask-icon" href="{{ pinned_tab }}" color="#000000">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ favicon }}">
+  <link rel="apple-touch-icon-precomposed" href="{{ touch_img }}">
+  <!-- <link rel="apple-touch-icon" type="image/png" href="{{ touch_img }}" sizes="180x180"> -->
+  <!-- <link rel="icon" type="image/png" href="{{ touch_img }}" sizes="32x32"> -->
+  <!-- <link rel="icon" type="image/png" href="{{ touch_img }}" sizes="16x16"> -->
+  <!-- <link rel="manifest" href="{{ site.url }}/assets/images/manifest.json"> -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="https://twitter.com/_Meniny">
+  <meta name="twitter:creator" content="@_Meniny">
+
+  <script type="application/ld+json">
+    {
+      "@context": "{{ site.url }}",
+      "@type": "WebSite",
+      "name": "{{ site.author }}",
+      "headline": "A Designer’s Faux Pas",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author }}"
+      },
+      "image": {
+        "feature": "{{ site.url }}/assets/images/touch.png",
+        "@type": "imageObject"
+      },
+      "dateModified": "2017-05-05T13:55:18+00:00",
+      "description": "Making stuff one mistake at a time.",
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/images/touch.png"
+        },
+        "name": "{{ site.author }}"
+      },
+      "sameAs": ["https://twitter.com/_Meniny", "https://github.com/Meniny"],
+      "url": "{{ site.url }}"
+    }
+  </script>
+  <!-- <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml"> -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta http-equiv="cleartype" content="on">
+
+  <noscript>&lt;link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/style.css"&gt;</noscript>
+  <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans+Narrow:400,700">
+</head>

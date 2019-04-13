@@ -1,0 +1,26 @@
+---
+layout: null
+permalink: /api/v2/list.json
+---
+{
+  "version": 2,
+  "prefix": "{{ site.url }}{{ page.api.prefix }}",
+  "list": [{% for json in site.data.api.list %}
+    {
+      "suffix": "{{ json.suffix }}",
+      "name": "{{ json.name }}",
+      "url": "{{ site.url }}{{ page.api.prefix }}{{ json.suffix }}",
+      "type": "GET",
+      "status": 200,
+      "sublist": [{% for sub in json.sublist %}
+          {
+            "suffix": "{{ sub.suffix }}",
+            "name": "{{ sub.name }}",
+            "url": "{{ site.url }}{{ page.api.prefix }}{{ sub.suffix }}",
+            "type": "GET",
+            "status": 200
+          }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+      ]
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

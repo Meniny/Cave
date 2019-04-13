@@ -1,0 +1,45 @@
+---
+layout: blank
+body_classes: "wrap"
+---
+{% include skip.html %}
+<!--[if lte IE 9]><div class="notice--danger center"><h4>Your browser is quite old!</h4><p>Why not <a href="https://whatbrowser.org/">upgrade to a more modern one</a> to better enjoy this site?</p></div><![endif]-->
+{% include site_logo.html %}
+<div id="main" class="page" role="main">
+  <article class="page__wrap">
+    <header class="page__header">
+      <h1 id="top_title" class="page__title">{{ page.title }}</h1>
+      <p id="top_desc" class="page__excerpt">{{ page.description }}</p>
+    </header>
+    {% include page_cover.html %}
+    <div class="page__hero">
+      {% if page.hero.size > 0 %}
+      {% assign hero = (site.url | append: page.hero) %}
+      <noscript>&lt;img src="{{ hero }}" class="image"&gt;</noscript>
+      <img data-sizes="auto" src="{{ hero }}" data-srcset="{{ hero }} 20w,
+                  {{ hero }} 320w,
+                  {{ hero }} 768w,
+                  {{ hero }} 1024w,
+                  {{ hero }} 1920w" class="image blur-up lazyautosizes lazyloaded" sizes="922px" srcset="{{ hero }} 20w,
+                  {{ hero }} 320w,
+                  {{ hero }} 768w,
+                  {{ hero }} 1024w,
+                  {{ hero }} 1920w">
+      {% endif %}
+    </div>
+    {% if page.gallery.size > 0 %}
+    <div class="work__gallery">
+      {% for g in page.gallery %}
+      {% assign g_img = (site.url | append: g.img) %}
+      <a class="work__gallery-img" href="{% if g.link.size > 0 %}{{ g.link }}{% else %}{{ g_img }}{% endif %}" data-lity="">
+        <noscript>&lt;img src="{{ g_img }}"&gt;</noscript>
+        <img src="{{ g_img }}" data-src="{{ g_img }}" alt="{{ g.desc }}" class="blur-up lazyloaded">
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <section class="page__content">
+      {{ content }}
+    </section>
+  </article>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="21px" viewBox="0 0 36 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>battery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="battery" fill="#2D2D2D">
+            <polygon id="Fill-1" points="5 15 28 15 28 5 5 5"></polygon>
+            <path d="M0,0.0002 L0,20.0002 L33,20.0002 L33,13.0002 L36,13.0002 L36,7.0002 L33,7.0002 L33,0.0002 L0,0.0002 Z M3,17.0002 L30,17.0002 L30,3.0002 L3,3.0002 L3,17.0002 Z" id="Fill-2"></path>
+        </g>
+    </g>
+</svg>

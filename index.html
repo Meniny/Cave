@@ -1,0 +1,42 @@
+---
+layout: blank
+title: "A Developer's Faux&nbsp;Pas"
+description: "Project manager.<br/>Software developer on PC, Linux, Android, iOS and OS X platform.<br/>Crafty. Blogger. Traveller.<br/>Big fan of Apple. Love of color. Doggies are my fave."
+body_classes: "wrap splash dark"
+icon_color_suf: "_b"
+logo_url: "https://meniny.cn/resume/pro/en/"
+#hero: '/assets/images/icons/Chair/apple-touch-icon@2.png'
+---
+<!--[if lte IE 9]><div class="notice--danger center"><h4>Your browser is quite old!</h4><p>Why not <a href="https://whatbrowser.org/">upgrade to a more modern one</a> to better enjoy this site?</p></div><![endif]-->
+{% include site_logo.html %}
+<div id="main" role="main">
+  <article class="page__wrap">
+    <header class="page__header">
+      <h1 class="page__title">{{ page.title }}</h1>
+      <p class="page__excerpt">{{ page.description }}</p>
+      <!-- <h2 class="nav-list__title" id="table-of-contents">Table of Contents</h2>
+      <ul class="nav-list">
+        <li><a href="{{ site.url }}/posts/">Blog Postings</a></li>
+        <li><a href="{{ site.url }}/portfolio/">Portfolio</a></li>
+        <li><a href="{{ site.url }}/about/">About</a></li>
+      </ul> -->
+    </header>
+    {% include page_cover.html %}
+    <div class="page__hero">
+      {% if page.hero.size > 0 %}
+      {% assign hero = (site.url | append: page.hero) %}
+      <noscript>&lt;img src="{{ hero }}" class="image"&gt;</noscript>
+      <img data-sizes="auto" src="{{ hero }}" data-srcset="{{ hero }} 20w,
+                  {{ hero }} 320w,
+                  {{ hero }} 768w,
+                  {{ hero }} 1024w,
+                  {{ hero }} 1920w" class="image blur-up lazyautosizes lazyloaded" sizes="922px" srcset="{{ hero }} 20w,
+                  {{ hero }} 320w,
+                  {{ hero }} 768w,
+                  {{ hero }} 1024w,
+                  {{ hero }} 1920w">
+      {% endif %}
+    </div>
+    <section class="page__content"></section>
+  </article>
+</div>

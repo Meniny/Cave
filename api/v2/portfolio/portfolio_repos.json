@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /api/v2/portfolio_repos.json
+---
+{
+  "type": "Repos",
+  "data": [
+    {% for repo in site.data.repos %}
+    {
+      "title": "{{ repo.name}}",
+      "detail": "Github | {{ repo.lan }}",
+      "url": "{{ repo.url }}",
+      "available": true,
+      "description": "{% if repo.desc %}{{ repo.desc }}{% endif %}",
+      "image": "{% if repo.img.size > 0 %}{{ repo.img }}{% else %}{% if repo.type == 'github' %}{{ site.url | append: '/assets/images/avatar/github_200.jpg') }}{% else %}{{ site.url | append: '/assets/images/avatar/oschina_200.jpg') }}{% endif %}{% endif %}"
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

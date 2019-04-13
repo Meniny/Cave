@@ -1,0 +1,75 @@
+$bg: #111;
+
+body{
+    background: $bg;
+}
+body img{
+    opacity: 0;
+    transform-style: preserve-3d;
+    /* transform: translateY(-90%); */
+    animation: move 15s ease infinite,
+               opacity 15s ease-in-out infinite;
+}
+div.loading{
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 3.5px;
+    display: inline-block;
+    padding: 6.5px 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+div.loading p{
+    float: left;
+    font-family: Open Sans;
+    line-height: 30px;
+    margin-right: 5px;
+}
+div.loader{
+    float: right;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    background: linear-gradient(90deg,white ,rgba(0,0,0,0.1) 30%);
+    border-radius: 100%;
+    overflow: hidden;
+    animation: rotate 1s linear infinite;
+    animation-fill-direction: forwards;
+}
+.loader:before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+    content: " ";
+    height: 85%;
+    width: 85%;
+    background-color: $bg;
+    z-index: 10;
+}
+.loader:after{
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10%;
+}
+@keyframes move{
+    from { transform: none; }
+    to { transform: translateY(40%) scale(0.85); }
+}
+@keyframes opacity{
+    0% { opacity: 0; }
+    40% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes rotate{
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

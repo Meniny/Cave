@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /api/v2/portfolio_paintings.json
+---
+{
+  "type": "Paintings",
+  "data" : [{% for album in site.photography %}{% if album.title == 'Paintings by Me' %}{% assign photos = (album.images | reverse) %}{% for p in photos %}
+    {
+      "detail": "{{ site.author }}",
+      "title": "{{ p }}",
+      "url": "{{ site.url }}{{ album.album_folder }}/{{ p }}",
+      "description": "{{ album.title }}",
+      "available": true,
+      "image": "{{ site.url }}{{ album.cover_folder }}/{{ p }}"
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}{% endif %}{% endfor %}
+  ]
+}

@@ -1,0 +1,235 @@
+= 传说对决/王者荣耀 英雄对照表
+
+[%header, cols="^.^,^.^"]
+|===
+|传说对决
+|王者荣耀
+
+2+|**坦克**
+
+2+|image:./assets/201851615523180941.jpg[]
+|Arduin (阿杜恩)
+|夏侯惇
+
+2+|image:./assets/201851615523213869.jpg[]
+|Arthur (莫托斯)
+|亚瑟
+
+2+|image:./assets/201851615523384158.jpg[]
+|Chaugnar (查戈纳尔)
+|庄周
+
+2+|image:./assets/201851615523358034.jpg[]
+|Chresht (克莱斯)
+|张飞
+
+2+|image:./assets/201851615523387399.jpg[]
+|Gildur (哥德尔)
+|墨子
+
+2+|image:./assets/201851615523425613.jpg[]
+|Grakk (夸克)
+|钟馗
+
+2+|image:./assets/201851615523597827.jpg[]
+|Lumburr (朗博)
+|牛魔
+
+2+|image:./assets/201851615523557648.jpg[]
+|Maloch (摩恩)
+|刘备
+
+2+|image:./assets/201851615523612076.jpg[]
+|Mina (美娜)
+|白起
+
+2+|image:./assets/201851615523768618.jpg[]
+|Omega (欧米茄)
+|刘禅
+
+2+|image:./assets/201851615523838341.jpg[]
+|Ormarr (渥马尔)
+|钟无艳
+
+2+|image:./assets/201851615523842451.jpg[]
+|Skud (司科德)
+|达摩
+
+2+|image:./assets/201851615523962041.jpg[]
+|Taara (塔拉)
+|程咬金
+
+2+|image:./assets/201851615524056864.jpg[]
+|Thane (萨尼)
+|项羽
+
+2+|**战士**
+
+2+|image:./assets/201851615524077405.jpg[]
+|Astrid (阿思崔德)
+|未知
+
+2+|image:./assets/201851615524114690.jpg[]
+|Lu Bu (吕布)
+|曹操
+
+2+|image:./assets/201851615524272452.jpg[]
+|Wonder Woman (神奇女侠)
+|未知
+
+2+|image:./assets/201851615524258426.jpg[]
+|Zanis (赵云)
+|典韦
+
+2+|image:./assets/201851615524345624.jpg[]
+|KIL’GROTH (凯尔格罗斯)
+|老夫子
+
+2+|image:./assets/201851615524369015.jpg[]
+|ZUKA (祖卡)
+|花木兰
+
+2+|image:./assets/201851615524352140.jpg[]
+|RYOMA (龙马)
+|橘右京
+
+2+|image:./assets/201851615524479769.jpg[]
+|OMEN (夜叉)
+|老夫子
+
+2+|image:./assets/201851615524473332.jpg[]
+|MAX (麦克斯)
+|哪吒
+
+2+|**刺客**
+
+2+|image:./assets/201851615524592118.jpg[]
+|Butterfly (刀锋宝贝)
+|阿珂
+
+2+|image:./assets/201851615524625148.jpg[]
+|Kriknak (科里纳卡)
+|娜可露露
+
+2+|image:./assets/201851615524648283.jpg[]
+|Nakroth (纳克罗斯)
+|韩信
+
+2+|image:./assets/201851615524625213.jpg[]
+|Raz (拉兹)
+|不知火舞
+
+2+|image:./assets/201851615524717523.jpg[]
+|WuKong (孙悟空)
+|孙悟空
+
+2+|image:./assets/201851615524833017.jpg[]
+|Zephys (瑟菲斯)
+|赵云
+
+2+|image:./assets/201851615524811045.jpg[]
+|Zill (齐尔)
+|未知
+
+2+|**法师**
+
+2+|image:./assets/201851615524954378.jpg[]
+|Azzen’Ka (阿兹卡)
+|甄姬
+
+2+|image:./assets/diaochan.jpg[]
+|Diao Chan (貂蝉)
+|王昭君
+
+2+|image:./assets/201851615525037755.jpg[]
+|Ignis (尹耿思)
+|未知
+
+2+|image:./assets/201851615525147312.jpg[]
+|Ilumia (卢米娅)
+|武则天
+
+2+|image:./assets/201851615525239158.jpg[]
+|Jinnar (金纳)
+|高渐离
+
+2+|image:./assets/201851615525399872.jpg[]
+|Kahlii (卡莉)
+|嬴政
+
+2+|image:./assets/201851615525416994.jpg[]
+|Krixi (克里希)
+|小乔
+
+2+|image:./assets/201851615525597075.jpg[]
+|Natalya (娜塔亚)
+|安琪拉
+
+2+|image:./assets/201851615525541460.jpg[]
+|Preyta (辟雷鞑)
+|姜子牙
+
+2+|image:./assets/201851615525677530.jpg[]
+|Veera (薇拉)
+|妲己
+
+2+|image:./assets/201851615525742574.jpg[]
+|Tulen (图伦)
+|诸葛亮
+
+2+|image:./assets/201851615525848828.jpg[]
+|LAURIEL (萝尔)
+|貂蝉
+
+2+|**射手**
+
+2+|image:./assets/201851615525967371.jpg[]
+|Fennik (菲尼克)
+|李元芳
+
+2+|image:./assets/201851615525938432.jpg[]
+|Moren (摩恩)
+|未知
+
+2+|image:./assets/201851615525975185.jpg[]
+|Slimz (史莱姆斯)
+|未知
+
+2+|image:./assets/20185161553090421.jpg[]
+|Valhein (凡恩)
+|狄仁杰
+
+2+|image:./assets/20185161553122094.jpg[]
+|Violet (维奥莱特)
+|孙尚香
+
+2+|image:./assets/20185161553229013.jpg[]
+|Yorn (约恩)
+|鲁班七号
+
+2+|image:./assets/20185161553388169.jpg[]
+|The Joker (DC 小丑)
+|虞姬
+
+2+|image:./assets/20185161553411385.jpg[]
+|TEL’ANNAS (特尔安娜斯)
+|后羿
+
+2+|**辅助**
+
+2+|image:./assets/20185161553595733.jpg[]
+|Alice (爱丽丝)
+|孙膑
+
+2+|image:./assets/20185161553671096.jpg[]
+|Mganga (穆加爵)
+|扁鹊
+
+2+|image:./assets/20185161553774848.jpg[]
+|Payna (佩娜)
+|蔡文姬
+
+2+|image:./assets/20185161553938714.jpg[]
+|TEEMEE (提米)
+|太乙真人
+|===

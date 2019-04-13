@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /tweets.json
+---
+{
+  {% assign sorted = (site.tweets | sort:'date') %}
+  {% assign tweets = (sorted | reverse) %}
+  "tweets": [{% for t in tweets %}
+        {
+            "content": "{{ t.title }}",
+            "from": "{{ t.from }}",
+            "img": [{% if t.imgs.size > 0 %}{% for im in t.imgs %}
+              "{{ site.url }}/assets/tweets/{{ im }}",{% endfor %}{% endif %}
+                    ],
+            "date": "{{ t.date | date: '%b %-d, %Y' }}",
+            "url": "{{ site.url }}{{ t.url }}"
+        }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

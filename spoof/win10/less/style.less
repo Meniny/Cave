@@ -1,0 +1,638 @@
+@taskbar-height:50px;
+.hover-state {
+	background:rgba(255,255,255,0.1);
+	transition:background 0.1s ease-in-out;	
+}
+
+body {
+	position:absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	user-select:none;
+	overflow:hidden;
+}
+
+body, html, .desktop {
+	margin:0;
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.desktop {
+	//background:url(http://wallpapershome.com/images/wallpapers/windows-10-1600x900-microsoft-blue-sea-woman-running-6993.jpg) center no-repeat;
+	background:url(http://creativecollective.studio/code-examples/images/windows10.jpg) center right no-repeat;
+	background-size:cover;
+}
+
+.taskbar {
+	position:absolute;
+	z-index:9000;
+	bottom:0;
+	background:rgba(0,0,0,0.5);
+	width:100%;
+	color:#fff;
+	
+	&:before, &:after {
+		content:"";
+		display:block;
+		width:100%;
+		clear:both;
+	}
+
+	.icon {
+		position:relative;
+		display:inline-block;
+		height:@taskbar-height;
+		width:@taskbar-height;
+		text-align:center;
+		font-size:2em;
+		transition:background 0.2s ease-out;
+
+		&:hover {
+			.hover-state;
+			
+			.fa-windows {
+				color:#aaa;
+			}
+		}
+		
+		&.win {
+			&.open {
+				.hover-state;
+			}
+		}
+		
+		&.minimized {
+			&:after {
+				content:"";
+				display:block;
+				position:absolute;
+				bottom:0;
+				left:5px; right:5px;
+				height:2px;
+				background:rgba(255,255,255,0.5);
+				transition:all 0.15s ease-out;
+			}
+			
+			&:hover, &.open {
+				&:after {
+					transition:all 0.15s ease-out;
+					left:0;
+					right:0;
+				}
+			}
+		}
+		
+		.app-preview {
+			overflow:hidden;
+			visibility:hidden;
+			opacity:0;
+			position:absolute;
+			bottom:@taskbar-height;
+			width:150px;
+			height:0;
+			margin-left:-50px;
+			border:1px solid rgba(255, 255, 255, 0.4);
+			border-bottom:0;
+			transition:all 0.2s ease-out;
+			transition-delay:0s;
+						
+			&.preview-edge {
+				.content {
+					overflow:hidden;
+					position:relative;
+					
+					&:after {
+						content:"";
+						display:block;
+						position:absolute;
+						z-index:100;
+						top:0; left:0; bottom:0; right:0;
+						background:transparent;
+					}
+					
+					.edge-browser {						
+						background:transparent !important;
+						width:520px !important;
+						height:400px !important;
+						transform:scale(0.3);
+						transform-origin: top left;
+					}					
+				}
+			}
+		}
+		
+		&.edge { 
+			color: #5a93e8; 
+			
+			&:hover {
+				.app-preview {
+					visibility:visible;
+					opacity:1;
+					height:100px;
+					transition:all 0.2s ease-out;
+					transition-delay:1s;
+				}
+			}
+			
+			&.open {
+				.app-preview {
+					visibility:hidden;
+					opacity:0;				
+				}
+			}			
+		}
+	}
+
+	> .programs, > .tray {	
+		height:@taskbar-height;
+		line-height:@taskbar-height;
+	}
+
+	> .programs {
+		float:left;
+		width:50%;
+	}
+
+	> .tray {
+		float:right;
+		width:50%;
+		text-align:right;
+
+		.peek {
+			display:inline-block;
+			width:10px; height:@taskbar-height;
+			margin-left:10px;
+			border-left:1px solid rgba(255,255,255,0.5);
+			float: right;
+
+			&:hover {
+				.hover-state;
+			}
+		}
+
+		.all-icons {
+			visibility: hidden;
+			position:absolute;
+			bottom:@taskbar-height;
+			width:150px;
+			margin-left:-60px;
+			padding:5px;
+			background:rgba(0,0,0,0.5);
+			text-align:left;
+			
+			.fa {
+				float:left;
+				margin:10px;
+			}
+			
+			&.open {
+				visibility:visible;
+			}
+		}
+		
+		.ico {
+			display:inline-block;
+			font-size:1.4em;
+			width:30px; height:@taskbar-height;
+			text-align:center;
+
+			&:hover {
+				.hover-state;
+			}
+			
+			&.time {
+				position:relative;
+				top:6px;
+				height: auto;
+				width:60px;
+				line-height:20px;			
+
+				.clock, .date {
+					text-align:center;
+					height:auto;
+					font-size:0.8em;
+					line-height:1em;
+				}
+
+				.date {
+					margin-top:5px;
+				}
+
+				&:hover {
+					background:transparent;
+				}
+			}
+		}
+	}	
+}
+
+.startmenu {
+	overflow:hidden;
+	opacity:0;
+	visibility:hidden;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	bottom:@taskbar-height;
+	left:0;
+	height:300px;
+	width:550px;
+	padding-top:5px;
+	border-top:1px solid rgba(255,255,255,0.4);
+	border-right:1px solid rgba(255,255,255,0.4);
+	
+	&.open {
+		transition: all 0.2s ease-in-out;
+		height:400px;
+		opacity:1;
+		visibility:visible;
+		
+		.icons {			
+			.bottom {
+				transition: all 0.3s ease-out;
+				opacity:1;
+			}
+		}
+		
+		.programs {
+			.item {
+				margin-bottom:1px;
+				transition: margin 0.5s ease-out;
+			}
+		}
+		
+		.tiles {
+			.tile {
+				margin-top:0px;
+				transition: margin 0.5s ease-out;				
+			}
+		}
+	}
+	
+	.title {
+		margin:6px 0 0 0;
+		padding:8px 0 4px 10px;
+			
+		&:hover {
+			background:#333;
+		}		
+	}
+	
+	> .container-fluid {
+		padding:0;
+		height:100%;
+		
+		.row {
+			margin-right:0;
+		}
+		
+		.row, .programs, .tiles {
+			height:inherit;
+			position:relative;
+		}
+	}
+	
+	.icons {
+		position:absolute;
+		z-index: 500;
+		top:0; bottom:0; left:15px;
+		width:@taskbar-height;
+		overflow:hidden;
+		transition: all 0.1s ease-out;
+		
+		&.open {
+			width:200px;
+			background:#333;
+			transition: all 0.2s ease-out;
+		}
+		
+		.icon {
+			position:relative;
+			line-height:@taskbar-height;
+			width:100%;
+			text-align:left;
+			
+			.fa {
+				margin-left:17px;
+			}
+			
+			img {
+				max-width:36px;
+				margin-left:-4px;
+			}
+			
+			> span {
+				position:absolute;
+				left:60px;
+				font-size:0.6em;
+				line-height:50px;
+				width:100px;
+				height:50px;
+				text-align:left;
+				
+				&.start {
+					text-transform:uppercase;
+					font-size:1em;
+					line-height:2.5em;
+				}
+			}
+			
+			&.top {
+				position:absolute;
+				z-index:100;
+			}
+		}
+		.bottom {
+			position:relative;
+			bottom:0;
+			height:100%;
+			opacity:0;
+			
+			.icon {
+				position:absolute;
+				&.power {
+					bottom:0;
+				}
+				&.settings {
+					bottom:@taskbar-height;
+				}
+				&.file-explorer {
+					bottom:@taskbar-height * 2;
+				}
+				&.profile {
+					bottom:@taskbar-height * 3;
+					padding:0 12px;
+					img {
+						display:inline;
+						border-radius:50%;
+					}
+				}
+			}
+		}
+	}
+	
+	.programs {
+		overflow: hidden;
+		overflow-y:auto;
+		padding-left:0;
+		padding-right:0;
+		
+		.item {
+			font-size:20px;
+			margin-bottom:10px;
+			padding:2px 0 2px 10px;
+			
+			&:hover {
+				background:#333;
+			}
+			
+			.fa {
+				background:#999;
+				padding:5px;
+			}
+			
+			span {
+				margin-left:10px;
+				font-size:12px;
+				line-height:30px;
+				vertical-align: bottom;
+			}
+		}
+	}
+	
+	.tiles {
+		padding-right:1px;
+		overflow: hidden;
+		padding-right:12px;
+		
+		&:hover {
+			overflow-y:auto;
+			padding-right:0;
+		}
+		
+		.title {
+			padding-left:0;
+			
+			&:hover {
+				background:transparent;				
+			}
+		}
+		
+		.tile {
+			position:relative;
+			background:#333;
+			border:2px solid #333;
+			padding: 30px;
+			min-height:110px;
+			margin-bottom:4px;
+			margin-top:30px;
+			text-align:center;
+			
+			&.photos {
+				background:url(http://lorempixel.com/200/150/cats/) center no-repeat;
+				background-size:cover;
+			}
+			
+			&.twitter {
+				background:url(http://creativecollective.studio/code-examples/images/twitter_icon_2011.png) center no-repeat;
+				background-size:cover;
+			}
+			
+			&.news {
+				background:url(http://lorempixel.com/400/150/business/) center no-repeat;
+				background-size:cover;
+			}
+			
+			&:hover {
+				border:2px solid #eee;
+			}
+			
+			.fa {
+				font-size:25px;	
+			}
+			
+			> span {
+				position:absolute;
+				bottom:4px;
+				left:4px; right:4px;
+				text-align:left;
+				
+				.fa {
+					float:right;
+					font-size:14px;
+				}
+			}
+			
+			&.wide {
+				width:100%;
+				clear:both;
+			}
+			
+			&.medium {
+				width:49%;
+				float:left;
+				
+				&:nth-child(odd) {
+					margin-right:4px;
+				}
+				
+				&:nth-child(even) {
+					float:right;
+				}
+			}
+		}
+		
+	}
+}
+
+
+// Peek
+body.peek {
+	.startmenu.open,
+	.window, .app {
+		opacity:0.1;
+	}
+}
+
+
+
+// Apps
+.app {
+	overflow:hidden;
+	z-index:10;	
+	border:1px solid rgba(0,0,0,1);	
+	width:550px;
+	height:400px;	
+	//transform:scale(0);
+	transform-origin: bottom left;
+	transition:opacity 0.2s ease-in-out;
+	
+	&.minimized {
+		opacity:0;
+		visibility:hidden;
+	}	
+	
+	&.open {
+		bottom:550px;
+		left:250px;
+		opacity:1;
+		visibility:visible;
+		//transform:scale(1);
+		transition:opacity 0.2s ease-in-out;
+	}
+		
+	.toolbar {
+		background:#999;
+		height:30px;
+		font-size:12px;
+		overflow:hidden;
+		
+		&:before, &:after {
+			content:"";
+			display:block;
+			width:100%;
+			clear:both;
+		}
+		
+		.tab {
+			position:relative;
+			padding:0 10px;
+			width:100px;
+			line-height:30px;
+			background:#aaa;
+			float:left;
+			
+			&:after {
+				display: inline-block;
+				font: normal normal normal 14px/1 FontAwesome;
+				font-size: inherit;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;				
+				content:"\f067";
+				position:absolute;
+				right:-20px; top:10px;
+				
+			}
+			
+			span {
+				margin-left:6px;
+			}
+			
+			.fa-times {
+				float:right;
+				line-height:30px;
+				
+				&:hover {
+					color:darken(#ff0000, 20%);
+				}
+			}
+		}
+	}
+	
+	.addressbar {
+		line-height:30px;
+		
+		i {
+			padding:0 10px;
+		}
+		
+		span {			
+			margin:0 5px;
+			&.divider {
+				border-right: 1px solid #777;
+			}
+		}
+		input {
+			background:transparent;
+			border:0;
+			outline:none;
+		}
+	}
+	
+	&.id-edge {		
+		background:#aaa;
+	}
+}
+
+
+a {
+	cursor:default;
+}
+
+// Scrollbar styling - WebKit only
+::-webkit-scrollbar {
+  width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+  background:rgba(0,0,0,0.2);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background:lighten(#aaa,10%);
+}
+
+::-webkit-scrollbar-button {
+    background-size: 100%;
+    height: 10px;
+    width: 10px;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+	background-position: center top;
+  background-image: url(http://creativecollective.studio/code-examples/images/downarrow0.png);
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+	background-position: center bottom;
+  background-image: url(http://creativecollective.studio/code-examples/images/uparrow0.png);
+}
+
+
+.ui-draggable-dragging iframe,
+.ui-resizable-resizing iframe {
+	pointer-events:none;
+}

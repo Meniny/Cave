@@ -1,0 +1,274 @@
+---
+layout: null
+title: "Page not found"
+#permalink: /404.html
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>{{ page.title }}</title>
+	<style media="screen">
+		body {
+			max-width: 100%;
+			height: auto;
+			font-family: 'Roboto', sans-serif;
+			margin: 0 auto;
+			margin-top: -10px;
+			background-color: #ddd
+		}
+
+		img {
+			border: none
+		}
+
+		[class*="fontawesome-"]:before {
+			font-family: 'FontAwesome', sans-serif;
+		}
+
+		.grand {
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eaeaea), color-stop(1, #d4d4d4));
+			background: -moz-linear-gradient(top, #eaeaea 5%, #d4d4d4 100%);
+			background: -webkit-linear-gradient(top, #eaeaea 5%, #d4d4d4 100%);
+			background: -o-linear-gradient(top, #eaeaea 5%, #d4d4d4 100%);
+			background: -ms-linear-gradient(top, #eaeaea 5%, #d4d4d4 100%);
+			background: linear-gradient(to bottom, #eaeaea 5%, #d4d4d4 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#eaeaea', endColorstr='#d4d4d4', GradientType=0);
+			background-color: #eaeaea;
+			display: inline-block;
+			text-decoration: none;
+		}
+
+		.myButton {
+			-moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+			-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+			box-shadow: inset 0px 1px 0px 0px #ffffff;
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+			background: -moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background: -webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background: -o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background: -ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+			background-color: #ffffff;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			border: 1px solid #dcdcdc;
+			display: inline-block;
+			cursor: pointer;
+			color: #000;
+			font-size: 12px;
+			font-weight: bold;
+			padding: 6px 34px;
+			text-decoration: none;
+			text-shadow: 0px 1px 0px #ffffff;
+		}
+
+		.myButton:hover {
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+			background: -moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background: -webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background: -o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background: -ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff', GradientType=0);
+			background-color: #f6f6f6;
+		}
+
+		.myButton:active {
+			position: relative;
+			top: 1px;
+		}
+
+		.myButton2 {
+			-moz-box-shadow: inset 0px 1px 0px 0px #97c4fe;
+			-webkit-box-shadow: inset 0px 1px 0px 0px #97c4fe;
+			box-shadow: inset 0px 1px 0px 0px #97c4fe;
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
+			background: -moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+			background: -webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+			background: -o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+			background: -ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+			background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0', GradientType=0);
+			background-color: #3d94f6;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			border: 1px solid #337fed;
+			display: inline-block;
+			cursor: pointer;
+			color: #ffffff;
+			font-size: 12px;
+			font-weight: bold;
+			padding: 6px 34px;
+			text-decoration: none;
+			text-shadow: 0px 1px 0px #1570cd;
+		}
+
+		.myButton2:hover {
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
+			background: -moz-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+			background: -webkit-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+			background: -o-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+			background: -ms-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+			background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6', GradientType=0);
+			background-color: #1e62d0;
+		}
+
+		.myButton2:active {
+			position: relative;
+			top: 1px;
+		}
+
+		.Button {
+			-moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+			-webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+			box-shadow: inset 0px 1px 0px 0px #54a3f7;
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00CCFF), color-stop(1, #0061a7));
+			background: -moz-linear-gradient(top, #00CCFF 5%, #0061a7 100%);
+			background: -webkit-linear-gradient(top, #00CCFF 5%, #0061a7 100%);
+			background: -o-linear-gradient(top, #00CCFF 5%, #0061a7 100%);
+			background: -ms-linear-gradient(top, #00CCFF 5%, #0061a7 100%);
+			background: linear-gradient(to bottom, #00CCFF 5%, #0061a7 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00CCFF', endColorstr='#0061a7', GradientType=0);
+			background-color: #00CCFF;
+			border: 1px solid #124d77;
+			display: inline-block;
+			cursor: pointer;
+			color: #ffffff;
+			font-family: Arial;
+			font-size: 13px;
+			padding: 12px 25px;
+			text-decoration: none;
+			text-shadow: 0px 1px 0px #154682;
+		}
+
+		.Button:hover {
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #00CCFF));
+			background: -moz-linear-gradient(top, #0061a7 5%, #00CCFF 100%);
+			background: -webkit-linear-gradient(top, #0061a7 5%, #00CCFF 100%);
+			background: -o-linear-gradient(top, #0061a7 5%, #00CCFF 100%);
+			background: -ms-linear-gradient(top, #0061a7 5%, #00CCFF 100%);
+			background: linear-gradient(to bottom, #0061a7 5%, #00CCFF 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#00CCFF', GradientType=0);
+			background-color: #0061a7;
+		}
+
+		.Button:active {
+			position: relative;
+			top: 1px;
+		}
+
+		.Button2 {
+			-moz-box-shadow: inset 0px 1px 0px 0px #ddd;
+			-webkit-box-shadow: inset 0px 1px 0px 0px #ddd;
+			box-shadow: inset 0px 1px 0px 0px #ddd;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			border: 1px solid #aaa;
+			display: inline-block;
+			cursor: pointer;
+			color: #000;
+			font-family: Arial;
+			font-size: 13px;
+			padding: 6px 36px;
+			text-decoration: none;
+		}
+
+		.headerstrip {
+			background-color: #FFFFFF;
+			background-image: -moz-linear-gradient(top, #FFFFFF 0%, #aaa 100%);
+			background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #aaa 100%);
+			background-image: -o-linear-gradient(top, #FFFFFF 0%, #aaa 100%);
+			background-image: -ms-linear-gradient(top, #FFFFFF 0%, #aaa 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=0);
+			background-image: linear-gradient(top, #FFFFFF 0%, #aaa 100%);
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
+		}
+
+		.shadow {
+			-webkit-box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.55);
+			-moz-box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.55);
+			box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.55);
+		}
+
+		.top-widget {
+			-webkit-animation-name: slide-from-top;
+			-webkit-animation-delay: 0s;
+			-webkit-animation-duration: 2s;
+			-webkit-animation-fill-mode: backwards;
+			animation-name: slide-from-top;
+			animation-delay: 0s;
+			animation-duration: 2s;
+			animation-fill-mode: backwards;
+			box-sizing: border-box;
+		}
+
+		@keyframes slide-from-top {
+			from {
+				top: -100%;
+			}
+			to {
+				top: 0%;
+			}
+		}
+
+		@-webkit-keyframes slide-from-top {
+			from {
+				top: -100%;
+			}
+			to {
+				top: 0%;
+			}
+		}
+	</style>
+	<link rel="icon" href="{{ site.url }}/assets/images/icons/Chair/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+	<center>
+
+		<div style=" background-color:#fff;  border: solid 1px #aaa;  border-radius:4px; height:290px; width:700px; margin-top:100px" class="shadow">
+			<div style="border-top-left-radius:4px ; border-top-right-radius:4px; height:30px; width:700px" class="grand">
+				<img src="{{ site.url }}/assets/images/icons/mactop.png" alt="" style="float:left; padding:7px">
+				<div style="margin:0 auto; left:0; right:0; display:table; padding:5px 60px 0px 0px; ">{{ page.title }}</div>
+			</div>
+			<div style="width:100%; display:inline-block">
+				<div style="padding:40px 20px 0px 40px; float:left">
+					<div style="font-size:26px; text-align:left">Oops!</div>
+					<div style="font-size:16px; text-align:left"><br/>Looks like something went completely wrong.<br/>Maybe try again later.</div>
+					<div style="float:left">
+						<!-- <a href="{{ site.url }}/" class="myButton" style="margin:20px 0px;">Button</a> -->
+					</div>
+				</div>
+				<div style="float:right">
+					<img src="{{ site.url }}/assets/images/icons/Chair/logo.png" alt="" style="float:right; margin-right:50px; margin-top:30px;" width="120px;" height="120px;">
+				</div>
+			</div>
+			<div style="float:right; margin-right:50px; margin-top:30px;">
+			<a href="{{ site.url }}/posts/" target="_blank" class="myButton" style="margin:20px 30px;">Posts</a>
+			<a href="{{ site.url }}" target="_blank" class="myButton2" style="margin:20px 0px;">Home</a>
+			</div>
+			<!-- <div style="background-color:#ebeced; font-size:12px; line-height:14px; padding:40px; text-align:left; margin-top:90px; padding-bottom:80px;">
+				<div>Oops!<br/>Looks like something went completely wrong.<br/>Maybe try again later.</div>
+				<div style="float:right; margin-top:10px">
+					<a href="#" class="myButton" onclick="javascript:location.href=getURL();return false;" style="margin:20px 30px;">&nbsp; Later &nbsp;</a>
+					<a href="{{ site.url }}/posts/" target="_blank" class="myButton" style="margin:20px 30px;">Posts</a>
+					<a href="{{ site.url }}/" target="_blank" class="myButton2" style="margin:20px 0px;">Home</a>
+				</div>
+			</div> -->
+		</div>
+
+	</center>
+	<div id="footer" align="center" style="position:absolute;width:100%;bottom:20px;">Product names, trademarks, trade names or company names mentioned herein are used for identification only and may be the property of<br> their respective owners.<br/>© 2007-2017 All Rights Reserved.</div>
+</body>
+
+</html>

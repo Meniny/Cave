@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<ul class="th-grid">
+  {% assign photos = (page.images | reverse) %}
+  {% for idx in photos %}
+  {% assign i_img = （site.url | append: page.cover_folder | append: '/' | append: idx) %}
+  {% assign i_full = （site.url | append: page.album_folder | append: '/' | append: idx) %}
+  <li>
+    <a href="{{ i_full }}" class="cover-link">
+      <noscript>&lt;img src="{{ i_img }}" data-src="{{ i_img }}"></noscript>
+      <img class="fade-in lazyloaded" src="{{ i_img }}" data-src="{{ i_img }}">
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% include comment.html %}

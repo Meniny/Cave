@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /vitae.json
+---
+{
+  "vitaes": [
+      {% for v in site.data.vitaes %}
+      {
+        "type": "{{ v.type }}",
+        "url": "{{ v.url }}",
+        "author": "{{ v.author }}",
+        "desc": "{{ v.desc }}",
+        "img": "{{ site.url }}{{ v.cover }}",
+      }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

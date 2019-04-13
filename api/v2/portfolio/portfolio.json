@@ -1,0 +1,44 @@
+---
+layout: null
+permalink: /api/v2/portfolio.json
+---
+{
+  "portfolio": [
+      {
+        "type": "macOS",
+        "json": "portfolio_mac.json",
+        "count": {{ site.data.apps_osx.size }},
+        "image": "{{ site.url }}/assets/images/posts/square/macintosh.jpg"
+      },
+      {
+        "type": "iOS",
+        "json": "portfolio_ios.json",
+        "count": {{ site.data.apps_ios.size }},
+        "image": "{{ site.url }}/assets/images/posts/square/iOS.jpg"
+      },
+      {
+        "type": "Windows",
+        "json": "portfolio_win.json",
+        "count": {{ site.data.apps_win.size }},
+        "image": "{{ site.url }}/assets/images/posts/square/microsoft.jpg"
+      },
+      {
+        "type": "Android",
+        "json": "portfolio_android.json",
+        "count": {{ site.data.apps_android.size }},
+        "image": "{{ site.url }}/assets/images/posts/square/android.jpg"
+      },
+      {
+        "type": "Github",
+        "json": "portfolio_repos.json",
+        "count": {{ site.data.repos.size }},
+        "image": "{{ site.url }}/assets/images/posts/square/git.jpg"
+      },
+      {
+        "type": "Paintings",
+        "json": "portfolio_paintings.json",
+        "count": {{ site.photography[0].images.size }},
+        "image": "{{ site.url }}/assets/images/posts/square/adobe.jpg"
+      },
+    ]
+}

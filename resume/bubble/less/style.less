@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+*{margin:0; padding:0; box-sizing:border-box;}
+html,body{
+  height:100%; 
+  /* The old syntax, deprecated, but still needed, prefixed, for WebKit-based and old browsers */
+  background: linear-gradient(left, #E7E7E7, white,#E7E7E7);
+  /* The new syntax needed by standard-compliant browsers (Opera 12.1, IE 10, Fx 16 onwards), without prefix */
+  background: linear-gradient(to right, #E7E7E7, white,#E7E7E7);
+}
+.container{
+  width:100%;
+  height:100%;
+}
+.arrow(@top, @left, @color, @border-size:20px){
+  display:inline-block;
+  width: 0; 
+  height: 0; 
+  border-left: @border-size solid transparent;
+  border-right: 0px solid @color;
+  border-bottom: @border-size solid @color;
+  position:absolute;
+  top: @top;
+  left: @left;
+}
+.border-radius(@top-left, @top-right, @bottom-right, @bottom-left){
+  border-top-left-radius:@top-left;
+  border-top-right-radius: @top-right;
+  border-bottom-right-radius: @bottom-right;
+  border-bottom-left-radius: @bottom-left;
+}
+.bubble(@color, @height:150px, @width:250px){
+  height:@height;
+  width:@width;
+  padding:20px;
+  position:absolute;
+  color:white;
+  background-color:@color;
+  font-family:"Open Sans Condensed";
+}
+.wrapper{
+  width:270px;
+  margin:50px auto;
+  position:Relative;
+}
+
+.word{
+  display:block;
+  text-align:justify;
+  font-family: "BenchNine";
+  line-height:0.8;
+  text-transform:uppercase;
+  letter-spacing:0px;
+}
+.word1, .word2 {color:#9BC5DE}
+.word3, .word4 {color:#90B3C9}
+.word5, .word6{color:#809BB0}
+.word7 {color:#6B7B8A}
+.word8, .word9{color:#8B8091}
+.word10, .word11{color:#B68FA2}
+.word12, .word13{color:#D99AB5}
+
+.word1{font-size:6.3em}
+.word2{font-size:8.1em}
+.word3{font-size:4.8em}
+.word4{font-size:6.4em}
+.word5{font-size:3.8em}
+.word6{font-size:6em}
+.word7{font-size:4.5em;}
+.word8{font-size:4.8em}
+.word9,.word11{font-size:7.9em;}
+.word10{font-size:4.9em}
+.word12{font-size:8.2em;}
+.word13{font-size:7.8em;}
+
+.bubble1{
+  .bubble(#99C5DE, 75px, 75px);
+  .border-radius(0,20px,0,20px);
+  top:0;
+  left:-100px;
+  padding:10px;
+  font-size:1.5em;
+  line-height:1;
+  span.the-arrow1{
+    .arrow(63px, 75px, #99C5DE, 12px);
+    transform:rotateY(180deg);
+  }
+}
+.bubble2{
+  .bubble(#99C5DE, 150px, 170px);
+  .border-radius(30px , 0 , 30px, 0);
+  left:100%;
+  top:20px;
+  span.the-arrow2{
+    .arrow(130px, -19px, #99C5DE);
+  }  
+  img{
+    .border-radius(20px,0,20px, 0);
+    background:white;
+    display:block;
+    width:100%;
+    height:100%;
+  }
+}
+.bubble3{
+  .bubble(#90B2CB, 200px);
+  .border-radius(30px , 0 , 30px, 0);
+  top:183px;
+  left:-280px;
+  span.the-arrow3{
+    .arrow(0, 250px, #90B2CB);
+    transform:rotate(180deg);
+  }
+}
+.bubble4{
+  .bubble(#809BAE,180px);
+  .border-radius(30px , 0 , 30px, 0);
+  top:260px;
+  left:280px;
+  span.the-arrow4{
+    .arrow(160px, -19px, #809BAE);
+  }
+}
+.bubble5{
+  .bubble(#697A8A, 200px);
+  .border-radius(30px , 0 , 30px, 0);
+  top:450px;
+  left:-280px;
+  span.the-arrow5{
+    .arrow(0, 250px, #697A8A);
+    transform:rotate(180deg);
+  }
+}
+.bubble6{
+  .bubble(#8B8091,180px);
+  .border-radius(0, 30px , 0 , 30px);
+  top:509px;
+  left:280px;
+  line-height:1.8;
+  span.the-arrow6{
+    .arrow(0px, -19px, #8B8091);
+    transform:rotateX(180deg);
+  }
+}
+.bubble7{
+  .bubble(#B68EA6, 200px);
+  .border-radius(30px , 0 , 30px, 0);
+  top:675px;
+  left:-280px;
+  span.the-arrow7{
+    .arrow(0, 250px, #B68EA6);
+    transform:rotate(180deg);
+  }
+}
+.bubble8{
+  .bubble(#D99AB5,180px);
+  .border-radius(30px , 0 , 30px, 0);
+  top:853px;
+  left:280px;
+  span.the-arrow8{
+    .arrow(160px, -19px, #D99AB5);
+  }
+}

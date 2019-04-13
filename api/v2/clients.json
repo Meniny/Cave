@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /api/v2/clients.json
+---
+{
+  "clients": [{% for c in site.data.clients %}
+    {
+      "url": "{{ c.url }}",
+      "platform": "{{ c.platform }}",
+      "language": "{{ c.lan }}",{% assign c_img = (site.url | append: '/assets/images/clients/' | append: c.img | append: '.jpg' ) %}
+      "image": "{{ c_img }}"
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

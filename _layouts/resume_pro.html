@@ -1,0 +1,458 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume for {{ site.author}}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="shortcut icon" href="{{ site.url }}/resume/favicon.ico">
+  {% if page.chinese %}
+  <title>{{ site.data.resume.title.cn }}</title>
+  {% else %}
+  <title>{{ site.data.resume.title.en }}</title>
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ site.url }}/resume/pro/assets/css/normalize.min.css">
+  <link rel='stylesheet' href='{{ site.url }}/resume/pro/assets/css/foundation.css'>
+  {% include fontawesome.html %}
+  <link rel="stylesheet" href="{{ site.url }}/resume/pro/assets/css/style.css">
+
+</head>
+
+<body>
+
+  <main data-equalizer>
+    <section id="left-side" class="large-4 medium-5 small-12 left" data-equalizer-watch>
+      <section class="hexagon-container">
+        <figure class="hexagon hexagon-image">
+          <div class="inner">
+            <img src="{{ site.url }}/assets/images/avatar/meniny_s.jpg" style="max-width: 200% !important; width: auto; height: 100% !important;"/>
+          </div>
+        </figure>
+        <figure class="hexagon hexagon-background">
+          <div class="inner">
+          </div>
+        </figure>
+        <figure class="hexagon hexagon-background-dark">
+          <div class="inner">
+          </div>
+        </figure>
+      </section>
+      {% if page.chinese %}
+      <h2 class="name">{{ site.data.resume.surname.cn }} <strong>{{ site.data.resume.givenname.cn }}</strong></h2>
+      <h3 class="job-titles">{{ site.data.resume.job_title.cn }}</h3>
+      {% else %}
+      <h2 class="name">{{ site.data.resume.givenname.en }} <strong>{{ site.data.resume.surname.en }}</strong></h2>
+      <h3 class="job-titles">{{ site.data.resume.job_title.en }}</h3>
+      {% endif %}
+      <section class="icon-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-file"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.summary_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.summary_title.en }}</h3>
+        {% endif %}
+      </section>
+      <section class="info-content">
+        {% if page.chinese %}
+        <p>{{ site.data.resume.summary.cn }}</p>
+        {% else %}
+        <p>{{ site.data.resume.summary.en }}</p>
+        {% endif %}
+      </section>
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-user"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.contact_title.en }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.contact_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-icons">
+          <li>
+            <div class="hexagon-icon-fill-small">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            {% if page.chinese %}
+            <p>{{ site.data.resume.location.cn }}</p>
+            {% else %}
+            <p>{{ site.data.resume.location.en }}</p>
+            {% endif %}
+          </li>
+          <li>
+            <div class="hexagon-icon-fill-small">
+              <i class="fa fa-phone"></i>
+            </div>
+            <p>
+              <a href="{{ site.data.resume.phone_link }}">{{ site.data.resume.phone }}</a>
+            </p>
+          </li>
+          <li>
+            <div class="hexagon-icon-fill-small">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <p><a href="mailto:{{ site.data.resume.email }}?subject=Me interesa contactarlo">{{ site.data.resume.email }}</a>
+            </p>
+          </li>
+          <!-- <li>
+            <div class="hexagon-icon-fill-small">
+              <i class="fab fa-qq"></i>
+            </div>
+            <p><a href="">8382453</a>
+            </p>
+          </li>
+          <li>
+            <div class="hexagon-icon-fill-small">
+              <i class="fab fa-weixin"></i>
+            </div>
+            <p><a href="">Meniny</a>
+            </p>
+          </li> -->
+          <li>
+            <div class="hexagon-icon-fill-small">
+              <i class="fa fa-thumbs-up"></i>
+            </div>
+            <p> <a href="https://{{ site.data.resume.github }}">{{ site.data.resume.github }}</a>
+            </p>
+          </li>
+          <li>
+            <div class="hexagon-icon-fill-small">
+              <i class="fa fa-seedling"></i>
+            </div>
+            <p> <a href="https://{{ site.data.resume.blog }}">{{ site.data.resume.blog }}</a>
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-fill-drip"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.skills_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.skills_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-skills">
+          {% for skill in site.data.resume.skills %}
+          <li>{{ skill.title }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-language"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.languages_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.languages_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-skills">
+          {% for l in site.data.resume.languages %}
+          {% if page.chinese %}
+          <li>{{ l.name }}&nbsp;({{ l.desc.cn }})</li>
+          {% else %}
+          <li>{{ l.name }}&nbsp;({{ l.desc.en }})</li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-gamepad"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.interests_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.interests_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-skills">
+          {% for i in site.data.resume.interests %}
+          {% if page.chinese %}
+          <li>{{ i.cn }}</li>
+          {% else %}
+          <li>{{ i.en }}</li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+    </section>
+    <section id="right-side" class="large-8 medium-7 small-12 left" data-equalizer-watch>
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-briefcase"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.exps_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.exps_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-experience">
+          {% for exp in site.data.resume.exps %}
+          {% if page.chinese %}
+          <li><label>{{ exp.company.cn }}&nbsp;<span>&nbsp;{{ exp.start }}&nbsp;-&nbsp;{{ exp.end }}</span></label>
+            <p><strong>{{ exp.job.cn }}</strong>&nbsp;|&nbsp;{{ exp.detail.cn }}</p></li>
+          {% else %}
+          <li><label>{{ exp.company.en }}&nbsp;<span>&nbsp;{{ exp.start }}&nbsp;-&nbsp;{{ exp.end }}</span></label>
+            <p><strong>{{ exp.job.en }}</strong>&nbsp;|&nbsp;{{ exp.detail.en }}</p></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-laptop"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.portfolio_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.portfolio_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-experience works">
+          {% for port in site.data.portfolio_list limit: 10 %}
+          <li><label>{{ port.name }}&nbsp;&nbsp;<a target="_blank" href="{{ port.url }}"><i class="fa fa-share"></i></a></label><p>{{ port.desc }}</p></li>
+          {% endfor %}
+          {% if page.chinese %}
+          <li><p><a href="{{ site.url }}/portfolio/">查看更多...</a></p></li>
+          {% else %}
+          <li><p><a href="{{ site.url }}/portfolio/">Find out more...</a></a></li>
+          {% endif %}
+        </ul>
+      </section>
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.edu_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.edu_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-experience">
+          {% for edu in site.data.resume.edu %}
+          {% if page.chinese %}
+          <li><label>{{ edu.meta.cn }}&nbsp;<span>:&nbsp;{{ edu.start }}&nbsp;-&nbsp;{{ edu.end }}</span></label><p><strong>{{ edu.degree.cn }}</strong></p></li>
+          {% else %}
+          <li><label>{{ edu.meta.en }}&nbsp;<span>:&nbsp;{{ edu.start }}&nbsp;-&nbsp;{{ edu.end }}</span></label><p><strong>{{ edu.degree.en }}</strong></p></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      {% if site.data.resume.award %}
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-trophy"></i>
+        </div>
+        <h3>Cursos, Diplomas y Experiencias</h3>
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-experience">
+          <li><label>Metodología Ágil con SCRUM <span> / 2015</span></label>
+            <p>
+              <strong>Edifico Campus TEC | Guatemala | Curso</strong>
+            </p>
+          </li>
+          <li>
+            <label>Franklin Covey: Las 5 Elecciones Hacia la Productividad Extraordinaria <span> / 2014</span></label>
+            <p>
+              <strong>Instituto Técnico de Capacitación y Productividad - INTECAP | Guatemala | Diploma</strong>
+            </p>
+          </li>
+          <li>
+            <label>WORLD FRIENDS IT VOLUNTEERS: PROGRAMACIÓN C <br/>
+          WORLD FRIENDS IT VOLUNTEERS: ANDROID SDK<span> / 2013</span></label>
+            <p>
+              <strong>Centro Educativo Técnico Laboral, Kinal | Guatemala | Diploma</strong>
+            </p>
+          </li>
+          <li><label>PROGRAMACIÓN TECNOLOGÍA JAVAFX. <br/>
+          PROGRAMACIÓN KINECT XBOX360. <span> / 2012</span></label>
+            <p>
+              <strong>Centro Educativo Técnico Laboral, Kinal | Guatemala | Experiencia</strong>
+            </p>
+          </li>
+          <li>
+            <label>CISCO IT ESSENTIALS: PC HARDWARE AND SOFTWARE <br/>
+          CISCO DISCOVERY I: NETWORKING FOR HOME AND SMALL BUSINESSES <br/>
+          CISCO DISCOVERY II: WORKING AT A SMALL-TO-MEDIUM BUSINESS OR ISP<span> / 2011</span></label>
+
+            <p>
+              <strong>Centro Educativo Técnico Laboral, Kinal | Guatemala | Diploma</strong>
+            </p>
+          </li>
+        </ul>
+      </section>
+      {% endif %}
+      {% if site.data.resume.evaluation %}
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-male"></i>
+        </div>
+        <h3>Habilidades Personales</h3>
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="list-experience works">
+          <li><label>Cooperativo trabajo bien en equipo</label></li>
+          <li><label>Excelentes habilidades de comunicación</label></li>
+          <li><label>Pensamiento analítico con habilidades de investigación efectivas para la solución de problemas</label></li>
+          <li><label>Altamente adaptable y flexible</label></li>
+          <li><label>Capaz de manejar presión y cumplir metas</label></li>
+          <li><label>Independiente capaz de trabajar con poca o ninguna supervisión</label></li>
+        </ul>
+      </section>
+      {% endif %}
+      {% if site.data.resume.reference %}
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-paperclip"></i>
+        </div>
+        <h3>Referencias</h3>
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="references">
+          <li>
+            <h3>Salwa Massis / Milk n' Cookies</h3>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-phone"></i>
+              </div>
+              <p><a href="tel:46391937">(+502) 4639-1937</a></p>
+            </div>
+            <div class="large-6 medium-6 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <p><a href="mailto:salwamassis@gmail.com">salwamassis@gmail.com</a></p>
+            </div>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-share-alt"></i>
+              </div>
+              <p>Project Manager</p>
+            </div>
+          </li>
+          <li>
+            <h3>Roberto Herbruger / Milk n' Cookies</h3>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-phone"></i>
+              </div>
+              <p><a href="tel:42165039">(+502) 4216-5039</a></p>
+            </div>
+            <div class="large-6 medium-6 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <p><a href="mailto:robertoherbruger@gmail.com">robertoherbruger@gmail.com</a></p>
+            </div>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-share-alt"></i>
+              </div>
+              <p>Project Manager</p>
+            </div>
+          </li>
+          <li>
+            <h3>Luis Del Águila / Milk n' Cookies</h3>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-phone"></i>
+              </div>
+              <p><a href="tel:55382629">(+502) 5538-2629</a></p>
+            </div>
+            <div class="large-6 medium-6 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <p><a href="mailto:delaguilaluis@outlook.com">luisdelaguila@outlook.com</a></p>
+            </div>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-share-alt"></i>
+              </div>
+              <p>Senior Developer</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      {% endif %}
+      {% if site.data.resume.more %}
+      <section class="icon-title toggle-title">
+        <div class="hexagon-icon">
+          <i class="fa fa-info"></i>
+        </div>
+        {% if page.chinese %}
+        <h3>{{ site.data.resume.more_info_title.cn }}</h3>
+        {% else %}
+        <h3>{{ site.data.resume.more_info_title.en }}</h3>
+        {% endif %}
+        <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+      </section>
+      <section class="info-content">
+        <ul class="references">
+          <li>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-thumbs-up"></i>
+              </div>
+              <p><a href="https://{{ site.data.resume.github }}" target="_blank">GitHub<br/><i class="fa fa-share"></i></a></p>
+            </div>
+            <div class="large-6 medium-6 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <p><a href="mailto:{{ site.data.resume.email }}?subject=Me interesa contactarlo" target="_blank">E-mail<br/><i class="fa fa-share"></i></a></p>
+            </div>
+            <div class="large-3 medium-3 small-12 left text-center reference-info">
+              <div class="hexagon-icon-fill-small">
+                <i class="fa fa-seedling"></i>
+              </div>
+              <p><a href="https://{{ site.data.resume.blog }}" target="_blank">Blog<br/><i class="fa fa-share"></i></a></p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      {% endif %}
+    </section>
+  </main>
+  <script src='{{ site.url }}/resume/pro/assets/js/jquery.min.js'></script>
+  <script src='{{ site.url }}/resume/pro/assets/js/trianglify.min.js'></script>
+  <script src='{{ site.url }}/resume/pro/assets/js/foundation.min.js'></script>
+  <script src='{{ site.url }}/resume/pro/assets/js/foundation.equalizer.js'></script>
+  <script src="{{ site.url }}/resume/pro/assets/js/index.js"></script>
+</body>
+
+</html>

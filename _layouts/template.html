@@ -1,0 +1,35 @@
+---
+layout: null
+---
+<html lang="en-US" class="js enhanced">
+{% include bat.html %}
+{% include head.html %}
+<style media="screen">
+  body {
+    margin: 25px;
+  }
+  .top_meta_section {
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .top_meta_section {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+</style>
+<body id="0" class="{{ page.body_classes }}">
+  <div class="top_meta_section">
+    <p>Fire Technology Community</p>
+    <h3>{{ page.title }}</h3>
+    <p>{{ page.category }} | {{ page.date | date: "%b %d, %Y" }}</p>
+  </div>
+  <hr>
+  <div class="middle_content">
+    {{ content }}
+  </div>
+  <br>
+  <div class="bottom_comments">
+    {% include comment.html %}
+  </div>
+</body>
+</html>

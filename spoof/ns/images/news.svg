@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>news</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="news" fill="#FE3B43">
+            <path d="M38,17 L4,17 L4,6.5 C4,5.119 5.119,4 6.5,4 L35.5,4 C36.881,4 38,5.119 38,6.5 L38,17 Z M38,28.5 C38,29.881 36.881,31 35.5,31 L25.142,31 L21.142,35 L21,35.142 L20.858,35 L16.858,31 L6.5,31 C5.119,31 4,29.881 4,28.5 L4,21 L38,21 L38,28.5 Z M37.003,-3.55271368e-15 L4.997,-3.55271368e-15 C2.237,-3.55271368e-15 3.55271368e-15,2.237 3.55271368e-15,4.997 L3.55271368e-15,30.003 C3.55271368e-15,32.763 2.237,35 4.997,35 L14.685,35 L21,41.315 L27.315,35 L37.003,35 C39.763,35 42,32.763 42,30.003 L42,4.997 C42,2.237 39.763,-3.55271368e-15 37.003,-3.55271368e-15 L37.003,-3.55271368e-15 Z" id="Fill-1"></path>
+            <polygon id="Fill-4" points="7 29.0352 21 29.0352 21 25.0352 7 25.0352"></polygon>
+        </g>
+    </g>
+</svg>

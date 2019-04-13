@@ -1,0 +1,31 @@
+---
+layout: list
+title: "Blogroll"
+description: "Welcome Web site and various fraternal exchange Site Links, and common development."
+---
+<div class="list">
+  {% for group in site.data.blogroll %}
+  <h1>{{ group.title }}<sup>{{ group.links.size }}</h1>
+  {% for lk in group.links %}
+  <!-- client START -->
+  <article class="item">
+    <a href="{{ lk.url }}" target="_blank">
+      <div class="item__content">
+        <h3 class="item__title">{{ lk.title }}</h3>
+        <div class="item__meta"><span class="date published">{{ lk.url }}</span></div>
+        <div class="item__excerpt">
+          <p>{{ lk.desc }}</p>
+        </div>
+      </div>
+      {% if lk.img.size > 0%}
+      {% assign lk_img = lk.img %}
+      {% else %}
+      {% assign lk_img = (site.url | append: site.default_image) %}
+      {% endif %}
+      <div class="item__image" style="background-image:url({{ lk_img }})"><img src="{{ lk_img }}" alt=""></div>
+    </a>
+  </article>
+  <!-- client END -->
+  {% endfor %}
+  {% endfor %}
+</div>

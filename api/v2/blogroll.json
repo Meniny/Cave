@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /api/v2/blogroll.json
+---
+{
+  "blogroll": [{% for cate in site.data.blogroll %}
+    [{% for lk in cate.links %}
+      {
+        "image": {% if lk.img.size > 0 %}"{{ lk.img }}"{% else %}"{{ site.url }}{{ site.default_image }}"{% endif %},
+        "title": "{{ lk.title }}",
+        "url": "{{ lk.url }}",
+        "brief": "{{ lk.desc }}"
+      }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+    ]{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ]
+}

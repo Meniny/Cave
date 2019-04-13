@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /docs.json
+---
+{
+  "docs": [
+    {% for d in site.docs %}
+    {
+      "url": "{{ site.url }}{{ d.url }}",
+      "title": "{{ d.title }}",
+      "author": "{% if d.quote %}From Internet{% else %}{{ site.author }}{% endif %}",
+      {% if site.api.review %}
+        {% assign doc_img = (site.url | append: '/assets/images/avatar/doc.jpg') %}
+      {% else %}
+        {% if d.img.size > 0 %}
+        {% assign doc_img = (site.url | append: '/assets/images/posts/square/' | append: d.img | append: '.jpg') %}
+        {% else %}
+        {% assign doc_img = (site.url | append: '/assets/images/avatar/doc.jpg') %}
+        {% endif %}
+      {% endif %}
+      "image": "{{ doc_img }}",
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+  ],
+}

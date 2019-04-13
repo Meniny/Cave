@@ -1,0 +1,28 @@
+---
+layout: default
+title: "About"
+#description: "All written content on this site is provided under a Creative Commons ShareAlike license and all code is provided under a MIT license unless otherwise stated. Please give source if you'd like to quote."
+description: "I'm a young software designer and developer based in Beijing, China. Find out more about me and the things that excite me."
+# gallery:
+#   - link: ""
+#     desc: ""
+#     img: "/photography/photos/people/2.jpg"
+#   - link: ""
+#     desc: ""
+#     img: "/photography/photos/people/1.jpg"
+#   - link: ""
+#     desc: ""
+#     img: "/photography/photos/people/5.jpg"
+#     #/photography/photos/people/4.jpg"
+#   - link: ""
+#     desc: ""
+#     img: "/assets/images/avatar/poster.png"
+hero: "/assets/images/avatar/meniny_l.jpg"
+---
+{% for ab in site.data.about %}
+  {% for item in ab.items %}
+  <p>{{ item.content }}</p>
+  {% endfor %}
+  <br/>
+{% endfor %}
+{% include comment.html %}

@@ -1,0 +1,23 @@
+---
+layout: list
+title: "Clients"
+---
+<div class="list">
+  {% for c in site.data.clients %}
+  <!-- client START -->
+  <article class="item">
+    <a href="{{ c.url }}" target="_blank">
+      <div class="item__content">
+        <h3 class="item__title">{{ c.platform }}</h3>
+        <div class="item__meta"><span class="date published">#{{ c.lan }}</span></div>
+        <div class="item__excerpt">
+          <p><button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ c.url }}'">{{ c.btn }}</button></p>
+        </div>
+      </div>
+      {% assign c_img = (site.url | append: '/assets/images/clients/' | append: c.img | append: '.jpg' ) %}
+      <div class="item__image" style="background-image:url({{ c_img }})"><img src="{{ c_img }}" alt=""></div>
+    </a>
+  </article>
+  <!-- client END -->
+  {% endfor %}
+</div>

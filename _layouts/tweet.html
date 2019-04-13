@@ -1,0 +1,36 @@
+---
+layout: blank
+body_classes: "wrap"
+---
+{% include skip.html %}
+<link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/postings.css">
+<!--[if lte IE 9]><div class="notice--danger center"><h4>Your browser is quite old!</h4><p>Why not <a href="https://whatbrowser.org/">upgrade to a more modern one</a> to better enjoy this site?</p></div><![endif]-->
+{% include site_logo.html %}
+<div id="main" class="page" role="main">
+  <article class="page__wrap">
+    <header class="page__header">
+      <h1 class="page__title">{{ page.date | date: "%b %d, %Y" }}</h1>
+      <p class="page__excerpt">{{ page.description }}</p>
+      <div class="page__meta">
+        <span class="taxonomy"><strong>{{ page.category }}</strong></span> <span class="read-time">{{ page.from }}</span>
+      </div>
+    </header>
+    {% include page_cover.html %}
+    <div class="page__hero"></div>
+    <section class="page__content">
+      <p>{{ page.title }}</p>
+      {% if page.imgs.size > 0 %}
+      {% for img in page.imgs %}
+      {% assign t_img = (site.url | append: '/assets/images/tweets/' | append: img) %}
+      <a href="{{ t_img }}" class="cover-link">
+        <noscript>&lt;img src="{{ t_img }}" data-src="{{ t_img }}" alt=""></noscript>
+        <img class="fade-in lazyloaded" src="{{ t_img }}" data-src="{{ t_img }}" alt="">
+      </a>
+      <br/><br/>
+      {% endfor %}
+      {% endif %}
+      {% include comment.html %}
+    </section>
+  </article>
+</div>
+<!-- {{ page.url }} -->

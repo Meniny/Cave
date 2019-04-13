@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /blogroll.json
+---
+{
+  "blogroll": [
+{% for cate in site.data.blogroll %}
+{% for lk in cate.links %}
+        {
+{% if lk.img.size > 0 %}
+            "img": "{{ lk.img }}",
+{% else %}
+            "img": "{{ site.url }}/assets/images/avatar/default_avatar.jpg",
+{% endif %}
+            "title": "{{ lk.title }}",
+            "url": "{{ lk.url }}",
+            "desc": "{{ lk.desc }}"
+          },
+{% endfor %}
+{% endfor %}
+  ]
+}
