@@ -3,14 +3,14 @@ layout: null
 title: "watermark.json"
 ---
 {
-	"iPhone X" : "<img src={{ site.url }}/icamera/iphone_x_w.png>",
-	"iPhone Xs Max" : "<img src={{ site.url }}/icamera/iphone_xs_max_w.png>",
-	"iMac Pro" : "<img src={{ site.url }}/icamera/imac_pro_w.png>",
-	"Macbook Pro" : "<img src={{ site.url }}/icamera/macbook_pro_w.png>",
-	"Ferrari Monza SP2" : "<img src={{ site.url }}/icamera/ferrari_monza_sp2_w.png>",
-	"Huawei P30 Pro" : "<img src={{ site.url }}/icamera/huawei_p30_pro_w.png>",
-	"李二狗 (Cave)" : "<img src={{ site.url }}/icamera/li_er_gou_cave_w.png>",
-	"李二狗 (Avatar)" : "<img src={{ site.url }}/icamera/li_er_gou_avatar_w.png>",
-	"Elias's Cave" : "<img src={{ site.url }}/icamera/eliass_cave_w.png>",
-	"视觉中国" : "<img src={{ site.url }}/icamera/vcg_w.png>"
+	"iPhone X" : "<img src={{ site.url }}/signature/iphone_x_w.png>",
+	"iPhone Xs Max" : "<img src={{ site.url }}/signature/iphone_xs_max_w.png>",
+	"iMac Pro" : "<img src={{ site.url }}/signature/imac_pro_w.png>",
+	"Macbook Pro" : "<img src={{ site.url }}/signature/macbook_pro_w.png>",
+	"Ferrari Monza SP2" : "<img src={{ site.url }}/signature/ferrari_monza_sp2_w.png>",
+	"Huawei P30 Pro" : "<img src={{ site.url }}/signature/huawei_p30_pro_w.png>",
+	"李二狗 (Cave)" : "<img src={{ site.url }}/signature/li_er_gou_cave_w.png>",
+	"李二狗 (Avatar)" : "<img src={{ site.url }}/signature/li_er_gou_avatar_w.png>",
+	"Elias's Cave" : "<img src={{ site.url }}/signature/eliass_cave_w.png>",
+	"视觉中国" : "<img src={{ site.url }}/signature/vcg_w.png>"
 }
