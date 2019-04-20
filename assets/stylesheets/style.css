@@ -1,7 +1,4 @@
----
-layout: null
----
-.active-wrap {
+--- layout: null --- .active-wrap {
   display: none;
 }
 
@@ -12,10 +9,8 @@ layout: null
 .exit {
   content: attr("Logout");
 }*/
-
 .tie-empty-tip {
   display: none;
-
 }
 
 .tie-title {
@@ -58,7 +53,6 @@ html {
     font-size: 135%;
   }
 }*/
-
 body {
   margin: 0;
   padding: 0;
@@ -199,6 +193,7 @@ svg:not(:root) {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg)
   }
+
   to {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg)
@@ -210,6 +205,7 @@ svg:not(:root) {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg)
   }
+
   to {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg)
@@ -1059,6 +1055,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     -ms-transform: translateX(-3em);
     transform: translateX(-3em)
   }
+
   .work__gallery-img:first-child {
     padding-top: 2em
   }
@@ -1074,6 +1071,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   .index {
     width: 83.0508474576%
   }
+
   .index .page__header, .index .tag__list--inline {
     width: 79.5918367347%
   }
@@ -1202,7 +1200,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 }
 
 .toc__menu>ul ul>li:before {
-  content: counter(a) "." counter(b) ". "
+  content: counter(a) "."counter(b) ". "
 }
 
 .toc .toc__menu {
@@ -1945,6 +1943,7 @@ form li, form ol, form ul {
     -ms-flex-preferred-size: 45%;
     flex-basis: 45%
   }
+
   .item__image img {
     display: none
   }
@@ -3256,67 +3255,84 @@ h5.review__title {
   @page {
     margin: 1cm
   }
+
   * {
     color: #000 !important
   }
+
   html {
     background: #fff
   }
+
   *, .btn, .dark, :after, :before, :first-letter, blockquote:first-line, button, div:first-line, li:first-line, p:first-line {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important
   }
+
   .archive__item, .container, .page__hero, .post__header, .post__inner-wrapper, body {
     display: block !important;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important
   }
+
   .page__content p {
     widows: 4;
     orphans: 3
   }
+
   div.highlighter-rouge .highlight, figure.highlight .highlight {
     padding: 0 !important;
     background: transparent;
     white-space: pre-wrap
   }
+
   figcaption code, li code, p code {
     padding: 0 !important
   }
+
   .index, .page {
     width: 100% !important
   }
+
   .list article.item a {
     margin-right: 0 !important
   }
+
   .btn, button {
     padding: 0 !important;
     text-align: left !important
   }
+
   .ad, .masthead, .overlay__menu, .page__cover, .page__reactions .page__form, .page__reactions .page__section-label, .page__reactions p.instruct, .page__related, .site__footer, .splash .page__hero, nav {
     display: none !important
   }
+
   .page__content a[href^=http]:not([href *="neverobsess.github.io/Elias.github.io"]):after {
-    content: " (" attr(href) ")"
+    content: " ("attr(href) ")"
   }
+
   abbr[title]:after {
-    content: " (" attr(title) ")"
+    content: " ("attr(title) ")"
   }
+
   a[href^="#"]:after {
     content: ""
   }
+
   #qr {
     display: block !important;
     visibility: visible !important;
     padding-top: .5em;
     border-top: 1px solid
   }
+
   #qr p {
     font-size: .8rem
   }
+
   .archive__item, .notice, .notice--danger, .notice--info, .notice--success, .notice--warning, figure, img, ol, table, ul {
     page-break-inside: avoid
   }
@@ -3330,4 +3346,79 @@ h5.review__title {
 .wumii-comment-user img, .wumii-avatar img {
   border: none;
   box-shadow: none;
+}
+
+/* ---------- */
+.asciiquote {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  background: white;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: block;
+  direction: ltr;
+  box-sizing: border-box;
+  border-left: .25em solid #ffd43b;
+}
+
+.quoteblock {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin: 0 1em 0.75em 1.5em;
+  padding: 0;
+  direction: ltr;
+}
+
+blockquote {
+  color: #333333;
+  font-size: 1.15rem;
+  line-height: 1.75;
+  word-spacing: 0.1em;
+  letter-spacing: 0;
+  font-style: italic;
+  text-align: justify;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.quoteblock blockquote:before {
+  content: "\201c";
+  float: left;
+  font-size: 2.75em;
+  font-weight: bold;
+  line-height: 0.6em;
+  margin-left: -0.6em;
+  color: #003b6b;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.quoteblock .attribution {
+  font-size: 0.8125em;
+  line-height: 1.45;
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-right: 0.5ex;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+}
+
+.quoteblock .attribution cite {
+  display: block;
+  letter-spacing: -0.025em;
+  color: #a0a0a0;
+  font-size: 0.8125em;
+  line-height: 1.45;
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-right: 0.5ex;
+  text-align: right;
+  direction: ltr;
 }
