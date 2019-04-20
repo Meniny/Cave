@@ -1,7 +1,7 @@
 ---
 category: "Ramble"
 img: "ramble.png"
-title:  "爱与被爱"
+title:  "十年"
 tags: [罗曼·罗兰, Romain Rollan]
 blockquote:
   author:
