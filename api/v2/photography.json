@@ -3,11 +3,11 @@ layout: null
 permalink: /api/v2/photography.json
 ---
 {
-  "photography": [{% for a in site.photography %}
+  "photography": [{% for a in (site.photography | reverse) %}
     {
       "name": "{{ a.title }}",
       "cover": "{{ site.url }}{{ a.cover }}",
-      "data": [{% for p in a.images %}
+      "data": [{% for p in (a.images | reverse) %}
         {
           "album": "{{ a.title }}",
           "cover": "{{ site.url }}{{ a.cover_folder }}/{{ p }}",
