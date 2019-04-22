@@ -2,7 +2,7 @@
 layout: null
 permalink: /api/v2/photography.json
 ---
-{{% assign albums = (site.photography | reverse) %}
+{ {% assign albums = (site.photography | reverse) %}
   "photography": [{% for a in albums %}
     {
       "name": "{{ a.title }}",
