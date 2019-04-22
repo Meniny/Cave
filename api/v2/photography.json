@@ -9,6 +9,7 @@ permalink: /api/v2/photography.json
       "cover": "{{ site.url }}{{ a.cover }}",
       "data": [{% for p in a.images %}
         {
+          "album": "{{ a.title }}",
           "cover": "{{ site.url }}{{ a.cover_folder }}/{{ p }}",
           "image": "{{ site.url }}{{ a.album_folder }}/{{ p }}"
         }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
