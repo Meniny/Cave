@@ -5,6 +5,7 @@ title: "watermark.json"
 {
 	"iPhone X" : "<img src={{ site.url }}/signature/iphone_x_w.png>",
 	"iPhone Xs Max" : "<img src={{ site.url }}/signature/iphone_xs_max_w.png>",
+	"iPhone 11 Pro Max" : "<img src={{ site.url }}/signature/iphond_11_pro_max.png",
 	"iMac Pro" : "<img src={{ site.url }}/signature/imac_pro_w.png>",
 	"Macbook Pro" : "<img src={{ site.url }}/signature/macbook_pro_w.png>",
 	"Ferrari Monza SP2" : "<img src={{ site.url }}/signature/ferrari_monza_sp2_w.png>",
