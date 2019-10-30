@@ -106,6 +106,8 @@
   url: "http://subhd.com/"
   image: ""
   color: ""
+- title: "OpenSubtitles"
+  url: "https://www.opensubtitles.org/zh/"
 - title: "BT电影"
   url: "http://btbtdy.tv/"
   image: "btbtdy"
