@@ -62,7 +62,9 @@ layout: null
           </div>
         </div>
         <ul class="recommonds">
-          {% for item in site.data.navigator %}
+          {% if page.local %}{% assign finallinks = page.links %}
+          {% else %}{% assign finallinks = site.data.navigator %}{% endif %}
+          {% for item in finallinks %}
           <li data_old="1" class="sigleRecommond">
             <span old_del="1" class="del-flag glyphicon glyphicon-remove"></span>
             <a class="singleLink" href="{{ item.url }}" title="{{ item.title }}" target="_blank">
