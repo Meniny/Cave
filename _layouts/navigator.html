@@ -71,7 +71,7 @@ layout: null
               {% if item.image.size > 0 %}
               <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/{{ item.image }}.png" style="box-shadow: {{ item.color }} 0 10px 10px -6px;">
               {% else %}
-              <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/general{% if item.cate.site > 0 %}_{{ item.cate }}{% else %}{% endif %}.png" style="box-shadow: RGBA(0, 186, 241, 0.75) 0 10px 10px -6px;">
+              <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/general{% if item.cate.size > 0 %}_{{ item.cate }}{% else %}{% endif %}.png" style="box-shadow: RGBA(0, 186, 241, 0.75) 0 10px 10px -6px;">
               {% endif %}
               <span class="text-links">{{ item.title }}</span>
             </a>
