@@ -534,7 +534,7 @@
   image: ""
   color: ""
 - title: "Switch Errors"
-  uur: "http://support.nintendo.com/switch/error"
+  url: "http://support.nintendo.com/switch/error"
 - title: "PSRemotePlay"
   url: "https://remoteplay.dl.playstation.net/remoteplay/lang/en/index.html"
   image: "playstation"
