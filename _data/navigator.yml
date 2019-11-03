@@ -533,6 +533,8 @@
   url: "https://www.nintendo.com/games/"
   image: ""
   color: ""
+- title: "Switch Errors"
+  uur: "http://support.nintendo.com/switch/error"
 - title: "PSRemotePlay"
   url: "https://remoteplay.dl.playstation.net/remoteplay/lang/en/index.html"
   image: "playstation"
