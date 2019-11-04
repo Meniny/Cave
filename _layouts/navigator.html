@@ -113,7 +113,7 @@ layout: null
   </div>
 
   <div class="footer-box">
-    <a id="about" target="_blank" href="{{ site.url }}/about/">
+    <a id="about" target="_blank" href="{{ site.url }}{% if page.sensitive %}{{ page.url }}{% else %}/about/{% endif %}">
       2007-2019 © {{ page.title }}{% if page.theme == "light" %} <a href="{{ site.url }}{{ page.url | append: '/dark/' | replace: '//', '/' }}">夜间模式</a> {% else %} <a href="{{ site.url }}{{ page.url | replace: '/dark','' | replace: '//', '/' }}">普通模式</a>{% endif %}
     </a><!-- <a href="javascript:void(0)" id="nightMode" class='yejian'>夜间模式</a> -->
   </div>
