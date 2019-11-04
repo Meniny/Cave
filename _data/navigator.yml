@@ -1,4 +1,4 @@
-  - sensitive: ture
+  - sensitive: true
     sections:
       - name: "18+"
         links:
