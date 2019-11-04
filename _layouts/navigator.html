@@ -67,7 +67,7 @@ layout: null
             }
           </style>
           {% for block in site.data.navigator %}
-          {% if block.sensitive == true and page.sensitive == faLse %}<div><!-- sensitive -->></div>{% else %}
+          {% if block.sensitive == page.sensitive %}
           {% for display in block.sections %}
           <!-- START {{ display.name }} -->
           <div>
@@ -91,6 +91,8 @@ layout: null
           <!-- END {{ display.name }} -->
           <br/><br/>
           {% endfor %}
+          {% else %}
+          <div><!-- sensitive -->></div>
           {% endif %}
           {% endfor %}
 
