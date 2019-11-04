@@ -1,4 +1,4 @@
-- title: "Search"
+- name: "Search"
   links:
     - title: "百度"
       url: "https://baidu.com/"
@@ -16,7 +16,7 @@
       url: "https://yandex.com/"
       image: "yandex"
       color: "RGBA(239, 22, 22, 0.75)"
-- title: "Community"
+- name: "Community"
   links:
     - title: "9GAG"
       url: "https://9gag.com/"
@@ -82,7 +82,7 @@
       url: "http://fanfou.com/"
       image: "fanfou"
       color: "RGBA(0, 187, 233, 0.75)"
-- title: "Media"
+- name: "Media"
   links:
     - title: "Youtube"
       url: "https://youtube.com/"
@@ -136,7 +136,7 @@
       url: "https://www.findyoutube.net/"
       image: "youtube"
       color: "RGBA(255, 0, 0, 0.75)"
-- title: "Buying"
+- name: "Buying"
   links:
     - title: "淘宝"
       url: "https://taobao.com/"
@@ -146,7 +146,7 @@
       url: "https://jd.com/"
       image: "jd"
       color: "RGBA(253, 59, 67, 0.75)"
-- title: "Development"
+- name: "Development"
   links:
     - title: "CodePen"
       url: "https://codepen.io/"
@@ -195,7 +195,7 @@
     - title: "What is"
       url: "https://whatis.techtarget.com/"
       image: ""
-- title: "Knowledge"
+- name: "Knowledge"
   links:
     - title: "知乎"
       url: "https://zhihu.com/"
@@ -221,7 +221,7 @@
       url: "https://wikihow.com/"
       image: ""
       color: ""
-- title: "Arts"
+- name: "Arts"
   links:
     - title: "Imgur"
       url: "https://imgur.com/"
@@ -286,7 +286,7 @@
       url: "http://wallpapermaiden.com/"
       image: ""
       color: ""
-- title: "Culture"
+- name: "Culture"
   links:
     - title: "小书屋"
       url: "http://mebook.cc/"
@@ -338,7 +338,7 @@
     - title: "汉典"
       url: "http://www.zdic.net/"
       image: ""
-- title: "Google"
+- name: "Google"
   links:
     - title: "谷歌翻译"
       url: "https://translate.google.cn/#auto/zh-CN/"
@@ -372,13 +372,13 @@
       url: "https://mail.google.com/mail/u/0/#inbox"
       image: "gmail"
       color: "RGBA(237, 64, 45, 0.75)"
-- title: "Baidu"
+- name: "Baidu"
   links:
     - title: "百度图片"
       url: "https://image.baidu.com/"
       image: "baidu"
       color: "RGBA(41, 39, 228, 0.75)"
-- title: "Apple"
+- name: "Apple"
   links:
     - title: "苹果官网"
       url: "https://apple.com/"
@@ -426,19 +426,19 @@
       url: "http://mac-torrents.com/"
       image: "mac-torrents"
       color: "RGBA(35, 176, 247, 0.75)"
-- title: "Microsoft"
+- name: "Microsoft"
   links:
     - title: "MSDN下载"
       url: "https://msdn.itellyou.cn/"
       image: "microsoft"
       color: "RGBA(0, 172, 242, 0.75)"
-- title: "Adobe"
+- name: "Adobe"
   links:
     - title: "Adobe下载"
       url: "https://www.adobe.com/cn/downloads.html"
       image: "adobe"
       color: "RGBA(255, 0, 0, 0.75)"
-- title: "Cloud Drive"
+- name: "Cloud Drive"
   links:
     - title: "欢喜云"
       url: "https://yun.smartisan.com/"
@@ -448,7 +448,7 @@
       url: "https://pan.baidu.com/"
       image: "baiduyun"
       color: "RGBA(52, 121, 252, 0.75)"
-- title: "Markup"
+- name: "Markup"
   links:
     - title: "Dillinger"
       url: "https://dillinger.io/"
@@ -458,7 +458,7 @@
       url: "https://asciidoclive.com/"
       image: "asciidoctor"
       color: "RGBA(238, 18, 71, 0.75)"
-- title: "Utils"
+- name: "Utils"
   links:
     - title: "Pastebin"
       url: "https://pastebin.com/"
@@ -510,19 +510,19 @@
       url: "http://phlntn.com/emojibuilder/"
       image: "emoji"
       color: "RGBA(255, 173, 32, 0.75)"
-- title: "Language"
+- name: "Language"
   links:
     - title: "Forvo"
       url: "https://zh.forvo.com/"
       image: "forvo"
       color: "RGBA(0, 111, 173, 0.75)"
-- title: "Meterial"
+- name: "Meterial"
   links:
     - title: "MaterialPalette"
       url: "https://www.materialpalette.com/"
       image: ""
       color: ""
-- title: "Fonts"
+- name: "Fonts"
   links:
     - title: "求字体"
       url: "http://www.qiuziti.com/"
@@ -534,7 +534,7 @@
       color: ""
     - title: "What the Font"
       url: "https://www.myfonts.com/WhatTheFont/"
-- title: "Video Gaming"
+- name: "Video Gaming"
   links:
     - title: "VGTime"
       url: "http://www.vgtime.com/"
@@ -597,7 +597,7 @@
       url: "http://www.pc6.com/z/yunxingku/"
     - title: "3DM 运行库离线包"
       url: "https://dl.3dmgame.com/patch/89066.html"
-- title: "More"
+- name: "More"
   links:
     - title: "QQ 邮箱"
       url: "https://mail.qq.com"
@@ -627,14 +627,14 @@
       url: "https://meniny.cn/docs/asciidoc/"
       image: ""
       color: ""
-- title: "RegEx"
+- name: "RegEx"
   links:
     - title: "RegEx101"
       url: "https://regex101.com/"
     - title: "$RegExBuddy"
       url: "http://www.regexbuddy.com/"
       cate: "app"
-- title: "Applications"
+- name: "Applications"
 links:
     - title: "Logitech Opts"
       url: "https://support.logi.com/hc/zh-cn/articles/360025297893"
