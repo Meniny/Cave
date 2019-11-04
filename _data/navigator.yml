@@ -2,7 +2,7 @@
     sections:
       - name: "18+"
         links:
-          - title: "sensitive"
+          - title: "Sensitive"
             url: "https://sensitive.com"
           # - title: "xp1024"
           #   url: "http://1024xp.com"
