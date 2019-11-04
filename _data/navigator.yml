@@ -41,7 +41,7 @@
           #   image: "acg"
           #   color: "RGBA(252, 144, 176, 0.75)"
   - sensitive: false
-    section:
+    sections:
       - name: "Search"
         links:
           - title: "百度"
