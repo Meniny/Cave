@@ -644,7 +644,7 @@
       - title: "Mint"
         url: "https://www.linuxmint.com/"
   - name: "Applications"
-  links:
+    links:
       - title: "Logitech Opts"
         url: "https://support.logi.com/hc/zh-cn/articles/360025297893"
         image: "logitech_app"
@@ -669,7 +669,7 @@
         image: "diskgenius_app"
         cate: "app"
       - title: "VNC Connect"
-      url : "https://www.realvnc.com/en/connect/download/vnc/windows/"
+        url : "https://www.realvnc.com/en/connect/download/vnc/windows/"
         cate: "app"
       - title: "蓝灯"
         url: "https://github.com/getlantern/download"
