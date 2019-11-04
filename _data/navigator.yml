@@ -296,7 +296,7 @@
         url: "https://unsplash.com/"
         image: "unsplash"
         color: "RGBA(0, 0, 0, 0.75)"
-      - titsle: "Walli"
+      - title: "Walli"
         url: "https://www.walli.rocks/"
         image: ""
       - title: "Pixabay"
