@@ -67,6 +67,7 @@ layout: null
             }
           </style>
           {% for block in site.data.navigator %}
+          <!-- block: {{ block.sensitive }} ; page: {{ page.sensitive}} -->
           {% if block.sensitive == page.sensitive %}
           {% for display in block.sections %}
           <!-- START {{ display.name }} -->
