@@ -65,6 +65,9 @@ layout: null
           {% else %}{% assign sections = site.data.navigator %}{% endif %}
           {% for display in sections %}
           <!-- {{ display.name }} -->
+          <div>
+            <p>❀&nbsp;{{ display.name}}</p>
+          </div>
           <ul class="recommonds">
           {% for item in display.links %}
           <li data_old="1" class="sigleRecommond">
@@ -80,6 +83,7 @@ layout: null
           </li>
           {% endfor %}
           </ul>
+          <br/><br/>
           {% endfor %}
 
         <!-- 模板内容 -->
