@@ -62,9 +62,10 @@ layout: null
           </div>
         </div>
         <ul class="recommonds">
-          {% if page.local %}{% assign display = page.links %}
-          {% else %}{% assign display = site.data.navigator %}{% endif %}
-          {% for item in display %}
+          {% if page.local %}{% assign sections = page.links %}
+          {% else %}{% assign sections = site.data.navigator %}{% endif %}
+          {% for display in sections %}
+          {% for item in display.links %}
           <li data_old="1" class="sigleRecommond">
             <span old_del="1" class="del-flag glyphicon glyphicon-remove"></span>
             <a class="singleLink" href="{{ item.url }}" title="{{ item.title }}" target="_blank">
@@ -76,6 +77,7 @@ layout: null
               <span class="text-links">{{ item.title }}</span>
             </a>
           </li>
+          {% endfor %}
           {% endfor %}
         </ul>
 
