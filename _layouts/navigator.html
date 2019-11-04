@@ -66,7 +66,12 @@ layout: null
           {% for display in sections %}
           <!-- {{ display.name }} -->
           <div>
-            <p>❀&nbsp;{{ display.name}}</p>
+            <style media="screen">
+              .section_title {
+                color: {% if page.theme == 'light' %}black{% else %}white{% endif%};
+              }
+            </style>
+            <p class="section_title">❀&nbsp;{{ display.name}}</p>
           </div>
           <ul class="recommonds">
           {% for item in display.links %}
