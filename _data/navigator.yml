@@ -619,7 +619,7 @@
         cate: "app"
       - title: "迅雷"
         url: "https://dl.xunlei.com/"
-        image: "thuner"
+        image: "thunder_mobile"
       - title: "腾讯产品"
         url: "https://pc.qq.com/"
       - title: "手机迅雷"
