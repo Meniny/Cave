@@ -65,46 +65,32 @@ layout: null
             .section_title {
               color: {% if page.theme == 'light' %}black{% else %}white{% endif%};
             }
-            .block_hide {
-              display: none;
-            }
-            .block_show {
-              /* nonthing */
-            }
           </style>
           {% for block in site.data.navigator %}
-          {% if page.sensitive %}
-            <div class="block_show">
-          {% else %}
-            {% if block.sensitive %}
-            <div class="block_hide">
-            {% else %}
-            <div class="block_show">
-            {% endif %}
+          {% if page.sensitive == false and block.sensitive %}{% else %}
+          {% for display in block.sections %}
+          <!-- {{ display.name }} -->
+          <div>
+            <p class="section_title">❀&nbsp;{{ display.name}}</p>
+          </div>
+          <ul class="recommonds">
+          {% for item in display.links %}
+          <li data_old="1" class="sigleRecommond">
+            <span old_del="1" class="del-flag glyphicon glyphicon-remove"></span>
+            <a class="singleLink" href="{{ item.url }}" title="{{ item.title }}" target="_blank">
+              {% if item.image.size > 0 %}
+              <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/{{ item.image }}.png" style="box-shadow: {{ item.color }} 0 10px 10px -6px;">
+              {% else %}
+              <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/general{% if item.cate.size > 0 %}_{{ item.cate }}{% else %}{% endif %}.png" style="box-shadow: RGBA(0, 186, 241, 0.75) 0 10px 10px -6px;">
+              {% endif %}
+              <span class="text-links">{{ item.title }}</span>
+            </a>
+          </li>
+          {% endfor %}
+          </ul>
+          <br/><br/>
+          {% endfor %}
           {% endif %}
-              {% for display in sections %}
-              <!-- {{ display.name }} -->
-              <div>
-                <p class="section_title">❀&nbsp;{{ display.name}}</p>
-              </div>
-              <ul class="recommonds">
-              {% for item in display.links %}
-              <li data_old="1" class="sigleRecommond">
-                <span old_del="1" class="del-flag glyphicon glyphicon-remove"></span>
-                <a class="singleLink" href="{{ item.url }}" title="{{ item.title }}" target="_blank">
-                  {% if item.image.size > 0 %}
-                  <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/{{ item.image }}.png" style="box-shadow: {{ item.color }} 0 10px 10px -6px;">
-                  {% else %}
-                  <img class="img-links2" src="{{ site.url }}/navigator/assets/images/icons/general{% if item.cate.size > 0 %}_{{ item.cate }}{% else %}{% endif %}.png" style="box-shadow: RGBA(0, 186, 241, 0.75) 0 10px 10px -6px;">
-                  {% endif %}
-                  <span class="text-links">{{ item.title }}</span>
-                </a>
-              </li>
-              {% endfor %}
-              </ul>
-              <br/><br/>
-              {% endfor %}
-            </div>
           {% endfor %}
 
         <!-- 模板内容 -->
