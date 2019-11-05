@@ -743,6 +743,10 @@
             url: "https://www.huorong.cn/"
             image: "huorong"
             cate: "app"
+          - title: "Rufus"
+            url: "https://rufus.ie/"
+            image: "rufus"
+            cate: "app"
       - name: "Utils"
         links:
           - title: "TinyPNG"
