@@ -747,6 +747,9 @@
             url: "https://rufus.ie/"
             image: "rufus"
             cate: "app"
+          - title: "Image Writer"
+            url: "https://launchpad.net/win32-image-writer/"
+            cate: "app"
       - name: "Utils"
         links:
           - title: "TinyPNG"
