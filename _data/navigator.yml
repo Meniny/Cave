@@ -697,6 +697,8 @@
             url: "http://diskgenius.cn/"
             image: "diskgenius_app"
             cate: "app"
+          - title: "ext2fsd"
+            url: "http://www.ext2fsd.com/"
           - title: "VNC Connect"
             url : "https://www.realvnc.com/en/connect/download/vnc/windows/"
             cate: "app"
