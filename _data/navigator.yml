@@ -546,6 +546,10 @@
             url: "https://meniny.cn/docs/asciidoc/"
             image: ""
             color: ""
+          - title: "Asciidoctor Syntax"
+            url: "https://asciidoctor.org/docs/asciidoc-syntax-quick-reference"
+            image: "asciidoctor"
+            color: "RGBA(238, 18, 71, 0.75)"
       - name: "Fonts"
         links:
           - title: "求字体"

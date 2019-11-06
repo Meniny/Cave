@@ -7,7 +7,7 @@
 :assets: {home}/assets
 :image: {assets}/images
 :video: {assets}/videos
-:stylesheets: {home}/asciidoc/stylesheets
+:stylesheets: {home}/docs/asciidoc/stylesheets
 :version: 1.0.1
 :experimental:
 :icons: font
@@ -770,7 +770,7 @@ CAUTION: 当心
 
 在 `AsciiDoctor` 中, 使用代码高亮需要在文档头配置 `:source-highlighter: pygments`。
 
-你可以通过 `gem install pygments.rb` 指令安装 `pygments` 的 `Ruby` 实现。除 `pygments`, 还可以使用 `coderay`, `highlightjs`, `prettify`等。
+你可以通过 `gem install pygments.rb` 指令安装 `pygments` 的 `Ruby` 实现。除 `pygments`, 还可以使用 `coderay`, `highlightjs`, `prettify` 等。
 
 [source, asciidoc]
 ----
