@@ -676,6 +676,12 @@
           - title: "OpenSUSE Linux"
             url: "http://www.opensuse.org/"
             image: "opensuse"
+          - title: "Parrot Linux"
+            url: "https://www.parrotlinux.org/"
+            image: "parrot"
+          - title: "Kali Linux"
+            url: "https://www.kali.org/"
+            image: "kali"
       - name: "Utils"
         links:
           - title: "Logitech Opts"
