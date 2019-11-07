@@ -264,7 +264,7 @@
             url: "https://gems.ruby-china.com/"
           - title: "RVM"
             url: "http://rvm.io/"
-       - name: "Knowledge"
+      - name: "Knowledge"
         links:
           - title: "知乎"
             url: "https://zhihu.com/"
