@@ -259,7 +259,7 @@
             cate: "app"
           - title: "Ruby Installer"
             url: "https://rubyinstaller.org/downloads/"
-            cate: "app"https://gems.ruby-china.com/
+            cate: "app"
           - title: "RubyChina Gems"
             url: "https://gems.ruby-china.com/"
           - title: "RVM"
