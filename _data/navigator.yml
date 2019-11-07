@@ -226,6 +226,8 @@
             url: "http://rvm.io/"
           - title: "GitKraken"
             url: "https://www.gitkraken.com/"
+            image: "gitkraken"
+            cate: "app"
           - title: "Atom"
             url: "https://atom.io/"
             image: "atom_app"
