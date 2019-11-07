@@ -259,8 +259,12 @@
             cate: "app"
           - title: "Ruby Installer"
             url: "https://rubyinstaller.org/downloads/"
-            cate: "app"
-      - name: "Knowledge"
+            cate: "app"https://gems.ruby-china.com/
+          - title: "RubyChina Gems"
+            url: "https://gems.ruby-china.com/"
+          - title: "RVM"
+            url: "http://rvm.io/"
+       - name: "Knowledge"
         links:
           - title: "知乎"
             url: "https://zhihu.com/"
