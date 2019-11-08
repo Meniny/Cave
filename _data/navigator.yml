@@ -667,6 +667,10 @@
             image: "kali"
       - name: "Utils"
         links:
+          - title: "Teamviewer"
+            url: "https://www.teamviewer.cn/"
+            image: "teamviewer"
+            cate: "app"
           - title: "Logitech Opts"
             url: "https://support.logi.com/hc/zh-cn/articles/360025297893"
             image: "logitech_app"
