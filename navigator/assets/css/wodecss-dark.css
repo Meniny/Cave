@@ -27,7 +27,7 @@ body {
 
 ::-moz-selection{background: rgba(144, 180, 216, 0.84);color: #FFF  !important; }.close { z-index: 1; }
 ::selection {background: rgba(80, 105, 131, 0.84);color: #FFF  !important;}
-.framework { max-width: 998px; margin: auto; }
+.framework { width: 100%; max-width: 998px; margin: auto; }
 .search { height:175px; margin:35px auto 0; }
 .logo-box { width: 100px; height: 100px; margin: 0 0 10px 45%; }
 .header_img {
