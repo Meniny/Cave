@@ -629,7 +629,7 @@
             url: "https://manjaro.org/"
             image: "manjaro"
           - title: "Manjaro Q&A"
-            url: "https://meniny.cn/docs/os/linux/manjaro/index.html"
+            url: "https://meniny.cn/docs/os/linux/manjaro/"
             image: "manjaro"
           - title: "MX Linux"
             url: "https://mxlinux.org/"
