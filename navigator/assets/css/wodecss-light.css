@@ -1,4 +1,4 @@
-* { text-decoration:none !important; 
+* { text-decoration:none !important;
   margin: 0;
   padding: 0;
   position: relative;
@@ -25,8 +25,8 @@ body {
 /*.modal-body { padding-top: 0; }*/
 
 ::-moz-selection{background: rgba(144, 180, 216, 0.84);color: #FFF  !important; }.close { z-index: 1; }
-::selection {background: rgba(80, 105, 131, 0.84);color: #FFF  !important;} 
-.framework { width: 998px; margin: auto; }
+::selection {background: rgba(80, 105, 131, 0.84);color: #FFF  !important;}
+.framework { max-width: 998px; margin: auto; }
 .search { height:175px; margin:35px auto 0; }
 .logo-box { width: 100px; height: 100px; margin: 0 0 10px 45%; }
 .header_img {
@@ -122,7 +122,7 @@ label:focus { color:rgb(90, 105, 117) }
 span.del-flag { display: none; position: absolute; right: 16px; top: 8px; width: 20px; height: 20px; border-radius: 50%; background-color: red; color: #fff; z-index: 1; line-height: 21px; text-align: center; font-size: 12px; box-shadow:0 1px 2px #600; cursor:pointer; }
 span.del-flag:hover { background-color: #c00; color:#ddd }
 .sortable span.del-flag { display: block }
-  
+
 .framework .useful-links, .top-section, .recommonds { height: auto !important; }
 span.show-color { display: inline-block; width: 15px; height: 15px; border-radius: 50%; position: relative; top: 3px; }
 .singleLink { position: relative; }
@@ -135,7 +135,7 @@ span.show-color { display: inline-block; width: 15px; height: 15px; border-radiu
 .tool-box.user-info { right: 50px; bottom: 20px }
 .tool-box a { bottom: 0; margin-top: 15px; padding: 0px;line-height: 60px; font-size: 20px; position: absolute; border-radius: 50%; width: 60px; height: 60px; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 ul.recommonds>li { position: relative; }
-.tool-box a span { line-height: 60px; } 
+.tool-box a span { line-height: 60px; }
 .glyphicon-plus { left: 1.5px; }
 .tool-box.manage a:nth-of-type(2) { bottom: 65px;}
 .tool-box.manage a:nth-of-type(3) { bottom: 130px; }
@@ -259,7 +259,7 @@ body.night-mode { background-color: #333435; }
 
   .tool-box { min-width: .5rem; min-height: .5rem; position: fixed; right: .1rem; bottom: .3rem; width: .5rem; }
   .tool-box a { margin-top: .1rem; line-height: .5rem; font-size: .2rem; width: .5rem; height: .5rem; }
-  .tool-box a span { line-height: .5rem; } 
+  .tool-box a span { line-height: .5rem; }
   .glyphicon-plus { left: .015rem; }
   .glyphicon { top: 0; }
   .tool-box.user-info { bottom: .3rem; left: .1rem; }
@@ -284,4 +284,3 @@ body.night-mode { background-color: #333435; }
 		transform:rotate(0deg);
 	}
 }
-
