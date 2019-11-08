@@ -143,6 +143,26 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 ```
 
+## VNC
+
+首先安装 `x11vnc`:
+
+```sh
+$ sudo pacman -S x11vnc
+```
+
+设置密码：
+
+```sh
+$ x11vnc -storepasswd
+```
+
+启动：
+
+```sh
+$ x11vnc -nap -wait 50 -noxdamage -rfbauth /home/你的用户名/.vnc/passwd -display :0 -nocursor -forever -o /home/你的用户名/.vnc/x11vnc.log -bg
+```
+
 ## Yakuake 皮肤
 
 Yakuake 是一款优秀的下拉式终端模拟器，为了防止误点击关闭导致的尴尬，可以安装这款皮肤：[Breeze Minimal](https://store.kde.org/p/1106236)。
