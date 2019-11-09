@@ -626,6 +626,8 @@
           - title: "Ubuntu Linux"
             url: "https://www.ubuntu.com/"
             image: "ubuntu"
+          - title: "Ubuntu MATE"
+            url: "https://ubuntu-mate.org/"
           - title: "Mint Linux"
             url: "https://www.linuxmint.com/"
             image: "mint"
