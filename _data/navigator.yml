@@ -530,7 +530,7 @@
             url: "https://asciidoctor.org/docs/asciidoc-syntax-quick-reference"
             image: "asciidoctor"
             color: "RGBA(238, 18, 71, 0.75)"
-          - title: "https://pandoc.org/"
+          - title: "Pandoc"
             url: "https://pandoc.org/"
       - name: "Fonts"
         links:
