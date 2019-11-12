@@ -163,6 +163,54 @@ $ x11vnc -storepasswd
 $ x11vnc -nap -wait 50 -noxdamage -rfbauth /home/你的用户名/.vnc/passwd -display :0 -nocursor -forever -o /home/你的用户名/.vnc/x11vnc.log -bg
 ```
 
+## Firefox Sync
+
+### 原因
+
+因为 Manjaro 自带的是国际版，使用的全球服务， 而在其他平台使用的可能是中国版，所以两者同步不了。
+
+### 解决方案
+
+将原来下自带的 Firefox 卸载，安装官网版本，然后在账号界面的 `更改服务` 的，将其更改为 `本地服务`，再登录，就可以同步了。
+
+* 卸载原来 Firefox
+
+* 官网下载 Firefox 并解压：
+
+```sh
+$ tar -xjvf **
+```
+
+* 将解压后的文件夹 `firefox` 移动到 `/opt` 下
+
+* 创建链接：
+
+```sh
+$ sudo ln -s /opt/firefox/firefox /usr/bin/firefox
+```
+
+* 创建桌面快捷方式：
+
+```sh
+$ sudo nano /usr/share/applications/firefox.desktop
+```
+
+添加内容：
+
+
+```sh
+[Desktop Entry]
+Name=firefox
+Comment=firefox
+Exec=/opt/firefox/firefox
+Icon=/opt/firefox/browser/chrome/icons/default/default128.png
+Terminal=false
+Type=Application
+Categories=Application;
+Encoding=UTF-8
+StartupNotify=true
+```
+
 ## Yakuake 皮肤
 
 Yakuake 是一款优秀的下拉式终端模拟器，为了防止误点击关闭导致的尴尬，可以安装这款皮肤：[Breeze Minimal](https://store.kde.org/p/1106236)。
