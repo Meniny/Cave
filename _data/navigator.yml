@@ -791,6 +791,7 @@
           - title: "µTorrent"
             url: "https://utorrent.com/"
             image: "utorrent"
+            cate: "app"
           - title: "TinyPNG"
             url: "https://tinypng.com/"
             image: ""
