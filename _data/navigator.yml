@@ -246,6 +246,9 @@
             cate: "app"
       - name: "Knowledge"
         links:
+          - title: "TechsViewer"
+            url: "https://techsviewer.com/"
+            image: "techsviewer"
           - title: "知乎"
             url: "https://zhihu.com/"
             image: "zhihu"
