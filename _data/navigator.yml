@@ -541,6 +541,8 @@
             color: "RGBA(238, 18, 71, 0.75)"
           - title: "Pandoc"
             url: "https://pandoc.org/"
+          - title: "Typora"
+            url: "https://typora.io/"
       - name: "Fonts"
         links:
           - title: "求字体"
