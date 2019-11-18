@@ -880,8 +880,8 @@
             url: "http://dpi.lv/"
           - title: "F-Droid"
             url: "https://f-droid.org/"
-       - name: "Security"
-         links:
+      - name: "Security"
+        links:
           - title: "PCHunter"
             url: "http://xuetr.com/"
           - title: "Cheat Engine"
