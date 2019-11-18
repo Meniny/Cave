@@ -253,12 +253,8 @@
             color: "RGBA(42, 102, 181, 0.75)"
           - title: "waifu2x"
             url: "http://waifu2x.udp.jp/index.zh-CN.html"
-            image: ""
-            color: ""
           - title: "Shields.io"
             url: "https://shields.io/"
-            image: ""
-            color: ""
       - name: "Knowledge"
         links:
           - title: "TechsViewer"
@@ -314,8 +310,8 @@
           - title: "汉典"
             url: "http://www.zdic.net/"
             image:
-         - title: "FreeMdict"
-           url: "https://freemdict.com/"
+          - title: "FreeMdict"
+            url: "https://freemdict.com/"
       - name: "Arts"
         links:
           - title: "Imgur"
