@@ -164,6 +164,8 @@
             color: ""
           - title: "OpenSubtitles"
             url: "https://www.opensubtitles.org/zh/"
+          - title: "SubtitleTools"
+            url: "https://subtitletools.com/"
       - name: "Purchasing"
         links:
           - title: "淘宝"
@@ -747,6 +749,14 @@
             cate: "app"
       - name: "Utils"
         links:
+          - title: "Toolslick"
+            url: "https://toolslick.com/"
+          - title: "Tool.lu"
+            url: "https://tool.lu/"
+          - title: "站长工具"
+            url: "http://tool.chinaz.com/map.aspx"
+            image: "chinaz"
+            color: "RGBA(42, 102, 181, 0.75)"
           - title: "Firefox"
             url: "https://www.firefox.com.cn/"
             image: "firefox"
