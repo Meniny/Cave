@@ -391,8 +391,10 @@
             url: "https://wallpaperhub.app/"
           - title: "ProcreateBrushes"
             url: "http://procreatebrushes.com/"
+            image: "pcb"
           - title: "CreativeMarket.com"
             url: "https://creativemarket.com"
+            image: "creativemarket"
       - name: "Reading"
         links:
           - title: "小书屋"
