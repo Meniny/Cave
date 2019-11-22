@@ -389,6 +389,8 @@
             color: ""
           - title: "WallpaperHub"
             url: "https://wallpaperhub.app/"
+          - title: "ProcreateBrushes"
+            url: "http://procreatebrushes.com/"
       - name: "Reading"
         links:
           - title: "小书屋"
