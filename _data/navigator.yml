@@ -516,7 +516,7 @@
             image: "mac-torrents"
             color: "RGBA(35, 176, 247, 0.75)"
           - title: "IPSW.me"
-            url: "https://ipws.me/"
+            url: "https://ipsw.me/"
           - title: "AppDB"
             url: "https://appdb.me/"
       - name: "Microsoft"
