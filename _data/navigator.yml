@@ -173,6 +173,7 @@
             image: "arctime"
           - title: "突字幕"
             url: "https://2zimu.com/"
+            image: "2zimu"
       - name: "Arts"
         links:
           - title: "Imgur"
@@ -238,6 +239,8 @@
           - title: "CreativeMarket"
             url: "https://creativemarket.com"
             image: "creativemarket"
+          - title: "Affinity"
+            url: "https://affinity.serif.com/zh-cn/"
       - name: "Development"
         links:
           - title: "Cave"
@@ -512,6 +515,10 @@
             url: "http://mac-torrents.com/"
             image: "mac-torrents"
             color: "RGBA(35, 176, 247, 0.75)"
+          - title: "IPSW.me"
+            url: "https://ipws.me/"
+          - title: "AppDB"
+            url: "https://appdb.me/"
       - name: "Microsoft"
         links:
           - title: "MSDN下载"
@@ -524,7 +531,6 @@
             url: "https://www.adobe.com/cn/downloads.html"
             image: "adobe"
             color: "RGBA(255, 0, 0, 0.75)"
-            image: "2zimu"
       - name: "Purchasing"
         links:
           - title: "淘宝"
