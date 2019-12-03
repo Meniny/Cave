@@ -1,5 +1,6 @@
 ---
 layout: album
+enabled: ture
 color: "#1DB5B5"
 cover: "/photography/covers/people-c.jpg"
 title: People

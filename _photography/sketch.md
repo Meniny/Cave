@@ -1,5 +1,6 @@
 ---
 layout: album
+enabled: false
 color: "#FCA95C"
 cover: "/photography/covers/sketch-c.jpg"
 title: "Sketch"

@@ -5,6 +5,7 @@ description: "I'm passionate about photography and enjoy taking pictures all aro
 ---
 <div class="list">
   {% for album in site.photography %}
+  {% if album.enabled %}
   <!-- item START -->
   <article class="item">
     <a href="{{ site.url }}{{ album.url }}">
@@ -20,5 +21,6 @@ description: "I'm passionate about photography and enjoy taking pictures all aro
     </a>
   </article>
   <!-- item END -->
+  {% endif %}
   {% endfor %}
 </div>
