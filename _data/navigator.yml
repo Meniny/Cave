@@ -524,10 +524,12 @@
             url: "https://appdb.me/"
       - name: "Microsoft"
         links:
-          - title: "MSDN下载"
+          - title: "MSDN ITellU"
             url: "https://msdn.itellyou.cn/"
             image: "microsoft"
             color: "RGBA(0, 172, 242, 0.75)"
+          - title: "One Drive"
+            url: "https://office.live.com/start/onedrive.aspx"
       - name: "Adobe"
         links:
           - title: "Adobe下载"
