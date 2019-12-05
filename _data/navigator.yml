@@ -530,6 +530,10 @@
             color: "RGBA(0, 172, 242, 0.75)"
           - title: "One Drive"
             url: "https://office.live.com/start/onedrive.aspx"
+          - title: "SyncToy"
+            url: "https://www.microsoft.com/en-us/download/details.aspx?id=15155"
+          - title: "PowerToy"
+            url: "https://github.com/microsoft/PowerToys"
       - name: "Adobe"
         links:
           - title: "Adobe下载"
