@@ -775,6 +775,9 @@
           - title: "老毛桃"
             url: "http://www.laomaotao.org/"
             image: "lmt"
+          - title: "macOS系统配置概要"
+            url: "https://meniny.cn/posts/new_mac_config_for_dev/"
+            image: "macintosh"
       - name: "Utils"
         links:
           - title: "Toolslick"
