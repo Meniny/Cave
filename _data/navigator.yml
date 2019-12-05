@@ -676,7 +676,7 @@
             url: "https://www.ali213.net/zhuanti/yxk/"
           - title: "PC6 运行库"
             url: "http://www.pc6.com/z/yunxingku/"
-          - title: "3DM 运行库离线包"
+          - title: "3DM 运行库"
             url: "https://dl.3dmgame.com/patch/89066.html"
       - name: "OS"
         links:
@@ -948,3 +948,13 @@
             url: "https://www.huorong.cn/"
             image: "huorong"
             cate: "app"
+      - name: "Spoof"
+        links:
+          - title: "加群失败"
+            url: "https://meniny.cn/spoof/wxgroup/"
+          - title: "无法显示"
+            url: "https://meniny.cn/spoof/chrome/"
+          - title: "FBI WARNING"
+            url: "https://meniny.cn/spoof/fbi/"
+          - title: "绘画资源百度盘"
+            url: "https://meniny.cn/spoof/qqqr/?t=%e9%93%be%e6%8e%a5%3ahttps%3a%2f%2fpan.baidu.com%2fs%2f1mS1I8wMrftbhd0h7RenxMA%e6%8f%90%e5%8f%96%e7%a0%81%3a568d"
