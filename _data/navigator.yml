@@ -330,6 +330,9 @@
             url: "http://waifu2x.udp.jp/index.zh-CN.html"
           - title: "Shields.io"
             url: "https://shields.io/"
+          - title: "Homebrew"
+            url: "https://brew.sh/index_zh-cn"
+            image: "homebrew"
       - name: "Knowledge"
         links:
           - title: "TechsViewer"
