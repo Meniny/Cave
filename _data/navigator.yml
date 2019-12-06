@@ -518,7 +518,7 @@
             color: "RGBA(42, 152, 207, 0.75)"
           - title: "Mac种子"
             url: "http://mac-torrents.com/"
-            image: "mac-torrents"
+            image: "finder"
             color: "RGBA(35, 176, 247, 0.75)"
           - title: "IPSW.me"
             url: "https://ipsw.me/"
@@ -785,7 +785,7 @@
             image: "lmt"
           - title: "macOS系统配置概要"
             url: "https://meniny.cn/posts/new_mac_config_for_dev/"
-            image: "macintosh"
+            image: "finder"
       - name: "Utils"
         links:
           - title: "Toolslick"
