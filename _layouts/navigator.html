@@ -71,8 +71,8 @@ layout: null
           {% if block.sensitive == page.sensitive %}
           {% for display in block.sections %}
           <!-- START {{ display.name }} -->
-          <div>
-            <p class="section_title">❀&nbsp;{{ display.name}}</p>
+          <div id="{{ display.name }}">
+            <p class="section_title">❀&nbsp;{{ display.name }}</p>
             <ul class="recommonds">
               {% for item in display.links %}
               <li data_old="1" class="sigleRecommond">
