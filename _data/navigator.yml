@@ -355,6 +355,8 @@
           - title: "Homebrew"
             url: "https://brew.sh/index_zh-cn"
             image: "homebrew"
+          - title: "Pip"
+            url: "https://pip.pypa.io/en/stable/installing/"
       - name: "Knowledge"
         links:
           - title: "TechsViewer"
