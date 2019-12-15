@@ -4,7 +4,7 @@
 
   <meta charset="UTF-8">
 
-  <title>扫描结果</title>
+  <title>检测结果</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
 
@@ -99,7 +99,7 @@
     <p id="qr-text" class="qr-text" style=""></p>
   </div>
 
-  <p id="qr-tips" class="qr-tips" style="">以上内容可能非李二狗提供，请谨慎使用。
+  <p id="qr-tips" class="qr-tips" style="">以上内容可能非本站提供，请谨慎使用。
     <br>如需使用请复制。</p>
 
   <script type="text/javascript">
@@ -110,31 +110,31 @@
       if (result = param.match(/lan\=(en|ja|ko|de|fr|es|tw|cn)/)) {
         switch (result[1]) {
           case 'en':
-            word = 'The information below is not provided by QQ mobile. < br > Please use it with caution. ';
+            word = 'The information below may not be provided by Elias. < br > Please use it with caution. ';
             break;
           case 'ja':
-            word = '下記の内容とモバイルQQ関係がありませんので、 < br > お気をつけてください。 ';
+            word = '下記の内容とモバイルElias関係がありませんので、 < br > お気をつけてください。 ';
             break;
           case 'ko':
-            word = '아래의 정보는 QQ 모바일에서 제공되지 않습니다. < br > 주의해서 사용하십시오. ';
+            word = '아래의 정보는 Elias 모바일에서 제공되지 않습니다. < br > 주의해서 사용하십시오. ';
             break;
           case 'de':
-            word = 'Die folgenden Informationen nicht durch QQ Handy zur Verfügung gestellt. < br > Bitte verwenden Sie es mit Vorsicht. ';
+            word = 'Die folgenden Informationen nicht durch Elias Handy zur Verfügung gestellt. < br > Bitte verwenden Sie es mit Vorsicht. ';
             break;
           case 'fr':
-            word = 'Les informations ci-dessous ne sont pas fournis par QQ mobile. < br > S\ 'il vous plaît l\'utiliser avec prudence. ';
+            word = 'Les informations ci-dessous ne sont pas fournis par Elias. < br > S\'il vous plaît l\'utiliser avec prudence. ';
             break;
           case 'es':
-            word = 'La siguiente información no es proporcionada por móvil QQ. < br > Utilice con precaución. ';
+            word = 'La siguiente información no es proporcionada por móvil Elias. < br > Utilice con precaución. ';
             break;
           case 'tw':
-            word = '以下內容非手機QQ提供，請謹慎使用 < br > 如需使用請複製。 ';
+            word = '以下內容非本站提供，請謹慎使用 < br > 如需使用請複製。 ';
             break;
           case 'cn':
           default:
-            word = '以下内容非手机QQ提供，请谨慎使用 < br > 如需使用请复制 ';
+            word = '以下内容非本站提供，请谨慎使用 < br > 如需使用请复制 ';
             if (isQim) {
-              word = '以下内容非DOV提供，请谨慎使用 < br > 如需使用请复制 ';
+              word = '以下内容非本站提供，请谨慎使用 < br > 如需使用请复制 ';
             }
             break;
         }
@@ -151,8 +151,10 @@
       var result = window.location.search.substr(1).match(reg);
       return result ? decodeURIComponent(result[2]) : null;
     }
-
-    document.getElementById("qr-text").innerHTML = getQueryString("t")
+    // t = title
+    document.title = getQueryString("t");
+    // c = content
+    document.getElementById("qr-text").innerHTML = getQueryString("c");
   </script>
 </body>
 
