@@ -22,11 +22,11 @@
   lang: "日本語"
   items:
     - content: '私は 李申翊 と申します。'
-    - content: '中国の出身で。<!--中国から参りました。-->今年は23歳で、開発エンジニアです。趣味は読书、<a href="https://meniny.cn/photography/paintings/">絵画</a>、映画、音楽と朝寝坊です。暇の时は小说も読みます。性格は静かです。喜びを家族、友达と分かち合う。'
+    - content: '中国の出身で。<!--中国から参りました。-->今年は25歳で、開発エンジニアです。趣味は読书、<a href="https://meniny.cn/photography/paintings/">絵画</a>、映画、音楽と朝寝坊です。暇の时は小说も読みます。性格は静かです。喜びを家族、友达と分かち合う。'
     # - content: "どうぞよろしく。"
     - content: "つまり、私はどんな境遇にも安んじるし、一本気です。"
 - block: "Informationen"
   lang: "Deutsch"
   items:
-    - content: 'Ich heisse Elias Abel und ich bin 23 jahre alt. Sie können mich Elias nennen.'
+    - content: 'Ich heisse Elias Abel und ich bin 25 jahre alt. Sie können mich Elias nennen.'
     - content: 'Ich komme aus China. Ich bin ein Software Ingenieur. Mein Hobby ist Musik.'
