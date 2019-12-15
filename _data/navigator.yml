@@ -948,7 +948,7 @@
             image: "ipmsg"
             cate: "app"
           - title: "Inno Setup"
-            url: "http://www.jrsoftware.org/"
+            url: "http://www.jrsoftware.org/isinfo.php"
             cate: "app"
           - title: "Install Maker Pro"
             url: "https://www.clickteam.com/download-centre/install-creator-pro-2"
