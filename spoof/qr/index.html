@@ -1,0 +1,159 @@
+<html style="">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>扫描结果</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+
+  <meta name="format-detection" content="telephone=no">
+
+  <script type="text/javascript">
+    var startTime = Date.now();
+  </script>
+
+  <style type="text/css">
+    html,
+    body,
+    p,
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font: 14px/1.6 "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+      background-color: #f7f7f9
+    }
+
+    a {
+      color: #0b88e6;
+      text-decoration: none;
+    }
+
+    .qr-top {
+      margin: 100px auto 14px;
+      line-height: 14px;
+      font-size: 14px;
+      color: #000
+    }
+
+    .qr-page {
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .qr-tips {
+      font-size: 12px;
+      color: #aaa;
+      position: fixed;
+      bottom: 30px;
+      width: 100%;
+      text-align: center
+    }
+
+    .qr-text {
+      min-height: 26px;
+      font-size: 20px;
+      color: #000;
+      background-color: #fff;
+      padding: 13px 20px 13px 20px;
+      word-wrap: break-word;
+      word-break: break-all;
+      border: 1px solid #dedfe0;
+      border-radius: 2px;
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 77px;
+      top: 128px;
+      overflow-y: auto;
+    }
+  </style>
+
+  <style>
+    html,
+    * {
+      -webkit-user-select: text !important;
+      -moz-user-select: text !important;
+    }
+  </style>
+  <style id="AlookElementHide">
+    .AlookElementHide {
+      display: none !important;
+      height: 0px !important;
+      line-height: 0px !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="qr-page">
+
+    <p class="qr-top">检测到以下内容</p>
+
+    <p id="qr-text" class="qr-text" style=""></p>
+  </div>
+
+  <p id="qr-tips" class="qr-tips" style="">以上内容可能非李二狗提供，请谨慎使用。
+    <br>如需使用请复制。</p>
+
+  <script type="text/javascript">
+    var international = function() {
+      var param = location.search;
+      var result;
+      var word = '';
+      if (result = param.match(/lan\=(en|ja|ko|de|fr|es|tw|cn)/)) {
+        switch (result[1]) {
+          case 'en':
+            word = 'The information below is not provided by QQ mobile. < br > Please use it with caution. ';
+            break;
+          case 'ja':
+            word = '下記の内容とモバイルQQ関係がありませんので、 < br > お気をつけてください。 ';
+            break;
+          case 'ko':
+            word = '아래의 정보는 QQ 모바일에서 제공되지 않습니다. < br > 주의해서 사용하십시오. ';
+            break;
+          case 'de':
+            word = 'Die folgenden Informationen nicht durch QQ Handy zur Verfügung gestellt. < br > Bitte verwenden Sie es mit Vorsicht. ';
+            break;
+          case 'fr':
+            word = 'Les informations ci-dessous ne sont pas fournis par QQ mobile. < br > S\ 'il vous plaît l\'utiliser avec prudence. ';
+            break;
+          case 'es':
+            word = 'La siguiente información no es proporcionada por móvil QQ. < br > Utilice con precaución. ';
+            break;
+          case 'tw':
+            word = '以下內容非手機QQ提供，請謹慎使用 < br > 如需使用請複製。 ';
+            break;
+          case 'cn':
+          default:
+            word = '以下内容非手机QQ提供，请谨慎使用 < br > 如需使用请复制 ';
+            if (isQim) {
+              word = '以下内容非DOV提供，请谨慎使用 < br > 如需使用请复制 ';
+            }
+            break;
+        }
+        document.getElementById('qr-tips').innerHTML = word;
+      }
+
+    };
+    international();
+  </script>
+
+  <script language="javascript">
+    function getQueryString(key) {
+      var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+      var result = window.location.search.substr(1).match(reg);
+      return result ? decodeURIComponent(result[2]) : null;
+    }
+
+    document.getElementById("qr-text").innerHTML = getQueryString("t")
+  </script>
+</body>
+
+</html>
