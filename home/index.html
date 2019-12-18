@@ -229,7 +229,7 @@ jobs:
               <p>Browse and share work from world-class designers and developers in the front-end community.</p><a href="{{ site.url }}/posts/archive/" class="text-button">Explore More</a>
             </div>
           </div>
-          {% for post in site.posts | limit: 5 %}
+          {% for post in site.posts limit: 5 %}
           <article class="single-pen single-item" data-component="Item">
             <header class="header"><a href="{{ site.url }}/about/" class="authorAvatar"><img src="{{ site.url }}{{ site.author_avatar }}" alt="Profile image for {{ site.author }}" class="user-avatar" width="40" height="40"></a>
               <div class="titleAndAuthor">
