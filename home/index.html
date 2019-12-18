@@ -1,6 +1,11 @@
 ---
 title: "Cave"
 layout: null
+jobs:
+  - title: "iOS Developer"
+    location: "Beijing"
+  - title: "Project Manager"
+    location: "Shenzhen"
 ---
 <!DOCTYPE html>
 <html class="mac firefox71" lang="en">
@@ -364,6 +369,7 @@ layout: null
           <p>I'm Looking for new a job. Post a job to find the perfect candidates from over 2 million front-end designers and developers.</p><a href="{{ site.url }}/imprint/" class="button green bold"><span>Offer a Job</span></a>
         </div>
         <div class="HomeJobs_jobs-s01mP">
+          {% for job in page.jobs %}
           <a href="{{ site.url }}/imprint/" class="HomeJobs_job-dZPRt">
             <h3>{{ job.title }}</h3>
             <h4>{{ job.location }}</h4>
