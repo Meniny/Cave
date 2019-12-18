@@ -235,6 +235,8 @@
             color: ""
           - title: "WallpaperHub"
             url: "https://wallpaperhub.app/"
+          - title: "ThemePack"
+            url: "https://themepack.me/"
           - title: "ProcreateBrushes"
             url: "http://procreatebrushes.com/"
             image: "pcb"
@@ -983,6 +985,8 @@
             url: "http://dpi.lv/"
           - title: "F-Droid"
             url: "https://f-droid.org/"
+          - title: "UltraUXThemePatcher"
+            url: "https://www.syssel.net/hoefs/software_uxtheme.php"
       - name: "Security"
         links:
           - title: "PCHunter"
