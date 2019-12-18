@@ -431,7 +431,7 @@ jobs:
           <h4>{{ site.name }}</h4>{% for nav in site.data.navigation %}<a href="{{ nav.url }}">{{ nav.title }}</a>{% endfor %}
         </nav>
         <nav id="link-footer-codepen-links" aria-label="Links about CodePen">
-          <h4>Photography</h4>{% for album in site.photography %}{% if album.enabled %}<a href="{{ site.url }}{{ album.url }}">{{ nav.title }}</a>{% endif %}{% endfor %}
+          <h4>Photography</h4>{% for album in site.photography %}{% if album.enabled %}<a href="{{ site.url }}{{ album.url }}">{{ album.title }}</a>{% endif %}{% endfor %}
         </nav>
         <div class="SiteFooterStyles_copyright-3gLgd" id="link-footer-copyright">
           <h1 class="Logo_root-3XNFn" data-test-id="logo"><a href="/" class="Logo_small-3i6l6"><svg width="20" height="20" class=" icon icon-codepen-box">
