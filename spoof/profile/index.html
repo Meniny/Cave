@@ -1,0 +1,67 @@
+---
+layout: null
+title: "Elias's Cave"
+description: "My Personal Blog"
+button: "View Detail"
+banner: "https://meniny.cn/assets/images/avatar/doggie.png"
+avatar "https://meniny.cn/assets/images/avatar/doggie_wb.png"
+---
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <section class="profile">
+    <div class="profile-header"><img id="tag_banner" src="{{ page.banner }}" alt="Banner"/></div>
+    <div class="profile-content"><img id="tag_avatar" src="{{ page.avatar }}" alt="Portret"/>
+      <h1 id="tag_title">{{ page.title }}</h1>
+      <p id="tag_desc">{{ page.description }}</p>
+      <button id="tag_btn" type="button">{{ page.button }}</button>
+    </div>
+    <!-- <ul aria-label="Statistics">
+      <li>383<span>Downloads</span></li>
+      <li>379<span>Stars</span></li>
+    </ul> -->
+  </section>
+</main>
+<!-- partial -->
+
+</body>
+
+<script language="javascript">
+  function getQueryString(key) {
+    var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+    var result = window.location.search.substr(1).match(reg);
+    return result ? decodeURIComponent(result[2]) : null;
+  }
+  var t = getQueryString("t");
+  if (t != null) {
+    document.title = t;
+    document.getElementById("tag_title").innerHTML = t;
+  }
+  var d = getQueryString("d");
+  if (d != null) {
+    document.getElementById("tag_desc").innerHTML = d;
+  }
+  var b = getQueryString("b");
+  if (b != null) {
+    document.getElementById("tag_btn").innerHTML = b;
+  }
+  var bp = getQueryString("bp");
+  if (bp != null) {
+    document.getElementById("tag_banner").innerHTML = bp;
+  }
+  var ap = getQueryString("ap");
+  if (ap != null) {
+    document.getElementById("tag_avatar").innerHTML = ap;
+  }
+
+</script>
+
+</html>
