@@ -22,7 +22,9 @@ avatar "https://meniny.cn/assets/images/avatar/doggie_wb.png"
     <div class="profile-content"><img id="tag_avatar" src="{{ page.avatar }}" alt="Portret"/>
       <h1 id="tag_title">{{ page.title }}</h1>
       <p id="tag_desc">{{ page.description }}</p>
-      <button id="tag_btn" type="button">{{ page.button }}</button>
+      <a if="tag_url" href="{{ site.url }}">
+        <button id="tag_btn" type="button">{{ page.button }}</button>
+      </a>
     </div>
     <!-- <ul aria-label="Statistics">
       <li>383<span>Downloads</span></li>
@@ -53,13 +55,17 @@ avatar "https://meniny.cn/assets/images/avatar/doggie_wb.png"
   if (b != null) {
     document.getElementById("tag_btn").innerHTML = b;
   }
+  var u = getQueryString("u");
+  if (u != null) {
+    document.getElementById("tag_url").href = u;
+  }
   var bp = getQueryString("bp");
   if (bp != null) {
-    document.getElementById("tag_banner").innerHTML = bp;
+    document.getElementById("tag_banner").src = bp;
   }
   var ap = getQueryString("ap");
   if (ap != null) {
-    document.getElementById("tag_avatar").innerHTML = ap;
+    document.getElementById("tag_avatar").src = ap;
   }
 
 </script>
