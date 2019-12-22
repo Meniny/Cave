@@ -1,0 +1,213 @@
+---
+layout: list
+title: Photography
+description: "I'm passionate about photography and enjoy taking pictures all around the world. If you like what you see, feel free to contact me for shootings."
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <link rel="canonical" href="https://meniny.cn/photography/" />
+  <meta property="og:url" content="https://meniny.cn/photography/" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" type="text/css" href="ew_css/textstyles.css?3659681910" />
+  <link rel="stylesheet" type="text/css" href="ew_css/responsive.css?3659681910" />
+  <!--[if lt IE 9]>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--<![endif]-->
+  <!--[if (gte IE 9) | (!IE)]><!-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!--<![endif]-->
+  <script type="text/javascript">
+  if (typeof jQuery == 'undefined')
+  {
+  <!--[if lt IE 9]>
+   document.write(unescape("%3Cscript src='ew_js/jquery-1.9.1.min' type='text/javascript'%3E%3C/script%3E"));
+  <!--<![endif]-->
+  <!--[if (gte IE 9) | (!IE)]><!-->
+   document.write(unescape("%3Cscript src='ew_js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+  <!--<![endif]-->
+  }
+  </script>
+  <script type="text/javascript" src="ew_js/lightgallery-all.min.js"></script>
+  <script type="text/javascript" src="ew_js/picturefill.min.js"></script>
+  <script type="text/javascript" src="ew_js/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="ew_js/imageCode.js"></script>
+  <link rel="stylesheet" type="text/css" href="ew_css/lightgallery.min.css" />
+  <link rel="stylesheet" type="text/css" href="ew_css/lg-transitions.min.css" />
+  <style>
+    div#ew-responsive-image-gallery_1 * {
+      box-sizing: border-box;
+    }
+
+    div#ew-responsive-image-gallery_1 {
+      margin: 0;
+      padding: 0 4px 0 4px;
+    }
+
+    div#ew-responsive-image-gallery_1 div.rig-img-container img {
+      vertical-align: middle;
+      width: 100%;
+
+      height: 100%;
+      object-fit: cover;
+    }
+
+    div#ew-responsive-image-gallery_1 div.column {
+      padding: 0 0;
+    }
+
+
+    div#ew-responsive-image-gallery_1 div.row div.rig-img-container {
+      height: 100%;
+      padding: 5px;
+      text-align: center;
+    }
+
+    p.ew-caption-settings-1 {
+      font-family: 'Helvetica', sans-serif;
+      font-size: 12px;
+    }
+
+    div#ew-responsive-image-gallery_1 div.ew-caption {
+      display: none;
+    }
+
+    div#ew-responsive-image-gallery_1 {
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+
+      -ms-flex-wrap: wrap;
+      -ms-flex-direction: row;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+
+    div#ew-responsive-image-gallery_1 div.row {
+      -webkit-box-flex: auto;
+      -ms-flex: auto;
+      flex: auto;
+      width: 25%;
+      min-width: 250px;
+    }
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#ew-responsive-image-gallery_1').lightGallery({
+        selector: '.ewi-item1',
+        subHtmlSelectorRelative: true,
+        autoplay: true,
+        pause: 4000,
+        mode: 'lg-fade',
+        speed: 500,
+        counter: false,
+        thumbnail: false,
+        controls: true,
+        download: false,
+        share: false
+
+      });
+    });
+  </script>
+  <style type="text/css">
+    a img {
+      border: 0px;
+    }
+
+    div.content {
+      min-height: 1000px;
+    }
+
+    footer {
+      min-height: 100px;
+    }
+
+    body {
+      background-color: #FEFFFF;
+      margin: 0px 0 0 0;
+    }
+
+    div.container {
+      width: 100%;
+      background-color: #393A39;
+    }
+
+    #flexbox_back_0 {
+      width: 100%;
+      height: 100%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      min-height: 32px;
+      z-index: 0;
+    }
+
+    #flexbox_0 {
+      width: 100%;
+      display: -webkit-flex;
+      ;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #flexbox_0>div {
+      margin: 0px;
+    }
+
+    #flexbox_0 div>img {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content" data-minheight="1000">
+      <section style="left:0;top:0px;width:100%;" class="" id="custom-background-1">
+        <!--913-->
+        <div id="ew-responsive-image-gallery_1">
+
+          <!-- Photo Grid -->
+          {% for album in site.photography %}
+          {% if album.enabled == false %}
+            {% assign photos = (album.images | reverse) %}
+            {% for idx in photos %}
+            {% assign i_img = （site.url | append: page.cover_folder | append: '/' | append: idx) %}
+            {% assign i_full = （site.url | append: page.album_folder | append: '/' | append: idx) %}
+          <div class="row">
+            <div class="rig-img-container"><a class="ewi-item1" href="{{ i_full }}" data-sub-html=".ew-caption"><img src="{{ i_full }}" width="100%" />
+                <div class="ew-caption">
+                  <p>&nbsp</p>
+                </div>
+              </a></div>
+          </div>
+            {% endfor %}
+          {% endif %}
+          {% endfor %}
+
+        </div>
+      </section>
+    </div>
+    <!-- <footer data-top='1769' data-height='100'>
+      <div class="" id="flexbox_back_0">
+        <div id="flexbox_0">
+          <div><a href="https:/meniny.cn/" class="outerlink">
+              <div class="shape_2" style="width:207px;min-height:32px;"><img src="images/image-gallery/eweverweblove.png" height="32" width="207" data-src2x="images/image-gallery/eweverweblove@2x.png"
+                  srcset="images/image-gallery/eweverweblove.png 1x, images/image-gallery/eweverweblove@2x.png 2x" /></div>
+            </a></div>
+        </div>
+      </div>
+    </footer> -->
+  </div>
+</body>
+
+</html>

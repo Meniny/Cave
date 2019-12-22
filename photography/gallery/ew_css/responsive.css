@@ -1,0 +1,50 @@
+@media screen and (max-width: 575px) and (min-width: 0px) {
+  /* mobile */
+  .mbl-hide {
+  	display:none !important;
+  }
+  
+}
+
+@media screen and (max-width: 768px) and (min-width: 575px) {
+  /* tablet */
+   .tblt-hide {
+  	display:none !important;
+  }
+  
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  /* desktop */
+   .dsk-hide {
+  	display:none !important;
+  }
+  
+}
+
+
+@media screen and (min-width: 991px) {
+ /* wide desktop */
+   .wddsk-hide {
+  	display:none !important;
+  }
+
+}
+
+.ew-video-dim {
+	margin: 0 auto;
+}
+.ew-video-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.ew-video-responsive iframe, .ew-video-responsive object, .ew-video-responsive embed {
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
