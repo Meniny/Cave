@@ -181,8 +181,8 @@ description: "I'm passionate about photography and enjoy taking pictures all aro
           {% if album.enabled == false %}
             {% assign photos = (album.images | reverse) %}
             {% for idx in photos %}
-            {% assign i_img = （site.url | append: page.cover_folder | append: '/' | append: idx) %}
-            {% assign i_full = （site.url | append: page.album_folder | append: '/' | append: idx) %}
+            {% assign i_img = （site.url | append: album.cover_folder | append: '/' | append: idx) %}
+            {% assign i_full = （site.url | append: album.album_folder | append: '/' | append: idx) %}
           <div class="row">
             <div class="rig-img-container"><a class="ewi-item1" href="{{ i_full }}" data-sub-html=".ew-caption"><img src="{{ i_full }}" width="100%" />
                 <div class="ew-caption">
