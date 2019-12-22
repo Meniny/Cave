@@ -119,7 +119,7 @@
             image: "txshipin"
             color: "RGBA(228, 236, 241, 0.75)"
           - title: "BT电影"
-            url: "http://btbtdy.tv/"
+            url: "http://btbtdy.me/"
             image: "btbtdy"
             color: "RGBA(17, 124, 241, 0.75)"
           - title: "五号站"
