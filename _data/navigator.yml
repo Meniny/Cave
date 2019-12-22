@@ -170,6 +170,7 @@
             url: "https://subtitletools.com/"
           - title: "HandBrake"
             url: "https://handbrake.fr/"
+            image: "handbrake"
           - title: "ArcTime"
             url: "http://arctime.org"
             image: "arctime"
