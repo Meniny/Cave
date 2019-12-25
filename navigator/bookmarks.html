@@ -1,0 +1,30 @@
+---
+layout: null
+title: "Bookmarks"
+---
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file.
+     It will be read and overwritten.
+     DO NOT EDIT! -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>{{ page.title }}</TITLE>
+<H1>书签菜单</H1>
+
+<DL>
+  <p>
+    <DT>
+      {% for group in site.data.navigator %}
+      {% if group.sensitive == false %}
+      {% for section in group.sections %}
+      <H3>{{ section.name }}</H3>
+      <DL>
+        <p>
+          {% for link in section.links %}
+          <DT><A HREF="{{ link.url }}">{{ link.title }}</A>
+          {% endfor %}
+      </DL>
+      <p>
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+</DL>
