@@ -10,21 +10,10 @@ title: "Bookmarks"
 <TITLE>{{ page.title }}</TITLE>
 <H1>书签菜单</H1>
 
-<DL>
-  <p>
-    <DT>
-      {% for group in site.data.navigator %}
-      {% if group.sensitive == false %}
-      {% for section in group.sections %}
-      <H3>{{ section.name }}</H3>
-      <DL>
-        <p>
-          {% for link in section.links %}
-          <DT><A HREF="{{ link.url }}">{{ link.title }}</A>
+<DL><p>
+  <DT>{% for group in site.data.navigator %}{% if group.sensitive == false %}{% for section in group.sections %}<H3 ADD_DATE="1575976488" LAST_MODIFIED="1575976488">{{ section.name }}</H3>
+    <DL><p>{% for link in section.links %}
+      <DT><A HREF="{{ link.url }}" ADD_DATE="1575976488" LAST_MODIFIED="1575976488">{{ link.title }}</A>
           {% endfor %}
-      </DL>
-      <p>
-      {% endfor %}
-      {% endif %}
-      {% endfor %}
+    </DL><p>{% endfor %}{% endif %}{% endfor %}
 </DL>
