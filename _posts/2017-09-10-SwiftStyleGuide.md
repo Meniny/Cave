@@ -1,6 +1,8 @@
 ---
 title: "Swift 代码规范"
 img: "swift"
+category: "iOS"
+tags: [iOS, macOS, Swift, StyleGuide]
 ---
 
 # 这是什么

@@ -1,9 +1,11 @@
 ---
 title: "NYTimes Objective-C Style Guide/纽约时报 移动团队 Objective-C 规范指南"
-copy: true
-quote: true
-tags: [docs, Objective-C, Style Guide]
+#copy: true
+#quote: true
+#tags: [docs, Objective-C, Style Guide]
 img: "objc"
+category: "iOS"
+tags: [iOS, macOS, Objective-C, Style Guide]
 ---
 * [English Version](#English)
 * [中文版本](#中文版本)

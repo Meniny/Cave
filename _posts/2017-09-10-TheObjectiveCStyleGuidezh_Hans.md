@@ -1,9 +1,11 @@
 ---
 title: "The Objective-C Style Guide/Objective-C 规范指南"
-copy: true
-quote: false
-tags: [docs, Objective-C, Style Guide]
+#copy: true
+#quote: false
+#tags: [docs, Objective-C, Style Guide]
 img: "objc"
+category: "iOS"
+tags: [iOS, macOS, Objective-C, Style Guide]
 ---
 * [English Version](#English)
 * [中文版本](#中文版本)
