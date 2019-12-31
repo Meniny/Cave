@@ -3,11 +3,12 @@
 :author: Elias Abel
 :mail: admin@meniny.cn
 :home: https://meniny.cn
-// /Users/Meniny/Projects/Github/Meniny.github.io/
+// /Users/Meniny/Documents/Github/Cave/
 :assets: {home}/assets
 :image: {assets}/images
 :video: {assets}/videos
 :stylesheets: {home}/docs/asciidoc/stylesheets
+:stylesheets_previews: {home}/docs/asciidoc/previews
 :version: 1.0.1
 :experimental:
 :icons: font
@@ -916,18 +917,18 @@ include::./index.adoc[lines=1..5]
 ....
 一些文字。footnote:[示例脚注1.]
 
-一些文字。footnoteref:[tag,示例脚注2.]
+一些文字。footnote:标记[示例脚注2.]
 
-一些文字。footnoteref:[tag]
+一些文字。footnote:标记[]
 ....
 
 .result
 ====
 一些文字。footnote:[示例脚注1.]
 
-一些文字。footnoteref:[tag,示例脚注2.]
+一些文字。footnote:标记[示例脚注2.]
 
-一些文字。footnoteref:[tag]
+一些文字。footnote:标记[]
 ====
 
 == 工具
@@ -959,19 +960,20 @@ image::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/screensh
 
 ==== Stylesheets
 
-* link:{stylesheets}/asciidoctor.css[asciidoctor.css]: link:{stylesheets}/previews/asciidoctor.html[(预览)]
-* link:{stylesheets}/colony.css[colony.css]: link:{stylesheets}/previews/colony.html[(预览)]
-* link:{stylesheets}/foundation-lime.css[foundation-lime.css]: link:{stylesheets}/previews/foundation-lime.html[(预览)]
-* link:{stylesheets}/foundation-potion.css[foundation-potion.css]: link:{stylesheets}/previews/foundation-potion.html[(预览)]
-* link:{stylesheets}/foundation.css[foundation.css]: link:{stylesheets}/previews/foundation.html[(预览)]
-* link:{stylesheets}/github.css[github.css]: link:{stylesheets}/previews/github.html[(预览)]
-* link:{stylesheets}/golo.css[golo.css]: link:{stylesheets}/previews/golo.html[(预览)]
-* link:{stylesheets}/iconic.css[iconic.css]: link:{stylesheets}/previews/iconic.html[(预览)]
-* link:{stylesheets}/maker.css[maker.css]: link:{stylesheets}/previews/maker.html[(预览)]
-* link:{stylesheets}/readthedocs.css[readthedocs.css]: link:{stylesheets}/previews/readthedocs.html[(预览)]
-* link:{stylesheets}/riak.css[riak.css]: link:{stylesheets}/previews/riak.html[(预览)]
-* link:{stylesheets}/rocket-panda.css[rocket-panda.css]: link:{stylesheets}/previews/rocket-panda.html[(预览)]
-* link:{stylesheets}/rubygems.css[rubygems.css]: link:{stylesheets}/previews/rubygems.html[(预览)]
+* link:{stylesheets}/asciidoctor.css[asciidoctor.css]: link:{stylesheets_previews}/asciidoctor.html[(预览)]
+* link:{stylesheets}/colony.css[colony.css]: link:{stylesheets_previews}/colony.html[(预览)]
+* link:{stylesheets}/foundation-lime.css[foundation-lime.css]: link:{stylesheets_previews}/foundation-lime.html[(预览)]
+* link:{stylesheets}/foundation-potion.css[foundation-potion.css]: link:{stylesheets_previews}/foundation-potion.html[(预览)]
+* link:{stylesheets}/foundation.css[foundation.css]: link:{stylesheets_previews}/foundation.html[(预览)]
+* link:{stylesheets}/github.css[github.css]: link:{stylesheets_previews}/github.html[(预览)]
+* link:{stylesheets}/golo.css[golo.css]: link:{stylesheets_previews}/golo.html[(预览)]
+* link:{stylesheets}/iconic.css[iconic.css]: link:{stylesheets_previews}/iconic.html[(预览)]
+* link:{stylesheets}/maker.css[maker.css]: link:{stylesheets_previews}/maker.html[(预览)]
+* link:{stylesheets}/readthedocs.css[readthedocs.css]: link:{stylesheets_previews}/readthedocs.html[(预览)]
+* link:{stylesheets}/riak.css[riak.css]: link:{stylesheets_previews}/riak.html[(预览)]
+* link:{stylesheets}/rocket-panda.css[rocket-panda.css]: link:{stylesheets_previews}/rocket-panda.html[(预览)]
+* link:{stylesheets}/rubygems.css[rubygems.css]: link:{stylesheets_previews}/rubygems.html[(预览)]
+* link:{stylesheets}/boot-darkly.css[boot-darkly.css]: link:{stylesheets_previews}/boot-darkly.html[(预览)]
 
 == 关于
 
