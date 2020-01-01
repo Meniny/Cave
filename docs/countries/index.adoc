@@ -7,8 +7,8 @@
 |Flag|Domain Abbreviation|Country/Area|国家/地区|Dialing Code|More
 
 |image:/assets/images/flags/asean.png[ASEAN,,100]||Association of South-east Asian Nations (ASEAN)|东南亚国家联盟||Organization
-|image:/assets/images/flags/arab_league.png[LAS,,100]|Arab League/League of Arab States|阿拉伯国家联盟|||Organization
-|image:/assets/images/flags/african_union.png[AU,,100]|African Union|非洲联盟|||Organization
+|image:/assets/images/flags/arab_league.png[LAS,,100]||Arab League/League of Arab States|阿拉伯国家联盟||Organization
+|image:/assets/images/flags/african_union.png[AU,,100]||African Union|非洲联盟||Organization
 |image:/assets/images/flags/ac.png[AC,,100]|AC|Ascension Island|阿森松岛|247|
 |image:/assets/images/flags/ad.png[AD,,100]|AD|Andorra|安道尔共和国|376|
 |image:/assets/images/flags/ae.png[AE,,100]|AE|United Arab Emirates|阿拉伯联合酋长国|971|
