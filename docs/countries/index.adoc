@@ -4,9 +4,8 @@
 
 [cols="^.^2a,^.^2a,^.^2a,^.^2a,^.^2a,^.^2a"]
 |===
-|Flag|Abbreviation|Country/Area|国家/地区|Dialing Code|Note
+|Flag|Domain Abbreviation|Country/Area|国家/地区|Dialing Code|More
 
-|image:/assets/images/flags/un.png[UN,,100]|UN|United Nations|||NOT A COUNTRY
 |image:/assets/images/flags/ac.png[AC,,100]|AC|Ascension Island|阿森松岛|247|
 |image:/assets/images/flags/ad.png[AD,,100]|AD|Andorra|安道尔共和国|376|
 |image:/assets/images/flags/ae.png[AE,,100]|AE|United Arab Emirates|阿拉伯联合酋长国|971|
@@ -78,7 +77,7 @@
 |image:/assets/images/flags/fj.png[FJ,,100]|FJ|Fiji|斐济|679|
 |image:/assets/images/flags/fk.png[FK,,100]|FK|Falkland Islands (Malvinas)|福克兰群岛(马尔维纳斯群岛)|500|
 |image:/assets/images/flags/fm.png[FM,,100]|FM|Micronesia, Federated States Of|密克罗尼西亚联邦|691|
-|image:/assets/images/flags/fo.png[FO,,100]|FO|Faroe Islands|||
+|image:/assets/images/flags/fo.png[FO,,100]|FO|Faroe Islands|法罗群岛|298|
 |image:/assets/images/flags/fr.png[FR,,100]|FR|France|法国|33|
 |image:/assets/images/flags/ga.png[GA,,100]|GA|Gabon|加蓬|241|
 |image:/assets/images/flags/gb.png[GB,,100]|GB|United Kingdom (no new registrations,  see also UK)|英国|44|
@@ -233,6 +232,7 @@
 |image:/assets/images/flags/tw.png[TW,,100]|TW|Taiwan, China (Republic Of)|中国台湾省|886|NOT A COUNTRY
 |image:/assets/images/flags/tz.png[TZ,,100]|TZ|Tanzania, United Republic Of|坦桑尼亚|255|
 |image:/assets/images/flags/ua.png[UA,,100]|UA|Ukraine|乌克兰|380|
+|image:/assets/images/flags/un.png[UN,,100]|UN|United Nations|联合国||NOT A COUNTRY
 |image:/assets/images/flags/ug.png[UG,,100]|UG|Uganda|乌干达|256|
 |image:/assets/images/flags/uk.png[UK,,100]|UK|United Kingdom|||
 |image:/assets/images/flags/um.png[UM,,100]|UM|United States Minor Outlying Islands|||
