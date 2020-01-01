@@ -12,6 +12,7 @@
 |image:/assets/images/flags/ac.png[AC,,100]|AC|Ascension Island|阿森松岛|247|
 |image:/assets/images/flags/ad.png[AD,,100]|AD|Andorra|安道尔共和国|376|
 |image:/assets/images/flags/ae.png[AE,,100]|AE|United Arab Emirates|阿拉伯联合酋长国|971|
+|image:/assets/images/flags/﻿af.png[﻿AF,,100]|﻿AF|Afghanistan|阿富汗|93|
 |image:/assets/images/flags/ag.png[AG,,100]|AG|Antigua And Barbuda|安提瓜和巴布达|1268|
 |image:/assets/images/flags/ai.png[AI,,100]|AI|Anguilla|安圭拉岛|1264|
 |image:/assets/images/flags/al.png[AL,,100]|AL|Albania|阿尔巴尼亚|355|
@@ -224,37 +225,36 @@
 |image:/assets/images/flags/th.png[TH,,100]|TH|Thailand|泰国|66|
 |image:/assets/images/flags/ti.png[TI,,100]|TI|East Timor|东帝汶|670|New Code
 |image:/assets/images/flags/tj.png[TJ,,100]|TJ|Tajikistan|塔吉克斯坦|992|
-|image:/assets/images/flags/tk.png[TK,,100]|TK|Tokelau|||
+|image:/assets/images/flags/tk.png[TK,,100]|TK|Tokelau|托克劳(新西兰王国属地)|690|
 |image:/assets/images/flags/tm.png[TM,,100]|TM|Turkmenistan|土库曼斯坦|993|
 |image:/assets/images/flags/tn.png[TN,,100]|TN|Tunisia|突尼斯|216|
 |image:/assets/images/flags/to.png[TO,,100]|TO|Tonga|汤加|676|
 |image:/assets/images/flags/tp.png[TP,,100]|TP|East Timor|东帝汶|670|Old Code
 |image:/assets/images/flags/tr.png[TR,,100]|TR|Turkey|土耳其|90|
 |image:/assets/images/flags/tt.png[TT,,100]|TT|Trinidad And Tobago|特立尼达和多巴哥|1809|
-|image:/assets/images/flags/tv.png[TV,,100]|TV|Tuvalu|||
+|image:/assets/images/flags/tv.png[TV,,100]|TV|Tuvalu|图瓦卢|688|
 |image:/assets/images/flags/tw.png[TW,,100]|TW|Taiwan, China (Republic Of)|中国台湾省|886|
 |image:/assets/images/flags/tz.png[TZ,,100]|TZ|Tanzania, United Republic Of|坦桑尼亚|255|
 |image:/assets/images/flags/ua.png[UA,,100]|UA|Ukraine|乌克兰|380|
 |image:/assets/images/flags/un.png[UN,,100]|UN|United Nations|联合国||Organization
 |image:/assets/images/flags/ug.png[UG,,100]|UG|Uganda|乌干达|256|
 |image:/assets/images/flags/uk.png[UK,,100]|UK|United Kingdom|英国|44|See also `GB`
-|image:/assets/images/flags/um.png[UM,,100]|UM|United States Minor Outlying Islands|||
+|image:/assets/images/flags/um.png[UM,,100]|UM|United States Minor Outlying Islands|美国本土外小岛屿|246|
 |image:/assets/images/flags/us.png[US,,100]|US|United States|美国|1|
 |image:/assets/images/flags/uy.png[UY,,100]|UY|Uruguay|乌拉圭|598|
 |image:/assets/images/flags/uz.png[UZ,,100]|UZ|Uzbekistan|乌兹别克斯坦|233|
-|image:/assets/images/flags/va.png[VA,,100]|VA|Vatican City State (Holy See)|||
+|image:/assets/images/flags/va.png[VA,,100]|VA|Vatican City State|梵蒂冈|379|Holy See
 |image:/assets/images/flags/vc.png[VC,,100]|VC|Saint Vincent And The Grenadines|圣文森特岛|1784|
 |image:/assets/images/flags/ve.png[VE,,100]|VE|Venezuela|委内瑞拉|58|
-|image:/assets/images/flags/vg.png[VG,,100]|VG|Virgin Islands (British)|||
-|image:/assets/images/flags/vi.png[VI,,100]|VI|Virgin Islands (U.S.)|||
+|image:/assets/images/flags/vg.png[VG,,100]|VG|Virgin Islands (British)|英属维尔京群岛|1284|
+|image:/assets/images/flags/vi.png[VI,,100]|VI|Virgin Islands (U.S.)|美属维尔京群岛|1340|
 |image:/assets/images/flags/vn.png[VN,,100]|VN|Vietnam|越南|84|
-|image:/assets/images/flags/vu.png[VU,,100]|VU|Vanuatu|||
-|image:/assets/images/flags/wf.png[WF,,100]|WF|Wallis And Futuna Islands|||
-|image:/assets/images/flags/ws.png[WS,,100]|WS|Samoa|||
+|image:/assets/images/flags/vu.png[VU,,100]|VU|Vanuatu|瓦努阿图|678|
+|image:/assets/images/flags/wf.png[WF,,100]|WF|Wallis And Futuna Islands|瓦利斯和富图纳(法国海外集体)|681|
+|image:/assets/images/flags/ws.png[WS,,100]|WS|Samoa|萨摩亚|685|
 |image:/assets/images/flags/ye.png[YE,,100]|YE|Yemen|也门|967|
-|image:/assets/images/flags/yt.png[YT,,100]|YT|Mayotte|||
+|image:/assets/images/flags/yt.png[YT,,100]|YT|Mayotte|马约特(法国海外区)||
 |image:/assets/images/flags/za.png[ZA,,100]|ZA|South Africa|南非|27|
 |image:/assets/images/flags/zm.png[ZM,,100]|ZM|Zambia|赞比亚|260|
 |image:/assets/images/flags/zw.png[ZW,,100]|ZW|Zimbabwe|津巴布韦|263|
-|image:/assets/images/flags/﻿af.png[﻿AF,,100]|﻿AF|Afghanistan|阿富汗|93|
 |===
