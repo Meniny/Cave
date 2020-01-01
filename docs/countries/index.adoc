@@ -14,7 +14,7 @@
 |image:/assets/images/flags/ac.png[AC,,100]|AC|Ascension Island|阿森松岛|247|
 |image:/assets/images/flags/ad.png[AD,,100]|AD|Andorra|安道尔共和国|376|
 |image:/assets/images/flags/ae.png[AE,,100]|AE|United Arab Emirates|阿拉伯联合酋长国|971|
-|image:/assets/images/flags/﻿af.png[﻿AF,,100]|﻿AF|Afghanistan|阿富汗|93|
+|image:/assets/images/flags/af.png[﻿AF,,100]|﻿AF|Afghanistan|阿富汗|93|
 |image:/assets/images/flags/ag.png[AG,,100]|AG|Antigua And Barbuda|安提瓜和巴布达|1268|
 |image:/assets/images/flags/ai.png[AI,,100]|AI|Anguilla|安圭拉岛|1264|
 |image:/assets/images/flags/al.png[AL,,100]|AL|Albania|阿尔巴尼亚|355|
