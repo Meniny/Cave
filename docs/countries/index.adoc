@@ -1,0 +1,672 @@
+:nofooter:
+
+= All Countries/Regions in the world
+
+== Flags
+
+> List of flags of 193 UN members and 9 sovereign countries/regions in the world sorted by their name. Updated to 31 October 2019.
+
+[cols="^.^2a,^.^2a"]
+|===
+|Flag|Country/Area
+|image:/assets/images/flags/un.png[Flag,,100]|United Nations
+|image:/assets/images/flags/af.png[Flag,,100]|Afghanistan
+|image:/assets/images/flags/al.png[Flag,,100]|Albania
+|image:/assets/images/flags/dz.png[Flag,,100]|Algeria
+|image:/assets/images/flags/ad.png[Flag,,100]|Andorra
+|image:/assets/images/flags/ao.png[Flag,,100]|Angola
+|image:/assets/images/flags/ag.png[Flag,,100]|Antigua and Barbuda
+|image:/assets/images/flags/ar.png[Flag,,100]|Argentina
+|image:/assets/images/flags/am.png[Flag,,100]|Armenia
+|image:/assets/images/flags/au.png[Flag,,100]|Australia
+|image:/assets/images/flags/at.png[Flag,,100]|Austria
+|image:/assets/images/flags/az.png[Flag,,100]|Azerbaijan
+|image:/assets/images/flags/bs.png[Flag,,100]|Bahamas
+|image:/assets/images/flags/bh.png[Flag,,100]|Bahrain
+|image:/assets/images/flags/bd.png[Flag,,100]|Bangladesh
+|image:/assets/images/flags/bb.png[Flag,,100]|Barbados
+|image:/assets/images/flags/by.png[Flag,,100]|Belarus
+|image:/assets/images/flags/be.png[Flag,,100]|Belgium
+|image:/assets/images/flags/bz.png[Flag,,100]|Belize
+|image:/assets/images/flags/bj.png[Flag,,100]|Benin
+|image:/assets/images/flags/bt.png[Flag,,100]|Bhutan
+|image:/assets/images/flags/bo.png[Flag,,100]|Bolivia
+|image:/assets/images/flags/ba.png[Flag,,100]|Bosnia and Herzegovina
+|image:/assets/images/flags/bw.png[Flag,,100]|Botswana
+|image:/assets/images/flags/br.png[Flag,,100]|Brazil
+|image:/assets/images/flags/bn.png[Flag,,100]|Brunei
+|image:/assets/images/flags/bg.png[Flag,,100]|Bulgaria
+|image:/assets/images/flags/bf.png[Flag,,100]|Burkina Faso
+|image:/assets/images/flags/bi.png[Flag,,100]|Burundi
+|image:/assets/images/flags/kh.png[Flag,,100]|Cambodia
+|image:/assets/images/flags/cm.png[Flag,,100]|Cameroon
+|image:/assets/images/flags/ca.png[Flag,,100]|Canada
+|image:/assets/images/flags/cv.png[Flag,,100]|Cape Verde
+|image:/assets/images/flags/cf.png[Flag,,100]|Central African Republic
+|image:/assets/images/flags/td.png[Flag,,100]|Chad
+|image:/assets/images/flags/cl.png[Flag,,100]|Chile
+|image:/assets/images/flags/co.png[Flag,,100]|Colombia
+|image:/assets/images/flags/km.png[Flag,,100]|Comoros
+|image:/assets/images/flags/ck.png[Flag,,100]|the Cook Islands
+|image:/assets/images/flags/cr.png[Flag,,100]|Costa Rica
+|image:/assets/images/flags/ci.png[Flag,,100]|Cote d'Ivoire
+|image:/assets/images/flags/hr.png[Flag,,100]|Croatia
+|image:/assets/images/flags/cu.png[Flag,,100]|Cuba
+|image:/assets/images/flags/cy.png[Flag,,100]|Cyprus
+|image:/assets/images/flags/cz.png[Flag,,100]|Czech Republic
+|image:/assets/images/flags/cd.png[Flag,,100]|Democratic Republic of the Congo
+|image:/assets/images/flags/dk.png[Flag,,100]|Denmark
+|image:/assets/images/flags/dj.png[Flag,,100]|Djibouti
+|image:/assets/images/flags/dm.png[Flag,,100]|Dominica
+|image:/assets/images/flags/do.png[Flag,,100]|Dominican Republic
+|image:/assets/images/flags/tl.png[Flag,,100]|East Timor
+|image:/assets/images/flags/ec.png[Flag,,100]|Ecuador
+|image:/assets/images/flags/eg.png[Flag,,100]|Egypt
+|image:/assets/images/flags/sv.png[Flag,,100]|El Salvador
+|image:/assets/images/flags/gq.png[Flag,,100]|Equatorial Guinea
+|image:/assets/images/flags/er.png[Flag,,100]|Eritrea
+|image:/assets/images/flags/ee.png[Flag,,100]|Estonia
+|image:/assets/images/flags/et.png[Flag,,100]|Ethiopia
+|image:/assets/images/flags/fj.png[Flag,,100]|Fiji
+|image:/assets/images/flags/fi.png[Flag,,100]|Finland
+|image:/assets/images/flags/fr.png[Flag,,100]|France
+|image:/assets/images/flags/ga.png[Flag,,100]|Gabon
+|image:/assets/images/flags/gm.png[Flag,,100]|Gambia
+|image:/assets/images/flags/ge.png[Flag,,100]|Georgia
+|image:/assets/images/flags/de.png[Flag,,100]|Germany
+|image:/assets/images/flags/gh.png[Flag,,100]|Ghana
+|image:/assets/images/flags/gr.png[Flag,,100]|Greece
+|image:/assets/images/flags/gd.png[Flag,,100]|Grenada
+|image:/assets/images/flags/gt.png[Flag,,100]|Guatemala
+|image:/assets/images/flags/gn.png[Flag,,100]|Guinea
+|image:/assets/images/flags/gw.png[Flag,,100]|Guinea-Bissau
+|image:/assets/images/flags/gy.png[Flag,,100]|Guyana
+|image:/assets/images/flags/ht.png[Flag,,100]|Haiti
+|image:/assets/images/flags/hn.png[Flag,,100]|Honduras
+|image:/assets/images/flags/hk.png[Flag,,100]|Hongkong SAR
+|image:/assets/images/flags/hu.png[Flag,,100]|Hungary
+|image:/assets/images/flags/is.png[Flag,,100]|Iceland
+|image:/assets/images/flags/in.png[Flag,,100]|India
+|image:/assets/images/flags/id.png[Flag,,100]|Indonesia
+|image:/assets/images/flags/ir.png[Flag,,100]|Iran
+|image:/assets/images/flags/iq.png[Flag,,100]|Iraq
+|image:/assets/images/flags/ie.png[Flag,,100]|Ireland
+|image:/assets/images/flags/il.png[Flag,,100]|Israel
+|image:/assets/images/flags/it.png[Flag,,100]|Italy
+|image:/assets/images/flags/jm.png[Flag,,100]|Jamaica
+|image:/assets/images/flags/jp.png[Flag,,100]|Japan
+|image:/assets/images/flags/jo.png[Flag,,100]|Jordan
+|image:/assets/images/flags/kz.png[Flag,,100]|Kazakhstan
+|image:/assets/images/flags/ke.png[Flag,,100]|Kenya
+|image:/assets/images/flags/ki.png[Flag,,100]|Kiribati
+|image:/assets/images/flags/xk.png[Flag,,100]|Kosovo
+|image:/assets/images/flags/kw.png[Flag,,100]|Kuwait
+|image:/assets/images/flags/kg.png[Flag,,100]|Kyrgyzstan
+|image:/assets/images/flags/la.png[Flag,,100]|Laos
+|image:/assets/images/flags/lv.png[Flag,,100]|Latvia
+|image:/assets/images/flags/lb.png[Flag,,100]|Lebanon
+|image:/assets/images/flags/ls.png[Flag,,100]|Lesotho
+|image:/assets/images/flags/lr.png[Flag,,100]|Liberia
+|image:/assets/images/flags/ly.png[Flag,,100]|Libya
+|image:/assets/images/flags/li.png[Flag,,100]|Liechtenstein
+|image:/assets/images/flags/lt.png[Flag,,100]|Lithuania
+|image:/assets/images/flags/lu.png[Flag,,100]|Luxembourg
+|image:/assets/images/flags/mo.png[Flag,,100]|Macau SAR
+|image:/assets/images/flags/mk.png[Flag,,100]|Macedonia
+|image:/assets/images/flags/mg.png[Flag,,100]|Madagascar
+|image:/assets/images/flags/mw.png[Flag,,100]|Malawi
+|image:/assets/images/flags/my.png[Flag,,100]|Malaysia
+|image:/assets/images/flags/mv.png[Flag,,100]|Maldives
+|image:/assets/images/flags/ml.png[Flag,,100]|Mali
+|image:/assets/images/flags/mt.png[Flag,,100]|Malta
+|image:/assets/images/flags/mh.png[Flag,,100]|Marshall Islands
+|image:/assets/images/flags/mr.png[Flag,,100]|Mauritania
+|image:/assets/images/flags/mu.png[Flag,,100]|Mauritius
+|image:/assets/images/flags/mx.png[Flag,,100]|Mexico
+|image:/assets/images/flags/fm.png[Flag,,100]|Micronesia
+|image:/assets/images/flags/md.png[Flag,,100]|Moldova
+|image:/assets/images/flags/mc.png[Flag,,100]|Monaco
+|image:/assets/images/flags/mn.png[Flag,,100]|Mongolia
+|image:/assets/images/flags/me.png[Flag,,100]|Montenegro
+|image:/assets/images/flags/ma.png[Flag,,100]|Morocco
+|image:/assets/images/flags/mz.png[Flag,,100]|Mozambique
+|image:/assets/images/flags/mm.png[Flag,,100]|Myanmar
+|image:/assets/images/flags/na.png[Flag,,100]|Namibia
+|image:/assets/images/flags/nr.png[Flag,,100]|Nauru
+|image:/assets/images/flags/np.png[Flag,,100]|Nepal
+|image:/assets/images/flags/nl.png[Flag,,100]|Netherlands
+|image:/assets/images/flags/nz.png[Flag,,100]|New Zealand
+|image:/assets/images/flags/ni.png[Flag,,100]|Nicaragua
+|image:/assets/images/flags/ne.png[Flag,,100]|Niger
+|image:/assets/images/flags/ng.png[Flag,,100]|Nigeria
+|image:/assets/images/flags/nu.png[Flag,,100]|Niue
+|image:/assets/images/flags/kp.png[Flag,,100]|North Korea
+|image:/assets/images/flags/no.png[Flag,,100]|Norway
+|image:/assets/images/flags/om.png[Flag,,100]|Oman
+|image:/assets/images/flags/pk.png[Flag,,100]|Pakistan
+|image:/assets/images/flags/pw.png[Flag,,100]|Palau
+|image:/assets/images/flags/pa.png[Flag,,100]|Panama
+|image:/assets/images/flags/pg.png[Flag,,100]|Papua New Guinea
+|image:/assets/images/flags/py.png[Flag,,100]|Paraguay
+|image:/assets/images/flags/cn.png[Flag,,100]|People's Republic of China
+|image:/assets/images/flags/pe.png[Flag,,100]|Peru
+|image:/assets/images/flags/ph.png[Flag,,100]|Philippines
+|image:/assets/images/flags/pl.png[Flag,,100]|Poland
+|image:/assets/images/flags/pt.png[Flag,,100]|Portugal
+|image:/assets/images/flags/qa.png[Flag,,100]|Qatar
+|image:/assets/images/flags/tw.png[Flag,,100]|Republic of China
+|image:/assets/images/flags/cg.png[Flag,,100]|Republic of the Congo
+|image:/assets/images/flags/ro.png[Flag,,100]|Romania
+|image:/assets/images/flags/ru.png[Flag,,100]|Russia
+|image:/assets/images/flags/rw.png[Flag,,100]|Rwanda
+|image:/assets/images/flags/kn.png[Flag,,100]|Saint Kitts and Nevis
+|image:/assets/images/flags/lc.png[Flag,,100]|Saint Lucia
+|image:/assets/images/flags/vc.png[Flag,,100]|Saint Vincent and the Grenadines
+|image:/assets/images/flags/ws.png[Flag,,100]|Samoa
+|image:/assets/images/flags/sm.png[Flag,,100]|San Marino
+|image:/assets/images/flags/st.png[Flag,,100]|Sao Tome and Principe
+|image:/assets/images/flags/sa.png[Flag,,100]|Saudi Arabia
+|image:/assets/images/flags/sn.png[Flag,,100]|Senegal
+|image:/assets/images/flags/rs.png[Flag,,100]|Serbia
+|image:/assets/images/flags/sc.png[Flag,,100]|Seychelles
+|image:/assets/images/flags/sl.png[Flag,,100]|Sierra Leone
+|image:/assets/images/flags/sg.png[Flag,,100]|Singapore
+|image:/assets/images/flags/sk.png[Flag,,100]|Slovakia
+|image:/assets/images/flags/si.png[Flag,,100]|Slovenia
+|image:/assets/images/flags/sb.png[Flag,,100]|Solomon Islands
+|image:/assets/images/flags/so.png[Flag,,100]|Somalia
+|image:/assets/images/flags/za.png[Flag,,100]|South Africa
+|image:/assets/images/flags/kr.png[Flag,,100]|South Korea
+|image:/assets/images/flags/ss.png[Flag,,100]|South Sudan
+|image:/assets/images/flags/es.png[Flag,,100]|Spain
+|image:/assets/images/flags/lk.png[Flag,,100]|Sri Lanka
+|image:/assets/images/flags/ps.png[Flag,,100]|Palestine
+|image:/assets/images/flags/sd.png[Flag,,100]|Sudan
+|image:/assets/images/flags/sr.png[Flag,,100]|Suriname
+|image:/assets/images/flags/sz.png[Flag,,100]|Swaziland
+|image:/assets/images/flags/se.png[Flag,,100]|Sweden
+|image:/assets/images/flags/ch.png[Flag,,100]|Switzerland
+|image:/assets/images/flags/sy.png[Flag,,100]|Syria
+|image:/assets/images/flags/tj.png[Flag,,100]|Tajikistan
+|image:/assets/images/flags/tz.png[Flag,,100]|Tanzania
+|image:/assets/images/flags/th.png[Flag,,100]|Thailand
+|image:/assets/images/flags/tg.png[Flag,,100]|Togo
+|image:/assets/images/flags/to.png[Flag,,100]|Tonga
+|image:/assets/images/flags/tt.png[Flag,,100]|Trinidad and Tobago
+|image:/assets/images/flags/tn.png[Flag,,100]|Tunisia
+|image:/assets/images/flags/tr.png[Flag,,100]|Turkey
+|image:/assets/images/flags/tm.png[Flag,,100]|Turkmenistan
+|image:/assets/images/flags/tv.png[Flag,,100]|Tuvalu
+|image:/assets/images/flags/ug.png[Flag,,100]|Uganda
+|image:/assets/images/flags/ua.png[Flag,,100]|Ukraine
+|image:/assets/images/flags/ae.png[Flag,,100]|United Arab Emirates
+|image:/assets/images/flags/gb.png[Flag,,100]|United Kingdom
+|image:/assets/images/flags/us.png[Flag,,100]|United States
+|image:/assets/images/flags/uy.png[Flag,,100]|Uruguay
+|image:/assets/images/flags/uz.png[Flag,,100]|Uzbekistan
+|image:/assets/images/flags/vu.png[Flag,,100]|Vanuatu
+|image:/assets/images/flags/va.png[Flag,,100]|Vatican City
+|image:/assets/images/flags/ve.png[Flag,,100]|Venezuela
+|image:/assets/images/flags/vn.png[Flag,,100]|Vietnam
+|image:/assets/images/flags/eh.png[Flag,,100]|Western Sahara
+|image:/assets/images/flags/ye.png[Flag,,100]|Yemen
+|image:/assets/images/flags/zm.png[Flag,,100]|Zambia
+|image:/assets/images/flags/zw.png[Flag,,100]|Zimbabwe
+|===
+
+== All Domains of countries in the world
+
+[cols="^.^2a,^.^2a,^.^2a,^.^2a"]
+|===
+|Domain 2+|Country/Area|Dialing Code
+
+|AD|安道尔共和国|Andorra|376
+|AE|阿拉伯联合酋长国|United Arab Emirates|971
+|AF|阿富汗|Afghanistan|93
+|AG|安提瓜和巴布达|Antigua and Barbuda|1268
+|AI|安圭拉岛|Anguilla|1264
+|AL|阿尔巴尼亚|Albania|355
+|AM|亚美尼亚|Armenia|374
+| |阿森松|Ascension|247
+|AO|安哥拉|Angola|244
+|AR|阿根廷|Argentina|54
+|AT|奥地利|Austria|43
+|AU|澳大利亚|Australia|61
+|AZ|阿塞拜疆|Azerbaijan|994
+|BB|巴巴多斯|Barbados|1246
+|BD|孟加拉国|Bangladesh|880
+|BE|比利时|Belgium|32
+|BF|布基纳法索|Burkina-faso|226
+|BG|保加利亚|Bulgaria|359
+|BH|巴林|Bahrain|973
+|BI|布隆迪|Burundi|257
+|BJ|贝宁|Benin|229
+|BL|巴勒斯坦|Palestine|970
+|BM|百慕大群岛|Bermuda Is.|1441
+|BN|文莱|Brunei|673
+|BO|玻利维亚|Bolivia|591
+|BR|巴西|Brazil|55
+|BS|巴哈马|Bahamas|1242
+|BW|博茨瓦纳|Botswana|267
+|BY|白俄罗斯|Belarus|375
+|BZ|伯利兹|Belize|501
+|CA|加拿大|Canada|1
+| |开曼群岛|Cayman Is.|1345
+|CF|中非共和国|Central African Republic|236
+|CG|刚果|Congo|242
+|CH|瑞士|Switzerland|41
+|CK|库克群岛|Cook Is.|682
+|CL|智利|Chile|56
+|CM|喀麦隆|Cameroon|237
+|CN|中国大陆|Mainland China (PRC)|86
+|CO|哥伦比亚|Colombia|57
+|CR|哥斯达黎加|Costa Rica|506
+|CS|捷克|Czech|420
+|CU|古巴|Cuba|53
+|CY|塞浦路斯|Cyprus|357
+|CZ|捷克|Czech Republic |420
+|DE|德国|Germany |49
+|DJ|吉布提|Djibouti|253
+|DK|丹麦|Denmark|45
+|DO|多米尼加共和国|Dominica Rep.|1890
+|DZ|阿尔及利亚|Algeria|213
+|EC|厄瓜多尔|Ecuador|593
+|EE|爱沙尼亚|Estonia|372
+|EG|埃及|Egypt|20
+|ES|西班牙|Spain|34
+|ET|埃塞俄比亚|Ethiopia|251
+|FI|芬兰|Finland|358
+|FJ|斐济|Fiji|679
+|FR|法国|France|33
+|GA|加蓬|Gabon|241
+|GB|英国|United Kiongdom|44
+|GD|格林纳达|Grenada|1809
+|GE|格鲁吉亚|Georgia |995
+|GF|法属圭亚那|French Guiana|594
+|GH|加纳|Ghana|233
+|GI|直布罗陀|Gibraltar|350
+|GM|冈比亚|Gambia|220
+|GN|几内亚|Guinea|224
+|GR|希腊|Greece|30
+|GT|危地马拉|Guatemala|502
+|GU|关岛|Guam|1671
+|GY|圭亚那|Guyana|592
+|HK|中国香港特别行政区|Hongkong, China|852
+|HN|洪都拉斯|Honduras|504
+|HT|海地|Haiti|509
+|HU|匈牙利|Hungary|36
+|ID|印度尼西亚|Indonesia|62
+|IE|爱尔兰|Ireland|353
+|IL|以色列|Israel|972
+|IN|印度|India|91
+|IQ|伊拉克|Iraq|964
+|IR|伊朗|Iran|98
+|IS|冰岛|Iceland|354
+|IT|意大利|Italy|39
+| |科特迪瓦|Ivory Coast|225
+|JM|牙买加|Jamaica|1876
+|JO|约旦|Jordan|962
+|JP|日本|Japan|81
+|KE|肯尼亚|Kenya|254
+|KG|吉尔吉斯坦|Kyrgyzstan |331
+|KH|柬埔寨|Kampuchea (Cambodia )|855
+|KP|朝鲜|North Korea|850
+|KR|韩国|Korea|82
+|KT|科特迪瓦共和国|Republic of Ivory Coast|225
+|KW|科威特|Kuwait|965
+|KZ|哈萨克斯坦|Kazakstan|327
+|LA|老挝|Laos|856
+|LB|黎巴嫩|Lebanon|961
+|LC|圣卢西亚|St.Lucia|1758
+|LI|列支敦士登|Liechtenstein|423
+|LK|斯里兰卡|Sri Lanka|94
+|LR|利比里亚|Liberia|231
+|LS|莱索托|Lesotho|266
+|LT|立陶宛|Lithuania|370
+|LU|卢森堡|Luxembourg|352
+|LV|拉脱维亚|Latvia |371
+|LY|利比亚|Libya|218
+|MA|摩洛哥|Morocco|212
+|MC|摩纳哥|Monaco|377
+|MD|摩尔多瓦|Moldova, Republic of |373
+|MG|马达加斯加|Madagascar|261
+|ML|马里|Mali|223
+|MM|缅甸|Burma|95
+|MN|蒙古|Mongolia|976
+|MO|中国澳门特别行政区|Macao, China|853
+|MS|蒙特塞拉特岛|Montserrat Is|1664
+|MT|马耳他|Malta|356
+| |马里亚那群岛|Mariana Is|1670
+| |马提尼克|Martinique|596
+|MU|毛里求斯|Mauritius|230
+|MV|马尔代夫|Maldives|960
+|MW|马拉维|Malawi|265
+|MX|墨西哥|Mexico|52
+|MY|马来西亚|Malaysia|60
+|MZ|莫桑比克|Mozambique|258
+|NA|纳米比亚|Namibia |264
+|NE|尼日尔|Niger|977
+|NG|尼日利亚|Nigeria|234
+|NI|尼加拉瓜|Nicaragua|505
+|NL|荷兰|Netherlands|31
+|NO|挪威|Norway|47
+|NP|尼泊尔|Nepal|977
+| |荷属安的列斯|Netheriands Antilles|599
+|NR|瑙鲁|Nauru|674
+|NZ|新西兰|New Zealand|64
+|OM|阿曼|Oman|968
+|PA|巴拿马|Panama|507
+|PE|秘鲁|Peru|51
+|PF|法属玻利尼西亚|French Polynesia|689
+|PG|巴布亚新几内亚|Papua New Cuinea|675
+|PH|菲律宾|Philippines|63
+|PK|巴基斯坦|Pakistan|92
+|PL|波兰|Poland|48
+|PR|波多黎各|Puerto Rico|1787
+|PT|葡萄牙|Portugal|351
+|PY|巴拉圭|Paraguay|595
+|QA|卡塔尔|Qatar|974
+| |留尼旺|Reunion|262
+|RO|罗马尼亚|Romania|40
+|RU|俄罗斯|Russia|7
+|SA|沙特阿拉伯|Saudi Arabia|966
+|SB|所罗门群岛|Solomon Is|677
+|SC|塞舌尔|Seychelles|248
+|SD|苏丹|Sudan|249
+|SE|瑞典|Sweden|46
+|SG|新加坡|Singapore|65
+|SI|斯洛文尼亚|Slovenia|386
+|SK|斯洛伐克|Slovakia|421
+|SL|塞拉利昂|Sierra Leone|232
+|SM|圣马力诺|San Marino|378
+| |东萨摩亚(美)|Samoa Eastern|684
+| |西萨摩亚|San Marino|685
+|SN|塞内加尔|Senegal|221
+|SO|索马里|Somali|252
+|SR|苏里南|Suriname|597
+|ST|圣多美和普林西比|Sao Tome and Principe|239
+|SV|萨尔瓦多|EI Salvador|503
+|SY|叙利亚|Syria|963
+|SZ|斯威士兰|Swaziland|268
+|TD|乍得|Chad|235
+|TG|多哥|Togo|228
+|TH|泰国|Thailand|66
+|TJ|塔吉克斯坦|Tajikstan|992
+|TM|土库曼斯坦|Turkmenistan |993
+|TN|突尼斯|Tunisia|216
+|TO|汤加|Tonga|676
+|TR|土耳其|Turkey|90
+|TT|特立尼达和多巴哥|Trinidad and Tobago|1809
+|TW|中国台湾省|Taiwan, China (ROC)|886
+|TZ|坦桑尼亚|Tanzania|255
+|UA|乌克兰|Ukraine|380
+|UG|乌干达|Uganda|256
+|US|美国|United States of America|1
+|UY|乌拉圭|Uruguay|598
+|UZ|乌兹别克斯坦|Uzbekistan|233
+|VC|圣文森特岛|Saint Vincent|1784
+|VE|委内瑞拉|Venezuela|58
+|VN|越南|Vietnam|84
+|YE|也门|Yemen|967
+|YU|南斯拉夫|Yugoslavia|381
+|ZA|南非|South Africa|27
+|ZM|赞比亚|Zambia|260
+|ZR|扎伊尔|Zaire|243
+|ZW|津巴布韦|Zimbabwe|263
+|===
+
+== All Abbreviations of countries in the world
+
+[cols="^.^2a,^.^2a,^.^2a,^.^2a"]
+|===
+2+|Alphabetically by abbreviation 2+|Alphabetically by Country
+|Abbrev.|Country|Country|Abbrev.
+|ac|Ascension Island|ASCENSION ISLAND|AC
+|ad|Andorra|AFGHANISTAN|AF
+|ae|United Arab Emirates|ALAND|AX
+|af|Afghanistan|ALBANIA|AL
+|ag|Antigua And Barbuda|ALGERIA|DZ
+|ai|Anguilla|ANDORRA|AD
+|al|Albania|ANGOLA|AO
+|am|Armenia|ANGUILLA|AI
+|an|Netherlands Antilles|ANTARCTICA|AQ
+|ao|Angola|ANTIGUA AND BARBUDA|AG
+|aq|Antarctica|ARGENTINA REPUBLIC|AR
+|ar|Argentina|ARMENIA|AM
+|as|American Samoa|ARUBA|AW
+|at|Austria|AUSTRALIA|AU
+|au|Australia|AUSTRIA|AT
+|aw|Aruba|AZERBAIJAN|AZ
+|ax|Åland|BAHAMAS|BS
+|az|Azerbaijan|BAHRAIN|BH
+|ba|Bosnia And Herzegovina|BANGLADESH|BD
+|bb|Barbados|BARBADOS|BB
+|be|Belgium|BELARUS|BY
+|bd|Bangladesh|BELGIUM|BE
+|bf|Burkina Faso|BELIZE|BZ
+|bg|Bulgaria|BENIN|BJ
+|bh|Bahrain|BERMUDA|BM
+|bi|Burundi|BHUTAN|BT
+|bj|Benin|BOLIVIA|BO
+|bm|Bermuda|BOSNIA AND HERZEGOVINA|BA
+|bn|Brunei Darussalam|BOTSWANA|BW
+|bo|Bolivia|BOUVET ISLAND|BV
+|br|Brazil|BRAZIL|BR
+|bs|Bahamas|BRITISH INDIAN OCEAN TERR|IO
+|bt|Bhutan|BRITISH VIRGIN ISLANDS|VG
+|bv|Bouvet Island|BRUNEI DARUSSALAM|BN
+|bw|Botswana|BULGARIA|BG
+|by|Belarus|BURKINA FASO|BF
+|bz|Belize|BURUNDI|BI
+|ca|Canada|CAMBODIA|KH
+|cc|Cocos (Keeling) Islands|CAMEROON|CM
+|cd|Congo (Democratic Republic)|CANADA|CA
+|cf|Central African Republic|CAPE VERDE|CV
+|cg|Congo (Republic)|CAYMAN ISLANDS|KY
+|ch|Switzerland|CENTRAL AFRICAN REPUBLIC|CF
+|ci|Cote D’Ivoire|CHAD|TD
+|ck|Cook Islands|CHILE|CL
+|cl|Chile|MAINLAND CHINA (PRC)|CN
+|cm|Cameroon|CHRISTMAS ISLANDS|CX
+|cn|Mainland China (PRC)|COCOS ISLANDS|CC
+|co|Colombia|COLOMBIA|CO
+|cr|Costa Rica|COMORAS|KM
+|cu|Cuba|CONGO|CG
+|cv|Cape Verde|CONGO (DEMOCRATIC REPUBLIC)|CD
+|cx|Christmas Island|COOK ISLANDS|CK
+|cy|Cyprus|COSTA RICA|CR
+|cz|Czech Republic|COTE D IVOIRE|CI
+|de|Germany|CROATIA|HR
+|dj|Djibouti|CUBA|CU
+|dk|Denmark|CYPRUS|CY
+|dm|Dominica|CZECH REPUBLIC|CZ
+|do|Dominican Republic|DENMARK|DK
+|dz|Algeria|DJIBOUTI|DJ
+|ec|Ecuador|DOMINICA|DM
+|ee|Estonia|DOMINICAN REPUBLIC|DO
+|eg|Egypt|EAST TIMOR|TP
+|er|Eritrea|ECUADOR|EC
+|es|Spain|EGYPT|EG
+|et|Ethiopia|EL SALVADOR|SV
+|eU|European Union|EQUATORIAL GUINEA|GQ
+|fi|Finland|ESTONIA|EE
+|fj|Fiji|ETHIOPIA|ET
+|fk|Falkland Islands (Malvinas)|FALKLAND ISLANDS|FK
+|fm|Micronesia, Federated States Of|FAROE ISLANDS|FO
+|fo|Faroe Islands|FIJI|FJ
+|fr|France|FINLAND|FI
+|ga|Gabon|FRANCE|FR
+|gb|United Kingdom (no new registrations, see also UK)|FRANCE METROPOLITAN|FX
+|gd|Grenada|FRENCH GUIANA|GF
+|ge|Georgia|FRENCH POLYNESIA|PF
+|gf|French Guiana|FRENCH SOUTHERN TERRITORIES|TF
+|gg|Guernsey|GABON|GA
+|gh|Ghana|GAMBIA|GM
+|gi|Gibraltar|GEORGIA|GE
+|gl|Greenland|GERMANY|DE
+|gm|Gambia|GHANA|GH
+|gn|Guinea|GIBRALTAR|GI
+|gp|Guadeloupe|GREECE|GR
+|gq|Equatorial Guinea|GREENLAND|GL
+|gr|Greece|GRENADA|GD
+|gs|South Georgia And The South Sandwich Islands|GUADELOUPE|GP
+|gt|Guatemala|GUAM|GU
+|gu|Guam|GUATEMALA|GT
+|gw|Guinea-Bissau|GUINEA|GN
+|gy|Guyana|GUINEA-BISSAU|GW
+|hk|Hong Kong, China|GUYANA|GY
+|hm|Heard And Mc Donald Islands|HAITI|HT
+|hn|Honduras|HEARD &amp; MCDONALD ISLAND|HM
+|hr|Croatia (local name: Hrvatska)|HONDURAS|HN
+|ht|Haiti|HONG KONG, CHINA|HK
+|hu|Hungary|HUNGARY|HU
+|id|Indonesia|ICELAND|IS
+|ie|Ireland|INDIA|IN
+|il|Israel|INDONESIA|ID
+|im|Isle of Man|IRAN, ISLAMIC REPUBLIC OF|IR
+|in|India|IRAQ|IQ
+|io|British Indian Ocean Territory|IRELAND|IE
+|iq|Iraq|ISLE OF MAN|IM
+|ir|Iran (Islamic Republic Of)|ISRAEL|IL
+|is|Iceland|ITALY|IT
+|it|Italy|JAMAICA|JM
+|je|Jersey|JAPAN|JP
+|jm|Jamaica|JORDAN|JO
+|jo|Jordan|KAZAKHSTAN|KZ
+|jp|Japan|KENYA|KE
+|ke|Kenya|KIRIBATI|KI
+|kg|Kyrgyzstan|KOREA, DEM. PEOPLES REP OF|KP
+|kh|Cambodia|KOREA, REPUBLIC OF|KR
+|ki|Kiribati|KUWAIT|KW
+|km|Comoros|KYRGYZSTAN|KG
+|kn|Saint Kitts And Nevis|LAO PEOPLE’S DEM. REPUBLIC|LA
+|kr|Korea, Republic Of|LATVIA|LV
+|kw|Kuwait|LEBANON|LB
+|ky|Cayman Islands|LESOTHO|LS
+|kz|Kazakhstan|LIBERIA|LR
+|la|Lao People’s Democratic Republic|LIBYAN ARAB JAMAHIRIYA|LY
+|lb|Lebanon|LIECHTENSTEIN|LI
+|lc|Saint Lucia|LITHUANIA|LT
+|li|Liechtenstein|LUXEMBOURG|LU
+|lk|Sri Lanka|MACAO, CHINA|MO
+|lr|Liberia|MACEDONIA|MK
+|ls|Lesotho|MADAGASCAR|MG
+|lt|Lithuania|MALAWI|MW
+|lu|Luxembourg|MALAYSIA|MY
+|lv|Latvia|MALDIVES|MV
+|ly|Libyan Arab Jamahiriya|MALI|ML
+|ma|Morocco|MALTA|MT
+|mc|Monaco|MARSHALL ISLANDS|MH
+|md|Moldova, Republic Of|MARTINIQUE|MQ
+|me|Montenegro|MAURITANIA|MR
+|mg|Madagascar|MAURITIUS|MU
+|mh|Marshall Islands|MAYOTTE|YT
+|mk|Macedonia, The Former Yugoslav Republic Of|MEXICO|MX
+|ml|Mali|MICRONESIA|FM
+|mm|Myanmar|MOLDAVA REPUBLIC OF|MD
+|mn|Mongolia|MONACO|MC
+|mo|Macau, China|MONGOLIA|MN
+|mp|Northern Mariana Islands|MONTENEGRO|ME
+|mq|Martinique|MONTSERRAT|MS
+|mr|Mauritania|MOROCCO|MA
+|ms|Montserrat|MOZAMBIQUE|MZ
+|mt|Malta|MYANMAR|MM
+|mu|Mauritius|NAMIBIA|NA
+|mv|Maldives|NAURU|NR
+|mw|Malawi|NEPAL|NP
+|mx|Mexico|NETHERLANDS ANTILLES|AN
+|my|Malaysia|NETHERLANDS, THE|NL
+|mz|Mozambique|NEW CALEDONIA|NC
+|na|Namibia|NEW ZEALAND|NZ
+|nc|New Caledonia|NICARAGUA|NI
+|ne|Niger|NIGER|NE
+|nf|Norfolk Island|NIGERIA|NG
+|ng|Nigeria|NIUE|NU
+|ni|Nicaragua|NORFOLK ISLAND|NF
+|nl|Netherlands|NORTHERN MARIANA ISLANDS|MP
+|no|Norway|NORWAY|NO
+|np|Nepal|OMAN|OM
+|nr|Nauru|PAKISTAN|PK
+|nu|Niue|PALAU|PW
+|nz|New Zealand|PALESTINE|PS
+|om|Oman|PANAMA|PA
+|pa|Panama|PAPUA NEW GUINEA|PG
+|pe|Peru|PARAGUAY|PY
+|pf|French Polynesia|PERU|PE
+|pg|Papua New Guinea|PHILIPPINES (REPUBLIC OF THE)|PH
+|ph|Philippines, Republic of the|PITCAIRN|PN
+|pk|Pakistan|POLAND|PL
+|pl|Poland|PORTUGAL|PT
+|pm|St. Pierre And Miquelon|PUERTO RICO|PR
+|pn|Pitcairn|QATAR|QA
+|pr|Puerto Rico|REUNION|RE
+|ps|Palestine|ROMANIA|RO
+|pt|Portugal|RUSSIAN FEDERATION|RU
+|pw|Palau|RWANDA|RW
+|py|Paraguay|SAMOA|WS
+|qa|Qatar|SAN MARINO|SM
+|re|Reunion|SAO TOME/PRINCIPE|ST
+|ro|Romania|SAUDI ARABIA|SA
+|rs|Serbia|SCOTLAND|UK
+|ru|Russian Federation|SENEGAL|SN
+|rw|Rwanda|SERBIA|RS
+|sa|Saudi Arabia|SEYCHELLES|SC
+|uk|Scotland|SIERRA LEONE|SL
+|sb|Solomon Islands|SINGAPORE|SG
+|sc|Seychelles|SLOVAKIA|SK
+|sd|Sudan|SLOVENIA|SI
+|se|Sweden|SOLOMON ISLANDS|SB
+|sg|Singapore|SOMALIA|SO
+|sh|St. Helena|SOMOA,GILBERT,ELLICE ISLANDS|AS
+|si|Slovenia|SOUTH AFRICA|ZA
+|sj|Svalbard And Jan Mayen Islands|SOUTH GEORGIA, SOUTH SANDWICH ISLANDS|GS
+|sk|Slovakia (Slovak Republic)|SOVIET UNION|SU
+|sl|Sierra Leone|SPAIN|ES
+|sm|San Marino|SRI LANKA|LK
+|sn|Senegal|ST. HELENA|SH
+|so|Somalia|ST. KITTS AND NEVIS|KN
+|sr|Suriname|ST. LUCIA|LC
+|st|Sao Tome And Principe|ST. PIERRE AND MIQUELON|PM
+|su|Soviet Union|ST. VINCENT &amp; THE GRENADINES|VC
+|sv|El Salvador|SUDAN|SD
+|sy|Syrian Arab Republic|SURINAME|SR
+|sz|Swaziland|SVALBARD AND JAN MAYEN|SJ
+|tc|Turks And Caicos Islands|SWAZILAND|SZ
+|td|Chad|SWEDEN|SE
+|tf|French Southern Territories|SWITZERLAND|CH
+|tg|Togo|SYRIAN ARAB REPUBLIC|SY
+|th|Thailand|TAIWAN, CHINA (ROC)|TW
+|tj|Tajikistan|TAJIKISTAN|TJ
+|tk|Tokelau|TANZANIA, UNITED REPUBLIC OF|TZ
+|ti|East Timor (new code)|THAILAND|TH
+|tm|Turkmenistan|TOGO|TG
+|tn|Tunisia|TOKELAU|TK
+|to|Tonga|TONGA|TO
+|tp|East Timor (old code)|TRINIDAD AND TOBAGO|TT
+|tr|Turkey|TUNISIA|TN
+|tt|Trinidad And Tobago|TURKEY|TR
+|tv|Tuvalu|TURKMENISTAN|TM
+|tw|Taiwan, China (ROC)|TURKS AND CAICOS ISLANDS|TC
+|tz|Tanzania, United Republic Of|TUVALU|TV
+|ua|Ukraine|UGANDA|UG
+|ug|Uganda|UKRAINE|UA
+|uk|United Kingdom|UNITED ARAB EMIRATES|AE
+|um|United States Minor Outlying Islands|UNITED KINGDOM (no new registrations)|GB
+|us|United States|UNITED KINGDOM|UK
+|uy|Uruguay|UNITED STATES|US
+|uz|Uzbekistan|UNITED STATES MINOR OUTL.IS.|UM
+|va|Vatican City State (Holy See)|URUGUAY|UY
+|vc|Saint Vincent And The Grenadines|UZBEKISTAN|UZ
+|ve|Venezuela|VANUATU|VU
+|vg|Virgin Islands (British)|VATICAN CITY STATE|VA
+|vi|Virgin Islands (U.S.)|VENEZUELA|VE
+|vn|Vietnam|VIETNAM|VN
+|vu|Vanuatu|VIRGIN ISLANDS (USA)|VI
+|wf|Wallis And Futuna Islands|WALLIS AND FUTUNA ISLANDS|WF
+|ws|Samoa|WESTERN SAHARA|EH
+|ye|Yemen|YEMEN|YE
+|yt|Mayotte|ZAMBIA|ZM
+|za|South Africa|ZIMBABWE|ZW
+|zm|Zambia||
+|zw|Zimbabwe||
+|===
