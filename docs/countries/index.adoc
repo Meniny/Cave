@@ -8,258 +8,258 @@
 |===
 |Flag|Domain Abbreviation|Country/Area|国家/地区|Dialing Code|More
 
-|image:/assets/images/flags/asean.png[ASEAN,150,100]||Association of South-east Asian Nations (ASEAN)|东南亚国家联盟||Organization
-|image:/assets/images/flags/arab_league.png[LAS,150,100]||Arab League/League of Arab States|阿拉伯国家联盟||Organization
-|image:/assets/images/flags/african_union.png[AU,150,100]||African Union|非洲联盟||Organization
-|image:/assets/images/flags/ac.png[AC,150,100]|AC|Ascension Island|阿森松岛|247|
-|image:/assets/images/flags/ad.png[AD,150,100]|AD|Andorra|安道尔共和国|376|
-|image:/assets/images/flags/ae.png[AE,150,100]|AE|United Arab Emirates|阿拉伯联合酋长国|971|
-|image:/assets/images/flags/af.png[﻿AF,150,100]|﻿AF|Afghanistan|阿富汗|93|
-|image:/assets/images/flags/ag.png[AG,150,100]|AG|Antigua And Barbuda|安提瓜和巴布达|1268|
-|image:/assets/images/flags/ai.png[AI,150,100]|AI|Anguilla|安圭拉岛|1264|
-|image:/assets/images/flags/al.png[AL,150,100]|AL|Albania|阿尔巴尼亚|355|
-|image:/assets/images/flags/am.png[AM,150,100]|AM|Armenia|亚美尼亚|374|
-|image:/assets/images/flags/an.png[AN,150,100]|AN|Netherlands Antilles|荷属安的列斯|599|
-|image:/assets/images/flags/ao.png[AO,150,100]|AO|Angola|安哥拉|244|
-|image:/assets/images/flags/aq.png[AQ,150,100]|AQ|Antarctica|南极洲||Continent
-|image:/assets/images/flags/ar.png[AR,150,100]|AR|Argentina|阿根廷|54|
-|image:/assets/images/flags/as.png[AS,150,100]|AS|American Samoa|美属萨摩亚|1684|
-|image:/assets/images/flags/at.png[AT,150,100]|AT|Austria|奥地利|43|
-|image:/assets/images/flags/au.png[AU,150,100]|AU|Australia|澳大利亚|61|
-|image:/assets/images/flags/aw.png[AW,150,100]|AW|Aruba|荷属阿鲁巴|297|
-|image:/assets/images/flags/ax.png[AX,150,100]|AX|Åland Islands|奥兰|358|
-|image:/assets/images/flags/az.png[AZ,150,100]|AZ|Azerbaijan|阿塞拜疆|994|
-|image:/assets/images/flags/ba.png[BA,150,100]|BA|Bosnia And Herzegovina|波斯尼亚 黑塞哥维那|387|
-|image:/assets/images/flags/bb.png[BB,150,100]|BB|Barbados|巴巴多斯|1246|
-|image:/assets/images/flags/bd.png[BD,150,100]|BD|Bangladesh|孟加拉国|880|
-|image:/assets/images/flags/be.png[BE,150,100]|BE|Belgium|比利时|32|
-|image:/assets/images/flags/bf.png[BF,150,100]|BF|Burkina Faso|布基纳法索|226|
-|image:/assets/images/flags/bg.png[BG,150,100]|BG|Bulgaria|保加利亚|359|
-|image:/assets/images/flags/bh.png[BH,150,100]|BH|Bahrain|巴林|973|
-|image:/assets/images/flags/bi.png[BI,150,100]|BI|Burundi|布隆迪|257|
-|image:/assets/images/flags/bj.png[BJ,150,100]|BJ|Benin|贝宁|229|
-|image:/assets/images/flags/bm.png[BM,150,100]|BM|Bermuda|百慕大群岛|1441|
-|image:/assets/images/flags/bn.png[BN,150,100]|BN|Brunei Darussalam|文莱|673|
-|image:/assets/images/flags/bo.png[BO,150,100]|BO|Bolivia|玻利维亚|591|
-|image:/assets/images/flags/br.png[BR,150,100]|BR|Brazil|巴西|55|
-|image:/assets/images/flags/bs.png[BS,150,100]|BS|Bahamas|巴哈马|1242|
-|image:/assets/images/flags/bt.png[BT,150,100]|BT|Bhutan|不丹|975|
-|image:/assets/images/flags/bv.png[BV,150,100]|BV|Bouvet Island|布韦岛/鲍威特岛(挪威领地)||
-|image:/assets/images/flags/bw.png[BW,150,100]|BW|Botswana|博茨瓦纳|267|
-|image:/assets/images/flags/by.png[BY,150,100]|BY|Belarus|白俄罗斯|375|
-|image:/assets/images/flags/bz.png[BZ,150,100]|BZ|Belize|伯利兹|501|
-|image:/assets/images/flags/ca.png[CA,150,100]|CA|Canada|加拿大|1|
-|image:/assets/images/flags/cc.png[CC,150,100]|CC|Cocos (Keeling) Islands|科科斯（基林）群岛|61891|
-|image:/assets/images/flags/cd.png[CD,150,100]|CD|Congo (Democratic Republic)|刚果民主共和国|243|
-|image:/assets/images/flags/cf.png[CF,150,100]|CF|Central African Republic|中非共和国|236|
-|image:/assets/images/flags/cg.png[CG,150,100]|CG|Congo (Republic)|刚果|242|
-|image:/assets/images/flags/ch.png[CH,150,100]|CH|Switzerland|瑞士|41|
-|image:/assets/images/flags/ci.png[CI,150,100]|CI|Cote D’Ivoire|科特迪瓦|225|
-|image:/assets/images/flags/ck.png[CK,150,100]|CK|Cook Islands|库克群岛|682|
-|image:/assets/images/flags/cl.png[CL,150,100]|CL|Chile|智利|56|
-|image:/assets/images/flags/cm.png[CM,150,100]|CM|Cameroon|喀麦隆|237|
-|image:/assets/images/flags/cn.png[CN,150,100]|CN|China, Mainland, People's Republic Of|中国大陆|86|
-|image:/assets/images/flags/co.png[CO,150,100]|CO|Colombia|哥伦比亚|57|
-|image:/assets/images/flags/cr.png[CR,150,100]|CR|Costa Rica|哥斯达黎加|506|
-|image:/assets/images/flags/cu.png[CU,150,100]|CU|Cuba|古巴|53|
-|image:/assets/images/flags/cv.png[CV,150,100]|CV|Cape Verde|佛得角|238|
-|image:/assets/images/flags/cx.png[CX,150,100]|CX|Christmas Island|圣诞岛(澳大利亚境外领土)||
-|image:/assets/images/flags/cy.png[CY,150,100]|CY|Cyprus|塞浦路斯|357|
-|image:/assets/images/flags/cz.png[CZ,150,100]|CZ|Czech Republic|捷克|420|
-|image:/assets/images/flags/de.png[DE,150,100]|DE|Germany|德国|49|
-|image:/assets/images/flags/dj.png[DJ,150,100]|DJ|Djibouti|吉布提|253|
-|image:/assets/images/flags/dk.png[DK,150,100]|DK|Denmark|丹麦|45|
-|image:/assets/images/flags/dm.png[DM,150,100]|DM|Dominica|多米尼克|1767|
-|image:/assets/images/flags/do.png[DO,150,100]|DO|Dominican Republic|多米尼加共和国|1890|
-|image:/assets/images/flags/dz.png[DZ,150,100]|DZ|Algeria|阿尔及利亚|213|
-|image:/assets/images/flags/eu.png[EU,150,100]|EU|European Union|欧洲联盟||Organization
-|image:/assets/images/flags/ec.png[EC,150,100]|EC|Ecuador|厄瓜多尔|593|
-|image:/assets/images/flags/ee.png[EE,150,100]|EE|Estonia|爱沙尼亚|372|
-|image:/assets/images/flags/eg.png[EG,150,100]|EG|Egypt|埃及|20|
-|image:/assets/images/flags/er.png[ER,150,100]|ER|Eritrea|厄立特里亚|291|
-|image:/assets/images/flags/es.png[ES,150,100]|ES|Spain|西班牙|34|
-|image:/assets/images/flags/et.png[ET,150,100]|ET|Ethiopia|埃塞俄比亚|251|
-|image:/assets/images/flags/fi.png[FI,150,100]|FI|Finland|芬兰|358|
-|image:/assets/images/flags/fj.png[FJ,150,100]|FJ|Fiji|斐济|679|
-|image:/assets/images/flags/fk.png[FK,150,100]|FK|Falkland Islands (Malvinas)|福克兰群岛(马尔维纳斯群岛)|500|
-|image:/assets/images/flags/fm.png[FM,150,100]|FM|Micronesia, Federated States Of|密克罗尼西亚联邦|691|
-|image:/assets/images/flags/fo.png[FO,150,100]|FO|Faroe Islands|法罗群岛(丹麦海外自治领地)|298|
-|image:/assets/images/flags/fr.png[FR,150,100]|FR|France|法国|33|
-|image:/assets/images/flags/ga.png[GA,150,100]|GA|Gabon|加蓬|241|
-|image:/assets/images/flags/gb.png[GB,150,100]|GB|United Kingdom)|英国|44|See also `UK`
-|image:/assets/images/flags/gd.png[GD,150,100]|GD|Grenada|格林纳达|1809|
-|image:/assets/images/flags/ge.png[GE,150,100]|GE|Georgia|格鲁吉亚|995|
-|image:/assets/images/flags/gf.png[GF,150,100]|GF|French Guiana|法属圭亚那|594|
-|image:/assets/images/flags/gg.png[GG,150,100]|GG|Guernsey|耿西(英国王室属地)|44|
-|image:/assets/images/flags/gh.png[GH,150,100]|GH|Ghana|加纳|233|
-|image:/assets/images/flags/gi.png[GI,150,100]|GI|Gibraltar|直布罗陀|350|
-|image:/assets/images/flags/gl.png[GL,150,100]|GL|Greenland|格林兰(丹麦王国自治国)|299|
-|image:/assets/images/flags/gm.png[GM,150,100]|GM|Gambia|冈比亚|220|
-|image:/assets/images/flags/gn.png[GN,150,100]|GN|Guinea|几内亚|224|
-|image:/assets/images/flags/gp.png[GP,150,100]|GP|Guadeloupe|瓜地洛普(法国海外省)|590|
-|image:/assets/images/flags/gq.png[GQ,150,100]|GQ|Equatorial Guinea|赤道几内亚|240|
-|image:/assets/images/flags/gr.png[GR,150,100]|GR|Greece|希腊|30|
-|image:/assets/images/flags/gs.png[GS,150,100]|GS|South Georgia And The South Sandwich Islands|南乔治亚岛和南桑威奇群岛(英国海外属地)|500|
-|image:/assets/images/flags/gt.png[GT,150,100]|GT|Guatemala|危地马拉|502|
-|image:/assets/images/flags/gu.png[GU,150,100]|GU|Guam|关岛(美国非合并建制属地)|1671|
-|image:/assets/images/flags/gw.png[GW,150,100]|GW|Guinea-Bissau|几内亚比绍|245|
-|image:/assets/images/flags/gy.png[GY,150,100]|GY|Guyana|圭亚那|592|
-|image:/assets/images/flags/hk.png[HK,150,100]|HK|Hong Kong SAR, China|中国香港特别行政区|852|Special Administrative Region
-|image:/assets/images/flags/hm.png[HM,150,100]|HM|Heard And Mc Donald Islands|赫德和麦克唐纳群岛(澳大利亚海外领地)||
-|image:/assets/images/flags/hn.png[HN,150,100]|HN|Honduras|洪都拉斯|504|
-|image:/assets/images/flags/hr.png[HR,150,100]|HR|Croatia (Hrvatska)|克罗地亚|385|
-|image:/assets/images/flags/ht.png[HT,150,100]|HT|Haiti|海地|509|
-|image:/assets/images/flags/hu.png[HU,150,100]|HU|Hungary|匈牙利|36|
-|image:/assets/images/flags/id.png[ID,150,100]|ID|Indonesia|印度尼西亚|62|
-|image:/assets/images/flags/ie.png[IE,150,100]|IE|Ireland|爱尔兰|353|
-|image:/assets/images/flags/il.png[IL,150,100]|IL|Israel|以色列|972|
-|image:/assets/images/flags/im.png[IM,150,100]|IM|Isle of Man|曼岛/马恩岛|44|
-|image:/assets/images/flags/in.png[IN,150,100]|IN|India|印度|91|
-|image:/assets/images/flags/io.png[IO,150,100]|IO|British Indian Ocean Territory|英属印度洋领地|246|
-|image:/assets/images/flags/iq.png[IQ,150,100]|IQ|Iraq|伊拉克|964|
-|image:/assets/images/flags/ir.png[IR,150,100]|IR|Iran (Islamic Republic Of)|伊朗|98|
-|image:/assets/images/flags/is.png[IS,150,100]|IS|Iceland|冰岛|354|
-|image:/assets/images/flags/it.png[IT,150,100]|IT|Italy|意大利|39|
-|image:/assets/images/flags/je.png[JE,150,100]|JE|Jersey|泽西岛(英国王室属地)|44|
-|image:/assets/images/flags/jm.png[JM,150,100]|JM|Jamaica|牙买加|1876|
-|image:/assets/images/flags/jo.png[JO,150,100]|JO|Jordan|约旦|962|
-|image:/assets/images/flags/jp.png[JP,150,100]|JP|Japan|日本|81|
-|image:/assets/images/flags/ke.png[KE,150,100]|KE|Kenya|肯尼亚|254|
-|image:/assets/images/flags/kg.png[KG,150,100]|KG|Kyrgyzstan|吉尔吉斯坦|331|
-|image:/assets/images/flags/kh.png[KH,150,100]|KH|Cambodia|柬埔寨|855|
-|image:/assets/images/flags/ki.png[KI,150,100]|KI|Kiribati|吉里巴斯|686|
-|image:/assets/images/flags/km.png[KM,150,100]|KM|Comoros|科摩罗联盟|269|
-|image:/assets/images/flags/kn.png[KN,150,100]|KN|Saint Kitts And Nevis|圣基茨和尼维斯|1869|
-|image:/assets/images/flags/kr.png[KR,150,100]|KR|Korea, Republic Of|韩国|82|
-|image:/assets/images/flags/kw.png[KW,150,100]|KW|Kuwait|科威特|965|
-|image:/assets/images/flags/ky.png[KY,150,100]|KY|Cayman Islands|开曼群岛(英国海外属地)|1345|
-|image:/assets/images/flags/kz.png[KZ,150,100]|KZ|Kazakhstan|哈萨克斯坦|327|
-|image:/assets/images/flags/la.png[LA,150,100]|LA|Lao People’s Democratic Republic|老挝|856|
-|image:/assets/images/flags/lb.png[LB,150,100]|LB|Lebanon|黎巴嫩|961|
-|image:/assets/images/flags/lc.png[LC,150,100]|LC|Saint Lucia|圣卢西亚|1758|
-|image:/assets/images/flags/li.png[LI,150,100]|LI|Liechtenstein|列支敦士登|423|
-|image:/assets/images/flags/lk.png[LK,150,100]|LK|Sri Lanka|斯里兰卡|94|
-|image:/assets/images/flags/lr.png[LR,150,100]|LR|Liberia|利比里亚|231|
-|image:/assets/images/flags/ls.png[LS,150,100]|LS|Lesotho|莱索托|266|
-|image:/assets/images/flags/lt.png[LT,150,100]|LT|Lithuania|立陶宛|370|
-|image:/assets/images/flags/lu.png[LU,150,100]|LU|Luxembourg|卢森堡|352|
-|image:/assets/images/flags/lv.png[LV,150,100]|LV|Latvia|拉脱维亚|371|
-|image:/assets/images/flags/ly.png[LY,150,100]|LY|Libyan Arab Jamahiriya|利比亚|218|
-|image:/assets/images/flags/ma.png[MA,150,100]|MA|Morocco|摩洛哥|212|
-|image:/assets/images/flags/mc.png[MC,150,100]|MC|Monaco|摩纳哥|377|
-|image:/assets/images/flags/md.png[MD,150,100]|MD|Moldova, Republic Of|摩尔多瓦|373|
-|image:/assets/images/flags/me.png[ME,150,100]|ME|Montenegro|黑山|382|
-|image:/assets/images/flags/mg.png[MG,150,100]|MG|Madagascar|马达加斯加|261|
-|image:/assets/images/flags/mh.png[MH,150,100]|MH|Marshall Islands|马绍尔群岛|692|
-|image:/assets/images/flags/mk.png[MK,150,100]|MK|Macedonia, The Former Yugoslav Republic Of|北马其顿|389|
-|image:/assets/images/flags/ml.png[ML,150,100]|ML|Mali|马里|223|
-|image:/assets/images/flags/mm.png[MM,150,100]|MM|Myanmar|缅甸|95|
-|image:/assets/images/flags/mn.png[MN,150,100]|MN|Mongolia|蒙古|976|
-|image:/assets/images/flags/mo.png[MO,150,100]|MO|Macau SAR, China|中国澳门特别行政区|853|Special Administrative Region
-|image:/assets/images/flags/mp.png[MP,150,100]|MP|Northern Mariana Islands|北马里亚纳群岛|1670|
-|image:/assets/images/flags/mq.png[MQ,150,100]|MQ|Martinique|马提尼克(法国海外区)||
-|image:/assets/images/flags/mr-new.png[MR,150,100]|MR|Mauritania|毛里塔尼亚|222|image:/assets/images/flags/mr.png[MR,150,100]
-|image:/assets/images/flags/ms.png[MS,150,100]|MS|Montserrat|蒙特塞拉特岛(英国海外领土)|1664|
-|image:/assets/images/flags/mt.png[MT,150,100]|MT|Malta|马耳他|356|
-|image:/assets/images/flags/mu.png[MU,150,100]|MU|Mauritius|毛里求斯|230|
-|image:/assets/images/flags/mv.png[MV,150,100]|MV|Maldives|马尔代夫|960|
-|image:/assets/images/flags/mw.png[MW,150,100]|MW|Malawi|马拉维|265|
-|image:/assets/images/flags/mx.png[MX,150,100]|MX|Mexico|墨西哥|52|
-|image:/assets/images/flags/my.png[MY,150,100]|MY|Malaysia|马来西亚|60|
-|image:/assets/images/flags/mz.png[MZ,150,100]|MZ|Mozambique|莫桑比克|258|
-|image:/assets/images/flags/na.png[NA,150,100]|NA|Namibia|纳米比亚|264|
-|image:/assets/images/flags/nc.png[NC,150,100]|NC|New Caledonia|新喀里多尼亚|687|
-|image:/assets/images/flags/ne.png[NE,150,100]|NE|Niger|尼日尔|977|
-|image:/assets/images/flags/nf.png[NF,150,100]|NF|Norfolk Island|诺福克岛(澳大利亚海外领地)|689|
-|image:/assets/images/flags/ng.png[NG,150,100]|NG|Nigeria|尼日利亚|234|
-|image:/assets/images/flags/ni.png[NI,150,100]|NI|Nicaragua|尼加拉瓜|505|
-|image:/assets/images/flags/nl.png[NL,150,100]|NL|Netherlands|荷兰|31|
-|image:/assets/images/flags/no.png[NO,150,100]|NO|Norway|挪威|47|
-|image:/assets/images/flags/np.png[NP,150,100]|NP|Nepal|尼泊尔|977|
-|image:/assets/images/flags/nr.png[NR,150,100]|NR|Nauru|瑙鲁|674|
-|image:/assets/images/flags/nu.png[NU,150,100]|NU|Niue|纽埃|683|
-|image:/assets/images/flags/nz.png[NZ,150,100]|NZ|New Zealand|新西兰|64|
-|image:/assets/images/flags/om.png[OM,150,100]|OM|Oman|阿曼|968|
-|image:/assets/images/flags/pa.png[PA,150,100]|PA|Panama|巴拿马|507|
-|image:/assets/images/flags/pe.png[PE,150,100]|PE|Peru|秘鲁|51|
-|image:/assets/images/flags/pf.png[PF,150,100]|PF|French Polynesia|法属玻利尼西亚|689|
-|image:/assets/images/flags/pg.png[PG,150,100]|PG|Papua New Guinea|巴布亚新几内亚|675|
-|image:/assets/images/flags/ph.png[PH,150,100]|PH|Philippines,  Republic of the|菲律宾|63|
-|image:/assets/images/flags/pk.png[PK,150,100]|PK|Pakistan|巴基斯坦|92|
-|image:/assets/images/flags/pl.png[PL,150,100]|PL|Poland|波兰|48|
-|image:/assets/images/flags/pm.png[PM,150,100]|PM|St. Pierre And Miquelon|圣皮埃尔和密克隆群岛|508|
-|image:/assets/images/flags/pn.png[PN,150,100]|PN|Pitcairn|皮特凯恩群岛|64|
-|image:/assets/images/flags/pr.png[PR,150,100]|PR|Puerto Rico|波多黎各|1787|
-|image:/assets/images/flags/ps.png[PS,150,100]|PS|Palestine|巴勒斯坦|970|
-|image:/assets/images/flags/pt.png[PT,150,100]|PT|Portugal|葡萄牙|351|
-|image:/assets/images/flags/pw.png[PW,150,100]|PW|Palau/Belau/Pelew|帕劳/帛琉|680|
-|image:/assets/images/flags/py.png[PY,150,100]|PY|Paraguay|巴拉圭|595|
-|image:/assets/images/flags/qa.png[QA,150,100]|QA|Qatar|卡塔尔|974|
-|image:/assets/images/flags/re.png[RE,150,100]|RE|Reunion|留尼旺(法国海外区)||
-|image:/assets/images/flags/ro.png[RO,150,100]|RO|Romania|罗马尼亚|40|
-|image:/assets/images/flags/rs.png[RS,150,100]|RS|Serbia|塞尔维亚|381|
-|image:/assets/images/flags/ru.png[RU,150,100]|RU|Russian Federation|俄罗斯|7|
-|image:/assets/images/flags/rw.png[RW,150,100]|RW|Rwanda|塞尔维亚|250|
-|image:/assets/images/flags/sa.png[SA,150,100]|SA|Saudi Arabia|沙特阿拉伯|966|
-|image:/assets/images/flags/sb.png[SB,150,100]|SB|Solomon Islands|所罗门群岛|677|
-|image:/assets/images/flags/sc.png[SC,150,100]|SC|Seychelles|塞舌尔|248|
-|image:/assets/images/flags/sd.png[SD,150,100]|SD|Sudan|苏丹|249|
-|image:/assets/images/flags/se.png[SE,150,100]|SE|Sweden|瑞典|46|
-|image:/assets/images/flags/sg.png[SG,150,100]|SG|Singapore|新加坡|65|
-|image:/assets/images/flags/sh.png[SH,150,100]|SH|St. Helena|英属圣赫勒拿||
-|image:/assets/images/flags/si.png[SI,150,100]|SI|Slovenia|斯洛文尼亚|386|
-|image:/assets/images/flags/sj.png[SJ,150,100]|SJ|Svalbard And Jan Mayen Islands|挪威属斯瓦尔巴和扬马延||
-|image:/assets/images/flags/sk.png[SK,150,100]|SK|Slovakia (Slovak Republic)|斯洛伐克|421|
-|image:/assets/images/flags/sl.png[SL,150,100]|SL|Sierra Leone|塞拉利昂|232|
-|image:/assets/images/flags/sm.png[SM,150,100]|SM|San Marino|圣马力诺|378|
-|image:/assets/images/flags/sn.png[SN,150,100]|SN|Senegal|塞内加尔|221|
-|image:/assets/images/flags/so.png[SO,150,100]|SO|Somalia|索马里|252|
-|image:/assets/images/flags/sr.png[SR,150,100]|SR|Suriname|苏里南|597|
-|image:/assets/images/flags/ss.png[SD,150,100]|SS|Sudan|南苏丹|211|
-|image:/assets/images/flags/st.png[ST,150,100]|ST|Sao Tome And Principe|圣多美和普林西比|239|
-|image:/assets/images/flags/su.png[SU,150,100]|SU|Soviet Union/Union of Soviet Socialist Republics|苏维埃社会主义共和国联盟|7|
-|image:/assets/images/flags/sv.png[SV,150,100]|SV|El Salvador|萨尔瓦多|503|
-|image:/assets/images/flags/sy.png[SY,150,100]|SY|Syrian Arab Republic|叙利亚|963|
-|image:/assets/images/flags/sz.png[SZ,150,100]|SZ|Swaziland|斯威士兰|268|
-|image:/assets/images/flags/tc.png[TC,150,100]|TC|Turks And Caicos Islands|特克斯和凯科斯群岛(英国属地)|1649|
-|image:/assets/images/flags/td.png[TD,150,100]|TD|Chad|乍得|235|
-|image:/assets/images/flags/tf.png[TF,150,100]|TF|French Southern Territories|法属南部和南极领地||
-|image:/assets/images/flags/tg.png[TG,150,100]|TG|Togo|多哥|228|
-|image:/assets/images/flags/th.png[TH,150,100]|TH|Thailand|泰国|66|
-|image:/assets/images/flags/ti.png[TI,150,100]|TI|East Timor|东帝汶|670|New Code
-|image:/assets/images/flags/tj.png[TJ,150,100]|TJ|Tajikistan|塔吉克斯坦|992|
-|image:/assets/images/flags/tk.png[TK,150,100]|TK|Tokelau|托克劳(新西兰王国属地)|690|
-|image:/assets/images/flags/tm.png[TM,150,100]|TM|Turkmenistan|土库曼斯坦|993|
-|image:/assets/images/flags/tn.png[TN,150,100]|TN|Tunisia|突尼斯|216|
-|image:/assets/images/flags/to.png[TO,150,100]|TO|Tonga|汤加|676|
-|image:/assets/images/flags/tp.png[TP,150,100]|TP|East Timor|东帝汶|670|Old Code
-|image:/assets/images/flags/tr.png[TR,150,100]|TR|Turkey|土耳其|90|
-|image:/assets/images/flags/tt.png[TT,150,100]|TT|Trinidad And Tobago|特立尼达和多巴哥|1809|
-|image:/assets/images/flags/tv.png[TV,150,100]|TV|Tuvalu|图瓦卢|688|
-|image:/assets/images/flags/tw.png[TW,150,100]|TW|Taiwan, China (Republic Of)|中国台湾省|886|
-|image:/assets/images/flags/tz.png[TZ,150,100]|TZ|Tanzania, United Republic Of|坦桑尼亚|255|
-|image:/assets/images/flags/ua.png[UA,150,100]|UA|Ukraine|乌克兰|380|
-|image:/assets/images/flags/un.png[UN,150,100]|UN|United Nations|联合国||Organization
-|image:/assets/images/flags/ug.png[UG,150,100]|UG|Uganda|乌干达|256|
-|image:/assets/images/flags/uk.png[UK,150,100]|UK|United Kingdom|英国|44|See also `GB`
-|image:/assets/images/flags/um.png[UM,150,100]|UM|United States Minor Outlying Islands|美国本土外小岛屿|246|
-|image:/assets/images/flags/us.png[US,150,100]|US|United States|美国|1|
-|image:/assets/images/flags/uy.png[UY,150,100]|UY|Uruguay|乌拉圭|598|
-|image:/assets/images/flags/uz.png[UZ,150,100]|UZ|Uzbekistan|乌兹别克斯坦|233|
-|image:/assets/images/flags/va.png[VA,150,100]|VA|Vatican City State|梵蒂冈|379|Holy See
-|image:/assets/images/flags/vc.png[VC,150,100]|VC|Saint Vincent And The Grenadines|圣文森特岛|1784|
-|image:/assets/images/flags/ve.png[VE,150,100]|VE|Venezuela|委内瑞拉|58|
-|image:/assets/images/flags/vg.png[VG,150,100]|VG|Virgin Islands (British)|英属维尔京群岛|1284|
-|image:/assets/images/flags/vi.png[VI,150,100]|VI|Virgin Islands (U.S.)|美属维尔京群岛|1340|
-|image:/assets/images/flags/vn.png[VN,150,100]|VN|Vietnam|越南|84|
-|image:/assets/images/flags/vu.png[VU,150,100]|VU|Vanuatu|瓦努阿图|678|
-|image:/assets/images/flags/wf.png[WF,150,100]|WF|Wallis And Futuna Islands|瓦利斯和富图纳(法国海外集体)|681|
-|image:/assets/images/flags/ws.png[WS,150,100]|WS|Samoa|萨摩亚|685|
-|image:/assets/images/flags/ye.png[YE,150,100]|YE|Yemen|也门|967|
-|image:/assets/images/flags/yt.png[YT,150,100]|YT|Mayotte|马约特(法国海外区)||
-|image:/assets/images/flags/za.png[ZA,150,100]|ZA|South Africa|南非|27|
-|image:/assets/images/flags/zm.png[ZM,150,100]|ZM|Zambia|赞比亚|260|
-|image:/assets/images/flags/zw.png[ZW,150,100]|ZW|Zimbabwe|津巴布韦|263|
+|image:/assets/images/flags/asean.png[ASEAN,150]||Association of South-east Asian Nations (ASEAN)|东南亚国家联盟||Organization
+|image:/assets/images/flags/arab_league.png[LAS,150]||Arab League/League of Arab States|阿拉伯国家联盟||Organization
+|image:/assets/images/flags/african_union.png[AU,150]||African Union|非洲联盟||Organization
+|image:/assets/images/flags/ac.png[AC,150]|AC|Ascension Island|阿森松岛|247|
+|image:/assets/images/flags/ad.png[AD,150]|AD|Andorra|安道尔共和国|376|
+|image:/assets/images/flags/ae.png[AE,150]|AE|United Arab Emirates|阿拉伯联合酋长国|971|
+|image:/assets/images/flags/af.png[﻿AF,150]|﻿AF|Afghanistan|阿富汗|93|
+|image:/assets/images/flags/ag.png[AG,150]|AG|Antigua And Barbuda|安提瓜和巴布达|1268|
+|image:/assets/images/flags/ai.png[AI,150]|AI|Anguilla|安圭拉岛|1264|
+|image:/assets/images/flags/al.png[AL,150]|AL|Albania|阿尔巴尼亚|355|
+|image:/assets/images/flags/am.png[AM,150]|AM|Armenia|亚美尼亚|374|
+|image:/assets/images/flags/an.png[AN,150]|AN|Netherlands Antilles|荷属安的列斯|599|
+|image:/assets/images/flags/ao.png[AO,150]|AO|Angola|安哥拉|244|
+|image:/assets/images/flags/aq.png[AQ,150]|AQ|Antarctica|南极洲||Continent
+|image:/assets/images/flags/ar.png[AR,150]|AR|Argentina|阿根廷|54|
+|image:/assets/images/flags/as.png[AS,150]|AS|American Samoa|美属萨摩亚|1684|
+|image:/assets/images/flags/at.png[AT,150]|AT|Austria|奥地利|43|
+|image:/assets/images/flags/au.png[AU,150]|AU|Australia|澳大利亚|61|
+|image:/assets/images/flags/aw.png[AW,150]|AW|Aruba|荷属阿鲁巴|297|
+|image:/assets/images/flags/ax.png[AX,150]|AX|Åland Islands|奥兰|358|
+|image:/assets/images/flags/az.png[AZ,150]|AZ|Azerbaijan|阿塞拜疆|994|
+|image:/assets/images/flags/ba.png[BA,150]|BA|Bosnia And Herzegovina|波斯尼亚 黑塞哥维那|387|
+|image:/assets/images/flags/bb.png[BB,150]|BB|Barbados|巴巴多斯|1246|
+|image:/assets/images/flags/bd.png[BD,150]|BD|Bangladesh|孟加拉国|880|
+|image:/assets/images/flags/be.png[BE,150]|BE|Belgium|比利时|32|
+|image:/assets/images/flags/bf.png[BF,150]|BF|Burkina Faso|布基纳法索|226|
+|image:/assets/images/flags/bg.png[BG,150]|BG|Bulgaria|保加利亚|359|
+|image:/assets/images/flags/bh.png[BH,150]|BH|Bahrain|巴林|973|
+|image:/assets/images/flags/bi.png[BI,150]|BI|Burundi|布隆迪|257|
+|image:/assets/images/flags/bj.png[BJ,150]|BJ|Benin|贝宁|229|
+|image:/assets/images/flags/bm.png[BM,150]|BM|Bermuda|百慕大群岛|1441|
+|image:/assets/images/flags/bn.png[BN,150]|BN|Brunei Darussalam|文莱|673|
+|image:/assets/images/flags/bo.png[BO,150]|BO|Bolivia|玻利维亚|591|
+|image:/assets/images/flags/br.png[BR,150]|BR|Brazil|巴西|55|
+|image:/assets/images/flags/bs.png[BS,150]|BS|Bahamas|巴哈马|1242|
+|image:/assets/images/flags/bt.png[BT,150]|BT|Bhutan|不丹|975|
+|image:/assets/images/flags/bv.png[BV,150]|BV|Bouvet Island|布韦岛/鲍威特岛(挪威领地)||
+|image:/assets/images/flags/bw.png[BW,150]|BW|Botswana|博茨瓦纳|267|
+|image:/assets/images/flags/by.png[BY,150]|BY|Belarus|白俄罗斯|375|
+|image:/assets/images/flags/bz.png[BZ,150]|BZ|Belize|伯利兹|501|
+|image:/assets/images/flags/ca.png[CA,150]|CA|Canada|加拿大|1|
+|image:/assets/images/flags/cc.png[CC,150]|CC|Cocos (Keeling) Islands|科科斯（基林）群岛|61891|
+|image:/assets/images/flags/cd.png[CD,150]|CD|Congo (Democratic Republic)|刚果民主共和国|243|
+|image:/assets/images/flags/cf.png[CF,150]|CF|Central African Republic|中非共和国|236|
+|image:/assets/images/flags/cg.png[CG,150]|CG|Congo (Republic)|刚果|242|
+|image:/assets/images/flags/ch.png[CH,150]|CH|Switzerland|瑞士|41|
+|image:/assets/images/flags/ci.png[CI,150]|CI|Cote D’Ivoire|科特迪瓦|225|
+|image:/assets/images/flags/ck.png[CK,150]|CK|Cook Islands|库克群岛|682|
+|image:/assets/images/flags/cl.png[CL,150]|CL|Chile|智利|56|
+|image:/assets/images/flags/cm.png[CM,150]|CM|Cameroon|喀麦隆|237|
+|image:/assets/images/flags/cn.png[CN,150]|CN|China, Mainland, People's Republic Of|中国大陆|86|
+|image:/assets/images/flags/co.png[CO,150]|CO|Colombia|哥伦比亚|57|
+|image:/assets/images/flags/cr.png[CR,150]|CR|Costa Rica|哥斯达黎加|506|
+|image:/assets/images/flags/cu.png[CU,150]|CU|Cuba|古巴|53|
+|image:/assets/images/flags/cv.png[CV,150]|CV|Cape Verde|佛得角|238|
+|image:/assets/images/flags/cx.png[CX,150]|CX|Christmas Island|圣诞岛(澳大利亚境外领土)||
+|image:/assets/images/flags/cy.png[CY,150]|CY|Cyprus|塞浦路斯|357|
+|image:/assets/images/flags/cz.png[CZ,150]|CZ|Czech Republic|捷克|420|
+|image:/assets/images/flags/de.png[DE,150]|DE|Germany|德国|49|
+|image:/assets/images/flags/dj.png[DJ,150]|DJ|Djibouti|吉布提|253|
+|image:/assets/images/flags/dk.png[DK,150]|DK|Denmark|丹麦|45|
+|image:/assets/images/flags/dm.png[DM,150]|DM|Dominica|多米尼克|1767|
+|image:/assets/images/flags/do.png[DO,150]|DO|Dominican Republic|多米尼加共和国|1890|
+|image:/assets/images/flags/dz.png[DZ,150]|DZ|Algeria|阿尔及利亚|213|
+|image:/assets/images/flags/eu.png[EU,150]|EU|European Union|欧洲联盟||Organization
+|image:/assets/images/flags/ec.png[EC,150]|EC|Ecuador|厄瓜多尔|593|
+|image:/assets/images/flags/ee.png[EE,150]|EE|Estonia|爱沙尼亚|372|
+|image:/assets/images/flags/eg.png[EG,150]|EG|Egypt|埃及|20|
+|image:/assets/images/flags/er.png[ER,150]|ER|Eritrea|厄立特里亚|291|
+|image:/assets/images/flags/es.png[ES,150]|ES|Spain|西班牙|34|
+|image:/assets/images/flags/et.png[ET,150]|ET|Ethiopia|埃塞俄比亚|251|
+|image:/assets/images/flags/fi.png[FI,150]|FI|Finland|芬兰|358|
+|image:/assets/images/flags/fj.png[FJ,150]|FJ|Fiji|斐济|679|
+|image:/assets/images/flags/fk.png[FK,150]|FK|Falkland Islands (Malvinas)|福克兰群岛(马尔维纳斯群岛)|500|
+|image:/assets/images/flags/fm.png[FM,150]|FM|Micronesia, Federated States Of|密克罗尼西亚联邦|691|
+|image:/assets/images/flags/fo.png[FO,150]|FO|Faroe Islands|法罗群岛(丹麦海外自治领地)|298|
+|image:/assets/images/flags/fr.png[FR,150]|FR|France|法国|33|
+|image:/assets/images/flags/ga.png[GA,150]|GA|Gabon|加蓬|241|
+|image:/assets/images/flags/gb.png[GB,150]|GB|United Kingdom)|英国|44|See also `UK`
+|image:/assets/images/flags/gd.png[GD,150]|GD|Grenada|格林纳达|1809|
+|image:/assets/images/flags/ge.png[GE,150]|GE|Georgia|格鲁吉亚|995|
+|image:/assets/images/flags/gf.png[GF,150]|GF|French Guiana|法属圭亚那|594|
+|image:/assets/images/flags/gg.png[GG,150]|GG|Guernsey|耿西(英国王室属地)|44|
+|image:/assets/images/flags/gh.png[GH,150]|GH|Ghana|加纳|233|
+|image:/assets/images/flags/gi.png[GI,150]|GI|Gibraltar|直布罗陀|350|
+|image:/assets/images/flags/gl.png[GL,150]|GL|Greenland|格林兰(丹麦王国自治国)|299|
+|image:/assets/images/flags/gm.png[GM,150]|GM|Gambia|冈比亚|220|
+|image:/assets/images/flags/gn.png[GN,150]|GN|Guinea|几内亚|224|
+|image:/assets/images/flags/gp.png[GP,150]|GP|Guadeloupe|瓜地洛普(法国海外省)|590|
+|image:/assets/images/flags/gq.png[GQ,150]|GQ|Equatorial Guinea|赤道几内亚|240|
+|image:/assets/images/flags/gr.png[GR,150]|GR|Greece|希腊|30|
+|image:/assets/images/flags/gs.png[GS,150]|GS|South Georgia And The South Sandwich Islands|南乔治亚岛和南桑威奇群岛(英国海外属地)|500|
+|image:/assets/images/flags/gt.png[GT,150]|GT|Guatemala|危地马拉|502|
+|image:/assets/images/flags/gu.png[GU,150]|GU|Guam|关岛(美国非合并建制属地)|1671|
+|image:/assets/images/flags/gw.png[GW,150]|GW|Guinea-Bissau|几内亚比绍|245|
+|image:/assets/images/flags/gy.png[GY,150]|GY|Guyana|圭亚那|592|
+|image:/assets/images/flags/hk.png[HK,150]|HK|Hong Kong SAR, China|中国香港特别行政区|852|Special Administrative Region
+|image:/assets/images/flags/hm.png[HM,150]|HM|Heard And Mc Donald Islands|赫德和麦克唐纳群岛(澳大利亚海外领地)||
+|image:/assets/images/flags/hn.png[HN,150]|HN|Honduras|洪都拉斯|504|
+|image:/assets/images/flags/hr.png[HR,150]|HR|Croatia (Hrvatska)|克罗地亚|385|
+|image:/assets/images/flags/ht.png[HT,150]|HT|Haiti|海地|509|
+|image:/assets/images/flags/hu.png[HU,150]|HU|Hungary|匈牙利|36|
+|image:/assets/images/flags/id.png[ID,150]|ID|Indonesia|印度尼西亚|62|
+|image:/assets/images/flags/ie.png[IE,150]|IE|Ireland|爱尔兰|353|
+|image:/assets/images/flags/il.png[IL,150]|IL|Israel|以色列|972|
+|image:/assets/images/flags/im.png[IM,150]|IM|Isle of Man|曼岛/马恩岛|44|
+|image:/assets/images/flags/in.png[IN,150]|IN|India|印度|91|
+|image:/assets/images/flags/io.png[IO,150]|IO|British Indian Ocean Territory|英属印度洋领地|246|
+|image:/assets/images/flags/iq.png[IQ,150]|IQ|Iraq|伊拉克|964|
+|image:/assets/images/flags/ir.png[IR,150]|IR|Iran (Islamic Republic Of)|伊朗|98|
+|image:/assets/images/flags/is.png[IS,150]|IS|Iceland|冰岛|354|
+|image:/assets/images/flags/it.png[IT,150]|IT|Italy|意大利|39|
+|image:/assets/images/flags/je.png[JE,150]|JE|Jersey|泽西岛(英国王室属地)|44|
+|image:/assets/images/flags/jm.png[JM,150]|JM|Jamaica|牙买加|1876|
+|image:/assets/images/flags/jo.png[JO,150]|JO|Jordan|约旦|962|
+|image:/assets/images/flags/jp.png[JP,150]|JP|Japan|日本|81|
+|image:/assets/images/flags/ke.png[KE,150]|KE|Kenya|肯尼亚|254|
+|image:/assets/images/flags/kg.png[KG,150]|KG|Kyrgyzstan|吉尔吉斯坦|331|
+|image:/assets/images/flags/kh.png[KH,150]|KH|Cambodia|柬埔寨|855|
+|image:/assets/images/flags/ki.png[KI,150]|KI|Kiribati|吉里巴斯|686|
+|image:/assets/images/flags/km.png[KM,150]|KM|Comoros|科摩罗联盟|269|
+|image:/assets/images/flags/kn.png[KN,150]|KN|Saint Kitts And Nevis|圣基茨和尼维斯|1869|
+|image:/assets/images/flags/kr.png[KR,150]|KR|Korea, Republic Of|韩国|82|
+|image:/assets/images/flags/kw.png[KW,150]|KW|Kuwait|科威特|965|
+|image:/assets/images/flags/ky.png[KY,150]|KY|Cayman Islands|开曼群岛(英国海外属地)|1345|
+|image:/assets/images/flags/kz.png[KZ,150]|KZ|Kazakhstan|哈萨克斯坦|327|
+|image:/assets/images/flags/la.png[LA,150]|LA|Lao People’s Democratic Republic|老挝|856|
+|image:/assets/images/flags/lb.png[LB,150]|LB|Lebanon|黎巴嫩|961|
+|image:/assets/images/flags/lc.png[LC,150]|LC|Saint Lucia|圣卢西亚|1758|
+|image:/assets/images/flags/li.png[LI,150]|LI|Liechtenstein|列支敦士登|423|
+|image:/assets/images/flags/lk.png[LK,150]|LK|Sri Lanka|斯里兰卡|94|
+|image:/assets/images/flags/lr.png[LR,150]|LR|Liberia|利比里亚|231|
+|image:/assets/images/flags/ls.png[LS,150]|LS|Lesotho|莱索托|266|
+|image:/assets/images/flags/lt.png[LT,150]|LT|Lithuania|立陶宛|370|
+|image:/assets/images/flags/lu.png[LU,150]|LU|Luxembourg|卢森堡|352|
+|image:/assets/images/flags/lv.png[LV,150]|LV|Latvia|拉脱维亚|371|
+|image:/assets/images/flags/ly.png[LY,150]|LY|Libyan Arab Jamahiriya|利比亚|218|
+|image:/assets/images/flags/ma.png[MA,150]|MA|Morocco|摩洛哥|212|
+|image:/assets/images/flags/mc.png[MC,150]|MC|Monaco|摩纳哥|377|
+|image:/assets/images/flags/md.png[MD,150]|MD|Moldova, Republic Of|摩尔多瓦|373|
+|image:/assets/images/flags/me.png[ME,150]|ME|Montenegro|黑山|382|
+|image:/assets/images/flags/mg.png[MG,150]|MG|Madagascar|马达加斯加|261|
+|image:/assets/images/flags/mh.png[MH,150]|MH|Marshall Islands|马绍尔群岛|692|
+|image:/assets/images/flags/mk.png[MK,150]|MK|Macedonia, The Former Yugoslav Republic Of|北马其顿|389|
+|image:/assets/images/flags/ml.png[ML,150]|ML|Mali|马里|223|
+|image:/assets/images/flags/mm.png[MM,150]|MM|Myanmar|缅甸|95|
+|image:/assets/images/flags/mn.png[MN,150]|MN|Mongolia|蒙古|976|
+|image:/assets/images/flags/mo.png[MO,150]|MO|Macau SAR, China|中国澳门特别行政区|853|Special Administrative Region
+|image:/assets/images/flags/mp.png[MP,150]|MP|Northern Mariana Islands|北马里亚纳群岛|1670|
+|image:/assets/images/flags/mq.png[MQ,150]|MQ|Martinique|马提尼克(法国海外区)||
+|image:/assets/images/flags/mr-new.png[MR,150]|MR|Mauritania|毛里塔尼亚|222|image:/assets/images/flags/mr.png[MR,150]
+|image:/assets/images/flags/ms.png[MS,150]|MS|Montserrat|蒙特塞拉特岛(英国海外领土)|1664|
+|image:/assets/images/flags/mt.png[MT,150]|MT|Malta|马耳他|356|
+|image:/assets/images/flags/mu.png[MU,150]|MU|Mauritius|毛里求斯|230|
+|image:/assets/images/flags/mv.png[MV,150]|MV|Maldives|马尔代夫|960|
+|image:/assets/images/flags/mw.png[MW,150]|MW|Malawi|马拉维|265|
+|image:/assets/images/flags/mx.png[MX,150]|MX|Mexico|墨西哥|52|
+|image:/assets/images/flags/my.png[MY,150]|MY|Malaysia|马来西亚|60|
+|image:/assets/images/flags/mz.png[MZ,150]|MZ|Mozambique|莫桑比克|258|
+|image:/assets/images/flags/na.png[NA,150]|NA|Namibia|纳米比亚|264|
+|image:/assets/images/flags/nc.png[NC,150]|NC|New Caledonia|新喀里多尼亚|687|
+|image:/assets/images/flags/ne.png[NE,150]|NE|Niger|尼日尔|977|
+|image:/assets/images/flags/nf.png[NF,150]|NF|Norfolk Island|诺福克岛(澳大利亚海外领地)|689|
+|image:/assets/images/flags/ng.png[NG,150]|NG|Nigeria|尼日利亚|234|
+|image:/assets/images/flags/ni.png[NI,150]|NI|Nicaragua|尼加拉瓜|505|
+|image:/assets/images/flags/nl.png[NL,150]|NL|Netherlands|荷兰|31|
+|image:/assets/images/flags/no.png[NO,150]|NO|Norway|挪威|47|
+|image:/assets/images/flags/np.png[NP,150]|NP|Nepal|尼泊尔|977|
+|image:/assets/images/flags/nr.png[NR,150]|NR|Nauru|瑙鲁|674|
+|image:/assets/images/flags/nu.png[NU,150]|NU|Niue|纽埃|683|
+|image:/assets/images/flags/nz.png[NZ,150]|NZ|New Zealand|新西兰|64|
+|image:/assets/images/flags/om.png[OM,150]|OM|Oman|阿曼|968|
+|image:/assets/images/flags/pa.png[PA,150]|PA|Panama|巴拿马|507|
+|image:/assets/images/flags/pe.png[PE,150]|PE|Peru|秘鲁|51|
+|image:/assets/images/flags/pf.png[PF,150]|PF|French Polynesia|法属玻利尼西亚|689|
+|image:/assets/images/flags/pg.png[PG,150]|PG|Papua New Guinea|巴布亚新几内亚|675|
+|image:/assets/images/flags/ph.png[PH,150]|PH|Philippines,  Republic of the|菲律宾|63|
+|image:/assets/images/flags/pk.png[PK,150]|PK|Pakistan|巴基斯坦|92|
+|image:/assets/images/flags/pl.png[PL,150]|PL|Poland|波兰|48|
+|image:/assets/images/flags/pm.png[PM,150]|PM|St. Pierre And Miquelon|圣皮埃尔和密克隆群岛|508|
+|image:/assets/images/flags/pn.png[PN,150]|PN|Pitcairn|皮特凯恩群岛|64|
+|image:/assets/images/flags/pr.png[PR,150]|PR|Puerto Rico|波多黎各|1787|
+|image:/assets/images/flags/ps.png[PS,150]|PS|Palestine|巴勒斯坦|970|
+|image:/assets/images/flags/pt.png[PT,150]|PT|Portugal|葡萄牙|351|
+|image:/assets/images/flags/pw.png[PW,150]|PW|Palau/Belau/Pelew|帕劳/帛琉|680|
+|image:/assets/images/flags/py.png[PY,150]|PY|Paraguay|巴拉圭|595|
+|image:/assets/images/flags/qa.png[QA,150]|QA|Qatar|卡塔尔|974|
+|image:/assets/images/flags/re.png[RE,150]|RE|Reunion|留尼旺(法国海外区)||
+|image:/assets/images/flags/ro.png[RO,150]|RO|Romania|罗马尼亚|40|
+|image:/assets/images/flags/rs.png[RS,150]|RS|Serbia|塞尔维亚|381|
+|image:/assets/images/flags/ru.png[RU,150]|RU|Russian Federation|俄罗斯|7|
+|image:/assets/images/flags/rw.png[RW,150]|RW|Rwanda|塞尔维亚|250|
+|image:/assets/images/flags/sa.png[SA,150]|SA|Saudi Arabia|沙特阿拉伯|966|
+|image:/assets/images/flags/sb.png[SB,150]|SB|Solomon Islands|所罗门群岛|677|
+|image:/assets/images/flags/sc.png[SC,150]|SC|Seychelles|塞舌尔|248|
+|image:/assets/images/flags/sd.png[SD,150]|SD|Sudan|苏丹|249|
+|image:/assets/images/flags/se.png[SE,150]|SE|Sweden|瑞典|46|
+|image:/assets/images/flags/sg.png[SG,150]|SG|Singapore|新加坡|65|
+|image:/assets/images/flags/sh.png[SH,150]|SH|St. Helena|英属圣赫勒拿||
+|image:/assets/images/flags/si.png[SI,150]|SI|Slovenia|斯洛文尼亚|386|
+|image:/assets/images/flags/sj.png[SJ,150]|SJ|Svalbard And Jan Mayen Islands|挪威属斯瓦尔巴和扬马延||
+|image:/assets/images/flags/sk.png[SK,150]|SK|Slovakia (Slovak Republic)|斯洛伐克|421|
+|image:/assets/images/flags/sl.png[SL,150]|SL|Sierra Leone|塞拉利昂|232|
+|image:/assets/images/flags/sm.png[SM,150]|SM|San Marino|圣马力诺|378|
+|image:/assets/images/flags/sn.png[SN,150]|SN|Senegal|塞内加尔|221|
+|image:/assets/images/flags/so.png[SO,150]|SO|Somalia|索马里|252|
+|image:/assets/images/flags/sr.png[SR,150]|SR|Suriname|苏里南|597|
+|image:/assets/images/flags/ss.png[SD,150]|SS|Sudan|南苏丹|211|
+|image:/assets/images/flags/st.png[ST,150]|ST|Sao Tome And Principe|圣多美和普林西比|239|
+|image:/assets/images/flags/su.png[SU,150]|SU|Soviet Union/Union of Soviet Socialist Republics|苏维埃社会主义共和国联盟|7|
+|image:/assets/images/flags/sv.png[SV,150]|SV|El Salvador|萨尔瓦多|503|
+|image:/assets/images/flags/sy.png[SY,150]|SY|Syrian Arab Republic|叙利亚|963|
+|image:/assets/images/flags/sz.png[SZ,150]|SZ|Swaziland|斯威士兰|268|
+|image:/assets/images/flags/tc.png[TC,150]|TC|Turks And Caicos Islands|特克斯和凯科斯群岛(英国属地)|1649|
+|image:/assets/images/flags/td.png[TD,150]|TD|Chad|乍得|235|
+|image:/assets/images/flags/tf.png[TF,150]|TF|French Southern Territories|法属南部和南极领地||
+|image:/assets/images/flags/tg.png[TG,150]|TG|Togo|多哥|228|
+|image:/assets/images/flags/th.png[TH,150]|TH|Thailand|泰国|66|
+|image:/assets/images/flags/ti.png[TI,150]|TI|East Timor|东帝汶|670|New Code
+|image:/assets/images/flags/tj.png[TJ,150]|TJ|Tajikistan|塔吉克斯坦|992|
+|image:/assets/images/flags/tk.png[TK,150]|TK|Tokelau|托克劳(新西兰王国属地)|690|
+|image:/assets/images/flags/tm.png[TM,150]|TM|Turkmenistan|土库曼斯坦|993|
+|image:/assets/images/flags/tn.png[TN,150]|TN|Tunisia|突尼斯|216|
+|image:/assets/images/flags/to.png[TO,150]|TO|Tonga|汤加|676|
+|image:/assets/images/flags/tp.png[TP,150]|TP|East Timor|东帝汶|670|Old Code
+|image:/assets/images/flags/tr.png[TR,150]|TR|Turkey|土耳其|90|
+|image:/assets/images/flags/tt.png[TT,150]|TT|Trinidad And Tobago|特立尼达和多巴哥|1809|
+|image:/assets/images/flags/tv.png[TV,150]|TV|Tuvalu|图瓦卢|688|
+|image:/assets/images/flags/tw.png[TW,150]|TW|Taiwan, China (Republic Of)|中国台湾省|886|
+|image:/assets/images/flags/tz.png[TZ,150]|TZ|Tanzania, United Republic Of|坦桑尼亚|255|
+|image:/assets/images/flags/ua.png[UA,150]|UA|Ukraine|乌克兰|380|
+|image:/assets/images/flags/un.png[UN,150]|UN|United Nations|联合国||Organization
+|image:/assets/images/flags/ug.png[UG,150]|UG|Uganda|乌干达|256|
+|image:/assets/images/flags/uk.png[UK,150]|UK|United Kingdom|英国|44|See also `GB`
+|image:/assets/images/flags/um.png[UM,150]|UM|United States Minor Outlying Islands|美国本土外小岛屿|246|
+|image:/assets/images/flags/us.png[US,150]|US|United States|美国|1|
+|image:/assets/images/flags/uy.png[UY,150]|UY|Uruguay|乌拉圭|598|
+|image:/assets/images/flags/uz.png[UZ,150]|UZ|Uzbekistan|乌兹别克斯坦|233|
+|image:/assets/images/flags/va.png[VA,150]|VA|Vatican City State|梵蒂冈|379|Holy See
+|image:/assets/images/flags/vc.png[VC,150]|VC|Saint Vincent And The Grenadines|圣文森特岛|1784|
+|image:/assets/images/flags/ve.png[VE,150]|VE|Venezuela|委内瑞拉|58|
+|image:/assets/images/flags/vg.png[VG,150]|VG|Virgin Islands (British)|英属维尔京群岛|1284|
+|image:/assets/images/flags/vi.png[VI,150]|VI|Virgin Islands (U.S.)|美属维尔京群岛|1340|
+|image:/assets/images/flags/vn.png[VN,150]|VN|Vietnam|越南|84|
+|image:/assets/images/flags/vu.png[VU,150]|VU|Vanuatu|瓦努阿图|678|
+|image:/assets/images/flags/wf.png[WF,150]|WF|Wallis And Futuna Islands|瓦利斯和富图纳(法国海外集体)|681|
+|image:/assets/images/flags/ws.png[WS,150]|WS|Samoa|萨摩亚|685|
+|image:/assets/images/flags/ye.png[YE,150]|YE|Yemen|也门|967|
+|image:/assets/images/flags/yt.png[YT,150]|YT|Mayotte|马约特(法国海外区)||
+|image:/assets/images/flags/za.png[ZA,150]|ZA|South Africa|南非|27|
+|image:/assets/images/flags/zm.png[ZM,150]|ZM|Zambia|赞比亚|260|
+|image:/assets/images/flags/zw.png[ZW,150]|ZW|Zimbabwe|津巴布韦|263|
 |===
 
 == Similar Flags
@@ -268,21 +268,21 @@
 |===
 |Flag|Domain Abbreviation|Country/Area|国家/地区|Description
 
-|image:/assets/images/flags/mc.png[MC,150,100]|MC|Monaco|摩纳哥 .2+|摩纳哥国旗和印尼国旗仅在比例上和红色用色上略有不同
-|image:/assets/images/flags/id.png[ID,150,100]|ID|Indonesia|印度尼西亚
+|image:/assets/images/flags/mc.png[MC,150]|MC|Monaco|摩纳哥 .2+|摩纳哥国旗和印尼国旗仅在比例上和红色用色上略有不同
+|image:/assets/images/flags/id.png[ID,150]|ID|Indonesia|印度尼西亚
 
-|image:/assets/images/flags/nl.png[NL,150,100]|NL|Netherlands|荷兰 .2+|荷兰国旗和卢森堡国旗仅在比例上和蓝、红色用色上不同
-|image:/assets/images/flags/lu.png[LU,150,100]|LU|Luxembourg|卢森堡
+|image:/assets/images/flags/nl.png[NL,150]|NL|Netherlands|荷兰 .2+|荷兰国旗和卢森堡国旗仅在比例上和蓝、红色用色上不同
+|image:/assets/images/flags/lu.png[LU,150]|LU|Luxembourg|卢森堡
 
-|image:/assets/images/flags/ro.png[RO,150,100]|RO|Romania|罗马尼亚 .2+|罗马尼亚国旗和乍得国旗仅在蓝色的深度上有所不同
-|image:/assets/images/flags/td.png[TD,150,100]|TD|Chad|乍得
+|image:/assets/images/flags/ro.png[RO,150]|RO|Romania|罗马尼亚 .2+|罗马尼亚国旗和乍得国旗仅在蓝色的深度上有所不同
+|image:/assets/images/flags/td.png[TD,150]|TD|Chad|乍得
 
-|image:/assets/images/flags/ke.png[KE,150,100]|KE|Kenya|肯尼亚 .2+|肯尼亚和南苏丹国旗在色彩上也有一定相似性
-|image:/assets/images/flags/ss.png[SD,150,100]|SS|Sudan|南苏丹
+|image:/assets/images/flags/ke.png[KE,150]|KE|Kenya|肯尼亚 .2+|肯尼亚和南苏丹国旗在色彩上也有一定相似性
+|image:/assets/images/flags/ss.png[SD,150]|SS|Sudan|南苏丹
 
-|image:/assets/images/flags/ad.png[AD,150,100]|AD|Andorra|安道尔共和国 .2+|
-|image:/assets/images/flags/md.png[MD,150,100]|MD|Moldova, Republic Of|摩尔多瓦
+|image:/assets/images/flags/ad.png[AD,150]|AD|Andorra|安道尔共和国 .2+|
+|image:/assets/images/flags/md.png[MD,150]|MD|Moldova, Republic Of|摩尔多瓦
 
-|image:/assets/images/flags/cn.png[CN,150,100]|CN|China, Mainland, People's Republic Of|中国大陆 .2+|中华人民共和国国旗和越南社会主义共和国国旗皆为由五角星及红色旗帜底面组成，仅星星数量不同
-|image:/assets/images/flags/vn.png[VN,150,100]|VN|Vietnam|越南
+|image:/assets/images/flags/cn.png[CN,150]|CN|China, Mainland, People's Republic Of|中国大陆 .2+|中华人民共和国国旗和越南社会主义共和国国旗皆为由五角星及红色旗帜底面组成，仅星星数量不同
+|image:/assets/images/flags/vn.png[VN,150]|VN|Vietnam|越南
 |===
