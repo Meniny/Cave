@@ -152,7 +152,7 @@
 |image:/assets/images/flags/ml.png[ML,,100]|ML|Mali|马里|223|
 |image:/assets/images/flags/mm.png[MM,,100]|MM|Myanmar|缅甸|95|
 |image:/assets/images/flags/mn.png[MN,,100]|MN|Mongolia|蒙古|976|
-|image:/assets/images/flags/mo.png[MO,,100]|MO|Macau, China|中国澳门特别行政区|853|Special Administrative Region
+|image:/assets/images/flags/mo.png[MO,,100]|MO|Macau SAR, China|中国澳门特别行政区|853|Special Administrative Region
 |image:/assets/images/flags/mp.png[MP,,100]|MP|Northern Mariana Islands|北马里亚纳群岛|1670|
 |image:/assets/images/flags/mq.png[MQ,,100]|MQ|Martinique|马提尼克(法国海外区)||
 |image:/assets/images/flags/mr-new.png[MR,,100]|MR|Mauritania|毛里塔尼亚|222|image:/assets/images/flags/mr.png[MR,,100]
@@ -194,18 +194,18 @@
 |image:/assets/images/flags/qa.png[QA,,100]|QA|Qatar|卡塔尔|974|
 |image:/assets/images/flags/re.png[RE,,100]|RE|Reunion|留尼旺(法国海外区)||
 |image:/assets/images/flags/ro.png[RO,,100]|RO|Romania|罗马尼亚|40|
-|image:/assets/images/flags/rs.png[RS,,100]|RS|Serbia|||
+|image:/assets/images/flags/rs.png[RS,,100]|RS|Serbia|塞尔维亚|381|
 |image:/assets/images/flags/ru.png[RU,,100]|RU|Russian Federation|俄罗斯|7|
-|image:/assets/images/flags/rw.png[RW,,100]|RW|Rwanda|||
+|image:/assets/images/flags/rw.png[RW,,100]|RW|Rwanda|塞尔维亚|250|
 |image:/assets/images/flags/sa.png[SA,,100]|SA|Saudi Arabia|沙特阿拉伯|966|
 |image:/assets/images/flags/sb.png[SB,,100]|SB|Solomon Islands|所罗门群岛|677|
 |image:/assets/images/flags/sc.png[SC,,100]|SC|Seychelles|塞舌尔|248|
 |image:/assets/images/flags/sd.png[SD,,100]|SD|Sudan|苏丹|249|
 |image:/assets/images/flags/se.png[SE,,100]|SE|Sweden|瑞典|46|
 |image:/assets/images/flags/sg.png[SG,,100]|SG|Singapore|新加坡|65|
-|image:/assets/images/flags/sh.png[SH,,100]|SH|St. Helena|||
+|image:/assets/images/flags/sh.png[SH,,100]|SH|St. Helena|英属圣赫勒拿||
 |image:/assets/images/flags/si.png[SI,,100]|SI|Slovenia|斯洛文尼亚|386|
-|image:/assets/images/flags/sj.png[SJ,,100]|SJ|Svalbard And Jan Mayen Islands|||
+|image:/assets/images/flags/sj.png[SJ,,100]|SJ|Svalbard And Jan Mayen Islands|挪威属斯瓦尔巴和扬马延||
 |image:/assets/images/flags/sk.png[SK,,100]|SK|Slovakia (Slovak Republic)|斯洛伐克|421|
 |image:/assets/images/flags/sl.png[SL,,100]|SL|Sierra Leone|塞拉利昂|232|
 |image:/assets/images/flags/sm.png[SM,,100]|SM|San Marino|圣马力诺|378|
@@ -213,22 +213,22 @@
 |image:/assets/images/flags/so.png[SO,,100]|SO|Somalia|索马里|252|
 |image:/assets/images/flags/sr.png[SR,,100]|SR|Suriname|苏里南|597|
 |image:/assets/images/flags/st.png[ST,,100]|ST|Sao Tome And Principe|圣多美和普林西比|239|
-|image:/assets/images/flags/su.png[SU,,100]|SU|Soviet Union|||
+|image:/assets/images/flags/su.png[SU,,100]|SU|Soviet Union/Union of Soviet Socialist Republics|苏维埃社会主义共和国联盟|7|
 |image:/assets/images/flags/sv.png[SV,,100]|SV|El Salvador|萨尔瓦多|503|
 |image:/assets/images/flags/sy.png[SY,,100]|SY|Syrian Arab Republic|叙利亚|963|
 |image:/assets/images/flags/sz.png[SZ,,100]|SZ|Swaziland|斯威士兰|268|
-|image:/assets/images/flags/tc.png[TC,,100]|TC|Turks And Caicos Islands|||
+|image:/assets/images/flags/tc.png[TC,,100]|TC|Turks And Caicos Islands|特克斯和凯科斯群岛(英国属地)|1649|
 |image:/assets/images/flags/td.png[TD,,100]|TD|Chad|乍得|235|
-|image:/assets/images/flags/tf.png[TF,,100]|TF|French Southern Territories|||
+|image:/assets/images/flags/tf.png[TF,,100]|TF|French Southern Territories|法属南部和南极领地||
 |image:/assets/images/flags/tg.png[TG,,100]|TG|Togo|多哥|228|
 |image:/assets/images/flags/th.png[TH,,100]|TH|Thailand|泰国|66|
-|image:/assets/images/flags/ti.png[TI,,100]|TI|East Timor (new code)|||
+|image:/assets/images/flags/ti.png[TI,,100]|TI|East Timor|东帝汶|670|New Code
 |image:/assets/images/flags/tj.png[TJ,,100]|TJ|Tajikistan|塔吉克斯坦|992|
 |image:/assets/images/flags/tk.png[TK,,100]|TK|Tokelau|||
 |image:/assets/images/flags/tm.png[TM,,100]|TM|Turkmenistan|土库曼斯坦|993|
 |image:/assets/images/flags/tn.png[TN,,100]|TN|Tunisia|突尼斯|216|
 |image:/assets/images/flags/to.png[TO,,100]|TO|Tonga|汤加|676|
-|image:/assets/images/flags/tp.png[TP,,100]|TP|East Timor (old code)|||
+|image:/assets/images/flags/tp.png[TP,,100]|TP|East Timor|东帝汶|670|Old Code
 |image:/assets/images/flags/tr.png[TR,,100]|TR|Turkey|土耳其|90|
 |image:/assets/images/flags/tt.png[TT,,100]|TT|Trinidad And Tobago|特立尼达和多巴哥|1809|
 |image:/assets/images/flags/tv.png[TV,,100]|TV|Tuvalu|||
