@@ -2,6 +2,8 @@
 
 = All Countries/Regions in the world
 
+== Region List
+
 [cols="^.^2a,^.^2a,^.^2a,^.^2a,^.^2a,^.^2a"]
 |===
 |Flag|Domain Abbreviation|Country/Area|国家/地区|Dialing Code|More
@@ -213,6 +215,7 @@
 |image:/assets/images/flags/sn.png[SN,,100]|SN|Senegal|塞内加尔|221|
 |image:/assets/images/flags/so.png[SO,,100]|SO|Somalia|索马里|252|
 |image:/assets/images/flags/sr.png[SR,,100]|SR|Suriname|苏里南|597|
+|image:/assets/images/flags/ss.png[SD,,100]|SS|Sudan|南苏丹|211|
 |image:/assets/images/flags/st.png[ST,,100]|ST|Sao Tome And Principe|圣多美和普林西比|239|
 |image:/assets/images/flags/su.png[SU,,100]|SU|Soviet Union/Union of Soviet Socialist Republics|苏维埃社会主义共和国联盟|7|
 |image:/assets/images/flags/sv.png[SV,,100]|SV|El Salvador|萨尔瓦多|503|
@@ -257,4 +260,29 @@
 |image:/assets/images/flags/za.png[ZA,,100]|ZA|South Africa|南非|27|
 |image:/assets/images/flags/zm.png[ZM,,100]|ZM|Zambia|赞比亚|260|
 |image:/assets/images/flags/zw.png[ZW,,100]|ZW|Zimbabwe|津巴布韦|263|
+|===
+
+== Similar Flags
+
+[cols="^.^2a,^.^2a,^.^2a,^.^2a,^.^2a,^.^2a"]
+|===
+|No.|Flag|Domain Abbreviation|Country/Area|国家/地区|Description
+
+.2+|1|image:/assets/images/flags/mc.png[MC,,100]|MC|Monaco|摩纳哥 .2+|摩纳哥国旗和印尼国旗仅在比例上和红色用色上略有不同
+|image:/assets/images/flags/id.png[ID,,100]|ID|Indonesia|印度尼西亚
+
+.2+|2|image:/assets/images/flags/nl.png[NL,,100]|NL|Netherlands|荷兰 .2+|荷兰国旗和卢森堡国旗仅在比例上和蓝、红色用色上不同
+|image:/assets/images/flags/lu.png[LU,,100]|LU|Luxembourg|卢森堡
+
+.2+|3|image:/assets/images/flags/ro.png[RO,,100]|RO|Romania|罗马尼亚 .2+|罗马尼亚国旗和乍得国旗仅在蓝色的深度上有所不同
+|image:/assets/images/flags/td.png[TD,,100]|TD|Chad|乍得
+
+.2+|4|image:/assets/images/flags/ke.png[KE,,100]|KE|Kenya|肯尼亚 .2+|肯尼亚和南苏丹国旗在色彩上也有一定相似性
+|image:/assets/images/flags/ss.png[SD,,100]|SS|Sudan|南苏丹
+
+.2+|5|image:/assets/images/flags/ad.png[AD,,100]|AD|Andorra|安道尔共和国 .2+|
+|image:/assets/images/flags/md.png[MD,,100]|MD|Moldova, Republic Of|摩尔多瓦
+
+.2+|6|image:/assets/images/flags/cn.png[CN,,100]|CN|China, Mainland, People's Republic Of|中国大陆 .2+|中华人民共和国国旗和越南社会主义共和国国旗皆为由五角星及红色旗帜底面组成，仅星星数量不同
+|image:/assets/images/flags/vn.png[VN,,100]|VN|Vietnam|越南
 |===
