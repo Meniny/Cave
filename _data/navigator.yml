@@ -429,6 +429,9 @@
             image:
           - title: "FreeMdict"
             url: "https://freemdict.com/"
+          - title: "Countries"
+            url: "https://meniny.cn/docs/countries/"
+            image: "flags"
       - name: "Reading"
         links:
           - title: "小书屋"
@@ -467,8 +470,6 @@
             url: "https://545c.com/dir/7823036-11625293-090948"
             image: ""
             color: ""
-          - title: "All Countries"
-            url: "https://meniny.cn/docs/flags/"
       - name: "Google"
         links:
           - title: "Google"
