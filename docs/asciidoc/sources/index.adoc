@@ -14,6 +14,11 @@
 :icons: font
 :source-highlighter: highlightjs
 // :source-highlighter: pygments
+:doctype: book
+:page-layout!:
+:sectanchors:
+:sectlinks:
+:sectnums:
 :toc: left
 :toclevels: 6
 :toc-title: 索引
