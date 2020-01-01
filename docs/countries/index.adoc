@@ -83,7 +83,7 @@
 |image:/assets/images/flags/fo.png[FO,,100]|FO|Faroe Islands|法罗群岛(丹麦海外自治领地)|298|
 |image:/assets/images/flags/fr.png[FR,,100]|FR|France|法国|33|
 |image:/assets/images/flags/ga.png[GA,,100]|GA|Gabon|加蓬|241|
-|image:/assets/images/flags/gb.png[GB,,100]|GB|United Kingdom (no new registrations,  see also UK)|英国|44|
+|image:/assets/images/flags/gb.png[GB,,100]|GB|United Kingdom)|英国|44|See also `UK`
 |image:/assets/images/flags/gd.png[GD,,100]|GD|Grenada|格林纳达|1809|
 |image:/assets/images/flags/ge.png[GE,,100]|GE|Georgia|格鲁吉亚|995|
 |image:/assets/images/flags/gf.png[GF,,100]|GF|French Guiana|法属圭亚那|594|
@@ -237,7 +237,7 @@
 |image:/assets/images/flags/ua.png[UA,,100]|UA|Ukraine|乌克兰|380|
 |image:/assets/images/flags/un.png[UN,,100]|UN|United Nations|联合国||Organization
 |image:/assets/images/flags/ug.png[UG,,100]|UG|Uganda|乌干达|256|
-|image:/assets/images/flags/uk.png[UK,,100]|UK|United Kingdom|||
+|image:/assets/images/flags/uk.png[UK,,100]|UK|United Kingdom|英国|44|See also `GB`
 |image:/assets/images/flags/um.png[UM,,100]|UM|United States Minor Outlying Islands|||
 |image:/assets/images/flags/us.png[US,,100]|US|United States|美国|1|
 |image:/assets/images/flags/uy.png[UY,,100]|UY|Uruguay|乌拉圭|598|
