@@ -107,7 +107,7 @@
 |image:/assets/images/flags/id.png[ID,,100]|ID|Indonesia|印度尼西亚|62|
 |image:/assets/images/flags/ie.png[IE,,100]|IE|Ireland|爱尔兰|353|
 |image:/assets/images/flags/il.png[IL,,100]|IL|Israel|以色列|972|
-|image:/assets/images/flags/im.png[IM,,100]|IM|Isle of Man|||
+|image:/assets/images/flags/im.png[IM,,100]|IM|Isle of Man|曼岛/马恩岛|44|
 |image:/assets/images/flags/in.png[IN,,100]|IN|India|印度|91|
 |image:/assets/images/flags/io.png[IO,,100]|IO|British Indian Ocean Territory|||
 |image:/assets/images/flags/iq.png[IQ,,100]|IQ|Iraq|伊拉克|964|
