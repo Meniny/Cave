@@ -171,7 +171,7 @@
 |image:/assets/images/flags/no.png[NO,,100]|NO|Norway|挪威|47|
 |image:/assets/images/flags/np.png[NP,,100]|NP|Nepal|尼泊尔|977|
 |image:/assets/images/flags/nr.png[NR,,100]|NR|Nauru|瑙鲁|674|
-|image:/assets/images/flags/nu.png[NU,,100]|NU|Niue|||
+|image:/assets/images/flags/nu.png[NU,,100]|NU|Niue|纽埃|683|
 |image:/assets/images/flags/nz.png[NZ,,100]|NZ|New Zealand|新西兰|64|
 |image:/assets/images/flags/om.png[OM,,100]|OM|Oman|阿曼|968|
 |image:/assets/images/flags/pa.png[PA,,100]|PA|Panama|巴拿马|507|
@@ -182,11 +182,11 @@
 |image:/assets/images/flags/pk.png[PK,,100]|PK|Pakistan|巴基斯坦|92|
 |image:/assets/images/flags/pl.png[PL,,100]|PL|Poland|波兰|48|
 |image:/assets/images/flags/pm.png[PM,,100]|PM|St. Pierre And Miquelon|圣皮埃尔和密克隆群岛|508|
-|image:/assets/images/flags/pn.png[PN,,100]|PN|Pitcairn|||
+|image:/assets/images/flags/pn.png[PN,,100]|PN|Pitcairn|皮特凯恩群岛|64|
 |image:/assets/images/flags/pr.png[PR,,100]|PR|Puerto Rico|波多黎各|1787|
-|image:/assets/images/flags/ps.png[PS,,100]|PS|Palestine|||
+|image:/assets/images/flags/ps.png[PS,,100]|PS|Palestine|巴勒斯坦|970|
 |image:/assets/images/flags/pt.png[PT,,100]|PT|Portugal|葡萄牙|351|
-|image:/assets/images/flags/pw.png[PW,,100]|PW|Palau|||
+|image:/assets/images/flags/pw.png[PW,,100]|PW|Palau/Belau/Pelew|帕劳/帛琉|680|
 |image:/assets/images/flags/py.png[PY,,100]|PY|Paraguay|巴拉圭|595|
 |image:/assets/images/flags/qa.png[QA,,100]|QA|Qatar|卡塔尔|974|
 |image:/assets/images/flags/re.png[RE,,100]|RE|Reunion|||
