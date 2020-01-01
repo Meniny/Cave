@@ -7,24 +7,24 @@
 |Flag|Abbreviation|Country/Area|国家/地区|Dialing Code|Note
 
 |image:/assets/images/flags/un.png[UN,,100]|UN|United Nations|||NOT A COUNTRY
-|image:/assets/images/flags/ac.png[AC,,100]|AC|Ascension Island|||
+|image:/assets/images/flags/ac.png[AC,,100]|AC|Ascension Island|阿森松岛|247|
 |image:/assets/images/flags/ad.png[AD,,100]|AD|Andorra|安道尔共和国|376|
 |image:/assets/images/flags/ae.png[AE,,100]|AE|United Arab Emirates|阿拉伯联合酋长国|971|
 |image:/assets/images/flags/ag.png[AG,,100]|AG|Antigua And Barbuda|安提瓜和巴布达|1268|
 |image:/assets/images/flags/ai.png[AI,,100]|AI|Anguilla|安圭拉岛|1264|
 |image:/assets/images/flags/al.png[AL,,100]|AL|Albania|阿尔巴尼亚|355|
 |image:/assets/images/flags/am.png[AM,,100]|AM|Armenia|亚美尼亚|374|
-|image:/assets/images/flags/an.png[AN,,100]|AN|Netherlands Antilles|||
+|image:/assets/images/flags/an.png[AN,,100]|AN|Netherlands Antilles|荷属安的列斯|599|
 |image:/assets/images/flags/ao.png[AO,,100]|AO|Angola|安哥拉|244|
-|image:/assets/images/flags/aq.png[AQ,,100]|AQ|Antarctica|||
+|image:/assets/images/flags/aq.png[AQ,,100]|AQ|Antarctica|南极洲||NOT A COUNTRY
 |image:/assets/images/flags/ar.png[AR,,100]|AR|Argentina|阿根廷|54|
-|image:/assets/images/flags/as.png[AS,,100]|AS|American Samoa|||
+|image:/assets/images/flags/as.png[AS,,100]|AS|American Samoa|美属萨摩亚|1684|
 |image:/assets/images/flags/at.png[AT,,100]|AT|Austria|奥地利|43|
 |image:/assets/images/flags/au.png[AU,,100]|AU|Australia|澳大利亚|61|
-|image:/assets/images/flags/aw.png[AW,,100]|AW|Aruba|||
-|image:/assets/images/flags/ax.png[AX,,100]|AX|Åland|||
+|image:/assets/images/flags/aw.png[AW,,100]|AW|Aruba|阿鲁巴||
+|image:/assets/images/flags/ax.png[AX,,100]|AX|Åland Islands|奥兰|358|
 |image:/assets/images/flags/az.png[AZ,,100]|AZ|Azerbaijan|阿塞拜疆|994|
-|image:/assets/images/flags/ba.png[BA,,100]|BA|Bosnia And Herzegovina|||
+|image:/assets/images/flags/ba.png[BA,,100]|BA|Bosnia And Herzegovina|波斯尼亚 黑塞哥维那|387|
 |image:/assets/images/flags/bb.png[BB,,100]|BB|Barbados|巴巴多斯|1246|
 |image:/assets/images/flags/bd.png[BD,,100]|BD|Bangladesh|孟加拉国|880|
 |image:/assets/images/flags/be.png[BE,,100]|BE|Belgium|比利时|32|
@@ -38,18 +38,18 @@
 |image:/assets/images/flags/bo.png[BO,,100]|BO|Bolivia|玻利维亚|591|
 |image:/assets/images/flags/br.png[BR,,100]|BR|Brazil|巴西|55|
 |image:/assets/images/flags/bs.png[BS,,100]|BS|Bahamas|巴哈马|1242|
-|image:/assets/images/flags/bt.png[BT,,100]|BT|Bhutan|||
-|image:/assets/images/flags/bv.png[BV,,100]|BV|Bouvet Island|||
+|image:/assets/images/flags/bt.png[BT,,100]|BT|Bhutan|不丹|975|
+|image:/assets/images/flags/bv.png[BV,,100]|BV|Bouvet Island|布韦岛||
 |image:/assets/images/flags/bw.png[BW,,100]|BW|Botswana|博茨瓦纳|267|
 |image:/assets/images/flags/by.png[BY,,100]|BY|Belarus|白俄罗斯|375|
 |image:/assets/images/flags/bz.png[BZ,,100]|BZ|Belize|伯利兹|501|
 |image:/assets/images/flags/ca.png[CA,,100]|CA|Canada|加拿大|1|
-|image:/assets/images/flags/cc.png[CC,,100]|CC|Cocos (Keeling) Islands|||
-|image:/assets/images/flags/cd.png[CD,,100]|CD|Congo (Democratic Republic)|||
+|image:/assets/images/flags/cc.png[CC,,100]|CC|Cocos (Keeling) Islands|科科斯（基林）群岛|61891|
+|image:/assets/images/flags/cd.png[CD,,100]|CD|Congo (Democratic Republic)|刚果民主共和国|243|
 |image:/assets/images/flags/cf.png[CF,,100]|CF|Central African Republic|中非共和国|236|
 |image:/assets/images/flags/cg.png[CG,,100]|CG|Congo (Republic)|刚果|242|
 |image:/assets/images/flags/ch.png[CH,,100]|CH|Switzerland|瑞士|41|
-|image:/assets/images/flags/ci.png[CI,,100]|CI|Cote D’Ivoire|||
+|image:/assets/images/flags/ci.png[CI,,100]|CI|Cote D’Ivoire|科特迪瓦|225|
 |image:/assets/images/flags/ck.png[CK,,100]|CK|Cook Islands|库克群岛|682|
 |image:/assets/images/flags/cl.png[CL,,100]|CL|Chile|智利|56|
 |image:/assets/images/flags/cm.png[CM,,100]|CM|Cameroon|喀麦隆|237|
@@ -57,27 +57,27 @@
 |image:/assets/images/flags/co.png[CO,,100]|CO|Colombia|哥伦比亚|57|
 |image:/assets/images/flags/cr.png[CR,,100]|CR|Costa Rica|哥斯达黎加|506|
 |image:/assets/images/flags/cu.png[CU,,100]|CU|Cuba|古巴|53|
-|image:/assets/images/flags/cv.png[CV,,100]|CV|Cape Verde|||
-|image:/assets/images/flags/cx.png[CX,,100]|CX|Christmas Island|||
+|image:/assets/images/flags/cv.png[CV,,100]|CV|Cape Verde|佛得角|238|
+|image:/assets/images/flags/cx.png[CX,,100]|CX|Christmas Island|圣诞岛(澳大利亚境外领土)||
 |image:/assets/images/flags/cy.png[CY,,100]|CY|Cyprus|塞浦路斯|357|
 |image:/assets/images/flags/cz.png[CZ,,100]|CZ|Czech Republic|捷克|420|
 |image:/assets/images/flags/de.png[DE,,100]|DE|Germany|德国|49|
 |image:/assets/images/flags/dj.png[DJ,,100]|DJ|Djibouti|吉布提|253|
 |image:/assets/images/flags/dk.png[DK,,100]|DK|Denmark|丹麦|45|
-|image:/assets/images/flags/dm.png[DM,,100]|DM|Dominica|||
+|image:/assets/images/flags/dm.png[DM,,100]|DM|Dominica|多米尼克|1767|
 |image:/assets/images/flags/do.png[DO,,100]|DO|Dominican Republic|多米尼加共和国|1890|
 |image:/assets/images/flags/dz.png[DZ,,100]|DZ|Algeria|阿尔及利亚|213|
-|image:/assets/images/flags/eu.png[EU,,100]|EU|European Union|||
+|image:/assets/images/flags/eu.png[EU,,100]|EU|European Union|欧洲联盟||NOT A COUNTRY
 |image:/assets/images/flags/ec.png[EC,,100]|EC|Ecuador|厄瓜多尔|593|
 |image:/assets/images/flags/ee.png[EE,,100]|EE|Estonia|爱沙尼亚|372|
 |image:/assets/images/flags/eg.png[EG,,100]|EG|Egypt|埃及|20|
-|image:/assets/images/flags/er.png[ER,,100]|ER|Eritrea|||
+|image:/assets/images/flags/er.png[ER,,100]|ER|Eritrea|厄立特里亚|291|
 |image:/assets/images/flags/es.png[ES,,100]|ES|Spain|西班牙|34|
 |image:/assets/images/flags/et.png[ET,,100]|ET|Ethiopia|埃塞俄比亚|251|
 |image:/assets/images/flags/fi.png[FI,,100]|FI|Finland|芬兰|358|
 |image:/assets/images/flags/fj.png[FJ,,100]|FJ|Fiji|斐济|679|
-|image:/assets/images/flags/fk.png[FK,,100]|FK|Falkland Islands (Malvinas)|||
-|image:/assets/images/flags/fm.png[FM,,100]|FM|Micronesia, Federated States Of|||
+|image:/assets/images/flags/fk.png[FK,,100]|FK|Falkland Islands (Malvinas)|福克兰群岛(马尔维纳斯群岛)|500|
+|image:/assets/images/flags/fm.png[FM,,100]|FM|Micronesia, Federated States Of|密克罗尼西亚联邦|691|
 |image:/assets/images/flags/fo.png[FO,,100]|FO|Faroe Islands|||
 |image:/assets/images/flags/fr.png[FR,,100]|FR|France|法国|33|
 |image:/assets/images/flags/ga.png[GA,,100]|GA|Gabon|加蓬|241|
