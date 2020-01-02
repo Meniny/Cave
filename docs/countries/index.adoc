@@ -4,9 +4,10 @@
 
 == Region List
 
-[cols="^.^2a,^.^2a,^.^2a,^.^2a,^.^2a,^.^2a"]
+[cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
 |===
-|Flag|Domain Abbreviation|Country/Area|国家/地区|Dialing Code|More
+.2+h|Flag .2+h|Domain Abbreviation 2.+h|Country/Area .2+h|Dialing Code .2+h|More
+h|English h|中文
 
 |image:/assets/images/flags/asean.png[ASEAN,150]||Association of South-east Asian Nations (ASEAN)|东南亚国家联盟||Organization
 |image:/assets/images/flags/arab_league.png[LAS,150]||Arab League/League of Arab States|阿拉伯国家联盟||Organization

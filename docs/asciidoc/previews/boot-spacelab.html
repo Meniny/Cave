@@ -435,6 +435,7 @@ table {
 <li><a href="#_嵌套语法">2.11.2. 嵌套语法</a></li>
 <li><a href="#_停靠位置">2.11.3. 停靠位置</a></li>
 <li><a href="#_合并单元格">2.11.4. 合并单元格</a></li>
+<li><a href="#_单元格与列的样式">2.11.5. 单元格与列的样式</a></li>
 </ul>
 </li>
 <li><a href="#_区块">2.12. 区块</a>
@@ -1482,6 +1483,79 @@ e|cell
 </div>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_单元格与列的样式"><a class="anchor" href="#_单元格与列的样式"></a><a class="link" href="#_单元格与列的样式">2.11.5. 单元格与列的样式</a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 25%;">
+<col style="width: 41.6668%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">样式名称</th>
+<th class="tableblock halign-left valign-top">Style Name</th>
+<th class="tableblock halign-left valign-top">属性值</th>
+<th class="tableblock halign-left valign-top">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AsciiDoc</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AsciiDoc</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">支持块级元素（段落，定界的块和块宏）。
+这种样式有效地创建了一个嵌套的独立AsciiDoc文档。
+隐式属性（例如来自父文档的doctitle）将被隐藏。
+自定义属性是继承的。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">重点</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Emphasis</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>e</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">文字是斜体的。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">标头</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Header</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>h</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">将应用标头属性。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">字面</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Literal</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>l</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内容被视为位于文字块内。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">等距</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monospaced</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>m</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">文本以等宽字体呈现。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">无（默认样式）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None (default style)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>d</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">文本的处理方式就像普通段落一样。
+支持段落中允许的所有标记（即，内联格式，内联宏）。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">强文本</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Strong</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>s</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">文字为粗体。</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">诗</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Verse</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>v</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">列内容被视为在诗句块中。</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_区块"><a class="anchor" href="#_区块"></a><a class="link" href="#_区块">2.12. 区块</a></h3>
@@ -2053,7 +2127,7 @@ asciidoctor -a stylesheet golo.css -o MyHTML.html MyDoc.adoc</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-01-01 20:44:33 +0800
+Last updated 2020-01-02 14:33:57 +0800
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">

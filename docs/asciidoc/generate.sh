@@ -3,3 +3,5 @@ path='/Users/Meniny/Documents/Github/Cave/docs/asciidoc'
 for s in ${styles[@]}; do
   asciidoctor -a stylesheet=$path/stylesheets/$s.css -o $path/previews/$s.html $path/sources/index.adoc;
 done
+
+cp $path/previews/adoc-golo.html $path/index.html
