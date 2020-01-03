@@ -1034,6 +1034,11 @@
             url: "https://f-droid.org/"
           - title: "UltraUXThemePatcher"
             url: "https://www.syssel.net/hoefs/software_uxtheme.php"
+          - title: "Sweech Android"
+            url: "https://play.google.com/store/apps/details?id=com.sweech"
+            image: "sweech"
+          - title: "WebDAVNav Server"
+            url: "https://apps.apple.com/cn/app/webdavnav-server/id747482894"
       - name: "Security"
         links:
           - title: "PCHunter"
