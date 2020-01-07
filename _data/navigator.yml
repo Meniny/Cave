@@ -1039,6 +1039,9 @@
             image: "sweech"
           - title: "WebDAVNav Server"
             url: "https://apps.apple.com/cn/app/webdavnav-server/id747482894"
+          - title: "LibreOffice"
+            url: "https://zh-cn.libreoffice.org/"
+            image: "libreoffice"
       - name: "Security"
         links:
           - title: "PCHunter"
