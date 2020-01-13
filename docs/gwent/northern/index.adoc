@@ -16,7 +16,7 @@ link:../[< Back]
 |===
 
 .Cards
-[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,.^a,.^a"]
 |===
 |Icon
 |Name
