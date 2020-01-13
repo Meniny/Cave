@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Gwent Cards
+title: "Gwent Cards"
+hero: "/docs/gwent/images/gwent.jpg"
 ---
 * [Northern Realms](./northern/) Gwent deck (40 cards)
 * [Nilfgaardian Empire](./nilfgaardian) Gwent deck (41 cards)
