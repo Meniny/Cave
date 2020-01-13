@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>Gwent Players &amp; Merchants</title>
+<style>
+/* Based on Darkly from Bootswatch (http://bootswatch.com/darkly/) */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
+
+/* document body (contains all content) */
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #ffffff;
+  background-color: #222222;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* document header (contains title etc) */
+#header {
+  width: 100%;
+}
+#header>h1 {
+  border-bottom: 1px solid #ddddd8;
+  padding-bottom: 8px;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: inherit;
+}
+h1,
+h2,
+h3 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
+h4,
+h5,
+h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+h1 {
+/*   font-size: 39px; */
+  font-size: 4em;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 19px;
+}
+h5 {
+  font-size: 15px;
+}
+h6 {
+  font-size: 13px;
+}
+
+/* plain paragraph text */
+.paragraph {
+/*   font-family: sans-serif; */
+  margin: 0 0 10.5px;
+}
+p {
+/*   font-family: sans-serif; */
+  margin: 0 0 10.5px;
+}
+
+/* blockquote text */
+.quoteblock {
+  font-style: italic;
+}
+blockquote {
+  padding: 10.5px 21px;
+  margin: 0 0 21px;
+  font-size: 18.75px;
+  border-left: 5px solid #464545;
+}
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+  margin-bottom: 0;
+}
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #464545;
+  border-left: 0;
+  text-align: right;
+}
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+  content: '';
+}
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+
+/* blockquote attribution text */
+.attribution,
+.cite,
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-style: normal;
+  line-height: 1.42857143;
+  color: #999999;
+}
+.attribution:before,
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+
+/* unordered list */
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10.5px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+
+
+/* links */
+a {
+  color: rgb(12, 227, 172);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #0ce3ac;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* horizontal rules */
+hr {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border: 0;
+  border-top: 1px solid #464545;
+}
+
+/* table */
+table {
+  background-color: transparent;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 21px;
+  border-collapse: collapse;
+}
+table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+
+/* table caption */
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #999999;
+  text-align: left;
+}
+
+/* table header row */
+thead {
+  border-bottom: 2px solid #464545;
+}
+
+/* table header cell */
+th {
+  text-align: left;
+  padding-left: 8px;
+}
+
+/* table footer */
+tfoot {
+  color: #807F81;
+  border-top: 1px solid #464545;
+}
+
+/* table cell */
+td {
+  border-top: 1px solid #464545;
+}
+td p {
+  margin: auto;
+  padding: 8px;
+}
+
+/* table body */
+tbody > tr:nth-of-type(odd) {
+  background-color: #3d3d3d;
+}
+tbody > tr:hover {
+  background-color: #464545;
+}
+
+/* inline code */
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+pre {
+  display: block;
+  padding: 10px;
+  margin: 0 0 10.5px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #303030;
+  background-color: #ebebeb;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* image */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* footer section */
+#footer {
+  margin-top: 22px;
+  padding: 14px 16px;
+  color: white;
+  background-color: #375A7F;
+}
+
+/* responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+/* table of Contents sidebar */
+#toctitle {
+  color: #222222;
+}
+
+#toc ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#toc li {
+  display: block;
+}
+
+#toc a {
+  background-color: rgb(55, 90, 127);
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#toc li a:hover {
+  background-color: rgb(40, 65, 91);
+  text-decoration: none;
+}
+
+#toc:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}
+
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>Gwent Players &amp; Merchants</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="../">&lt; Back</a></p>
+</div>
+<div class="paragraph">
+<p>Gwent is an ancient dwarven card game you can play with many characters in The Witcher 3. If you’ve collected a bunch of Gwent cards and developed a winning Gwent strategy, you’re probably looking to play with some folks and gather the remaining cards.
+In this guide, we’re going to show you where to find Gwent players and card sellers across the world.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_white_orchard_card_traders">White Orchard Card Traders</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><img src="https://meniny.cn/docs/gwent/images/white-orchard-gwent-players.jpg" alt="white-orchard-gwent-players"></span></p>
+</div>
+<div class="paragraph">
+<p>There are three people you’ll want to visit regarding Gwent in White Orchard:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The first player is at one of the tables at the Inn.</p>
+</li>
+<li>
+<p>Elsa the innkeeper sells cards.</p>
+</li>
+<li>
+<p>The merchant you saved from the griffin sells cards.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gwent_players_in_velen">Gwent Players In Velen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><img src="https://meniny.cn/docs/gwent/images/velen-crows-perch-gwent-players.jpg" alt="velen-crows-perch-gwent-players"></span></p>
+</div>
+<div class="paragraph">
+<p>The area around Crow’s Perch has thirteen players you can cross paths with:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The blacksmith in Blackbough</p>
+</li>
+<li>
+<p>The merchant in Blackbough</p>
+</li>
+<li>
+<p>The Bloody Baron in Crow’s Perch</p>
+</li>
+<li>
+<p>Yoanna, the blacksmith’s apprentice in Crow’s Perch</p>
+</li>
+<li>
+<p>Fergus Graem, the blacksmith in Crow’s Perch</p>
+</li>
+<li>
+<p>The quartermaster in Crow’s Perch</p>
+</li>
+<li>
+<p>The trader in lower Crow’s Perch</p>
+</li>
+<li>
+<p>The blacksmith in Lindenvale</p>
+</li>
+<li>
+<p>The merchant in Lindenvale</p>
+</li>
+<li>
+<p>The armorer in Midcopse</p>
+</li>
+<li>
+<p>The merchant in Midcopse</p>
+</li>
+<li>
+<p>The craftsman in Claywich</p>
+</li>
+<li>
+<p>The trader in Oreton</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://meniny.cn/docs/gwent/images/velen-oxenfurt-gwent-players.jpg" alt="velen-oxenfurt-gwent-players"></span></p>
+</div>
+<div class="paragraph">
+<p>There’s six more near and in the fair city of Oxenfurt:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The armorer in Mulbrydale</p>
+</li>
+<li>
+<p>The blacksmith in south-eastern Oxenfurt</p>
+</li>
+<li>
+<p>Stjepan the innkeeper at the Alchemy Inn in Oxenfurt</p>
+</li>
+<li>
+<p>The armorer in northern Oxenfurt</p>
+</li>
+<li>
+<p>The merchant at the market in northern Oxenfurt</p>
+</li>
+<li>
+<p>The dwarven herbalist in the hut north-east of Oxenfurt</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The quartermaster at the Nilfgaardian Army Group Center Camp in the far south-east of Velen will be happy to play with you as well.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://meniny.cn/docs/gwent/images/gwent-card-seller.jpg" alt="gwent-card-seller"></span></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://meniny.cn/docs/gwent/images/witcher-3-gwent-card-merchant.jpg" alt="witcher-3-gwent-card-merchant"></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_novigrad_gwent_players">Novigrad Gwent Players</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Novigrad is the biggest city in the game, so it’s only natural that the biggest number of Gwent players and card sellers can be found here. There’s 24 of them in total, in and around Novigrad:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://meniny.cn/docs/gwent/images/an-skellig-gwent-players.jpg" alt="an-skellig-gwent-players"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The priest of Eternal Fire near Elector’s Square on the northern island</p>
+</li>
+<li>
+<p>Marquise Serenity in the Passiflora brothel</p>
+</li>
+<li>
+<p>The alchemist at the crematory north of Oxenfurt Gate</p>
+</li>
+<li>
+<p>The merchant in the building behind the notice board</p>
+</li>
+<li>
+<p>The innkeep at the Nowhere Inn</p>
+</li>
+<li>
+<p>The loanshark south-west of Oxenfurt Gate</p>
+</li>
+<li>
+<p>The merchant across the street from the loanshark</p>
+</li>
+<li>
+<p>The innkeep at the Seven Cats Inn, east of Tretogor Gate</p>
+</li>
+<li>
+<p>The innkeep at Cunny of The Goose, south of the city</p>
+</li>
+<li>
+<p>Elihal, the tailor south of Tretogor gate</p>
+</li>
+<li>
+<p>The merchant at the market north-west of Tretogor Gate</p>
+</li>
+<li>
+<p>Olivier, the innkeep at Kingfisher inn sells a few cards</p>
+</li>
+<li>
+<p>Marcus T.K. Hodgson at the bookstore on Hierarch Square</p>
+</li>
+<li>
+<p>The blacksmith in Silverton, north-west of Hierarch Square</p>
+</li>
+<li>
+<p>The merchant across the road from the blacksmith</p>
+</li>
+<li>
+<p>The fish seller in the small market west of Hierarch Square</p>
+</li>
+<li>
+<p>Vimme Vivaldi, the owner of the bank</p>
+</li>
+<li>
+<p>The blacksmith on the fish market, south of the bank</p>
+</li>
+<li>
+<p>The innkeep at The Golden Sturgeon, west of Hierarch Square</p>
+</li>
+<li>
+<p>The dwarven herbalist south of the fish market, across the canal</p>
+</li>
+<li>
+<p>Zoltan at Rosemary &amp; Thyme, near the Gate of The Hierarch (during quest)</p>
+</li>
+<li>
+<p>The merchant north of Glory Gate</p>
+</li>
+<li>
+<p>The madame at Crippled Kate’s brothel</p>
+</li>
+<li>
+<p>The merchant at the Scoiat’ael camp south-west of the city</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_skellige_isles_gwent_players">Skellige Isles Gwent Players</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>An Skellig, the north-eastern island, is home to three Gwent players:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://meniny.cn/docs/gwent/images/an-skellig-gwent-players.jpg" alt="an-skellig-gwent-players"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The blacksmith in Urialla Harbor</p>
+</li>
+<li>
+<p>The innkeep in Urialla Harbor, who also has some cards for sale</p>
+</li>
+<li>
+<p>The armorer in Urialla Harbor</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Hidjarsfall is the island in the eastern part of the archipelago. There are four players to be found there:
+<span class="image"><img src="https://meniny.cn/docs/gwent/images/hindarsfjall-gwent-players.jpg" alt="hindarsfjall-gwent-players"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The armorer in Larvik</p>
+</li>
+<li>
+<p>The merchant by the inn in Larvik</p>
+</li>
+<li>
+<p>The innkeep at the House of Warriors inn in Larvik</p>
+</li>
+<li>
+<p>The blacksmith in Larvik</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Faroe is the elongated island in the south-east. There are only two people interested in Gwent on the whole island.
+<span class="image"><img src="https://meniny.cn/docs/gwent/images/witcher-3-gwent-players.jpg" alt="witcher-3-gwent-players"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The innkeep at the inn in Harviken</p>
+</li>
+<li>
+<p>The blacksmith in Harviken</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The island in the north-west is called Spikeroog. There’s a couple of people you’ll want to talk to there, too:
+<span class="image"><img src="https://meniny.cn/docs/gwent/images/gwent-players-and-merchants.jpg" alt="gwent-players-and-merchants"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The innkeep at the inn in Svorlag will sell you cards and play against you</p>
+</li>
+<li>
+<p>The merchant by the sea in Svorlag</p>
+</li>
+<li>
+<p>The blacksmith in the north of Svorlag</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ard Skellig is the large, central island. The northern part of the island is home to four people of interest:
+<span class="image"><img src="https://meniny.cn/docs/gwent/images/ard-skellig-north-gwent-players.jpg" alt="ard-skellig-north-gwent-players"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The blacksmith at Kaer Trolde</p>
+</li>
+<li>
+<p>The armorer at Kaer Trolde</p>
+</li>
+<li>
+<p>Jonas the innkeep at the New Port Inn in Kaer Trolde both plays and sells</p>
+</li>
+<li>
+<p>The merchant in Blandare</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The southern half of the island is more crowded, with almost a dozen players:
+<span class="image"><img src="https://meniny.cn/docs/gwent/images/ard-skellig-south-gwent-players.jpg" alt="ard-skellig-south-gwent-players"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The blacksmith in Arinbjorn</p>
+</li>
+<li>
+<p>The innkeep at the in in Arinbjorn sells and plays</p>
+</li>
+<li>
+<p>The blacksmith in Fayrlund</p>
+</li>
+<li>
+<p>The merchant in Fayrlund</p>
+</li>
+<li>
+<p>The herbalist in distress on the road north of Palisade</p>
+</li>
+<li>
+<p>The merchant in Fyresdal</p>
+</li>
+<li>
+<p>The smith in Fyresdal</p>
+</li>
+<li>
+<p>The smith in Kaer Muire</p>
+</li>
+<li>
+<p>The armorer in Kaer Muire</p>
+</li>
+<li>
+<p>The merchant in Holmstein’s Port</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-01-13 20:50:19 +0800
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+:title: Gwent Players & Merchants
+:index: https://meniny.cn/docs/gwent
+:images: {index}/images
+= {title}
+
+link:../[< Back]
+
+Gwent is an ancient dwarven card game you can play with many characters in The Witcher 3. If you’ve collected a bunch of Gwent cards and developed a winning Gwent strategy, you’re probably looking to play with some folks and gather the remaining cards.
+In this guide, we’re going to show you where to find Gwent players and card sellers across the world.
+
+== White Orchard Card Traders
+
+image:{images}/white-orchard-gwent-players.jpg[white-orchard-gwent-players]
+
+There are three people you’ll want to visit regarding Gwent in White Orchard:
+
+* The first player is at one of the tables at the Inn.
+* Elsa the innkeeper sells cards.
+* The merchant you saved from the griffin sells cards.
+
+== Gwent Players In Velen
+
+image:{images}/velen-crows-perch-gwent-players.jpg[velen-crows-perch-gwent-players]
+
+The area around Crow’s Perch has thirteen players you can cross paths with:
+
+* The blacksmith in Blackbough
+* The merchant in Blackbough
+* The Bloody Baron in Crow’s Perch
+* Yoanna, the blacksmith’s apprentice in Crow’s Perch
+* Fergus Graem, the blacksmith in Crow’s Perch
+* The quartermaster in Crow’s Perch
+* The trader in lower Crow’s Perch
+* The blacksmith in Lindenvale
+* The merchant in Lindenvale
+* The armorer in Midcopse
+* The merchant in Midcopse
+* The craftsman in Claywich
+* The trader in Oreton
+
+image:{images}/velen-oxenfurt-gwent-players.jpg[velen-oxenfurt-gwent-players]
+
+There’s six more near and in the fair city of Oxenfurt:
+
+* The armorer in Mulbrydale
+* The blacksmith in south-eastern Oxenfurt
+* Stjepan the innkeeper at the Alchemy Inn in Oxenfurt
+* The armorer in northern Oxenfurt
+* The merchant at the market in northern Oxenfurt
+* The dwarven herbalist in the hut north-east of Oxenfurt
+
+The quartermaster at the Nilfgaardian Army Group Center Camp in the far south-east of Velen will be happy to play with you as well.
+
+image:{images}/gwent-card-seller.jpg[gwent-card-seller]
+
+image:{images}/witcher-3-gwent-card-merchant.jpg[witcher-3-gwent-card-merchant]
+
+== Novigrad Gwent Players
+
+Novigrad is the biggest city in the game, so it’s only natural that the biggest number of Gwent players and card sellers can be found here. There’s 24 of them in total, in and around Novigrad:
+
+image:{images}/an-skellig-gwent-players.jpg[an-skellig-gwent-players]
+
+* The priest of Eternal Fire near Elector’s Square on the northern island
+* Marquise Serenity in the Passiflora brothel
+* The alchemist at the crematory north of Oxenfurt Gate
+* The merchant in the building behind the notice board
+* The innkeep at the Nowhere Inn
+* The loanshark south-west of Oxenfurt Gate
+* The merchant across the street from the loanshark
+* The innkeep at the Seven Cats Inn, east of Tretogor Gate
+* The innkeep at Cunny of The Goose, south of the city
+* Elihal, the tailor south of Tretogor gate
+* The merchant at the market north-west of Tretogor Gate
+* Olivier, the innkeep at Kingfisher inn sells a few cards
+* Marcus T.K. Hodgson at the bookstore on Hierarch Square
+* The blacksmith in Silverton, north-west of Hierarch Square
+* The merchant across the road from the blacksmith
+* The fish seller in the small market west of Hierarch Square
+* Vimme Vivaldi, the owner of the bank
+* The blacksmith on the fish market, south of the bank
+* The innkeep at The Golden Sturgeon, west of Hierarch Square
+* The dwarven herbalist south of the fish market, across the canal
+* Zoltan at Rosemary & Thyme, near the Gate of The Hierarch (during quest)
+* The merchant north of Glory Gate
+* The madame at Crippled Kate’s brothel
+* The merchant at the Scoiat’ael camp south-west of the city
+
+== Skellige Isles Gwent Players
+
+An Skellig, the north-eastern island, is home to three Gwent players:
+
+image:{images}/an-skellig-gwent-players.jpg[an-skellig-gwent-players]
+
+* The blacksmith in Urialla Harbor
+* The innkeep in Urialla Harbor, who also has some cards for sale
+* The armorer in Urialla Harbor
+
+Hidjarsfall is the island in the eastern part of the archipelago. There are four players to be found there:
+image:{images}/hindarsfjall-gwent-players.jpg[hindarsfjall-gwent-players]
+
+* The armorer in Larvik
+* The merchant by the inn in Larvik
+* The innkeep at the House of Warriors inn in Larvik
+* The blacksmith in Larvik
+
+Faroe is the elongated island in the south-east. There are only two people interested in Gwent on the whole island.
+image:{images}/witcher-3-gwent-players.jpg[witcher-3-gwent-players]
+
+* The innkeep at the inn in Harviken
+* The blacksmith in Harviken
+
+The island in the north-west is called Spikeroog. There’s a couple of people you’ll want to talk to there, too:
+image:{images}/gwent-players-and-merchants.jpg[gwent-players-and-merchants]
+
+* The innkeep at the inn in Svorlag will sell you cards and play against you
+* The merchant by the sea in Svorlag
+* The blacksmith in the north of Svorlag
+
+Ard Skellig is the large, central island. The northern part of the island is home to four people of interest:
+image:{images}/ard-skellig-north-gwent-players.jpg[ard-skellig-north-gwent-players]
+
+* The blacksmith at Kaer Trolde
+* The armorer at Kaer Trolde
+* Jonas the innkeep at the New Port Inn in Kaer Trolde both plays and sells
+* The merchant in Blandare
+
+The southern half of the island is more crowded, with almost a dozen players:
+image:{images}/ard-skellig-south-gwent-players.jpg[ard-skellig-south-gwent-players]
+
+* The blacksmith in Arinbjorn
+* The innkeep at the in in Arinbjorn sells and plays
+* The blacksmith in Fayrlund
+* The merchant in Fayrlund
+* The herbalist in distress on the road north of Palisade
+* The merchant in Fyresdal
+* The smith in Fyresdal
+* The smith in Kaer Muire
+* The armorer in Kaer Muire
+* The merchant in Holmstein’s Port
