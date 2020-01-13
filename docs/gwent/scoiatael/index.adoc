@@ -1,0 +1,274 @@
+
+:title: Scoia'tael Gwent deck
+:flag: {images}/Tw3_gwent_deck_Scoiatael.webp
+:index: https://meniny.cn/docs/gwent
+:images: {index}/images
+= {title}
+
+link:../[< Back]
+
+.Intro
+[cols=".^a,.^a"]
+|===
+|**Scoia'tael Gwent deck** is one of the 4 base decks available in The Witcher 3: Wild Hunt and considered the more flexible of them. Where the Nilfgaard and the Realms are truly straightforward and the Monsters are pure brute force comprised of monsters, the Squirrels focus on combining debuffs that affect the enemy units like the Weather cards, along with a moderately strong assortment of units.
+.2+|image:{flag}[{title},150,]
+
+|**Special** - Geralt chooses who goes first at the start of a round. If both players are using the Scoia'tael deck, then the normal coin flip is used.
+|===
+
+.Cards
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,.^a,.^a"]
+|===
+|Icon
+|Name
+|Type
+|Row
+|Str.
+|Ability
+|Source
+
+|image:{images}/Tw3_icon_gwent_soldier_scoiatael.webp[Tw3 icon gwent soldier scoiatael,30,]
+|Barclay Els
+|Unit
+|image:{images}/Tw3_gwent_close-ranged.webp[Tw3 gwent close-ranged,30,]
+|6
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|Purchased from the innkeep of The Golden Sturgeon in Novigrad
+**Hearts of Stone** expansion: 1 can be purchased from the traderat the circus camp near Carsten
+
+|image:{images}/Tw3_icon_gwent_soldier_scoiatael.webp[Tw3 icon gwent soldier scoiatael,30,]
+|Ciaran aep Easnillien
+|Unit
+|image:{images}/Tw3_gwent_close-ranged.webp[Tw3 gwent close-ranged,30,]
+|3
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_melee_scoiatael.webp[Tw3 icon gwent melee scoiatael,30,]
+|Dennis Cranmer
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|6
+|
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_range_scoiatael.webp[Tw3 icon gwent range scoiatael,30,]
+|Dol Blathanna Archer
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|4
+|
+|Purchased from Marquise Serenity at the Passiflora
+**Hearts of Stone** expansion: 1 can be purchased from the trader at the circus camp near Carsten
+
+|image:{images}/Tw3_icon_gwent_melee_scoiatael.webp[Tw3 icon gwent melee scoiatael,30,]
+|Dol Blathanna Scout
+|Unit
+|image:{images}/Tw3_gwent_close-ranged.webp[Tw3 gwent close-ranged,30,]
+|6
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|1 purchased from the The Golden Sturgeon's Innkeep
+2 are random rewards from gwent players
+**Hearts of Stone** expansion: 1 can be purchased from the trader at the circus camp near Carsten
+
+|image:{images}/Tw3_icon_gwent_melee_scoiatael.webp[Tw3 icon gwent melee scoiatael,30,]
+|Dwarven Skirmisher
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|3
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|1 purchased from Stjepan at The Alchemy
+2 are random rewards from gwent players
+
+|image:{images}/Tw3_icon_gwent_hero_scoiatael.webp[Tw3 icon gwent hero scoiatael,30,]
+|Eithné
+|Hero
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Won from Zoltan during Gwent: Old Pals
+
+|image:{images}/Tw3_icon_gwent_soldier_scoiatael.webp[Tw3 icon gwent soldier scoiatael,30,]
+|Elven Skirmisher
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|2
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|1 purchased from Urialla Harbor's Innkeep
+2 are random rewards from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent soldier scoiatael,30,]
+|Filavandrel aen Fidhail
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close-ranged,30,]
+|6
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero scoiatael,30,]
+|Francesca Findabair: Daisy of the Valley
+|Leader
+|
+|
+|Daisy of the Valley: Draw an extra card at the beginning of the battle.
+|Purchased from Cunny of the Goose's Innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero scoiatael,30,]
+|Francesca Findabair: Hope of the Aen Seidhe
+|Leader
+|
+|
+|Hope of the Aen Seidhe: Move agile units to whichever valid row maximizes their strength (don't move units already in optimal row).
+|Purchased from Dulla kh'Amanni at Upper Mill
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero scoiatael,30,]
+|Francesca Findabair: Pureblood Elf
+|Leader
+|
+|
+|Pureblood Elf: Pick a Biting Frost card from your deck and play it instantly.
+|Part of the base deck
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero scoiatael,30,]
+|Francesca Findabair: Queen of Dol Blathanna
+|Leader
+|
+|
+|Queen of Dol Blathanna: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more.
+|Won from Finneas during High Stakes
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero scoiatael,30,]
+|Francesca Findabair: The Beautiful
+|Leader
+|
+|
+|The Beautiful: Doubles the strength of all your Ranged Combat units (unless a Commander's Horn is also present on
+thatrow).
+|Won during Gwent: Big City Players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range scoiatael,30,]
+|Havekar Healer
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|0
+|Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
+|1 purchased from The Kingfisher Inn's Innkeep
+1 purchased from the Cunny of the Goose's Innkeep
+1 is a random reward from gwentplayers
+**Hearts of Stone** expansion: 1 can be purchased from the trader at the circus campnear Carsten
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee scoiatael,30,]
+|Havekar Smuggler
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|1 purchased from The Kingfisher Inn's Innkeep
+1 purchased from the SevenCats Inn's Innkeep
+1 is a random reward from gwent players
+**Hearts of Stone** expansion: 1 can be purchased from the trader at the circus camp near Carsten
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range scoiatael,30,]
+|Ida Emean aep Sivney
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|6
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero scoiatael,30,]
+|Iorveth
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|reward for completing Shock Therapy
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent soldier scoiatael,30,]
+|Isengrim Faoiltiarna
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|10
+|Morale boost: Adds +1 to all units in the row (excluding itself).
+Hero: Not affected by any Special Cards or abilities.
+|during A Dangerous Game, off one of the bandits in Zed's house
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee scoiatael,30,]
+|Mahakaman Defender
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|1 purchased from The Kingfisher Inn's Innkeep
+1 purchased from the SevenCats Inn's Innkeep
+1 purchased from The Golden Sturgeon's Innkeep
+1 purchased from Marquise Serenity at the Passiflora
+1 purchased from Stjepan at The Alchemy
+**Hearts of Stone** expansion: 3 can be purchased from the trader at the circus camp near Carsten
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range scoiatael,30,]
+|Milva
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|10
+|Morale boost: Adds +1 to all units in the row (excluding itself).
+|Won during A Matter of Life and Death
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range scoiatael,30,]
+|Riordain
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|1
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero scoiatael,30,]
+|Saesenthessis
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Won from Vernon Roche during Gwent: Old Pals
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent siege scoiatael,30,]
+|Schirrú
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|8
+|Scorch - Siege: Destroys your enemy's strongest Siege Combat unit(s) if the combined strength of all his or her Siege Combat units is 10 or more.
+|Won from the merchant at the circus northwest of Carsten
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range scoiatael,30,]
+|Toruviel
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|2
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range scoiatael,30,]
+|Vrihedd Brigade Recruit
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|4
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent soldier scoiatael,30,]
+|Vrihedd Brigade Veteran
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close-ranged,30,]
+|5
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|1 purchased from Stjepan at The Alchemy
+1 purchased from The
+KingfisherInn's Innkeep
+**Hearts of Stone** expansion: 1 can be purchased from the trader at the circus camp near Carsten
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent soldier scoiatael,30,]
+|Yaevinn
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close-ranged,30,]
+|6
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|Won from Sjusta during Gwent: Skellige>
+|===

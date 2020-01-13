@@ -1,0 +1,363 @@
+:title: Monsters Gwent deck
+:flag: {images}/Tw3_gwent_deck_Monsters.webp
+:index: https://meniny.cn/docs/gwent
+:images: {index}/images
+= {title}
+
+link:../[< Back]
+
+.Intro
+[cols=".^a,.^a"]
+|===
+|**Monsters Gwent deck** consists of a total of 38 available Gwent cards of monsters that can be encountered in the games. The deck contains only hero and unit cards, often with the Muster ability.
+.2+|image:{flag}[{title},150,]
+
+|**Special** - One of your units in play is randomly carried over to the next round.
+|===
+
+.Cards
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,.^a,.^a"]
+|===
+|Icon
+|Name
+|Type
+|Row
+|Str.
+|Ability
+|Source
+
+|image:{images}/Tw3_icon_gwent_melee_monsters.webp[Tw3 icon gwent melee monsters,30,]
+|Arachas
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|4
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|1 purchased from Arinbjorn's innkeep
+1 purchased from UriallaHarbor's innkeep
+1 purchased from Svorlag's innkeep
+
+|image:{images}/Tw3_icon_gwent_siege_monsters.webp[Tw3 icon gwent siege monsters,30,]
+|Arachas Behemoth
+|Unit
+|image:{images}/Tw3_gwent_siege.webp[Tw3 gwent siege,30,]
+|6
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_melee_monsters.webp[Tw3 icon gwent melee monsters,30,]
+|Botchling
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|4
+|
+|Purchased from Jonas at The New Port
+
+|image:{images}/Tw3_icon_gwent_range_monsters.webp[Tw3 icon gwent range monsters,30,]
+|Celaeno Harpy
+|Unit
+|image:{images}/Tw3_gwent_close-ranged.webp[Tw3 gwent close-ranged,30,]
+|2
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_range_monsters.webp[Tw3 icon gwent range monsters,30,]
+|Cockatrice
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|2
+|
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_melee_monsters.webp[Tw3 icon gwent melee monsters,30,]
+|Crone: Brewess
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|6
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_melee_monsters.webp[Tw3 icon gwent melee monsters,30,]
+|Crone: Weavess
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|6
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|Won from the Old Sage during Gwent: Velen Players
+
+|image:{images}/Tw3_icon_gwent_melee_monsters.webp[Tw3 icon gwent melee monsters,30,]
+|Crone: Whispess
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|6
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|Purchased from Arinbjorn's innkeep
+
+|image:{images}/Tw3_icon_gwent_melee_monsters.webp[Tw3 icon gwent melee monsters,30,]
+|Draug
+|Hero
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Won from Crach an Craite during Gwent: Skellige>
+
+|image:{images}/Tw3_icon_gwent_siege_monsters.webp[Tw3 icon gwent siege monsters,30,]
+|Earth Elemental
+|Unit
+|image:{images}/Tw3_gwent_siege.webp[Tw3 gwent siege,30,]
+|6
+|
+|Purchased from Jonas at The New Port
+
+|image:{images}/Tw3_icon_gwent_range_monsters.webp[Tw3 icon gwent range monsters,30,]
+|Endrega
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|2
+|
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_hero_monsters.webp[Tw3 icon gwent hero monsters,30,]
+|Eredin Bréacc Glas: The Treacherous
+|Leader
+|
+|
+|Doubles the strength of all spy cards (affects both players).
+|Purchased from Dulla kh'Amanni in Upper Mill
+
+|image:{images}/Tw3_icon_gwent_hero_monsters.webp[Tw3 icon gwent hero monsters,30,]
+|Eredin: Bringer of Death
+|Leader
+|
+|
+|Restore a card from your discard pile to your hand.
+|Won from Count Tybalt during High Stakes
+
+|image:{images}/Tw3_icon_gwent_hero_monsters.webp[Tw3 icon gwent hero monsters,30,]
+|Eredin: Commander of the Red Riders
+|Leader
+|
+|
+|
+|
+|Double the strength of all your Close Combat units (unless a Commander's horn is also present on that row).
+|Purchased from Jonas at The New Port
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero monsters,30,]
+|Eredin: Destroyer of Worlds
+|Leader
+|
+|
+|Discard 2 card and draw 1 card of your choice from your deck.
+|Won during Gwent: Velen Players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero monsters,30,]
+|Eredin: King of the Wild Hunt
+|Leader
+|
+|
+|Pick any weather card from your deck and play it instantly.
+|Part of the base deck
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Fiend
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|6
+|
+|Purchased from Arinbjorn's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent siege monsters,30,]
+|Fire Elemental
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|6
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Foglet
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|2
+|
+|Purchased from Svorlag's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Forktail
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Frightener
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range monsters,30,]
+|Gargoyle
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|2
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Ghoul
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|1
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|2 are random rewards from gwent players
+1 purchased from Harviken's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range monsters,30,]
+|Grave Hag
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|5
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Griffin
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range monsters,30,]
+|Harpy
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close-ranged,30,]
+|2
+|
+|Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed.
+|Purchased from Harviken's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent siege monsters,30,]
+|Ice Giant
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|5
+|
+|Purchased from Svorlag's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Imlerith
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range monsters,30,]
+|Kayran
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close-ranged,30,]
+|8
+|Hero: Not affected by any Special Cards or abilities.
+Morale boost: Adds +1 to all units in the row (excluding itself).
+Agile: Can
+beplaced in either the Close Combat or the Ranged Combat row. Cannot be moved
+onceplaced.
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range monsters,30,]
+|Leshen
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Won from Ermion during Gwent: Skellige>
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Nekker
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|2
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|1 obtained during Following the Thread off Hammond's corpse
+1 purchased from Harviken's innkeep
+1 as random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Plague Maiden
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range monsters,30,]
+|Toad
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|7
+|Scorch - Ranged: Destroy your enemy's strongest Ranged Combat unit(s) if the combined strength of all his or her Ranged Combat
+unitsis 10 or more.
+|Won from Olgierd von Everec
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Vampire: Bruxa
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|4
+|Muster: Find any cards with the same name in your deck and play them instantly
+|Won during A Matter of Life and Death
+**Blood and
+Wine**expansion: Rewarded for removing Louis' urn in Till Death Do You Part
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Vampire: Ekimmara
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|4
+|Muster: Find any cards with the same name in your deck and play them instantly
+|Purchased from Svorlag's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Vampire: Fleder
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|4
+|Muster: Find any cards with the same name in your deck and play them instantly
+|Purchased from Harviken's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Vampire: Garkain
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|4
+|Muster: Find any cards with the same name in your deck and play them instantly
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Vampire: Katakan
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|Muster: Find any cards with the same name in your deck and play them instantly.
+|Won from Madman Lugos during Gwent: Skellige>
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee monsters,30,]
+|Werewolf
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|
+|Purchased from Urialla Harbor's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range monsters,30,]
+|Wyvern
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|2
+|
+|Random reward from gwent players
+|===

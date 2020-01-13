@@ -1,0 +1,316 @@
+:title: Nilfgaardian Empire Gwent deck
+:flag: {images}/Tw3_gwent_deck_Nilfgaardian.webp
+:index: https://meniny.cn/docs/gwent
+:images: {index}/images
+= {title}
+
+link:../[< Back]
+
+.Intro
+[cols=".^a,.^a"]
+|===
+|**Nilfgaardian Empire Gwent deck** must be built from scratch by acquiring cards. The deck consists of a total of 38 available Gwent cards.
+.2+|image:{flag}[{title},150,]
+
+|**Special** - Nilfgaard wins if the round ends in a tie.
+|===
+
+.Cards
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,.^a,.^a"]
+|===
+|Icon
+|Name
+|Type
+|Row
+|Str.
+|Ability
+|Source
+
+|image:{images}/Tw3_icon_gwent_range_nilfgaard.webp[Tw3 icon gwent range nilfgaard,30,]
+|Albrich
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|2
+|
+|Purchased from Crow's Perch's trader
+
+|image:{images}/Tw3_icon_gwent_range_nilfgaard.webp[Tw3 icon gwent range nilfgaard,30,]
+|Assire var Anahid
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|6
+|
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_range_nilfgaard.webp[Tw3 icon gwent range nilfgaard,30,]
+|Black Infantry Archer
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|10
+|
+|1 purchased from Claywich's merchant
+1 purchased from Lindenvale's merchant
+
+|image:{images}/Tw3_icon_gwent_melee_nilfgaard.webp[Tw3 icon gwent melee nilfgaard,30,]
+|Cahir Mawr Dyffryn aep Ceallach
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|6
+|
+|Random reward from gwent players
+
+|image:{images}/Tw3_icon_gwent_range_nilfgaard.webp[Tw3 icon gwent range nilfgaard,30,]
+|Cynthia
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|4
+|
+|Purchased from Crow's Perch's quartermaster
+
+|image:{images}/Tw3_icon_gwent_hero_nilfgaard.webp[Tw3 icon gwent hero nilfgaard,30,]
+|Emhyr var Emreis: Emperor of Nilfgaard
+|Leader
+|
+|
+|Emperor of Nilfgaard: Look at 3 random cards from your opponent's hand.
+|Purchased from Inn at the Crossroads's innkeep
+Purchased from Lindenvale's innkeep
+
+|image:{images}/Tw3_icon_gwent_hero_nilfgaard.webp[Tw3 icon gwent hero nilfgaard,30,]
+|Emhyr var Emreis: His Imperial Majesty
+|Leader
+|
+|
+|His Imperial Majesty: Pick a Torrential Rain card from your deck and play it instantly.
+|Part of the base deck
+
+|image:{images}/Tw3_icon_gwent_hero_nilfgaard.webp[Tw3 icon gwent hero nilfgaard,30,]
+|Emhyr var Emreis: Invader of the North
+|Leader
+|
+|
+|Invader of the North: Abilities that restore a unit to the battlefield restore a randomly-chosen unit. Affects both players.
+|Purchased from the trader at the circus camp near Carsten
+
+|image:{images}/Tw3_icon_gwent_hero_nilfgaard.webp[Tw3 icon gwent hero nilfgaard,30,]
+|Emhyr var Emreis: The Relentless
+|Leader
+|
+|
+|The Relentless: Draw a card from your opponent's discard pile.
+|Won from Sasha during High Stakes
+
+|image:{images}/Tw3_icon_gwent_hero_nilfgaard.webp[Tw3 icon gwent hero nilfgaard,30,]
+|Emhyr var Emreis: The White Flame
+|Leader
+|
+|
+|The White Flame: Cancel your opponent's Leader Ability.
+|Won during Gwent: Skellige>
+
+|image:{images}/Tw3_icon_gwent_range_nilfgaard.webp[Tw3 icon gwent range nilfgaard,30,]
+|Etolian Auxiliary Archers
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|1
+|Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
+|1 purchased from Claywich's merchant
+1 purchased from Lindenvale's merchant
+
+|image:{images}/Tw3_icon_gwent_range_nilfgaard.webp[Tw3 icon gwent range nilfgaard,30,]
+|Fringilla Vigo
+|Unit
+|image:{images}/Tw3_gwent_ranged_combat.webp[Tw3 gwent ranged combat,30,]
+|6
+|
+|Obtained during A Dangerous Game in Caesar Bilzen's house
+
+|image:{images}/Tw3_icon_gwent_siege_nilfgaard.webp[Tw3 icon gwent siege nilfgaard,30,]
+|Heavy Zerrikanian Fire Scorpion
+|Unit
+|image:{images}/Tw3_gwent_siege.webp[Tw3 gwent siege,30,]
+|10
+|
+|Purchased from Lindenvale's merchant
+
+|image:{images}/Tw3_icon_gwent_melee_nilfgaard.webp[Tw3 icon gwent melee nilfgaard,30,]
+|Impera Brigade Guard
+|Unit
+|image:{images}/Tw3_gwent_close_combat.webp[Tw3 gwent close combat,30,]
+|3
+|Tight Bond: Place next to a card with the same name to double the strength of both cards.
+|1 purchased from Cunny of the Goose's innkeep
+1 purchased from the Seven Cats Inn's innkeep
+1 purchased from Crow'sPerch's trader
+1 purchased from Inn at the Crossroads' innkeep
+1 purchased from Lindenvale's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero nilfgaard,30,]
+|Letho of Gulet
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Won from the Boatwright during Gwent: Velen Players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero nilfgaard,30,]
+|Menno Coehoorn
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
+|Won from Inn at the Crossroads' innkeep during Gwent: Playing Innkeeps
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Morteisen
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|3
+|
+|Purchased from Midcopse's merchant
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero nilfgaard,30,]
+|Morvran Voorhis
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Won from Marquise Serenity during Gwent: Big City Players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Nausicaa Cavalry Rider
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|2
+|Tight Bond: Place next to a card with the same name to double the strength of both cards.
+|1 purchased from Crow's Perch's quartermaster
+1 purchased from <ahref="/wiki/Crow%27s_Perch"
+title="Crow's Perch">Crow's Perch's trader
+1 purchased from Innat the Crossroads' innkeep
+1 purchased from Lindenvale's <ahref="/wiki/Innkeep_(Lindenvale)"
+title="Innkeep (Lindenvale)">innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range nilfgaard,30,]
+|Puttkammer
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|3
+|
+|Purchased from Claywich's merchant
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Rainfarn
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|4
+|
+|Purchased from Lindenvale's merchant
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range nilfgaard,30,]
+|Renuald aep Matsen
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|5
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent siege nilfgaard,30,]
+|Rotten Mangonel
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|3
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Shilard Fitz-Oesterlen
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|7
+|Spy: Place on your opponent's battlefield (counts towards your opponent's total) and draw 2 cards from your deck.
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent siege nilfgaard,30,]
+|Siege Engineer
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|6
+|
+|Purchased from Inn at the Crossroads' innkeep
+Purchased from Lindenvale's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent siege nilfgaard,30,]
+|Siege Technician
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|0
+|Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards).
+|Purchased from The Golden Sturgeon's innkeep
+**Hearts of Stone** expansion: 1 can be purchased from the trader at the circus camp near Carsten
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Stefan Skellen
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|9
+|Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range nilfgaard,30,]
+|Sweers
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|2
+|
+|Purchased from Claywich's merchant
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent hero nilfgaard,30,]
+|Tibor Eggebracht
+|Hero
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|10
+|Hero: Not affected by any Special Cards or abilities.
+|Won from Olivier during Gwent: Playing Innkeeps
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent range nilfgaard,30,]
+|Vanhemar
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent ranged combat,30,]
+|4
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Vattier de Rideaux
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|4
+|Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck.
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Vreemde
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|2
+|
+|Random reward from gwent players
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent melee nilfgaard,30,]
+|Young Emissary
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent close combat,30,]
+|5
+|Tight Bond: Place next to a card with the same name to double the strength of both cards.
+|1 purchased from Cunny of the Goose's innkeep
+1 purchased from the Seven Cats Inn's innkeep
+
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 icon gwent siege nilfgaard,30,]
+|Zerrikanian Fire Scorpion
+|Unit
+|image:data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D[Tw3 gwent siege,30,]
+|5
+|
+|Purchased from Crow's Perch's trader
+|===
