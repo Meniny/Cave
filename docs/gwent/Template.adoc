@@ -1,7 +1,7 @@
 :title:
-:flag:
 :index: https://meniny.cn/docs/gwent
 :images: {index}/images
+:flag:
 = {title}
 
 link:../[< Back]

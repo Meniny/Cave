@@ -1,7 +1,7 @@
 :title: Nilfgaardian Empire Gwent deck
-:flag: {images}/Tw3_gwent_deck_Nilfgaardian.webp
 :index: https://meniny.cn/docs/gwent
 :images: {index}/images
+:flag: {images}/Tw3_gwent_deck_Nilfgaardian.webp
 = {title}
 
 link:../[< Back]
