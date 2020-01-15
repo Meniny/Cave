@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>Gwent Guide</title>
+<style>
+/* Based on Darkly from Bootswatch (http://bootswatch.com/darkly/) */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
+
+/* document body (contains all content) */
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #ffffff;
+  background-color: #222222;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* document header (contains title etc) */
+#header {
+  width: 100%;
+}
+#header>h1 {
+  border-bottom: 1px solid #ddddd8;
+  padding-bottom: 8px;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: inherit;
+}
+h1,
+h2,
+h3 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
+h4,
+h5,
+h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+h1 {
+/*   font-size: 39px; */
+  font-size: 4em;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 19px;
+}
+h5 {
+  font-size: 15px;
+}
+h6 {
+  font-size: 13px;
+}
+
+/* plain paragraph text */
+.paragraph {
+/*   font-family: sans-serif; */
+  margin: 0 0 10.5px;
+}
+p {
+/*   font-family: sans-serif; */
+  margin: 0 0 10.5px;
+}
+
+/* blockquote text */
+.quoteblock {
+  font-style: italic;
+}
+blockquote {
+  padding: 10.5px 21px;
+  margin: 0 0 21px;
+  font-size: 18.75px;
+  border-left: 5px solid #464545;
+}
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+  margin-bottom: 0;
+}
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #464545;
+  border-left: 0;
+  text-align: right;
+}
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+  content: '';
+}
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+
+/* blockquote attribution text */
+.attribution,
+.cite,
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-style: normal;
+  line-height: 1.42857143;
+  color: #999999;
+}
+.attribution:before,
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+
+/* unordered list */
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10.5px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+
+
+/* links */
+a {
+  color: rgb(12, 227, 172);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #0ce3ac;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* horizontal rules */
+hr {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border: 0;
+  border-top: 1px solid #464545;
+}
+
+/* table */
+table {
+  background-color: transparent;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 21px;
+  border-collapse: collapse;
+}
+table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+
+/* table caption */
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #999999;
+  text-align: left;
+}
+
+/* table header row */
+thead {
+  border-bottom: 2px solid #464545;
+}
+
+/* table header cell */
+th {
+  text-align: left;
+  padding-left: 8px;
+}
+
+/* table footer */
+tfoot {
+  color: #807F81;
+  border-top: 1px solid #464545;
+}
+
+/* table cell */
+td {
+  border-top: 1px solid #464545;
+}
+td p {
+  margin: auto;
+  padding: 8px;
+}
+
+/* table body */
+tbody > tr:nth-of-type(odd) {
+  background-color: #3d3d3d;
+}
+tbody > tr:hover {
+  background-color: #464545;
+}
+
+/* inline code */
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+pre {
+  display: block;
+  padding: 10px;
+  margin: 0 0 10.5px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #303030;
+  background-color: #ebebeb;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* image */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* footer section */
+#footer {
+  margin-top: 22px;
+  padding: 14px 16px;
+  color: white;
+  background-color: #375A7F;
+}
+
+/* responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+/* table of Contents sidebar */
+#toctitle {
+  color: #222222;
+}
+
+#toc ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#toc li {
+  display: block;
+}
+
+#toc a {
+  background-color: rgb(55, 90, 127);
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#toc li a:hover {
+  background-color: rgb(40, 65, 91);
+  text-decoration: none;
+}
+
+#toc:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}
+
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>Gwent Guide</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="../">&lt; Back</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Gwent</strong> is a dwarven card game you can play in The Witcher 3: Wild Hunt. It’s the favourite pastime of many Northerners, and opponents of varying skill levels can be found all around the world.</p>
+</div>
+<div class="paragraph">
+<p>In this guide, we’re going to show you how to play Gwent, and where to find worthy adversaries.</p>
+</div>
+<div class="paragraph">
+<p>You can also check out <strong><a href="../cards/">list of all Gwent Cards</a></strong> and how to acquire them.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./images/witcher-3-gwent.jpg" alt="witcher-3-gwent"></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_play_gwent">How To Play Gwent</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After starting the game, you’ll have to choose a faction and a leader. Your choice will dictate which cards you’ll be able to use and which faction-specific passive perk you’ll boast. Each faction has at least three variations of their leader.</p>
+</div>
+<div class="paragraph">
+<p>When you’re done choosing, the game will draw 10 random cards from the deck of your chosen faction. You won’t get to draw any more cards during the game, but you’ll have the chance to re-draw two of them if you’re not satisfied with the results.</p>
+</div>
+<div class="paragraph">
+<p>The game is played in turns – a coin toss decides who goes first, and each player gets to play a card during his turn, or pass. Once you pass, you don’t get any more turns in that round, so pass only when you’re certain you’ll win or have already
+given up that round.</p>
+</div>
+<div class="paragraph">
+<p>When both players pass, the round ends. The ten cards you’ve drawn at the start need to carry you through the whole game, so don’t toss them all on the board in the first round.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./images/witcher-3-gwent-redraw.jpg" alt="witcher 3 card game redraw"></span></p>
+</div>
+<div class="paragraph">
+<p>The playing cards have a number in their upper left corner that signifies their strength. Every card you place increases your total strength score, and the player who has a higher score at the end of the round wins it. The game is played in a best-of-three manner – you start with two life gems, and loosing a round destroys one.</p>
+</div>
+<div class="paragraph">
+<p>There are three types of basic cards – melee, ranged and siege. Each of them goes in a different row on the board, which is important because some special cards affect only certain rows. For instance, weather cards reduce the strength of all units in a certain row (for both players). Some unit cards have special abilities, like increasing the strength of others or reviving dead soldiers.</p>
+</div>
+<div class="paragraph">
+<p>Finally, you can also have Hero cards in your decks. They are extremely rare, and not without cause – Heroes are units that are immune to special card effects.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gwent_factions">Gwent Factions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>From what we’ve seen in the videos, there will be at least three factions – the Northern Realms, the Nilfgaardian Empire and the Scoia’tael. Apart from having different units at their disposal, they have distinct passive perks and leaders.</p>
+</div>
+<div class="paragraph">
+<p>Passive perks trigger certain events at the beginning or end of a turn. Leaders give players a special ability that can be used once per match. There are at least three variations of every leader, and they have to be unlocked in order to be used.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-middle">Faction</th>
+<th class="tableblock halign-center valign-middle">Leader</th>
+<th class="tableblock halign-center valign-middle">Leader ability</th>
+<th class="tableblock halign-center valign-middle">Passive Perk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p><strong>Northern Realms</strong></p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>King Foltest</p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>Pick an Impenetrable Fog from your deck and play it immediately</p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>Draw a card after you win a round</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p><strong>Nilfgaardian Empire</strong></p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>Emhyr var Emreis</p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>???</p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>Always win ties</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p><strong>Scoia’tael</strong></p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>???</p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>???</p>
+</div></div></td>
+<td class="tableblock halign-center valign-middle"><div class="content"><div class="paragraph">
+<p>???</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gwent_players">Gwent Players</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Due to its popularity in the world of The Witcher 3, there are many Gwent players to be found scattered about the Northern Realms. They have different skill levels – some would lose to a rock, while others require you to have a strong deck and a quick wit in order to best them.</p>
+</div>
+<div class="paragraph">
+<p>Here’s a list of all the <strong><a href="../npcs/"">Gwent Players and Merchants</a></strong> in the game.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-01-15 22:15:11 +0800
+</div>
+</div>
+</body>
+</html>

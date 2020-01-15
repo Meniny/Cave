@@ -1,5 +1,5 @@
 :title: Gwent Players & Merchants
-:index: https://meniny.cn/docs/gwent
+:index: https://meniny.cn/docs/gwent/npc
 :images: {index}/images
 = {title}
 
