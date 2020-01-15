@@ -1,6 +1,17 @@
-:title: Gwent Cards
+:article: Gwent Cards
+:title: {article}
+:author: Elias Abel
+:mail: admin@meniny.cn
 :index: https://meniny.cn/docs/gwent/cards
 :images: {index}/images
+:doctype: book
+:page-layout!:
+:sectanchors:
+:sectlinks:
+:sectnums:
+:toc: left
+:toclevels: 6
+:toc-title: 索引
 = {title}
 
 link:../[< Back]

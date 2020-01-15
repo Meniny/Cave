@@ -1,6 +1,17 @@
-:title: Gwent Players & Merchants
-:index: https://meniny.cn/docs/gwent/npc
+:article: Gwent Players & Merchants
+:title: {article}
+:author: Elias Abel
+:mail: admin@meniny.cn
+:index: https://meniny.cn/docs/gwent/npcs
 :images: {index}/images
+:doctype: book
+:page-layout!:
+:sectanchors:
+:sectlinks:
+:sectnums:
+:toc: left
+:toclevels: 6
+:toc-title: 索引
 = {title}
 
 link:../[< Back]
