@@ -588,6 +588,11 @@
             url: "https://www.adobe.com/cn/downloads.html"
             image: "adobe"
             color: "RGBA(255, 0, 0, 0.75)"
+      - name: "Netease"
+        links:
+          - title: "网易账号中心"
+            url: "https://m.reg.163.com/#/"
+            image: "netease_accounts"
       - name: "Purchasing"
         links:
           - title: "淘宝"
@@ -882,9 +887,6 @@
             url: "https://meniny.cn/navigator/bookmarks/"
       - name: "Utils"
         links:
-          - title: "网易账号中心"
-            url: "https://m.reg.163.com/#/"
-            image: "netease_accounts"
           - title: "Toolslick"
             url: "https://toolslick.com/"
           - title: "Tool.lu"
