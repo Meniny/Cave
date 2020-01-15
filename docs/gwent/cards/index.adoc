@@ -32,13 +32,11 @@ Empire, the Scoia’tael and the Monsters. There are also neutral cards, which y
 
 Innkeeper Elsa in White Orchard tavern sells cards. You’ll talk with her during the main quest “Lilac and Gooseberries”.
 
+.Inside the White Orchard Tavern
 image:./images/TW3_Elsa_Gwent_Card_Seller_White_Orchard_1.jpg[TW3 Elsa Gwent Card Seller White Orchard,,300]
 
-> Inside the White Orchard Tavern.
-
+.Elsa
 image:./images/TW3_Elsa_Gwent_Card_Seller_White_Orchard_2.jpg[TW3 Elsa Gwent Card Seller White Orchard,,300]
-
-> Elsa
 
 == Northern Realms Deck
 
