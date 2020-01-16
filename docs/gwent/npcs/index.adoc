@@ -80,7 +80,7 @@ In this guide, we’re going to show you where to find Gwent players and card se
 |===
 2.+|Novigrad is the biggest city in the game, so it’s only natural that the biggest number of Gwent players and card sellers can be found here. There’s 24 of them in total, in and around Novigrad:
 
-|image:{images}/an-skellig-gwent-players.jpg[an-skellig-gwent-players]
+|image:{images}/novigrad-gwent-players.jpg[novigrad-gwent-players]
 |1. The priest of Eternal Fire near Elector’s Square on the northern island
 2. Marquise Serenity in the Passiflora brothel
 3. The alchemist at the crematory north of Oxenfurt Gate
