@@ -438,6 +438,9 @@
           - title: "Countries"
             url: "https://meniny.cn/docs/countries/"
             image: "flags"
+          - title: "专案开发时程名词"
+            url: "https://meniny.cn/docs/project/"
+            image: ""
       - name: "Reading"
         links:
           - title: "小书屋"
