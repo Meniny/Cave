@@ -275,6 +275,12 @@
           - title: "小丸工具箱"
             url: "https://maruko.appinn.me/"
             image: "xiaowan"
+          - title: "GIMP"
+            url: "https://www.gimp.org/"
+            image: "gimp"
+          - title: "Krita"
+            url: "https://krita.org/zh/"
+            image: "krita"
       - name: "Development"
         links:
           - title: "Cave"
