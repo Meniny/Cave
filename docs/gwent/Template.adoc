@@ -1,0 +1,42 @@
+:article:
+:title: {article}
+:author: Elias Abel
+:mail: admin@meniny.cn
+:index: https://meniny.cn/docs/gwent/...
+:images: {index}/images
+:doctype: book
+:page-layout!:
+:sectanchors:
+:sectlinks:
+:sectnums:
+:toc: left
+:toclevels: 6
+:toc-title: 索引
+:flag:
+= {title}
+
+link:../[< Back]
+
+.Intro
+[cols=".^a,.^a"]
+|===
+|
+.2+|image:{flag}[{title},200,]
+
+|
+|===
+
+.Cards
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|Icon
+|Name
+|Type
+|Row
+|Str.
+|Ability
+|Source
+
+
+
+|===

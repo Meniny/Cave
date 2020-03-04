@@ -1,0 +1,1172 @@
+:article: Gwent Cards
+:title: {article}
+:author: Elias Abel
+:mail: admin@meniny.cn
+:index: https://meniny.cn/docs/gwent/cards
+:images: {index}/images
+:doctype: book
+:page-layout!:
+:sectanchors:
+:sectlinks:
+:sectnums:
+:toc: left
+:toclevels: 6
+:toc-title: 索引
+= {title}
+
+link:../[< Back]
+
+== Introduction
+
+**Gwent cards** are special playing cards used in an ancient dwarven game in The Witcher 3: Wild Hunt. Gwent is a competitive sport in the Northern Realms, so you’ll need a great deck and a quick wit to beat some of the stronger players.
+
+To build a great deck, you’ll need to collect rare cards. In this guide, we’re going to show you all the Gwent cards, their effects and locations. We also have a general **link:../guide/[Gwent guide]** for newcomers.
+
+image:./images/witcher-3-gwent-cards.jpg[witcher 3 gwent cards]
+
+There are four faction decks to choose from when playing: the Northern Realms, the Nilfgaardian
+
+Empire, the Scoia’tael and the Monsters. There are also neutral cards, which you can put in any deck. Each faction has its own unique cards, passive perks and leader abilities. You can unlock new cards by doing quests, buying them from vendors and finding them throughout the world.
+
+== Innkeeper Elsa – White Orchard Gwent Card Purchase Location
+
+Innkeeper Elsa in White Orchard tavern sells cards. You’ll talk with her during the main quest “Lilac and Gooseberries”.
+
+.Inside the White Orchard Tavern
+image:./images/TW3_Elsa_Gwent_Card_Seller_White_Orchard_1.jpg[TW3 Elsa Gwent Card Seller White Orchard,,300]
+
+.Elsa
+image:./images/TW3_Elsa_Gwent_Card_Seller_White_Orchard_2.jpg[TW3 Elsa Gwent Card Seller White Orchard,,300]
+
+== Northern Realms Deck
+
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|Name
+|Preview
+|Strength
+|Type
+|Ability
+|Location
+
+|Foltest, King of Temeria
+|image:./images/Foltest-King-of-Temeria.jpg[Foltest King of Temeria card,150,]
+|&nbsp;
+|Leader
+|Instantly play an
+Impenetrable Fog from your deck
+|You start with it.
+
+|Foltest, Lord Commander Of The North
+|image:./images/Foltest-Commander-of-the-North.jpg[Foltest Lord Commander of the North card,150,]
+|&nbsp;
+|Leader
+|Clear all
+weather effects
+|Elsa, White Orchard Tavern
+
+|Foltest The Steel-forged
+|image:./images/Foltest-Steel-Forged.jpg[Foltest The Steel-forged card,150,]
+|&nbsp;
+|Leader
+|Destroy enemy’s siege units
+if their combined strength
+is over 10
+|Passiflora, Novigrad
+
+|Foltest The Siegemaster
+|image:./images/Foltest-Siegemaster.jpg[Foltest The Siegemaster card,150,]
+|&nbsp;
+|Leader
+|Double the strength of your
+siege units if you have a
+Commander’s Horn in the row
+|Nobleman at Vizima Palace
+
+|Philippa Eilhart
+|image:./images/Phillipa-Eilhart.jpg[Philippa Eilhart card,150,]
+|10
+|Hero
+Ranged
+|Immune to special cards
+|Random win
+
+|Vernon Roche
+|image:./images/Vernon-Roche.jpg[Vernon Roche card,150,]
+|10
+|Hero
+Melee
+|Immune to special cards
+|Hadko, Midcopse
+
+|Esterad Thyssen
+|image:./images/Esterad-Thyssen.jpg[Esterad Thyssen card,150,]
+|10
+|Hero
+Melee
+|Immune to special cards
+|Djikstra, Novigrad Bathhouse
+
+|John Natalis
+|image:./images/John-Natalis.jpg[John Natalis card,150,]
+|10
+|Hero
+Melee
+|Immune to special cards
+|Ravvy, Golden Sturgeon Tavern, Novigrad
+
+|Thaler
+|image:./images/Thaler.jpg[Thaler card,150,]
+|1
+|Siege
+|Spy
+|Inkeeper, Arinbjorn, Skellige
+
+|Redanian Foot Soldier
+|image:./images/Redanian-Foot-Soldier-card-160x300.jpg[Redanian Foot Soldier card,150,]
+|1
+|Melee
+|/
+|You start with it
+
+|Poor Fucking Infantry
+|image:./images/Poor-Fucking-Infantry-card-160x300.jpg[Poor Fucking Infantry card,150,]
+|1
+|Melee
+|Tight Bond
+|You start with it
+
+|Kaedweni Siege Expert
+|image:./images/Kaedweni-Siege-Expert-Card-160x300.jpg[Kaedweni Siege Expert Card,150,]
+|1
+|Siege
+|Morale Boost
+|You start with it
+
+|Yarpen Zigrin
+|image:./images/witcher-3-cards-yarpen-zigrin.jpg[Yarpen Zigrin card,150,]
+|2
+|Melee
+|/
+|You start with it
+
+|Sigismund Dijkstra
+|image:./images/Sigismund-Dijkstra.jpg[Sigismund Dijkstra card,150,]
+|4
+|Melee
+|Spy
+|Philip Strenger, Crow’s Perch
+
+|Sheldon Skaggs
+|image:./images/Sheldon-Skaggs-160x300.jpg[Sheldon Skaggs,150,]
+|4
+|Ranged
+|/
+|You start with it
+
+|Blue Stripes Commando
+|image:./images/witcher-3-cards-blue-stripes-commando.jpg[blue stripes commando card,150,]
+|4
+|Melee
+|Tight Bond
+|Elsa, White Orchard Tavern
+
+|Sabrina Gevissig
+|image:./images/Sabrina-Gevissig-card-160x300.jpg[Sabrina Gevissig card,150,]
+|4
+|Ranged
+|/
+|You start with it
+
+|Ves
+|image:./images/witcher-3-cards-ves.jpg[ves card,150,]
+|5
+|Melee
+|/
+|You start with it
+
+|Siegfried of Denesle
+|image:./images/Siegfried-of-Denesle-Card-160x300.jpg[Siegfried of Denesle Card,150,]
+|5
+|Melee
+|/
+|You start with it
+
+|Prince Stennis
+|image:./images/witcher-3-cards-prince-stennis.jpg[prince stennis card,150,]
+|5
+|Melee
+|Spy
+|You start with it
+
+|Crinfrid Reavers Dragon Hunter
+|image:./images/Crinfrid.jpg[Crinfrid Reavers Dragon Hunter card,150,]
+|5
+|Ranged
+|Tight Bond
+|Elsa, White Orchard Tavern
+
+|Keira Metz
+|image:./images/Keira-Metz-card-160x300.jpg[Keira Metz card,150,]
+|5
+|Ranged
+|/
+|You start with it
+
+|Dun Banner Medic
+|image:./images/witcher-3-cards-dun-banner-medic.jpg[dun banner medic card,150,]
+|5
+|Siege
+|Medic
+|You start with it
+
+|Sile de Tansarville
+|image:./images/Sile-de-Tansarville.jpg[Sile de Tansarville card,150,]
+|5
+|Ranged
+|/
+|You start with it
+
+|Siege Tower
+|image:./images/Siege-Tower.jpg[Siege Tower card,150,]
+|6
+|Siege
+|/
+|Random win
+
+|Dethmold
+|image:./images/Dethmold-160x300.jpg[Dethmold,150,]
+|6
+|Ranged
+|/
+|You start with it
+
+|Trebuchet
+|image:./images/witcher-3-cards-trebuchet.jpg[trebuchet card,150,]
+|6
+|Siege
+|/
+|You start with it
+
+|Ballista
+|image:./images/Ballista-Card-160x300.jpg[Ballista Card,150,]
+|6
+|Siege
+|/
+|You start with it
+
+|Catapult
+|image:./images/Catapult.jpg[Catapult Card,150,]
+|8
+|Siege
+|Tight Bond
+|Elsa, White Orchard Tavern
+|===
+
+Special abilities:
+
+* Spy – Place on your opponent’s battlefield (counts towards opponent’s total), and draw 2 cards from your deck.</li>
+* Medic – Choose one card from your discard pile and play it instantly (no heroes or special cards).</li>
+* Tight Bond – Place next to a card with the same name to double the strength of both cards.</li>
+* Morale Boost – Adds 1 strength to all units in the row (except itself).</li>
+
+== Nilfgaardian Empire Deck
+
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|Name
+|Preview
+|Strength
+|Type
+|Ability
+|Location
+
+|Emhyr var Emreis,His Imperial Majesty
+|image:./images/Emhyr-var-Emreis-Imperial-Majesty.jpg[Emhyr var Emreis His Imperial Majesty card,150,]
+|&nbsp;
+|Leader
+|Play a Torrential Rain from your deck
+|You start with it.
+
+|Emhyr var Emreis,Emperor of Nilfgaard
+|image:./images/Emhyr-var-Emreis-Emperor-of-Nilfgaard.jpg[Emhyr var Emreis Emperor of Nilfgaard card,150,]
+|&nbsp;
+|Leader
+|Lets you see 3 random cards from opponent’s hand
+|Innkeeper, Inn at the Crossroads
+
+|Emhyr var Emreis,The White Flame Dancing on the Graves of His Foes
+|image:./images/Emhyr-var-Emreis-White-Flame.jpg[Emhyr var Emreis the White Flame card,150,]
+|&nbsp;
+|Leader
+|Cancel opponent’s leader ability
+|Complete Gwent: Skellige Style
+
+|Emhyr var Emreis,The Relentless
+|image:./images/Emhyr-var-Emreis-Relentless.jpg[Emhyr var Emreis the Relentless card,150,]
+|&nbsp;
+|Leader
+|Pick a card from opponent’s discard pile
+|Passiflora, Novigrad
+
+|Tibor Eggebracht
+|image:./images/Tibor-Eggebracht.jpg[Tibor Eggebracht card,150,]
+|10
+|Hero
+Ranged
+|Immune to special cards
+|Olivier, Kingfisher Inn, Novigrad
+
+|Letho of Gulet
+|image:./images/Letho-of-Gulet.jpg[Letho of Gulet card,150,]
+|10
+|Hero
+Melee
+|Immune to special cards
+|Boatbuilder, Oreton
+
+|Morvran Voorhis
+|image:./images/Morvran-Voorhis.jpg[Morvran Voorhis card,150,]
+|10
+|Hero
+Siege
+|Immune to special cards
+|Marquise Serenity, Passiflora, Novigrad
+
+|Menno Coehoorn
+|image:./images/Menno-Coehoorn.jpg[Menno Coehoorn card,150,]
+|10
+|Hero
+Melee
+|Immune to special cards
+|Innkeeper, Inn at the Crossroads
+
+|Siege Technician
+|image:./images/Siege-Technician.jpg[Siege Technician card,150,]
+|0
+|Siege
+|Medic
+|Inkeeper, Golden Sturgeon
+
+|Etolian Auxiliary Archers
+|image:./images/Etolian-Auxiliary-Archers.jpg[Etolian Auxiliary Archers card,150,]
+|1
+|Ranged
+|Medic
+|Merchant, Midcopse
+
+|Albrich
+|image:./images/Albrich.jpg[Albrich card,150,]
+|2
+|Ranged
+|/
+|Merchant, Crow’s Perch
+
+|Sweers
+|image:./images/Sweers-Card-160x300.jpg[Sweers Card,150,]
+|2
+|Ranged
+|/
+|Merchant, Claywich Village
+
+|Nausicaa Cavalry Rider
+|image:./images/Nausicaa-Cavalry-Rider-card-160x300.jpg[Nausicaa Cavalry Rider card,150,]
+|2
+|Melee
+|Tight Bond
+|Merchant, Crow’s Perch
+
+|Vreemde
+|image:./images/Vreemde-card-160x300.jpg[Vreemde card,150,]
+|2
+|Melee
+|/
+|Random win
+
+|Rotten Mangonel
+|image:./images/Rotten-Mangonel-card-160x300.jpg[Rotten Mangonel card,150,]
+|3
+|Siege
+|/
+|Random win
+
+|Morteisen
+|image:./images/witcher-3-cards-morteisen.jpg[morteisen card,150,]
+|3
+|Melee
+|/
+|Merchant, Midcopse
+
+|Puttkammer
+|image:./images/witcher-3-cards-puttkammer.jpg[puttkammer card,150,]
+|3
+|Ranged
+|/
+|Merchant, Claywich Village
+
+|Impera Brigade Guard
+|image:./images/Impera-Brigade-Guard-Card-160x300.jpg[Impera Brigade Guard Card,150,]
+|3
+|Melee
+|Tight Bond
+|Merchant, Crow’s Perch
+
+|Vanhemar
+|image:./images/witcher-3-cards-vanhemar.jpg[vanhemar card,150,]
+|4
+|Ranged
+|/
+|Random win
+
+|Vattier de Rideaux
+|image:./images/Vattier-de-Rideaux.jpg[Vattier de Rideaux card,150,]
+|4
+|Melee
+|Spy
+|Random win
+
+|Rainfarn
+|image:./images/Rainfarn.jpg[Rainfarn card,150,]
+|4
+|Melee
+|/
+|Merchant, Midcopse
+
+|Cynthia
+|image:./images/Cynthia.jpg[Cynthia card,150,]
+|4
+|Ranged
+|/
+|Quartermaster, Crow’s Perch
+
+|Zerrikanian Fire Scorpion
+|image:./images/Zerrikaninan-Fire-Scorpion.jpg[Zerrikaninan Fire Scorpion card,150,]
+|5
+|Siege
+|/
+|Merchant, Crow’s Perch
+
+|Young Emmisary
+|image:./images/Young-Emissary.jpg[Young Emmisary card,150,]
+|5
+|Melee
+|Tight Bond
+|Innkeeper, Cunny of The Goose
+
+|Renuald Aep Matsen
+|image:./images/Renuald-Aep-Matsen-card-160x300.jpg[Renuald Aep Matsen card,150,]
+|5
+|Ranged
+|/
+|Random win
+
+|Siege Engineer
+|image:./images/Siege-Engineer.jpg[Siege Engineer card,150,]
+|6
+|Siege
+|/
+|Innkeeper, Inn at the Crossroads
+
+|Cahir Mawr Dyffryn aep Ceallach
+|image:./images/Cahir-Mawr-Dyffryn-aep-Ceallach.jpg[Cahir Mawr Dyffryn aep Ceallach card,150,]
+|6
+|Melee
+|/
+|Random win
+
+|Fringilla Vigo
+|image:./images/Fringilla-Vigo.jpg[Fringilla Vigo card,150,]
+|6
+|Ranged
+|/
+|Caesar Bilzen
+
+|Assire var Anahid
+|image:./images/Assire-var-Anahid.jpg[Assire var Anahid card,150,]
+|6
+|Ranged
+|/
+|&nbsp;
+
+|Shilard Fitz-Oesterlen
+|image:./images/Shilard-Fitz-Oesterlen.jpg[Shilard Fitz-Oesterlen card,150,]
+|7
+|Melee
+|Spy
+|Random win
+
+|Stefan Skellen
+|image:./images/Stefan-Skellen.jpg[Stefan Skellen card,150,]
+|9
+|Melee
+|Spy
+|Random win
+
+|Heavy Zerrikanian Fire Scorpion
+|image:./images/Hevy-Zerrikaninan-Fire-Scorpion.jpg[Heavy Zerrikanian Fire Scorpion card,150,]
+|10
+|Siege
+|/
+|Merchant, Midcopse
+
+|Black Infantry Archer
+|image:./images/Black-Infantry-Archer.jpg[Black Infantry Archer card,150,]
+|10
+|Ranged
+|/
+|Merchant, Midcopse
+|===
+
+Special abilities:
+
+* Spy – Place on your opponent’s battlefield (counts towards opponent’s total), and draw 2 cards from your deck.</li>
+* Medic – Choose one card from your discard pile and play it instantly (no heroes or special cards).</li>
+* Tight Bond – Place next to a card with the same name to double the strength of both cards.</li>
+* Morale Boost – Adds 1 strength to all units in the row (except itself).</li>
+
+== Scoia’tael Deck
+
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|Name
+|Preview
+|Strength
+|Type
+|Ability
+|Location
+
+|Francesca, Pureblood Elf
+|image:./images/Francesca-Pureblood-Elf.jpg[Francesca Findabair Pureblood Elf card,150,]
+|&nbsp;
+|Leader
+|Play Bitting Frost from you deck
+|You start with it
+
+|Francesca The Beautiful
+|image:./images/Francesca-the-Beautiful.jpg[Francesca Findabair The Beautiful card,150,]
+|&nbsp;
+|Leader
+|Double the strength of your Ranged
+row if there’s no Commander’s Horn
+|Complete Gwent: Big City Players
+
+|Francesca, Daisy of The Valley
+|image:./images/Francesca-Daisy-of-the-Valley.jpg[Francesca Findabair Daisy of The Valley card,150,]
+|&nbsp;
+|Leader
+|Draw an extra card at the start of the battle
+|Innkeeper, Cunny of the Goose
+
+|Francesca, Queen of Dol Blathanna
+|image:./images/Francesca-Queen.jpg[Francesca Findabair Queen of Dol Blathanna card,150,]
+|&nbsp;
+|Leader
+|Destroy opponent’s Melee units if
+his Melee strength is over 10
+|Passiflora, Novigrad
+
+|Saesenthessis
+|image:./images/Saesenthessis.jpg[Saesenthessis card,150,]
+|10
+|Hero
+Ranged
+|Immune to special cards
+|Roche, Temerian Resistance Camp
+
+|Iorveth
+|image:./images/Iorveth.jpg[Iorveth card,150,]
+|10
+|Hero
+Ranged
+|Immune to special cards
+|Druid, Gedyneith, Ard Skellig (Shock Therapy quest)
+
+|Isengrim Faoiltiarnah
+|image:./images/Isengrim-Faolitarna.jpg[Isengrim Faolitarna card,150,]
+|10
+|Hero
+Melee
+|Morale,
+Immune to special cards
+|Zed’s home, Novigrad
+
+|Eithne
+|image:./images/Eithne.jpg[Eithne card,150,]
+|10
+|Hero
+Ranged
+|Immune to special cards
+|Zoltan, Rosemary and Thyme, Novigrad
+
+|Havekar Healer
+|image:./images/Havekar-Healer.jpg[Havekar Healer card,150,]
+|0
+|Ranged
+|/
+|Random win
+
+|Riordain
+|image:./images/Riordain.jpg[Riordain card,150,]
+|1
+|Ranged
+|/
+|Random win
+
+|Toruviel
+|image:./images/Toruviel.jpg[Toruviel card,150,]
+|2
+|Ranged
+|/
+|Random win
+
+|Elven Skirmisher
+|image:./images/Elven-Skirmisher-2.jpg[Elven Skirmisher card,150,]
+|2
+|Ranged
+|Muster
+|Innkeeper, Urialla Village, Skellige
+
+|Dwarven Skirmisher
+|image:./images/Dwarven-Skirmisher-2.jpg[Dwarven Skirmisher card,150,]
+|3
+|Melee
+|Muster
+|Stjepan, Alchemy Inn, Oxenfurt
+
+|Ciaran aep Easnillien
+|image:./images/Ciaran-aep-Easnillien.jpg[Ciaran aep Easnillien card,150,]
+|3
+|Ranged
+|Agile
+|Random win
+
+|Vrihedd Brigade Recruit
+|image:./images/Vrihedd-Brigade-Recruit.jpg[Vrihedd Brigade Recruit card,150,]
+|4
+|Ranged
+|/
+|Random win
+
+|Dol Blathanna Archer
+|image:./images/Dol-Blathanna-Archer.jpg[Dol Blathanna Archer card,150,]
+|4
+|Ranged
+|/
+|Merchant, Passiflora, Novigrad
+
+|Hav’caaren Medic
+|&nbsp;
+|5
+|Melee
+|Muster
+|Merchant, Seven Cats Inn, Novigrad
+
+|Havekar Smuggler
+|image:./images/Havekar-Smuggler.jpg[Havekar Smuggler card,150,]
+|5
+|Melee
+|Spy
+|Merchant, Seven Cats Inn, Novigrad
+
+|Mahakaman Defender
+|image:./images/Mahakaman-Defender-1.jpg[Mahakaman Defender card,150,]
+|5
+|Melee
+|Muster
+|Merchant, Seven Cats Inn, Novigrad
+
+|Vrihedd Brigade Veteran
+|image:./images/Vrihedd-Brigade-Veteran.jpg[Vrihedd Brigade Veteran card,150,]
+|5
+|Melee
+|Agile
+|Olivier, Kingfisher Inn, Novigrad
+
+|Dennis Cranmer
+|image:./images/Dennis-Cranmer.jpg[Dennis Cranmer card,150,]
+|6
+|Melee
+|/
+|Random win
+
+|Filavandrel
+|image:./images/Filavandrel.jpg[Filavandrel card,150,]
+|6
+|Ranged
+|Agile
+|Random win
+
+|Ida Emean
+|image:./images/Ida-Emean.jpg[Ida Emean card,150,]
+|6
+|Ranged
+|/
+|Random win
+
+|Yaevinn
+|image:./images/Yaevinn.jpg[Yaevinn card,150,]
+|6
+|Melee
+|Agile
+|Sjusta, Kaer Trolde, Skellige
+
+|Barclay Els
+|image:./images/Barclay-Els.jpg[Barclay Els card,150,]
+|6
+|Melee
+|Agile
+|Innkeeper, Golden Sturgeon, Novigrad
+
+|Dol Blathanna Scout
+|image:./images/Dol-Blathanna-Scout.jpg[Dol Blathanna Scout card,150,]
+|6
+|Melee
+|Agile
+|Innkeeper, Golden Sturgeon, Novigrad
+
+|Milva
+|image:./images/Milva.jpg[Milva card,150,]
+|10
+|Ranged
+|Morale
+|Win at ball, Vegelbud Estate, Novigrad
+|===
+
+Special abilities:
+
+* Muster – Immediately play cards with the same name.</li>
+* Medic – Choose one card from your discard pile and play it instantly (no heroes or special cards).</li>
+* Agile – Card can be placed into Melee or Ranged row.</li>
+* Morale – Adds 1 strength to all units in the row (except itself).</li>
+
+== Monster Deck
+
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|Name
+|Preview
+|Strength
+|Type
+|Ability
+|Location
+
+|Eredin, Commander of the Red Riders
+|image:./images/Eredin-Commander.jpg[Eredin Commander of the Red Riders card,150,]
+|&nbsp;
+|Leader
+|Play a weather card from your deck
+|You start with it
+
+|Eredin, Bringer of Death
+|image:./images/Eredin-Bringer-of-Death.jpg[Eredin Bringer of Death card,150,]
+|&nbsp;
+|Leader
+|Discard 2 cards and draw 1 of your choosing
+|Complete link:https://www.gosunoob.com/witcher-3/gwent-velen-players/[Gwent: Velen Players]
+
+|Eredin, Destroyer of Worlds
+|image:./images/Eredin-Destroyer-of-Worlds.jpg[Eredin Destroyer of Worlds card,150,]
+|&nbsp;
+|Leader
+|Take one card from the discard pile
+|Passiflora, Novigrad
+
+|Eredin, King of The Wild Hunt
+|image:./images/Eredin-King.jpg[Eredin King of the Wild Hunt card,150,]
+|&nbsp;
+|Leader
+|Double the strength of Melee row, unless there’s a Commander’s Horn
+|Innkeeper, New Port Inn, Kaer Trolde, Skellige
+
+|Kayran
+|image:./images/Kayran.jpg[Kayran card,150,]
+|8
+|Hero
+Ranged
+|Morale
+Immune to special cards
+|Random win
+
+|Leshen
+|image:./images/Leshen.jpg[Leshen card,150,]
+|10
+|Hero
+Ranged
+|Immune to special cards
+|Ermion, Gedyneith, Skellige
+
+|Imlerith
+|image:./images/Imlerith.jpg[Imlerith card,150,]
+|10
+|Hero
+Melee
+|Immune to special cards
+|Random win
+
+|Draug
+|image:./images/Draug.jpg[Draug card,150,]
+|10
+|Hero
+Melee
+|Immune to special cards
+|Crach an Craite, Kaer Trolde, Skellige
+
+|Ghoul
+|image:./images/Ghoul.jpg[Ghoul card,150,]
+|1
+|Melee
+|Muster
+|Inkeeper, Harviken, Skellige
+
+|Nekker
+|image:./images/Nekker-1.jpg[Nekker card,150,]
+|2
+|Melee
+|Muster
+|Inkeeper, Harviken, Skellige
+
+|Wyvern
+|image:./images/Wyvern.jpg[Wyvern card,150,]
+|2
+|Ranged
+|/
+|Random win
+
+|Foglet
+|image:./images/Foglet.jpg[Foglet card,150,]
+|2
+|Melee
+|/
+|Innkeeper, Svorlag, Skellige
+
+|Celaeno Harpy
+|image:./images/Celaeno-Harpy.jpg[Celaeno Harpy card,150,]
+|2
+|Ranged
+|/
+|Random win
+
+|Gargoyle
+|image:./images/Gargoyle.jpg[Gargoyle card,150,]
+|2
+|Ranged
+|/
+|Random win
+
+|Cockatrice
+|image:./images/Cockatrice.jpg[Cockatrice card,150,]
+|2
+|Ranged
+|/
+|Random win
+
+|Harpy
+|image:./images/Harpy.jpg[Harpy card,150,]
+|2
+|Ranged
+|Agile
+|Innkeeper, Harviken, Skellige
+
+|Endrega
+|image:./images/Endrega.jpg[Endrega card,150,]
+|2
+|Ranged
+|/
+|Random win
+
+|Vampire: Bruxa
+|image:./images/Vampire-Bruxa.jpg[Vampire: Bruxa card,150,]
+|4
+|Melee
+|Muster
+|Win at ball, Vegelbud Estate, Novigrad
+
+|Vampire: Fleder
+|image:./images/Vampire-Fleder.jpg[Vampire: Fleder card,150,]
+|4
+|Melee
+|Muster
+|Innkeeper, Harviken, Skellige
+
+|Vampire: Garkain
+|image:./images/Vampire-Garkain.jpg[Vampire: Garkain card,150,]
+|4
+|Melee
+|Muster
+|Random win
+
+|Vampire: Ekimmara
+|image:./images/Vampire-Ekimmara.jpg[Vampire: Ekimmara card,150,]
+|4
+|Melee
+|Muster
+|Innkeeper, Svorlag, Skellige
+
+|Arachas
+|image:./images/Arachas.jpg[Arachas card,150,]
+|4
+|Melee
+|Muster
+|Innkeeper, Arinbjorn, Skellige
+
+|Botchling
+|image:./images/Botchling.jpg[Botchling card,150,]
+|4
+|Melee
+|/
+|Innkeeper, New Port Inn, Kaer Trolde, Skellige
+
+|Forktail
+|image:./images/Forktail.jpg[Forktail card,150,]
+|5
+|Melee
+|/
+|Random win
+
+|Plague Maiden
+|image:./images/Plague-Maiden.jpg[Plague Maiden card,150,]
+|5
+|Melee
+|/
+|Random win
+
+|Griffin
+|image:./images/Griffin.jpg[Griffin card,150,]
+|5
+|Melee
+|/
+|Random win
+
+|Werewolf
+|image:./images/Werewolf.jpg[Werewolf card,150,]
+|5
+|Melee
+|/
+|Innkeeper, Urialla Village, Skellige
+
+|Frightener
+|image:./images/Frightener.jpg[Frightener card,150,]
+|5
+|Melee
+|/
+|Random win
+
+|Ice Giant
+|image:./images/Ice-Giant.jpg[Ice Giant card,150,]
+|5
+|Siege
+|/
+|Innkeeper, Svorlag, Skellige
+
+|Grave Hag
+|image:./images/Grave-Hag.jpg[Grave Hag card,150,]
+|5
+|Ranged
+|/
+|Random win
+
+|Vampire: Katakan
+|image:./images/Vampire-Katakan.webp[Vampire: Katakan card,150,]
+|5
+|Melee
+|Muster
+|Jarl Lugos, Kaer Muire, Skellige
+
+|Crone: Whispess
+|image:./images/Crone-Whispess.jpg[Crone: Whispess card,150,]
+|6
+|Melee
+|Muster
+|Innkeeper, Arinbjorn, Skellige
+
+|Crone: Brewess
+|image:./images/Crone-Brewess.jpg[Crone: Brewess card,150,]
+|6
+|Melee
+|Muster
+|Random win
+
+|Crone: Weavess
+|image:./images/Crone-Weavess.jpg[Crone: Weavess card,150,]
+|6
+|Melee
+|Muster
+|Old Sage, Benek
+
+|Arachas Behemoth
+|image:./images/Arachas-Behemoth.jpg[Arachas Behemoth card,150,]
+|6
+|Siege
+|Muster
+|Random win
+
+|Fire Elemental
+|image:./images/Fire-Elemental.jpg[Fire Elemental card,150,]
+|6
+|Siege
+|/
+|Random win
+
+|Fiend
+|image:./images/Fiend.jpg[Fiend card,150,]
+|6
+|Melee
+|/
+|Innkeeper, Arinbjorn, Skellige
+
+|Earth Elemental
+|image:./images/Earth-Elemental.jpg[Earth Elemental card,150,]
+|6
+|Siege
+|/
+|Innkeeper, New Port Inn, Skellige
+|===
+
+Special abilities:
+
+* Muster – Immediately play cards with the same name.</li>
+* Agile – Card can be placed into Melee or Ranged row.</li>
+* Morale – Adds 1 strength to all units in the row (except itself).</li>
+
+== Neutral Cards
+
+[%header, cols="^.^a,^.^a,^.^a,^.^a,^.^a,^.^a"]
+|===
+|Name
+|Preview
+|Strength
+|Type
+|Ability
+|Location
+
+|Geralt of Rivia
+|image:./images/Geralt-of-Rivia.jpg[Geralt of Rivia card,150,]
+|15
+|Hero
+Melee
+|Immune to special cards
+|Thaler, Seven Cats Inn, Novigrad
+
+|Cirilla Fiona Elen Riannon
+|image:./images/Cirilla-Fiona-Elen-Riannon.jpg[Cirilla Fiona Elen Riannon card,150,]
+|15
+|Hero
+Melee
+|Immune to special cards
+|Merchant, Camp in Novigrad Forest
+
+|Yennefer of Vengerberg
+|image:./images/Yennefer-of-Vengerberg.jpg[Yennefer of Vengerberg card,150,]
+|7
+|Hero
+Ranged
+|Medic
+Immune to special cards
+|Stjepan, Alchemy Inn, Oxenfurt
+
+|Triss Merigold
+|image:./images/Triss-Merigold.jpg[Triss Merigold card,150,]
+|7
+|Hero
+Melee
+|Immune to special cards
+|Lambert, Nowhere Inn, Novigrad
+
+|Avallac’h
+|image:./images/Avallach.jpg[Avallac’h card,150,]
+|0
+|Hero
+Melee
+|Spy
+Immune to special cards
+|Gremita, Gedyneith, Skellige
+
+|Dandelion
+|image:./images/Dandelion.jpg[Dandelion card,150,]
+|2
+|Melee
+|Morale
+|Win at ball, Vegelbud Estaten, Novigrad
+
+|Zoltan Chivay
+|image:./images/Zoltan-Chivay.jpg[Zoltan Chivay card,150,]
+|5
+|Melee
+|/
+|Random win
+
+|Emiel Regis Rohellec Terzieff
+|image:./images/Witcher_3_Emiel_Regis_Rogellec_Terzieff_Gwent_Card-97x183.jpg[Emiel Regis Rogellec Terzieff,150,]
+|5
+|Melee
+|/
+|Random win
+
+|Vesemir
+|image:./images/Vesemir.jpg[Vesemir card,150,]
+|6
+|Melee
+|/
+|Vivaldi, Vivaldi’s Bank, Novigrad
+
+|Villentretenmerth
+|image:./images/Villentretenmerth.jpg[Villentretenmerth card,150,]
+|7
+|Melee
+|Scorch
+|Random win
+|===
+
+Special abilities:
+
+* Spy – Place on your opponent’s battlefield (counts towards opponent’s total), and draw 2 cards from your deck.</li>
+* Scorch – Destroy opponent’s Melee units if his Melee strength is over 10.</li>
+* Morale – Adds 1 strength to all units in the row (except itself).</li>
+* Medic – Choose one card from your discard pile and play it instantly (no heroes or special cards).</li>
+
+== Special Cards
+
+The only special cards we’ve seen so far are weather cards – they are used to decrease the strength of certain unit types.
+
+[%header, cols="^.^a,^.^a,^.^a,^.^a"]
+|===
+|Name
+|Preview
+|Description
+|Location
+
+|Biting Frost
+|image:./images/Biting-Frost-Card-160x300.jpg[Biting Frost Card,150,]
+|Sets the strength of all melee units to 1 for both players
+|You start with it
+
+|Impenetrable Fog
+|image:./images/witcher-3-cards-impenetrable-fog.jpg[impenetrable fog card,150,]
+|Sets the strength of all ranged units to 1 for both players
+|You start with it
+
+|Torrential Rain
+|image:./images/Torrential-Rain-card-160x300.jpg[Torrential Rain card,150,]
+|Sets the strength of all siege units to 1 for both players
+|You start with it
+
+|Clear Weather
+|image:./images/Clear-Weather.jpg[Clear Weather card,150,]
+|Eliminates all weather effects from the board.
+|You start with it
+
+|Decoy
+|image:./images/Decoy.jpg[Decoy card,150,]
+|Swap with a card on the battlefield to return it to your hand.
+|Elsa, White Orchard Tavern
+
+|Scorch
+|image:./images/Scorch.jpg[Scorch card,150,]
+|Destroy all cards on the board with 7 strength or more.
+|Innkeeper, Cunny of the Goose, Novigrad
+
+|Commander’s Horn
+|image:./images/Commanders-Horn.jpg[Commander's Horn card,150,]
+|Double the strength of a row (for that player only).
+|Innkeeper, Inn at the Crossroads
+|===
