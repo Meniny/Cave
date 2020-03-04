@@ -588,6 +588,16 @@
             url: "https://www.adobe.com/cn/downloads.html"
             image: "adobe"
             color: "RGBA(255, 0, 0, 0.75)"
+      - name: "Mi"
+        links:
+          - title: "IoT开发者平台"
+            url: "https://iot.mi.com/fe-op/productCenter"
+            image: ""
+            color: "RGBA(255, 0, 0, 0.75)"
+          - title: "小米生态云"
+            url: "https://cnbj6.cloud.mi.com/"
+            image: ""
+            color: "RGBA(255, 0, 0, 0.75)"
       - name: "Purchasing"
         links:
           - title: "淘宝"
@@ -1042,6 +1052,9 @@
           - title: "LibreOffice"
             url: "https://zh-cn.libreoffice.org/"
             image: "libreoffice"
+          - title: "Palettable"
+            url: "https://www.palettable.io/"
+            image: ""
       - name: "Security"
         links:
           - title: "PCHunter"
