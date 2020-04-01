@@ -1175,6 +1175,9 @@
           - title: "TheTrueSize"
             url: "https://www.thetruesize.com/"
             image: ""
+          - title: "Editorial Workflows"
+            url: "http://www.editorial-workflows.com/workflows"
+            image: ""
       - name: "GreatWall"
         links:
           - title: "蓝灯"
