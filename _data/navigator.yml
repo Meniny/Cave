@@ -639,7 +639,7 @@
             image: "app_store"
             color: "RGBA(0, 0, 0, 0.75)"
           - title: "Apple ID"
-            url: "https://apple.com/cn/"
+            url: "https://appleid.apple.com/cn"
             image: "apple"
             color: "RGBA(0, 0, 0, 0.75)"
           - title: "iTunes Connect"
