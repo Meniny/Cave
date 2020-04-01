@@ -1085,7 +1085,8 @@
             url: "https://www.palettable.io/"
             image: ""
           - title: "TheTrueSize"
-            url: "https://www.thetruesize.com/
+            url: "https://www.thetruesize.com/"
+            image: ""
       - name: "Security"
         links:
           - title: "PCHunter"
