@@ -623,11 +623,11 @@
       - name: "Apple"
         links:
           - title: "苹果（美国）"
-            url: "https://apple.com/"
+            url: "https://www.apple.com/"
             image: "apple"
             color: "RGBA(0, 0, 0, 0.75)"
           - title: "苹果（大陆）"
-            url: "https://apple.com/cn/"
+            url: "https://www.apple.com/cn/"
             image: "apple_china"
             color: "RGBA(0, 0, 0, 0.75)"
           - title: "苹果（香港）"
