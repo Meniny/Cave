@@ -983,6 +983,9 @@
           - title: "macOS系统配置概要"
             url: "https://meniny.cn/posts/new_mac_config_for_dev/"
             image: "finder"
+          - title: "黑果小兵"
+            url: "https://blog.daliansky.net/"
+            image: "finder"
       - name: "Browser"
         links:
           - title: "Chrome"
