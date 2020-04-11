@@ -270,6 +270,12 @@
           - title: "突字幕"
             url: "https://2zimu.com/"
             image: "2zimu"
+          - title: "Downie"
+            url: "https://software.charliemonroe.net/downie"
+            image: ""
+          - title: "Permute"
+            url: "https://software.charliemonroe.net/permute"
+            image: ""
       - name: "Arts"
         links:
           - title: "Imgur"
@@ -1184,6 +1190,9 @@
             image: ""
           - title: "Editorial Workflows"
             url: "http://www.editorial-workflows.com/workflows"
+            image: ""
+          - title: "PhoneView"
+            url: "https://www.ecamm.com/"
             image: ""
       - name: "GreatWall"
         links:
