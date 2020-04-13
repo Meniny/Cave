@@ -1208,6 +1208,9 @@
           - title: "Brightness Slider"
             url: "https://actproductions.net/free-apps/brightness-slider/"
             image: ""
+          - title: "Algorithmia"
+            url: "https://demos.algorithmia.com/colorize-photos"
+            image: ""
       - name: "GreatWall"
         links:
           - title: "蓝灯"
