@@ -1222,6 +1222,9 @@
           - title: "Algorithmia"
             url: "https://demos.algorithmia.com/colorize-photos"
             image: ""
+          - title: "encrypto"
+            url: "https://macpaw.com/encrypto"
+            image: "encrypto"
       - name: "GreatWall"
         links:
           - title: "蓝灯"
