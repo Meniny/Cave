@@ -102,7 +102,7 @@ Now Save and close 😎.
 
 Now we are done with SSH setup on the local machine. It’s time to push the code on Github.
 
-### If your project did use git yet
+### If your project did not use git yet
 
 Go to the working directory of your project that you want to push on second Github account and initialize the Git
 
