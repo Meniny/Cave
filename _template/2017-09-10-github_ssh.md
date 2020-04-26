@@ -1,5 +1,5 @@
 ---
-title: "User different accounts for Git on the same system"
+title: "Use different accounts for git on the same system"
 category: "UNIX"
 tags: ["Git"]
 ---
@@ -102,7 +102,7 @@ Now Save and close 😎.
 
 Now we are done with SSH setup on the local machine. It’s time to push the code on Github.
 
-### If you did have some local projects
+### If your project did use git yet
 
 Go to the working directory of your project that you want to push on second Github account and initialize the Git
 
@@ -128,7 +128,7 @@ you have to replace `github.com` with the Hostname that you set up earlier in th
 git@github-example
 ```
 
-## If you already cloned a project
+### If you already cloned a project
 
 just edit `{YOUR_PROJECT_LOCATION}/.git/config`, change (or add) `[remote "origin"]` part to something like this:
 
