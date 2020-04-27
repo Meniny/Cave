@@ -14,7 +14,7 @@ body_classes: "wrap"
     </header>
     {% include page_cover.html %}
     <section class="page__content">
-      <div>{{ content }}</div>
+      <div>{% include toc.html html=content %}{{ content }}</div>
       {% include comment.html %}
     </section>
   </article>
