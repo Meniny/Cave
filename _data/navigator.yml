@@ -1256,3 +1256,7 @@
             url: "https://meniny.cn/spoof/chrome/"
           - title: "FBI WARNING"
             url: "https://meniny.cn/spoof/fbi/"
+      - name: "Roll"
+        links:
+          - title: "Señorita"
+            url: "https://LaSenhorita.github.io/"
