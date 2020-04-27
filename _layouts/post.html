@@ -37,7 +37,7 @@ body_classes: "wrap"
       {% endif %}
     </div>
     <section class="page__content">
-      <div>{{ content }}</div>
+      <div>{% include toc.html html=content %}{{ content }}</div>
       <center>
         {% if page.next %}<button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}{{ page.next.url }}'">Newer</button>{% endif %}<button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}/posts/archive/'">All</button>{% if page.previous %}<button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}{{ page.previous.url }}'">Older</button>{% endif %}
     </center>
