@@ -1,7 +1,7 @@
 ---
 title: "Gems installation for Linux and Unix"
 category: "UNIX"
-img: "unix"
+img: "unix.jpg"
 tags: ["Gem"]
 ---
 You can install new gems on Fedora by either installing upstream gems from RubyGems.org or packaged gems from Fedora official repositories.

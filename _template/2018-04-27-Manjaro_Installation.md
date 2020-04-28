@@ -1,7 +1,7 @@
 ---
 title: "安装 Manjaro"
 category: "UNIX"
-img: "unix"
+img: "unix.jpg"
 tags: ["Manjaro"]
 ---
 ## 前言
