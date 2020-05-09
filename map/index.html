@@ -15,9 +15,9 @@ title: "Site Map"
         </div>
       </div>
       {% if z.img.size > 0 %}
-      {% assign z_img = (site.url | append: '/assets/images/map/' | append: z.img | append: '.jpg') %}
+      {% assign z_img = site.url | append: '/assets/images/map/' | append: z.img | append: '.jpg' %}
       {% else %}
-      {% assign z_img = (site.url | append: site.default_image) %}
+      {% assign z_img = site.url | append: site.default_image %}
       {% endif %}
       <div class="item__image" style="background-image:url({{ z_img }})"><img src="{{ z_img }}" alt=""></div>
     </a>

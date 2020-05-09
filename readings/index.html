@@ -16,9 +16,9 @@ description: "This is the personal reading list of Elias Abel. I set myself the 
         </div>
       </div>
       {% if book.cover %}
-        {% assign book_img = (site.url | append: '/assets/images/readings/' | append: book.cover) %}
+        {% assign book_img = site.url | append: '/assets/images/readings/' | append: book.cover %}
       {% else %}
-        {% assign book_img = (site.url | append: '/assets/images/avatar/default_s.jpg') %}
+        {% assign book_img = site.url | append: '/assets/images/avatar/default_s.jpg' %}
       {% endif %}
       <div class="item__image" style="background-image:url({{ book_img }})"><img src="{{ book_img }}" alt=""></div>
     </a>

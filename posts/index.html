@@ -22,7 +22,7 @@ description: "A collection of thoughts, inspiration, mistakes, and other minutia
           <p>{{ post.excerpt | strip_html | strip_newlines | slice: 0, 100 }}...</p>
         </div>
       </div>
-      {% assign post_img = (site.url | append: '/assets/images/posts/' | append: post.img ) %}
+      {% assign post_img = site.url | append: '/assets/images/posts/' | append: post.img %}
       <div class="item__image" style="background-image:url({{ post_img }})"><img src="{{ post_img }}" alt=""></div>
     </a>
   </article>

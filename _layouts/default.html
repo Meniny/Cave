@@ -14,7 +14,7 @@ body_classes: "wrap"
     {% include page_cover.html %}
     <div class="page__hero">
       {% if page.hero.size > 0 %}
-      {% assign hero = (site.url | append: page.hero) %}
+      {% assign hero = site.url | append: page.hero %}
       <noscript>&lt;img src="{{ hero }}" class="image"&gt;</noscript>
       <img data-sizes="auto" src="{{ hero }}" data-srcset="{{ hero }} 20w,
                   {{ hero }} 320w,
@@ -30,7 +30,7 @@ body_classes: "wrap"
     {% if page.gallery.size > 0 %}
     <div class="work__gallery">
       {% for g in page.gallery %}
-      {% assign g_img = (site.url | append: g.img) %}
+      {% assign g_img = site.url | append: g.img %}
       <a class="work__gallery-img" href="{% if g.link.size > 0 %}{{ g.link }}{% else %}{{ g_img }}{% endif %}" data-lity="">
         <noscript>&lt;img src="{{ g_img }}"&gt;</noscript>
         <img src="{{ g_img }}" data-src="{{ g_img }}" alt="{{ g.desc }}" class="blur-up lazyloaded">

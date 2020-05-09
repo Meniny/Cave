@@ -21,7 +21,7 @@ body_classes: "wrap"
       <p>{{ page.title }}</p>
       {% if page.imgs.size > 0 %}
       {% for img in page.imgs %}
-      {% assign t_img = (site.url | append: '/assets/images/tweets/' | append: img) %}
+      {% assign t_img = site.url | append: '/assets/images/tweets/' | append: img %}
       <a href="{{ t_img }}" class="cover-link">
         <noscript>&lt;img src="{{ t_img }}" data-src="{{ t_img }}" alt=""></noscript>
         <img class="fade-in lazyloaded" src="{{ t_img }}" data-src="{{ t_img }}" alt="">

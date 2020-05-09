@@ -2243,7 +2243,7 @@ more:
           <a href="" class="imgLink" target="_blank">
             <span class="tag">{{ post.category }}</span>
             <div class="imgwp">
-              {% assign post_img = (site.url | append: '/assets/images/posts/' | append: post.img ) %}
+              {% assign post_img = site.url | append: '/assets/images/posts/' | append: post.img %}
               <img src="{{ post_img }}" alt="{{ post.title }}">
             </div>
             <p class="des">{{ post.title }}</p>

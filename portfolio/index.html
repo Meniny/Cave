@@ -15,7 +15,7 @@ description: "I type on the keyboards and sometimes it makes stuff happen to com
           <p>{{ section.desc }}</p>
         </div>
       </div>
-      {% assign section_img = (site.url | append: '/assets/images/portfolio/' | append: section.img | append: '.jpg' ) %}
+      {% assign section_img = site.url | append: '/assets/images/portfolio/' | append: section.img | append: '.jpg' %}
       <div class="item__image" style="background-image:url({{ section_img }})"><img src="{{ section_img }}" alt=""></div>
     </a>
   </article>

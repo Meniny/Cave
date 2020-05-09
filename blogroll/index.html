@@ -20,7 +20,7 @@ description: "Welcome Web site and various fraternal exchange Site Links, and co
       {% if lk.img.size > 0%}
       {% assign lk_img = lk.img %}
       {% else %}
-      {% assign lk_img = (site.url | append: site.default_image) %}
+      {% assign lk_img = site.url | append: site.default_image %}
       {% endif %}
       <div class="item__image" style="background-image:url({{ lk_img }})"><img src="{{ lk_img }}" alt=""></div>
     </a>

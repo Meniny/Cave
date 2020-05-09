@@ -4,7 +4,7 @@ title: "Essays"
 description: "我不是个擅长表达、或者善于割舍的人。写东西，其实只是感受太多，不知道怎么宣泄。"
 ---
 <div class="list">
-  {% assign essays = (site.essays | reverse) %}
+  {% assign essays = site.essays | reverse %}
   {% for es in essays %}
   <!-- item START -->
   <article class="item">
@@ -17,9 +17,9 @@ description: "我不是个擅长表达、或者善于割舍的人。写东西，
         </div>
       </div>
       {% if es.img.size > 0 %}
-      {% assign doc_img = (site.url | append: es.img) %}
+      {% assign doc_img = site.url | append: es.img %}
       {% else %}
-      {% assign doc_img = (site.url | append:'/assets/images/essays/default.jpg') %}
+      {% assign doc_img = site.url | append:'/assets/images/essays/default.jpg' %}
       {% endif %}
       <div class="item__image" style="background-image:url({{ doc_img }})"><img src="{{ doc_img }}" alt=""></div>
     </a>

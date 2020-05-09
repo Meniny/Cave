@@ -205,8 +205,8 @@ layout: null
                           <div style="padding-bottom: 0px;">
                             <div class="_3f2NsD-H" style="padding-top: 0px; padding-bottom: 0px;">
                               <!-- POSTS START -->
-                              {% assign sorted = (site.tweets | sort:'date') %}
-                              {% assign tweets = (sorted | reverse) %}
+                              {% assign sorted = site.tweets | sort:'date' %}
+                              {% assign tweets = sorted | reverse %}
                               {% for post in tweets limit: 30000 %}
                               <div class="post">
                                 <div class="I8DvYjmD _2HNcekSk" role="article" tabindex="0">

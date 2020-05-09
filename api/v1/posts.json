@@ -14,7 +14,7 @@ permalink: /posts.json
         "date": "{{ post.date | date: '%b %d, %Y' }}",
         "url": "{{ site.url }}{{ post.url }}",
         "cate": "{{ post.category }}",
-        "quote": "{% if post.quote %}1{% else %}0{% endif %}",{% assign exc = (post.excerpt | strip_html | replace: '"','' | replace: "'",'' | strip_newlines) %}
+        "quote": "{% if post.quote %}1{% else %}0{% endif %}",{% assign exc = post.excerpt | strip_html | replace: '"', '' | replace: "'", '' | strip_newlines %}
         "excerpt": "{{ exc }}"
       }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
   ]

@@ -3,8 +3,8 @@ layout: null
 permalink: /tweets.json
 ---
 {
-  {% assign sorted = (site.tweets | sort:'date') %}
-  {% assign tweets = (sorted | reverse) %}
+  {% assign sorted = site.tweets | sort:'date' %}
+  {% assign tweets = sorted | reverse %}
   "tweets": [{% for t in tweets %}
         {
             "content": "{{ t.title }}",

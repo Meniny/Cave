@@ -24,7 +24,7 @@ body_classes: "wrap"
     {% include page_cover.html %}
     <div class="page__hero">
       {% if page.img.size > 0 %}
-      {% assign hero = (site.url | append: page.img) %}
+      {% assign hero = site.url | append: page.img %}
       <noscript>&lt;img src="{{ hero }}" class="image"&gt;</noscript><img data-sizes="auto" src="{{ hero }}" data-srcset="{{ hero }} 20w,
                   {{ hero }} 320w,
                   {{ hero }} 768w,

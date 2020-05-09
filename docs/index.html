@@ -16,9 +16,9 @@ description: "The documents that are included in this site."
         </div>
       </div>
       {% if doc.img.size > 0 %}
-      {% assign doc_img = (site.url | append: '/assets/images/posts/' | append: doc.img | append: '.jpg') %}
+      {% assign doc_img = site.url | append: '/assets/images/posts/' | append: doc.img | append: '.jpg' %}
       {% else %}
-      {% assign doc_img = (site.url | append: '/assets/images/avatar/doc.jpg') %}
+      {% assign doc_img = site.url | append: '/assets/images/avatar/doc.jpg' %}
       {% endif %}
       <div class="item__image" style="background-image:url({{ doc_img }})"><img src="{{ doc_img }}" alt=""></div>
     </a>

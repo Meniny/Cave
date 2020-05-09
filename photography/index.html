@@ -16,7 +16,7 @@ description: "I'm passionate about photography and enjoy taking pictures all aro
           <p>{{ album.description }}</p>
         </div>
       </div>
-      {% assign album_img = (site.url | append: album.cover) %}
+      {% assign album_img = site.url | append: album.cover %}
       <div class="item__image" style="background-image:url({{ album_img }})"><img src="{{ album_img }}" alt=""></div>
     </a>
   </article>

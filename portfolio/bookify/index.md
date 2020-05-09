@@ -72,7 +72,7 @@ Bookify 主要包含 在线商城、自出版流程、读者社区、即时通�
 #### Mobile 移动端
 
 <ul class="th-grid">
-{% for pt in page.prototype.mobile %}{% assign img = (site.url | append: '/portfolio/bookify/assets/prototype/images/Bookify-Mobile/' | append: pt.image) %}
+{% for pt in page.prototype.mobile %}{% assign img = site.url | append: '/portfolio/bookify/assets/prototype/images/Bookify-Mobile/' | append: pt.image %}
   <li>
     <a href="{{ img }}.png" class="cover-link">
       <noscript>&lt;img src="{{ img }}.jpg" data-src="{{ img }}.jpg" alt=""></noscript>
@@ -85,7 +85,7 @@ Bookify 主要包含 在线商城、自出版流程、读者社区、即时通�
 <button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}/portfolio/bookify/assets/prototype/images/Bookify-Mobile/Bookify-Mobile.pdf'">Download PDF</button>
 
 <ul class="th-grid">
-{% for pt in page.design.mobile %}{% assign img = (site.url | append: '/portfolio/bookify/assets/design/' | append: pt.image) %}
+{% for pt in page.design.mobile %}{% assign img = site.url | append: '/portfolio/bookify/assets/design/' | append: pt.image %}
   <li>
     <a href="{{ img }}" class="cover-link">
       <noscript>&lt;img src="{{ img }}" data-src="{{ img }}" alt=""></noscript>
@@ -98,7 +98,7 @@ Bookify 主要包含 在线商城、自出版流程、读者社区、即时通�
 #### Web 网页端
 
 <ul class="th-grid">
-{% for pt in page.prototype.web %}{% assign img = (site.url | append: '/portfolio/bookify/assets/prototype/images/Bookify-Web/' | append: pt.image) %}
+{% for pt in page.prototype.web %}{% assign img = site.url | append: '/portfolio/bookify/assets/prototype/images/Bookify-Web/' | append: pt.image %}
   <li>
     <a href="{{ img }}.png" class="cover-link">
       <noscript>&lt;img src="{{ img }}.jpg" data-src="{{ img }}.jpg" alt=""></noscript>

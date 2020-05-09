@@ -17,7 +17,7 @@ permalink: /api/v2/posts.json
         "url": "{{ site.url }}{{ post.url }}",
         "template": "{{ site.url }}/template/{{ post.date | date: '%Y-%m-%d' }}-{{ post.url | replace: '/posts/', '' }}",
         "quote": {% if post.quote %}true{% else %}false{% endif%},
-        {% assign exc = (post.excerpt | strip_html | replace: '"','' | replace: "'",'' | strip_newlines) %}
+        {% assign exc = post.excerpt | strip_html | replace: '"','' | replace: "'",'' | strip_newlines %}
         "description": "{{ exc }}"
       }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
   ]

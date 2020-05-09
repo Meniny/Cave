@@ -21,9 +21,9 @@ description: "I type on the keyboards and sometimes it makes stuff happen to com
         </div>
       </div>
       {% if app.img.size > 0 %}
-      {% assign app_img = (site.url | append: '/assets/images/atom/' | append: app.img | append: '.jpg' ) %}
+      {% assign app_img = site.url | append: '/assets/images/atom/' | append: app.img | append: '.jpg' %}
       {% else %}
-      {% assign app_img = (site.url | append: '/assets/images/default.jpg' ) %}
+      {% assign app_img = site.url | append: '/assets/images/default.jpg' %}
       {% endif %}
       <div class="item__image" style="background-image:url({{ app_img }})"><img src="{{ app_img }}" alt=""></div>
     </a>

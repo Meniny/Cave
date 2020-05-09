@@ -25,7 +25,7 @@ logo_url: "https://meniny.cn/design/"
     {% include page_cover.html %}
     <div class="page__hero">
       {% if page.hero.size > 0 %}
-      {% assign hero = (site.url | append: page.hero) %}
+      {% assign hero = site.url | append: page.hero %}
       <noscript>&lt;img src="{{ hero }}" class="image"&gt;</noscript>
       <img data-sizes="auto" src="{{ hero }}" data-srcset="{{ hero }} 20w,
                   {{ hero }} 320w,

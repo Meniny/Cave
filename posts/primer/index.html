@@ -14,7 +14,7 @@ title: "Primer"
           <p>{% for post in section.posts %}<button class="btn btn--large" type="submit" onclick="javascript:window.location.href='{{ site.url }}/posts/{{ post.link }}/'">{{ post.idx }}</button>{% endfor %}</p>
         </div>
       </div>
-      {% assign post_img = (site.url | append: '/assets/images/posts/' | append: section.img | append: '.jpg' ) %}
+      {% assign post_img = site.url | append: '/assets/images/posts/' | append: section.img | append: '.jpg' %}
       <div class="item__image" style="background-image:url({{ post_img }})"><img src="{{ post_img }}" alt=""></div>
     </a>
   </article>

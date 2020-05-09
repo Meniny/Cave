@@ -4,7 +4,7 @@ title: "Design"
 images: ["/assets/images/icons/Chair/Corner_Chair_1.png", "/assets/images/icons/Chair/Corner_Chair_2.png"]
 ---
 {% for i in page.images %}
-{% assign img = (site.url | append: i) %}
+{% assign img = site.url | append: i %}
 <a href="{{ img }}" class="cover-link">
   <noscript>&lt;img src="{{ img }}" data-src="{{ img }}" alt=""></noscript>
   <img class="fade-in lazyloaded" src="{{ img }}" data-src="{{ img }}" alt="">
