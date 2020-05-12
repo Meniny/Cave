@@ -1,7 +1,7 @@
 - block: "About Me"
   lang: "English"
   items:
-    - content: "My name is Shenyi Lee (aka Elias Abel) and I'm a 25 years old designer, developer, problem solver and everyday learner currently living in Beijing, China."
+    - content: "My name is Elias and I'm a 26 years old designer, developer, problem solver and everyday learner currently living in Beijing, China."
     # - content: "I'm looking for a <strong>Project Manager/Senior iOS/macOS R&D Engineer</strong> position in a fresh and dynamic company. I would like to gain the right experience and extend my skills while working in great teams and big projects/applications learning advanced techniques, frameworks and libraries doing courses and working close to other skilled developers."
     # - content: 'I have been in the "app dev" field for nearly {{ page.work }} years.'
     - content: "I've been managing and developing <strong>@Jayne</strong> startup as a <strong>iOS/Android R&D Engineer</strong>, <!--<strong>Back-end R&D Engineer</strong>, --><strong>Front-end R&D Engineer</strong> and <strong>Technology Partner</strong> since Aug 2014, and have been loving every second of it."
@@ -21,12 +21,12 @@
 - block: "私の情報"
   lang: "日本語"
   items:
-    - content: '私は 李申翊 と申します。'
+    - content: '私は Elias と申します。'
     - content: '中国の出身で。<!--中国から参りました。-->今年は25歳で、開発エンジニアです。趣味は読书、<a href="https://meniny.cn/photography/paintings/">絵画</a>、映画、音楽と朝寝坊です。暇の时は小说も読みます。性格は静かです。喜びを家族、友达と分かち合う。'
     # - content: "どうぞよろしく。"
     - content: "つまり、私はどんな境遇にも安んじるし、一本気です。"
 - block: "Informationen"
   lang: "Deutsch"
   items:
-    - content: 'Ich heisse Elias Abel und ich bin 25 jahre alt. Sie können mich Elias nennen.'
+    - content: 'Ich heisse Elias und ich bin 25 jahre alt. Sie können mich Elias nennen.'
     - content: 'Ich komme aus China. Ich bin ein Software Ingenieur. Mein Hobby ist Musik.'
