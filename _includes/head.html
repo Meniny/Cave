@@ -9,7 +9,8 @@
 
   {% assign touch_img = site.url | append: '/assets/images/icons/Chair/apple-touch-icon.png' %}
   {% assign og_img = site.url | append: '/assets/images/icons/Chair/og.png' %}
-  {% assign favicon = site.url | append: '/assets/images/icons/Chair/favicon.ico' %}
+  {% assign icons_folder = site.url | append: '/assets/images/icons/M/' %}
+  {% assign favicon = icons_folder | append: 'favicon.ico' %}
   {% assign pinned_tab = site.url | append: '/assets/images/icons/Chair/safari-pinned-tab.svg' %}
 
   <meta name="apple-mobile-web-app-title" content="{{ page.title }}">
@@ -33,12 +34,23 @@
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
   <link rel="mask-icon" href="{{ pinned_tab }}" color="#000000">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ favicon }}">
-  <link rel="apple-touch-icon-precomposed" href="{{ touch_img }}">
-  <!-- <link rel="apple-touch-icon" type="image/png" href="{{ touch_img }}" sizes="180x180"> -->
-  <!-- <link rel="icon" type="image/png" href="{{ touch_img }}" sizes="32x32"> -->
-  <!-- <link rel="icon" type="image/png" href="{{ touch_img }}" sizes="16x16"> -->
-  <!-- <link rel="manifest" href="{{ site.url }}/assets/images/manifest.json"> -->
+
+  <!-- BEGIN ICONS -->
+  <link rel="icon" sizes="128x128" href="{{ icons_folder }}/favicon.ico">
+  <!-- Android Chrome -->
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ icons_folder }}/android-icon-192x192.png">
+  <link rel="manifest" href="{{ icons_folder }}/manifest.json">
+  <!-- Apple iDevices -->
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ icons_folder }}/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ icons_folder }}/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ icons_folder }}/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ icons_folder }}/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ icons_folder }}/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ icons_folder }}/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ icons_folder }}/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ icons_folder }}/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="{{ icons_folder }}/apple-touch-icon-167x167.png">
+  <!-- END ICONS -->
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="https://twitter.com/_Meniny">
