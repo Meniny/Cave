@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="Elias Abel">
+<meta name="author" content="Ezra">
 <title>AsciiDoc 指引</title>
 <style>
 @import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.css);
@@ -639,7 +639,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 <div id="header">
 <h1>AsciiDoc 指引 <sup><a href="https://meniny.cn/docs/asciidoc/full.html">full</a></sup></h1>
 <div class="details">
-<span id="author" class="author">Elias Abel</span><br>
+<span id="author" class="author">Ezra</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">索引</div>
@@ -653,7 +653,11 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </li>
 <li><a href="#_语法">2. 语法</a>
 <ul class="sectlevel2">
-<li><a href="#_标题">2.1. 标题</a></li>
+<li><a href="#_标题">2.1. 标题</a>
+<ul class="sectlevel3">
+<li><a href="#_分离浮动标题">2.1.1. 分离/浮动标题</a></li>
+</ul>
+</li>
 <li><a href="#_目录">2.2. 目录</a></li>
 <li><a href="#_样式">2.3. 样式</a>
 <ul class="sectlevel3">
@@ -667,59 +671,64 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </ul>
 </li>
 <li><a href="#_横线">2.4. 横线</a></li>
-<li><a href="#_分页">2.5. 分页</a></li>
-<li><a href="#_图片">2.6. 图片</a>
+<li><a href="#_断行">2.5. 断行</a></li>
+<li><a href="#_分页">2.6. 分页</a></li>
+<li><a href="#_图片">2.7. 图片</a>
 <ul class="sectlevel3">
-<li><a href="#_行内图片">2.6.1. 行内图片</a></li>
-<li><a href="#_块图片">2.6.2. 块图片</a></li>
+<li><a href="#_行内图片">2.7.1. 行内图片</a></li>
+<li><a href="#_块图片">2.7.2. 块图片</a></li>
 </ul>
 </li>
-<li><a href="#_视频">2.7. 视频</a>
+<li><a href="#_视频">2.8. 视频</a>
 <ul class="sectlevel3">
-<li><a href="#_普通视频">2.7.1. 普通视频</a></li>
-<li><a href="#_youtube_视频">2.7.2. Youtube 视频</a></li>
-<li><a href="#_vimeo_视频">2.7.3. Vimeo 视频</a></li>
+<li><a href="#_普通视频">2.8.1. 普通视频</a></li>
+<li><a href="#_youtube_视频">2.8.2. Youtube 视频</a></li>
+<li><a href="#_vimeo_视频">2.8.3. Vimeo 视频</a></li>
 </ul>
 </li>
-<li><a href="#_链接">2.8. 链接</a></li>
-<li><a href="#_标记">2.9. 标记</a></li>
-<li><a href="#_列表">2.10. 列表</a>
+<li><a href="#_链接">2.9. 链接</a></li>
+<li><a href="#_标记">2.10. 标记</a>
 <ul class="sectlevel3">
-<li><a href="#_无序列表">2.10.1. 无序列表</a></li>
-<li><a href="#_有序列表">2.10.2. 有序列表</a></li>
-<li><a href="#_勾选列表">2.10.3. 勾选列表</a></li>
-<li><a href="#_混合列表">2.10.4. 混合列表</a></li>
-<li><a href="#_标签列表">2.10.5. 标签列表</a></li>
+<li><a href="#_自定义标题标签">2.10.1. 自定义标题标签</a></li>
 </ul>
 </li>
-<li><a href="#_表格">2.11. 表格</a>
+<li><a href="#_列表">2.11. 列表</a>
 <ul class="sectlevel3">
-<li><a href="#_简单列表">2.11.1. 简单列表</a></li>
-<li><a href="#_嵌套语法">2.11.2. 嵌套语法</a></li>
-<li><a href="#_停靠位置">2.11.3. 停靠位置</a></li>
-<li><a href="#_合并单元格">2.11.4. 合并单元格</a></li>
-<li><a href="#_单元格与列的样式">2.11.5. 单元格与列的样式</a></li>
+<li><a href="#_无序列表">2.11.1. 无序列表</a></li>
+<li><a href="#_有序列表">2.11.2. 有序列表</a></li>
+<li><a href="#_勾选列表">2.11.3. 勾选列表</a></li>
+<li><a href="#_标签列表">2.11.4. 标签列表</a></li>
+<li><a href="#_问答列表">2.11.5. 问答列表</a></li>
 </ul>
 </li>
-<li><a href="#_区块">2.12. 区块</a>
+<li><a href="#_表格">2.12. 表格</a>
 <ul class="sectlevel3">
-<li><a href="#_横栏块">2.12.1. 横栏块</a></li>
-<li><a href="#_示例块">2.12.2. 示例块</a></li>
-<li><a href="#_透传块">2.12.3. 透传块</a></li>
-<li><a href="#_引用块">2.12.4. 引用块</a></li>
-<li><a href="#_警告块">2.12.5. 警告块</a></li>
-<li><a href="#_代码块">2.12.6. 代码块</a>
+<li><a href="#_简单列表">2.12.1. 简单列表</a></li>
+<li><a href="#_嵌套语法">2.12.2. 嵌套语法</a></li>
+<li><a href="#_停靠位置">2.12.3. 停靠位置</a></li>
+<li><a href="#_合并单元格">2.12.4. 合并单元格</a></li>
+<li><a href="#_单元格与列的样式">2.12.5. 单元格与列的样式</a></li>
+</ul>
+</li>
+<li><a href="#_区块">2.13. 区块</a>
+<ul class="sectlevel3">
+<li><a href="#_横栏块">2.13.1. 横栏块</a></li>
+<li><a href="#_示例块">2.13.2. 示例块</a></li>
+<li><a href="#_透传块">2.13.3. 透传块</a></li>
+<li><a href="#_引用块">2.13.4. 引用块</a></li>
+<li><a href="#_警告块">2.13.5. 警告块</a></li>
+<li><a href="#_代码块">2.13.6. 代码块</a>
 <ul class="sectlevel4">
 <li><a href="#_markdown_风格">Markdown 风格</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#_行内代码">2.13. 行内代码</a></li>
-<li><a href="#_注释">2.14. 注释</a></li>
-<li><a href="#_键盘">2.15. 键盘</a></li>
-<li><a href="#_导入">2.16. 导入</a></li>
-<li><a href="#_脚注">2.17. 脚注</a></li>
+<li><a href="#_行内代码">2.14. 行内代码</a></li>
+<li><a href="#_注释">2.15. 注释</a></li>
+<li><a href="#_键盘">2.16. 键盘</a></li>
+<li><a href="#_导入">2.17. 导入</a></li>
+<li><a href="#_脚注">2.18. 脚注</a></li>
 </ul>
 </li>
 <li><a href="#_工具">3. 工具</a>
@@ -826,6 +835,25 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 <h6 id="_五级" class="float">五级</h6>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_分离浮动标题"><a class="anchor" href="#_分离浮动标题"></a><a class="link" href="#_分离浮动标题">2.1.1. 分离/浮动标题</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[discrete]
+=== 分离/浮动标题
+
+[float]
+=== 分离/浮动标题</code></pre>
+</div>
+</div>
+<div class="exampleblock">
+<div class="title">Example 2. result</div>
+<div class="content">
+<h3 id="_分离浮动标题_2" class="discrete">分离/浮动标题</h3>
+<h3 id="_分离浮动标题_3" class="float">分离/浮动标题</h3>
+</div>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_目录"><a class="anchor" href="#_目录"></a><a class="link" href="#_目录">2.2. 目录</a></h3>
@@ -849,7 +877,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 2. result</div>
+<div class="title">Example 3. result</div>
 <div class="content">
 <div class="paragraph">
 <p>普通文字 <strong>粗体字</strong> 普通文字</p>
@@ -865,7 +893,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 3. result</div>
+<div class="title">Example 4. result</div>
 <div class="content">
 <div class="paragraph">
 <p>普通文字 <em>斜体字</em> 普通文字</p>
@@ -878,7 +906,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 4. result</div>
+<div class="title">Example 5. result</div>
 <div class="content">
 <div class="paragraph">
 <p><strong><em>粗体 &amp; 斜体</em></strong></p>
@@ -894,7 +922,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 5. result</div>
+<div class="title">Example 6. result</div>
 <div class="content">
 <div class="paragraph">
 <p>普通文字 <mark>高亮内容</mark> 普通文字</p>
@@ -906,14 +934,14 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 <h4 id="_下划线"><a class="anchor" href="#_下划线"></a><a class="link" href="#_下划线">2.3.4. 下划线</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[.underline]#下划线文字#</code></pre>
+<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">普通文字 [.underline]#下划线文字# 普通文字</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 6. result</div>
+<div class="title">Example 7. result</div>
 <div class="content">
 <div class="paragraph">
-<p><span class="underline">下划线文字</span></p>
+<p>普通文字 <span class="underline">下划线文字</span> 普通文字</p>
 </div>
 </div>
 </div>
@@ -922,14 +950,14 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 <h4 id="_删划线"><a class="anchor" href="#_删划线"></a><a class="link" href="#_删划线">2.3.5. 删划线</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[.line-through]#删划线文字#</code></pre>
+<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">普通文字 [.line-through]#删划线文字# 普通文字</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 7. result</div>
+<div class="title">Example 8. result</div>
 <div class="content">
 <div class="paragraph">
-<p><span class="line-through">删划线文字</span></p>
+<p>普通文字 <span class="line-through">删划线文字</span> 普通文字</p>
 </div>
 </div>
 </div>
@@ -942,7 +970,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 8. result</div>
+<div class="title">Example 9. result</div>
 <div class="content">
 <div class="paragraph">
 <p>普通文字中含有 <span class="small">示例小标记</span> 以及 <span class="big">示例大标记</span>。</p>
@@ -960,7 +988,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 9. result</div>
+<div class="title">Example 10. result</div>
 <div class="content">
 <div class="paragraph">
 <p>普通文字<sup>上标</sup></p>
@@ -980,14 +1008,22 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 10. result</div>
+<div class="title">Example 11. result</div>
 <div class="content">
 <hr>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_分页"><a class="anchor" href="#_分页"></a><a class="link" href="#_分页">2.5. 分页</a></h3>
+<h3 id="_断行"><a class="anchor" href="#_断行"></a><a class="link" href="#_断行">2.5. 断行</a></h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[%hardbreaks]</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_分页"><a class="anchor" href="#_分页"></a><a class="link" href="#_分页">2.6. 分页</a></h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">&lt;&lt;&lt;</code></pre>
@@ -995,16 +1031,16 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="sect2">
-<h3 id="_图片"><a class="anchor" href="#_图片"></a><a class="link" href="#_图片">2.6. 图片</a></h3>
+<h3 id="_图片"><a class="anchor" href="#_图片"></a><a class="link" href="#_图片">2.7. 图片</a></h3>
 <div class="sect3">
-<h4 id="_行内图片"><a class="anchor" href="#_行内图片"></a><a class="link" href="#_行内图片">2.6.1. 行内图片</a></h4>
+<h4 id="_行内图片"><a class="anchor" href="#_行内图片"></a><a class="link" href="#_行内图片">2.7.1. 行内图片</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">An image image:{image}/avatar/oschina_200.jpg[some, 50] here.</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 11. result</div>
+<div class="title">Example 12. result</div>
 <div class="content">
 <div class="paragraph">
 <p>An image <span class="image"><img src="https://meniny.cn/assets/images/avatar/oschina_200.jpg" alt="some" width="50"></span> here.</p>
@@ -1013,14 +1049,14 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="sect3">
-<h4 id="_块图片"><a class="anchor" href="#_块图片"></a><a class="link" href="#_块图片">2.6.2. 块图片</a></h4>
+<h4 id="_块图片"><a class="anchor" href="#_块图片"></a><a class="link" href="#_块图片">2.7.2. 块图片</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">image::{image}/avatar/oschina_200.jpg[caption="Caption: ", title="Blocked Image", 100]</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 12. result</div>
+<div class="title">Example 13. result</div>
 <div class="content">
 <div class="imageblock">
 <div class="content">
@@ -1033,9 +1069,9 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 </div>
 </div>
 <div class="sect2">
-<h3 id="_视频"><a class="anchor" href="#_视频"></a><a class="link" href="#_视频">2.7. 视频</a></h3>
+<h3 id="_视频"><a class="anchor" href="#_视频"></a><a class="link" href="#_视频">2.8. 视频</a></h3>
 <div class="sect3">
-<h4 id="_普通视频"><a class="anchor" href="#_普通视频"></a><a class="link" href="#_普通视频">2.7.1. 普通视频</a></h4>
+<h4 id="_普通视频"><a class="anchor" href="#_普通视频"></a><a class="link" href="#_普通视频">2.8.1. 普通视频</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">video::video_file.mp4[]
@@ -1044,7 +1080,7 @@ video::video_file.mp4[width=640, start=60, end=140, options=autoplay]</code></pr
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 13. result</div>
+<div class="title">Example 14. result</div>
 <div class="content">
 <div class="videoblock">
 <div class="content">
@@ -1057,14 +1093,14 @@ Your browser does not support the video tag.
 </div>
 </div>
 <div class="sect3">
-<h4 id="_youtube_视频"><a class="anchor" href="#_youtube_视频"></a><a class="link" href="#_youtube_视频">2.7.2. Youtube 视频</a></h4>
+<h4 id="_youtube_视频"><a class="anchor" href="#_youtube_视频"></a><a class="link" href="#_youtube_视频">2.8.2. Youtube 视频</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">video::rPQoq7ThGAU[youtube]</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 14. result</div>
+<div class="title">Example 15. result</div>
 <div class="content">
 <div class="videoblock">
 <div class="content">
@@ -1075,14 +1111,14 @@ Your browser does not support the video tag.
 </div>
 </div>
 <div class="sect3">
-<h4 id="_vimeo_视频"><a class="anchor" href="#_vimeo_视频"></a><a class="link" href="#_vimeo_视频">2.7.3. Vimeo 视频</a></h4>
+<h4 id="_vimeo_视频"><a class="anchor" href="#_vimeo_视频"></a><a class="link" href="#_vimeo_视频">2.8.3. Vimeo 视频</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">video::67480300[vimeo]</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 15. result</div>
+<div class="title">Example 16. result</div>
 <div class="content">
 <div class="videoblock">
 <div class="content">
@@ -1094,14 +1130,14 @@ Your browser does not support the video tag.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_链接"><a class="anchor" href="#_链接"></a><a class="link" href="#_链接">2.8. 链接</a></h3>
+<h3 id="_链接"><a class="anchor" href="#_链接"></a><a class="link" href="#_链接">2.9. 链接</a></h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">获取更多详情，请link:{home}[点击这里], 或者 {home}[像这样]</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 16. result</div>
+<div class="title">Example 17. result</div>
 <div class="content">
 <div class="paragraph">
 <p>获取更多详情，请<a href="https://meniny.cn">点击这里</a>, 或者 <a href="https://meniny.cn">像这样</a></p>
@@ -1110,7 +1146,7 @@ Your browser does not support the video tag.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_标记"><a class="anchor" href="#_标记"></a><a class="link" href="#_标记">2.9. 标记</a></h3>
+<h3 id="_标记"><a class="anchor" href="#_标记"></a><a class="link" href="#_标记">2.10. 标记</a></h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[#goals]
@@ -1121,7 +1157,7 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 17. result</div>
+<div class="title">Example 18. result</div>
 <div class="content">
 <div id="goals" class="ulist">
 <ul>
@@ -1138,11 +1174,44 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 </div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">这里有[[bookmark-a]]一个行内标签。
+
+跳转到&lt;&lt;bookmark-a,前面的标签&gt;&gt;。</code></pre>
+</div>
+</div>
+<div class="exampleblock">
+<div class="title">Example 19. result</div>
+<div class="content">
+<div class="paragraph">
+<p>这里有<a id="bookmark-a"></a>一个行内标签。</p>
+</div>
+<div class="paragraph">
+<p>跳转到<a href="#bookmark-a">前面的标签</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_自定义标题标签"><a class="anchor" href="#_自定义标题标签"></a><a class="link" href="#_自定义标题标签">2.10.1. 自定义标题标签</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[[bookmark-title,cunstom-tag]]
+=== 一个标题带有自定义标签</code></pre>
+</div>
+</div>
+<div class="exampleblock">
+<div class="title">Example 20. result</div>
+<div class="content">
+<h3 id="bookmark-title" class="float">一个标题带有自定义标签</h3>
+</div>
+</div>
+</div>
 </div>
 <div class="sect2">
-<h3 id="_列表"><a class="anchor" href="#_列表"></a><a class="link" href="#_列表">2.10. 列表</a></h3>
+<h3 id="_列表"><a class="anchor" href="#_列表"></a><a class="link" href="#_列表">2.11. 列表</a></h3>
 <div class="sect3">
-<h4 id="_无序列表"><a class="anchor" href="#_无序列表"></a><a class="link" href="#_无序列表">2.10.1. 无序列表</a></h4>
+<h4 id="_无序列表"><a class="anchor" href="#_无序列表"></a><a class="link" href="#_无序列表">2.11.1. 无序列表</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">* level 1
@@ -1154,7 +1223,7 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 18. result</div>
+<div class="title">Example 21. result</div>
 <div class="content">
 <div class="ulist">
 <ul>
@@ -1198,7 +1267,7 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_有序列表"><a class="anchor" href="#_有序列表"></a><a class="link" href="#_有序列表">2.10.2. 有序列表</a></h4>
+<h4 id="_有序列表"><a class="anchor" href="#_有序列表"></a><a class="link" href="#_有序列表">2.11.2. 有序列表</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">. level 1
@@ -1210,7 +1279,7 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 19. result</div>
+<div class="title">Example 22. result</div>
 <div class="content">
 <div class="olist arabic">
 <ol class="arabic">
@@ -1254,7 +1323,7 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_勾选列表"><a class="anchor" href="#_勾选列表"></a><a class="link" href="#_勾选列表">2.10.3. 勾选列表</a></h4>
+<h4 id="_勾选列表"><a class="anchor" href="#_勾选列表"></a><a class="link" href="#_勾选列表">2.11.3. 勾选列表</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">* [x] 已选
@@ -1263,7 +1332,7 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 20. result</div>
+<div class="title">Example 23. result</div>
 <div class="content">
 <div class="ulist checklist">
 <ul class="checklist">
@@ -1282,7 +1351,7 @@ Jump to link:#golas[Link with id].</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_混合列表"><a class="anchor" href="#_混合列表"></a><a class="link" href="#_混合列表">2.10.4. 混合列表</a></h4>
+<h4 id="_标签列表"><a class="anchor" href="#_标签列表"></a><a class="link" href="#_标签列表">2.11.4. 标签列表</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">Operating Systems::
@@ -1306,7 +1375,7 @@ Cloud Providers::
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 21. result</div>
+<div class="title">Example 24. result</div>
 <div class="content">
 <div class="dlist">
 <dl>
@@ -1399,7 +1468,7 @@ Cloud Providers::
 </div>
 </div>
 <div class="sect3">
-<h4 id="_标签列表"><a class="anchor" href="#_标签列表"></a><a class="link" href="#_标签列表">2.10.5. 标签列表</a></h4>
+<h4 id="_问答列表"><a class="anchor" href="#_问答列表"></a><a class="link" href="#_问答列表">2.11.5. 问答列表</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">What is this?:: You tell me!
@@ -1408,7 +1477,7 @@ Why?:: I don't know.</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 22. result</div>
+<div class="title">Example 25. result</div>
 <div class="content">
 <div class="dlist">
 <dl>
@@ -1427,9 +1496,9 @@ Why?:: I don't know.</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_表格"><a class="anchor" href="#_表格"></a><a class="link" href="#_表格">2.11. 表格</a></h3>
+<h3 id="_表格"><a class="anchor" href="#_表格"></a><a class="link" href="#_表格">2.12. 表格</a></h3>
 <div class="sect3">
-<h4 id="_简单列表"><a class="anchor" href="#_简单列表"></a><a class="link" href="#_简单列表">2.11.1. 简单列表</a></h4>
+<h4 id="_简单列表"><a class="anchor" href="#_简单列表"></a><a class="link" href="#_简单列表">2.12.1. 简单列表</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">.表格标题
@@ -1447,7 +1516,7 @@ Why?:: I don't know.</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 23. result</div>
+<div class="title">Example 26. result</div>
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 1. 表格标题</caption>
@@ -1494,7 +1563,7 @@ Why?:: I don't know.</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 24. result</div>
+<div class="title">Example 27. result</div>
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1520,9 +1589,49 @@ Why?:: I don't know.</code></pre>
 </table>
 </div>
 </div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[%header%footer%autowidth,cols=2*]
+|===
+|列标题 1
+|列标题 2
+
+|列1行1
+|列2行1
+
+|列1行2
+|列2行2
+|===</code></pre>
+</div>
+</div>
+<table class="tableblock frame-all grid-all fit-content">
+<caption class="title">Table 2. result</caption>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">列标题 1</th>
+<th class="tableblock halign-left valign-top">列标题 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">列1行1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">列2行1</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">列1行2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">列2行2</p></td>
+</tr>
+</tfoot>
+</table>
 </div>
 <div class="sect3">
-<h4 id="_嵌套语法"><a class="anchor" href="#_嵌套语法"></a><a class="link" href="#_嵌套语法">2.11.2. 嵌套语法</a></h4>
+<h4 id="_嵌套语法"><a class="anchor" href="#_嵌套语法"></a><a class="link" href="#_嵌套语法">2.12.2. 嵌套语法</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[cols="2,2,5a"]
@@ -1542,7 +1651,7 @@ http://getfirefox.com[Get Firefox]!
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 25. result</div>
+<div class="title">Example 28. result</div>
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1583,7 +1692,7 @@ http://getfirefox.com[Get Firefox]!
 </div>
 </div>
 <div class="sect3">
-<h4 id="_停靠位置"><a class="anchor" href="#_停靠位置"></a><a class="link" href="#_停靠位置">2.11.3. 停靠位置</a></h4>
+<h4 id="_停靠位置"><a class="anchor" href="#_停靠位置"></a><a class="link" href="#_停靠位置">2.12.3. 停靠位置</a></h4>
 <div class="paragraph">
 <p>在单元格分隔符 (<code>|</code>) 前使用 <code>^</code>、<code>&lt;</code>、<code>&gt;</code> 符号分别表示该单元格横向居中、左对齐、右对齐。</p>
 </div>
@@ -1601,7 +1710,7 @@ http://getfirefox.com[Get Firefox]!
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 26. result</div>
+<div class="title">Example 29. result</div>
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1626,7 +1735,7 @@ http://getfirefox.com[Get Firefox]!
 </div>
 </div>
 <div class="sect3">
-<h4 id="_合并单元格"><a class="anchor" href="#_合并单元格"></a><a class="link" href="#_合并单元格">2.11.4. 合并单元格</a></h4>
+<h4 id="_合并单元格"><a class="anchor" href="#_合并单元格"></a><a class="link" href="#_合并单元格">2.12.4. 合并单元格</a></h4>
 <div class="paragraph">
 <p>在单元格分隔符 (<code>|</code>) 前使用 <code>N\+</code> 表示该单元格横向占据 <code>N</code> 列。</p>
 </div>
@@ -1644,7 +1753,7 @@ http://getfirefox.com[Get Firefox]!
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 27. result</div>
+<div class="title">Example 30. result</div>
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1684,7 +1793,7 @@ http://getfirefox.com[Get Firefox]!
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 28. result</div>
+<div class="title">Example 31. result</div>
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1723,7 +1832,7 @@ e|cell
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 29. result</div>
+<div class="title">Example 32. result</div>
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1747,7 +1856,7 @@ e|cell
 </div>
 </div>
 <div class="sect3">
-<h4 id="_单元格与列的样式"><a class="anchor" href="#_单元格与列的样式"></a><a class="link" href="#_单元格与列的样式">2.11.5. 单元格与列的样式</a></h4>
+<h4 id="_单元格与列的样式"><a class="anchor" href="#_单元格与列的样式"></a><a class="link" href="#_单元格与列的样式">2.12.5. 单元格与列的样式</a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 16.6666%;">
@@ -1821,9 +1930,9 @@ e|cell
 </div>
 </div>
 <div class="sect2">
-<h3 id="_区块"><a class="anchor" href="#_区块"></a><a class="link" href="#_区块">2.12. 区块</a></h3>
+<h3 id="_区块"><a class="anchor" href="#_区块"></a><a class="link" href="#_区块">2.13. 区块</a></h3>
 <div class="sect3">
-<h4 id="_横栏块"><a class="anchor" href="#_横栏块"></a><a class="link" href="#_横栏块">2.12.1. 横栏块</a></h4>
+<h4 id="_横栏块"><a class="anchor" href="#_横栏块"></a><a class="link" href="#_横栏块">2.13.1. 横栏块</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">.横栏
@@ -1833,7 +1942,7 @@ e|cell
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 30. result</div>
+<div class="title">Example 33. result</div>
 <div class="content">
 <div class="sidebarblock">
 <div class="content">
@@ -1847,7 +1956,7 @@ e|cell
 </div>
 </div>
 <div class="sect3">
-<h4 id="_示例块"><a class="anchor" href="#_示例块"></a><a class="link" href="#_示例块">2.12.2. 示例块</a></h4>
+<h4 id="_示例块"><a class="anchor" href="#_示例块"></a><a class="link" href="#_示例块">2.13.2. 示例块</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">.result
@@ -1858,7 +1967,7 @@ e|cell
 </div>
 </div>
 <div class="sect3">
-<h4 id="_透传块"><a class="anchor" href="#_透传块"></a><a class="link" href="#_透传块">2.12.3. 透传块</a></h4>
+<h4 id="_透传块"><a class="anchor" href="#_透传块"></a><a class="link" href="#_透传块">2.13.3. 透传块</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">++++
@@ -1867,14 +1976,14 @@ e|cell
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 31. result</div>
+<div class="title">Example 34. result</div>
 <div class="content">
 <a href="{home}">内嵌 HTML 代码</a>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_引用块"><a class="anchor" href="#_引用块"></a><a class="link" href="#_引用块">2.12.4. 引用块</a></h4>
+<h4 id="_引用块"><a class="anchor" href="#_引用块"></a><a class="link" href="#_引用块">2.13.4. 引用块</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">[quote, 林肯, 第XX任美国总统]
@@ -1900,7 +2009,7 @@ ____</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 32. result</div>
+<div class="title">Example 35. result</div>
 <div class="content">
 <div class="quoteblock">
 <blockquote>
@@ -1917,7 +2026,7 @@ on this continent a new nation&#8230;&#8203;</p>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 33. result</div>
+<div class="title">Example 36. result</div>
 <div class="content">
 <div class="quoteblock">
 <blockquote>
@@ -1930,7 +2039,7 @@ A person who never made a mistake never tried anything new.
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 34. result</div>
+<div class="title">Example 37. result</div>
 <div class="content">
 <div class="quoteblock">
 <blockquote>
@@ -1946,7 +2055,7 @@ A person who never made a mistake never tried anything new.
 </div>
 </div>
 <div class="sect3">
-<h4 id="_警告块"><a class="anchor" href="#_警告块"></a><a class="link" href="#_警告块">2.12.5. 警告块</a></h4>
+<h4 id="_警告块"><a class="anchor" href="#_警告块"></a><a class="link" href="#_警告块">2.13.5. 警告块</a></h4>
 <div class="paragraph">
 <p>在 <code>AsciiDoctor</code> 中, 使用这些图标需要在文档头配置 <code>:icons: font</code>。</p>
 </div>
@@ -1969,7 +2078,7 @@ CAUTION: 当心
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 35. result</div>
+<div class="title">Example 38. result</div>
 <div class="content">
 <div class="admonitionblock note">
 <table>
@@ -2035,7 +2144,7 @@ CAUTION: 当心
 </div>
 </div>
 <div class="sect3">
-<h4 id="_代码块"><a class="anchor" href="#_代码块"></a><a class="link" href="#_代码块">2.12.6. 代码块</a></h4>
+<h4 id="_代码块"><a class="anchor" href="#_代码块"></a><a class="link" href="#_代码块">2.13.6. 代码块</a></h4>
 <div class="paragraph">
 <p>在 <code>AsciiDoctor</code> 中, 使用代码高亮需要在文档头配置 <code>:source-highlighter: pygments</code>。</p>
 </div>
@@ -2055,13 +2164,13 @@ CAUTION: 当心
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 36. result</div>
+<div class="title">Example 39. result</div>
 <div class="content">
 <div class="listingblock">
 <div class="title">index.html</div>
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="html" class="language-html hljs">&lt;div&gt; <i class="conum" data-value="1"></i><b>(1)</b>
-  &lt;p&gt;Elias Abel&lt;/p&gt;
+  &lt;p&gt;Ezra&lt;/p&gt;
 &lt;/div&gt;</code></pre>
 </div>
 </div>
@@ -2086,7 +2195,7 @@ end
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 37. result</div>
+<div class="title">Example 40. result</div>
 <div class="content">
 <div class="listingblock">
 <div class="content">
@@ -2097,7 +2206,7 @@ end</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 38. result</div>
+<div class="title">Example 41. result</div>
 <div class="content">
 <div class="listingblock">
 <div class="content">
@@ -2118,14 +2227,14 @@ open class SomeClass {
 </div>
 </div>
 <div class="sect2">
-<h3 id="_行内代码"><a class="anchor" href="#_行内代码"></a><a class="link" href="#_行内代码">2.13. 行内代码</a></h3>
+<h3 id="_行内代码"><a class="anchor" href="#_行内代码"></a><a class="link" href="#_行内代码">2.14. 行内代码</a></h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">普通文字 `&lt;div&gt;` 普通文字</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 39. result</div>
+<div class="title">Example 42. result</div>
 <div class="content">
 <div class="paragraph">
 <p>普通文字 <code>&lt;div&gt;</code> 普通文字</p>
@@ -2134,7 +2243,7 @@ open class SomeClass {
 </div>
 </div>
 <div class="sect2">
-<h3 id="_注释"><a class="anchor" href="#_注释"></a><a class="link" href="#_注释">2.14. 注释</a></h3>
+<h3 id="_注释"><a class="anchor" href="#_注释"></a><a class="link" href="#_注释">2.15. 注释</a></h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">// 单行注释
@@ -2148,7 +2257,7 @@ open class SomeClass {
 </div>
 </div>
 <div class="sect2">
-<h3 id="_键盘"><a class="anchor" href="#_键盘"></a><a class="link" href="#_键盘">2.15. 键盘</a></h3>
+<h3 id="_键盘"><a class="anchor" href="#_键盘"></a><a class="link" href="#_键盘">2.16. 键盘</a></h3>
 <div class="paragraph">
 <p>通过 <code>kdb:[键位+键位+键位]</code> 的语法使用键盘符号特性。</p>
 </div>
@@ -2174,7 +2283,7 @@ kbd:[⌘+N]</code></pre>
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 40. result</div>
+<div class="title">Example 43. result</div>
 <div class="content">
 <div class="paragraph">
 <p><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>T</kbd></span></p>
@@ -2189,7 +2298,7 @@ kbd:[⌘+N]</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_导入"><a class="anchor" href="#_导入"></a><a class="link" href="#_导入">2.16. 导入</a></h3>
+<h3 id="_导入"><a class="anchor" href="#_导入"></a><a class="link" href="#_导入">2.17. 导入</a></h3>
 <div class="paragraph">
 <p>通过 <code>include::文档路径[选项]</code> 语法来包含文件，其中选项可以为空</p>
 </div>
@@ -2213,14 +2322,14 @@ include::./index.adoc[lines=1..5]
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 41. result</div>
+<div class="title">Example 44. result</div>
 <div class="content">
 <div class="listingblock">
 <div class="title">index.adoc</div>
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">:article: AsciiDoc 指引
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :home: https://meniny.cn</code></pre>
 </div>
@@ -2229,7 +2338,7 @@ include::./index.adoc[lines=1..5]
 </div>
 </div>
 <div class="sect2">
-<h3 id="_脚注"><a class="anchor" href="#_脚注"></a><a class="link" href="#_脚注">2.17. 脚注</a></h3>
+<h3 id="_脚注"><a class="anchor" href="#_脚注"></a><a class="link" href="#_脚注">2.18. 脚注</a></h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code data-lang="asciidoc" class="language-asciidoc hljs">一些文字。footnote:[示例脚注1.]
@@ -2240,7 +2349,7 @@ include::./index.adoc[lines=1..5]
 </div>
 </div>
 <div class="exampleblock">
-<div class="title">Example 42. result</div>
+<div class="title">Example 45. result</div>
 <div class="content">
 <div class="paragraph">
 <p>一些文字。<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
@@ -2364,7 +2473,7 @@ asciidoctor -a stylesheet golo.css -o MyHTML.html MyDoc.adoc</code></pre>
 <p><strong>标题</strong>: <a href="https://meniny.cn/asciidoc">《AsciiDoc 指引》</a></p>
 </li>
 <li>
-<p><strong>作者</strong>: <a href="https://meniny.cn/about/">Elias Abel</a></p>
+<p><strong>作者</strong>: <a href="https://meniny.cn/about/">Ezra</a></p>
 </li>
 <li>
 <p><strong>版本</strong>: 1.0.1</p>
@@ -2390,7 +2499,7 @@ asciidoctor -a stylesheet golo.css -o MyHTML.html MyDoc.adoc</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-01-02 14:33:57 +0800
+Last updated 2020-11-18 01:00:27 +0800
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">

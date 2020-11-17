@@ -1,9 +1,10 @@
 :article: AsciiDoc 指引
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :home: https://meniny.cn
-// /Users/Meniny/Documents/Github/Cave/
+// :home: /Users/Meniny/Documents/Github/Cave/
+// :home: /Volumes/Sumsang\ Fit/Common/Documents/AsciiDoctor/asciidoc-ref/
 :assets: {home}/assets
 :image: {assets}/images
 :video: {assets}/videos
@@ -96,6 +97,26 @@ image::{image}/posts/content/md_standards.png[title="Markdown Standards"]
 ====== 五级
 ====
 
+==== 分离/浮动标题
+
+[source, asciidoc]
+....
+[discrete]
+=== 分离/浮动标题
+
+[float]
+=== 分离/浮动标题
+....
+
+.result
+====
+[discrete]
+=== 分离/浮动标题
+
+[float]
+=== 分离/浮动标题
+====
+
 === 目录
 
 [source, asciidoc]
@@ -159,24 +180,24 @@ image::{image}/posts/content/md_standards.png[title="Markdown Standards"]
 
 [source, asciidoc]
 ....
-[.underline]#下划线文字#
+普通文字 [.underline]#下划线文字# 普通文字
 ....
 
 .result
 ====
-[.underline]#下划线文字#
+普通文字 [.underline]#下划线文字# 普通文字
 ====
 
 ==== 删划线
 
 [source, asciidoc]
 ....
-[.line-through]#删划线文字#
+普通文字 [.line-through]#删划线文字# 普通文字
 ....
 
 .result
 ====
-[.line-through]#删划线文字#
+普通文字 [.line-through]#删划线文字# 普通文字
 ====
 
 ==== 大小标记
@@ -218,6 +239,13 @@ image::{image}/posts/content/md_standards.png[title="Markdown Standards"]
 ====
 ***
 ====
+
+=== 断行
+
+[source, asciidoc]
+....
+[%hardbreaks]
+....
 
 === 分页
 
@@ -324,6 +352,35 @@ Jump to link:#golas[Link with id].
 Jump to link:#golas[Link with id].
 ====
 
+[source, asciidoc]
+....
+这里有[[bookmark-a]]一个行内标签。
+
+跳转到<<bookmark-a,前面的标签>>。
+....
+
+.result
+====
+这里有[[bookmark-a]]一个行内标签。
+
+跳转到<<bookmark-a,前面的标签>>。
+====
+
+==== 自定义标题标签
+
+[source, asciidoc]
+....
+[[bookmark-title,cunstom-tag]]
+=== 一个标题带有自定义标签
+....
+
+.result
+====
+[float]
+[[bookmark-title,cunstom-tag]]
+=== 一个标题带有自定义标签
+====
+
 === 列表
 
 ==== 无序列表
@@ -385,7 +442,7 @@ Jump to link:#golas[Link with id].
 *     普通
 ====
 
-==== 混合列表
+==== 标签列表
 
 [source, asciidoc]
 ....
@@ -431,7 +488,7 @@ Cloud Providers::
     . Rackspace
 ====
 
-==== 标签列表
+==== 问答列表
 
 [source, asciidoc]
 ....
@@ -512,6 +569,34 @@ Why?:: I don't know.
 |列2行2
 |===
 ====
+
+[source, asciidoc]
+....
+[%header%footer%autowidth,cols=2*]
+|===
+|列标题 1
+|列标题 2
+
+|列1行1
+|列2行1
+
+|列1行2
+|列2行2
+|===
+....
+
+.result
+[%header%footer%autowidth,cols=2*]
+|===
+|列标题 1
+|列标题 2
+
+|列1行1
+|列2行1
+
+|列1行2
+|列2行2
+|===
 
 ==== 嵌套语法
 
