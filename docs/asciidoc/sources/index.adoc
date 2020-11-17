@@ -23,7 +23,14 @@
 :toc: left
 :toclevels: 6
 :toc-title: 索引
+
 = {article} ^link:{home}/docs/asciidoc/full.html[full]^
+:author: Ezra
+:email: admin@meniny.cn
+:revnumber: 1.0.0
+:revdate: Nov. 17, 2018
+:revremark: The first incarnation of {doctitle}
+:version-label!:
 
 == 简介
 
