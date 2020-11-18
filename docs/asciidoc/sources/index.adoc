@@ -235,6 +235,13 @@ image::{image}/posts/content/md_standards.png[title="Markdown Standards"]
 普通文字~下标~
 ====
 
+=== 居中
+
+[source, asciidoc]
+....
+[.text-center]
+....
+
 === 横线
 
 [source, asciidoc]
