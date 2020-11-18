@@ -28,11 +28,11 @@
 
 == 简介
 
-轻量级的标记语言已经有很多(link:https://en.wikipedia.org/wiki/Lightweight_markup_language[Wikipedia])，例如我用来写博客的 `Markdown` 就是目前十分流行的一种轻量级标记语言，包括 `Github`、`StackOverflow` 等很多网站以及个人都在使用。
+link:https://en.wikipedia.org/wiki/Lightweight_markup_language[轻量级的标记语言已经有很多]，例如我用来写博客的 `Markdown` 就是目前十分流行的一种轻量级标记语言，包括 `Github`、`StackOverflow` 等很多网站以及个人都在使用。
 
 === Markdown 还不够吗
 
-`Markdown` 语法简介，即便阅读未经渲染的源文件也有不错的可读性。但它对于较为复杂的格式例如表格的支持始终遭人诟病，许多网站使用各自不同的扩展语法来实现，也从而导致了各种方言的滋生。这也是为何会出现 link:https://blog.codinghorror.com/standard-flavored-markdown/[Standard Markdown] 项目的原因，虽然因为种种原因又更名为 link:https://blog.codinghorror.com/standard-flavored-markdown/[Common Markdown]，然而整个 `Markdown` 社区依然缺乏创建者的支持，`Common Markdown` 也很可能沦为另一个方言。
+`Markdown` 语法简洁，即便阅读未经渲染的源文件也有不错的可读性。但它对于较为复杂的格式例如表格的支持始终遭人诟病，许多网站使用各自不同的扩展语法来实现，也从而导致了各种方言的滋生。这也是为何会出现 link:https://blog.codinghorror.com/standard-flavored-markdown/[Standard Markdown] 项目的原因，虽然因为种种原因又更名为 link:https://blog.codinghorror.com/standard-flavored-markdown/[Common Markdown]，然而整个 `Markdown` 社区依然缺乏创建者的支持，`Common Markdown` 也很可能沦为另一个方言。
 
 image::{image}/posts/content/md_standards.png[title="Markdown Standards"]
 
@@ -60,7 +60,7 @@ image::{image}/posts/content/md_standards.png[title="Markdown Standards"]
 
 === 标题
 
-{ascii} 中的标题共分为六层，分别使用对应数量的 `=` 进行标识:
+`AsciiDoc` 中的标题共分为六层，分别使用对应数量的 `=` 进行标识:
 
 [source, asciidoc, subs="verbatim"]
 ....
