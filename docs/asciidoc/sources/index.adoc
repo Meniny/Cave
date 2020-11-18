@@ -1,20 +1,14 @@
-:article: AsciiDoc 指引
-:title: {article}
-:author: Ezra
-:mail: admin@meniny.cn
+:doctitle: AsciiDoc 指引
 :home: https://meniny.cn
-// :home: /Users/Meniny/Documents/Github/Cave/
-// :home: /Volumes/Sumsang\ Fit/Common/Documents/AsciiDoctor/asciidoc-ref/
 :assets: {home}/assets
 :image: {assets}/images
 :video: {assets}/videos
 :stylesheets: {home}/docs/asciidoc/stylesheets
 :stylesheets_previews: {home}/docs/asciidoc/previews
-:version: 1.0.1
 :experimental:
 :icons: font
-:source-highlighter: highlightjs
-// :source-highlighter: pygments
+// :source-highlighter: highlightjs
+:source-highlighter: pygments
 :doctype: book
 :page-layout!:
 :sectanchors:
@@ -24,10 +18,10 @@
 :toclevels: 6
 :toc-title: 索引
 
-= {article} ^link:{home}/docs/asciidoc/full.html[full]^
+= {doctitle}
 :author: Ezra
 :email: admin@meniny.cn
-:revnumber: 1.0.0
+:revnumber: 1.1.0
 :revdate: Nov. 17, 2018
 :revremark: The first incarnation of {doctitle}
 :version-label!:
@@ -123,6 +117,39 @@ image::{image}/posts/content/md_standards.png[title="Markdown Standards"]
 [float]
 === 分离/浮动标题
 ====
+
+=== 属性
+
+[source, asciidoc]
+....
+:doctitle: AsciiDoc 指引
+:home: https://meniny.cn
+:assets: {home}/assets
+:image: {assets}/images
+:video: {assets}/videos
+:stylesheets: {home}/docs/asciidoc/stylesheets
+:stylesheets_previews: {home}/docs/asciidoc/previews
+:experimental:
+:icons: font
+// :source-highlighter: highlightjs
+:source-highlighter: pygments
+:doctype: book
+:page-layout!:
+:sectanchors:
+:sectlinks:
+:sectnums:
+:toc: left
+:toclevels: 6
+:toc-title: 索引
+
+= {doctitle}
+:author: Ezra
+:email: admin@meniny.cn
+:revnumber: 1.1.0
+:revdate: Nov. 17, 2018
+:revremark: The first incarnation of {doctitle}
+:version-label!:
+....
 
 === 目录
 
@@ -1113,7 +1140,15 @@ asciidoctor -a stylesheet golo.css -o MyHTML.html MyDoc.adoc
 
 image::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/screenshot.png[title="AsciiDoctor"]
 
-==== Stylesheets
+=== AsciiDoctor.js Live Editor
+
+link:https://picsew.cn/asciidoctor/[AsciiDoctor.js Live Editor]
+
+=== AsciiDoc Live
+
+link:https://asciidoclive.com/[AsciiDoc Live]
+
+== Stylesheets
 
 * link:{stylesheets}/asciidoctor.css[asciidoctor.css]: link:{stylesheets_previews}/asciidoctor.html[(预览)]
 * link:{stylesheets}/colony.css[colony.css]: link:{stylesheets_previews}/colony.html[(预览)]
@@ -1133,8 +1168,9 @@ image::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/screensh
 == 关于
 
 ****
-- **标题**: link:{home}/asciidoc[《{article}》]
+- **标题**: link:{home}/asciidoc[《{doctitle}》]
 - **作者**: link:{home}/about/[{author}]
-- **版本**: {version}
+- **版本**: {revnumber}
 - **链接**: {home}/asciidoc
+- **更多**: link:{home}/docs/asciidoc/full.html[Full Documents]
 ****
