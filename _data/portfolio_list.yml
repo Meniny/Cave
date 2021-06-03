@@ -141,7 +141,7 @@
 
 - name: "Meniny.github.io"
   url: "https://github.com/Meniny/Meniny.github.io"
-  desc: "😱 Elias's Cave on Github"
+  desc: "😱 Ezra's Cave on Github"
   lan: "HTML"
   plat: "Github"
 
@@ -429,8 +429,8 @@
   lan: "Objective-C"
   plat: "Github"
 
-- name: "elias comments"
-  url: "https://github.com/Meniny/elias-comments"
+- name: "Ezra comments"
+  url: "https://github.com/Meniny/Ezra-comments"
   desc: "An Atom package for inserting comments with keyboard shortcut."
   lan: "JavaScript"
   plat: "Github"
@@ -540,8 +540,8 @@
   lan: "Objective-C"
   plat: "iOS"
 
-- name: "Elias Abel"
-  url: "https://itunes.apple.com/us/app/elias-abel/id1098278826?l=zh&ls=1&mt=8"
+- name: "Ezra"
+  url: "https://itunes.apple.com/us/app/Ezra-abel/id1098278826?l=zh&ls=1&mt=8"
   desc: "Personal"
   lan: "Swift"
   plat: "iOS"
@@ -741,7 +741,7 @@
 
 # macOS
 
-- name: "Elias Abel"
+- name: "Ezra"
   url: "https://meniny.cn/clients"
   desc: "Personal"
   lan: "Swift"
@@ -825,7 +825,7 @@
 
 # Android
 
-- name: "Elias Abel"
+- name: "Ezra"
   url: "https://meniny.cn/clients"
   desc: "Personal"
   lan: "Java"
@@ -840,7 +840,7 @@
 
 # Windows
 
-- name: "Elias Abel"
+- name: "Ezra"
   url: "https://meniny.cn/clients"
   desc: "Personal"
   lan: "C++"
@@ -883,8 +883,8 @@
   plat: "Atom Plugin"
   main: true
 
-- name: "Elias Comments"
-  url: "https://github.com/Meniny/elias-comments"
+- name: "Ezra Comments"
+  url: "https://github.com/Meniny/Ezra-comments"
   desc: "An Atom package for inserting comments with keyboard shortcut."
   lan: "Coffee"
   plat: "Atom Plugin"

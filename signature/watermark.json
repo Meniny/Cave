@@ -13,6 +13,6 @@ title: "watermark.json"
 	"MI 8 SE" : "<img src={{ site.url }}/signature/mi_8_se_w.png>",
 	"李二狗 (Cave)" : "<img src={{ site.url }}/signature/li_er_gou_cave_w.png>",
 	"李二狗 (Avatar)" : "<img src={{ site.url }}/signature/li_er_gou_avatar_w.png>",
-	"Elias's Cave" : "<img src={{ site.url }}/signature/eliass_cave_w.png>",
+	"Ezra's Cave" : "<img src={{ site.url }}/signature/Ezras_cave_w.png>",
 	"视觉中国" : "<img src={{ site.url }}/signature/vcg_w.png>"
 }

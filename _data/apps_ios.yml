@@ -96,11 +96,11 @@
   img: "2"
   lan: "Objective-C"
   store: true
-- name: "Elias Abel"
-  url: "https://itunes.apple.com/us/app/elias-abel/id1098278826?l=zh&ls=1&mt=8"
+- name: "Ezra"
+  url: "https://itunes.apple.com/us/app/Ezra-abel/id1098278826?l=zh&ls=1&mt=8"
   desc: "Personal Application"
   type: "App"
-  img: "elias"
+  img: "Ezra"
   lan: "Swift"
   store: true
 - name: "Heroes for HotS"

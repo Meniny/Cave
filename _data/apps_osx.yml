@@ -1,9 +1,9 @@
-- name: "Elias Abel"
+- name: "Ezra"
   url: "https://meniny.cn/clients"
-  # url: "https://itunes.apple.com/us/app/elias-abel/id1179636293?l=zh&ls=1&mt=8"
+  # url: "https://itunes.apple.com/us/app/Ezra-abel/id1179636293?l=zh&ls=1&mt=8"
   desc: "Personal Application"
   type: "App"
-  img: "elias"
+  img: "Ezra"
   lan: "Swift"
   store: false
 

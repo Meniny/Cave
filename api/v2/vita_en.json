@@ -4,7 +4,7 @@ permalink: /api/v2/vita_en.json
 ---
 {
   "enabled": {{ site.api.vita }},
-  "name": "Elias Abel",
+  "name": "Ezra",
   "language": "EN",
   "title": "Senior iOS R&D Engineer",
   "gender": "Male",

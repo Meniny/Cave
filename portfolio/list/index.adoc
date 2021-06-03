@@ -1,5 +1,5 @@
-:author: Elias Abel
-:author_esc: Elias%20Abel
+:author: Ezra
+:author_esc: Ezra
 :mail: admin@meniny.cn
 :na: N/A
 :license: MIT
@@ -128,8 +128,8 @@ a|Yilung Real Estate
   desc: "Personal"
   lan: "Obj-C"
 
-- name: "Elias Abel"
-  url: "https://itunes.apple.com/us/app/elias-abel/id1098278826?l=zh&ls=1&mt=8"
+- name: "Ezra"
+  url: "https://itunes.apple.com/us/app/Ezra-abel/id1098278826?l=zh&ls=1&mt=8"
   desc: "Personal"
   lan: "Swift"
 
@@ -288,7 +288,7 @@ a|Yilung Real Estate
   desc: "Personal"
   lan: "Obj-C"
 
-- name: "Elias Abel"
+- name: "Ezra"
   url: "https://meniny.cn/clients"
   desc: "Personal"
   lan: "Swift"
@@ -348,7 +348,7 @@ a|Yilung Real Estate
   desc: "Personal"
   lan: "Obj-C"
 
-- name: "Elias Abel"
+- name: "Ezra"
   url: "https://meniny.cn/clients"
   desc: "Personal"
   lan: "Java"
@@ -358,7 +358,7 @@ a|Yilung Real Estate
   desc: "Commercial"
   lan: "Java"
 
-- name: "Elias Abel"
+- name: "Ezra"
   url: "https://meniny.cn/clients"
   desc: "Personal"
   lan: "C++"
@@ -388,8 +388,8 @@ a|Yilung Real Estate
   desc: "A Railscasts style syntax theme for Atom."
   lan: "Coffee"
 
-- name: "Elias Comments"
-  url: "{github}/elias-comments"
+- name: "Ezra Comments"
+  url: "{github}/Ezra-comments"
   desc: "An Atom package for inserting comments with keyboard shortcut."
   lan: "Coffee"
 
@@ -480,7 +480,7 @@ a|Yilung Real Estate
 
 - name: "Meniny.github.io"
   url: "{github}/Meniny.github.io"
-  desc: "😱 Elias's Cave on Github"
+  desc: "😱 Ezra's Cave on Github"
   lan: "HTML"
 
 - name: "AndroidDialog"
@@ -550,7 +550,7 @@ a|Yilung Real Estate
 
 - name: "Cave"
   url: "{github}/Cave"
-  desc: "📱 The iOS client for Elias's Cave."
+  desc: "📱 The iOS client for Ezra's Cave."
   lan: "Swift"
 
 - name: "PhotoKit"
@@ -773,8 +773,8 @@ a|Yilung Real Estate
   desc: "🌐 A delightful networking framework for iOS platform."
   lan: "Obj-C"
 
-- name: "elias comments"
-  url: "{github}/elias-comments"
+- name: "Ezra comments"
+  url: "{github}/Ezra-comments"
   desc: "An Atom package for inserting comments with keyboard shortcut."
   lan: "JavaScript"
 

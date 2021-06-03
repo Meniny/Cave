@@ -5,7 +5,7 @@ layout: null
 <rss xmlns:sparkle="https://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
-      <title>Elias</title>
+      <title>Ezra</title>
       <pubDate>2017-05-29</pubDate>
       <description>
         <![CDATA[
@@ -20,7 +20,7 @@ layout: null
       ]]>
       </description>
       <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-      <enclosure url="{{ site.url }}/clients/mac/Elias.zip" sparkle:version="36" sparkle:shortVersionString="1.4" length="4215164" type="application/octet-stream" sparkle:dsaSignature="MCwCFAh76hpB3UENi77s23SGpHtXy5piAhRIfAYDgwtfRARSirvK5Zn1aZvPIA=="/>
+      <enclosure url="{{ site.url }}/clients/mac/Ezra.zip" sparkle:version="36" sparkle:shortVersionString="1.4" length="4215164" type="application/octet-stream" sparkle:dsaSignature="MCwCFAh76hpB3UENi77s23SGpHtXy5piAhRIfAYDgwtfRARSirvK5Zn1aZvPIA=="/>
     </item>
   </channel>
 </rss>

@@ -1,13 +1,13 @@
 - platform: "macOS"
-  # url: "https://itunes.apple.com/us/app/elias-abel/id1179636293?l=zh&ls=1&mt=8"
-  url: "https://meniny.cn/clients/mac/Elias.dmg"
+  # url: "https://itunes.apple.com/us/app/Ezra-abel/id1179636293?l=zh&ls=1&mt=8"
+  url: "https://meniny.cn/clients/mac/Ezra.dmg"
   img: "macOS"
   preview: "https://ooo.0o0.ooo/2017/04/26/58ff7b254327e.jpg"
   lan: "Swift"
   store: false
   btn: 'Download Now'
 - platform: "iOS"
-  url: "https://itunes.apple.com/us/app/elias-abel/id1098278826"
+  url: "https://itunes.apple.com/us/app/Ezra-abel/id1098278826"
   img: "iOS"
   lan: "Objective-C"
   preview: "https://ooo.0o0.ooo/2017/04/26/59000dc8e1797.jpg"

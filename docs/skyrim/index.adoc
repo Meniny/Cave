@@ -1,6 +1,6 @@
 :article:
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :home: https://meniny.cn
 :version: 1.0.0

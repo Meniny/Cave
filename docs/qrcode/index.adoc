@@ -1,6 +1,6 @@
 :article: 二维码 (QR Code) 基本结构及生成原理
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :home: https://meniny.cn
 :assets: {home}/assets

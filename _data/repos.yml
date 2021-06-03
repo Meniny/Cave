@@ -141,7 +141,7 @@
 
 - name: "Meniny.github.io"
   url: "https://github.com/Meniny/Meniny.github.io"
-  desc: "😱 Elias's Cave on Github"
+  desc: "😱 Ezra's Cave on Github"
   lan: "HTML"
   plat: "Github"
 
@@ -233,7 +233,7 @@
 
 - name: "Cave"
   url: "https://github.com/Meniny/Cave"
-  desc: "📱 The iOS client for Elias's Cave."
+  desc: "📱 The iOS client for Ezra's Cave."
   lan: "Swift"
   plat: "Github"
 
@@ -501,8 +501,8 @@
   lan: "Objective-C"
   plat: "Github"
 
-- name: "elias comments"
-  url: "https://github.com/Meniny/elias-comments"
+- name: "Ezra comments"
+  url: "https://github.com/Meniny/Ezra-comments"
   desc: "An Atom package for inserting comments with keyboard shortcut."
   lan: "JavaScript"
   plat: "Github"

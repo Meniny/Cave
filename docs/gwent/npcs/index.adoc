@@ -1,6 +1,6 @@
 :article: Gwent Players & Merchants
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :index: https://meniny.cn/docs/gwent/npcs
 :images: {index}/images

@@ -1,6 +1,6 @@
 :article: Gwent Guide
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :index: https://meniny.cn/docs/gwent/guide
 :images: {index}/images

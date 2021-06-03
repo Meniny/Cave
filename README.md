@@ -12,7 +12,7 @@
 
 ***
 
-This is the repository of [Elias's Cave](https://meniny.cn/).
+This is the repository of [Ezra's Cave](https://meniny.cn/).
 
 (also [https://meniny.github.io/Cave/](https://meniny.github.io/Cave/))
 

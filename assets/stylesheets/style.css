@@ -3312,7 +3312,7 @@ h5.review__title {
     display: none !important
   }
 
-  .page__content a[href^=http]:not([href *="neverobsess.github.io/Elias.github.io"]):after {
+  .page__content a[href^=http]:not([href *="neverobsess.github.io/Ezra.github.io"]):after {
     content: " ("attr(href) ")"
   }
 

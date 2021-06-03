@@ -1,6 +1,6 @@
 :article: Gwent Cards
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :index: https://meniny.cn/docs/gwent/cards
 :images: {index}/images

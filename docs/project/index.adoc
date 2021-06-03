@@ -1,6 +1,6 @@
 :article: 專案產品開發時程之專有名詞 (RFQ,Kick-off,EVT,DVT,PVT,MP)
 :title: {article}
-:author: Elias Abel
+:author: Ezra
 :mail: admin@meniny.cn
 :doctype: book
 :page-layout!:

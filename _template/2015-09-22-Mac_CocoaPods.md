@@ -216,7 +216,7 @@ $ pod trunk register EMAIL [NAME]
 
 $ pod trunk register meniny@qq.com
 
-$ pod trunk register elias@outlook.com 'EliasAbel' --verbose
+$ pod trunk register Ezra@outlook.com 'Ezra' --verbose
 
 ```
 
@@ -402,4 +402,3 @@ gem 'rails', '4.1.0'
 $ sed -i .bak -E 's!https?://cache.ruby-lang.org/pub/ruby!https://ruby.taobao.org/mirrors/ruby!' $rvm_path/config/db
 
 ```
-
