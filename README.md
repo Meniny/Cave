@@ -1,7 +1,5 @@
 
 <p align="center">
-  <img src="./assets/images/icons/Chair/logo.png" alt="Logo">
-  <br/><br/>
   <img alt="Languages" src="https://img.shields.io/badge/Languages-HTML%20%7C%20JavaScript%20%7C%20CSS%20%7C%20Liquid-brightgreen.svg">
   <br/>
   <img alt="URL" src="https://img.shields.io/badge/URL-meniny.cn-ff69b4.svg">
