@@ -1,7 +1,0 @@
----
-layout: default
-title: "Archive"
----
-{% for post in site.posts %}
-* {{ post.date | date: "%b %d, %Y" }}&nbsp;&#124;&nbsp;[{{ post.title | replace: '__', '\_\_' }}]({{ site.url }}{{ post.url }})&nbsp;\[{{ post.category }}\]
-{% endfor %}
